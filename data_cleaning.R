@@ -5,7 +5,8 @@ library(dplyr)
 library(tidyverse)
 
 data = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/2018TeamStats_Final.csv', header = TRUE, sep = ",")
-
+sos.data = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/sos.csv')
+####Compiling game data to season daata####
 # Remove uncessary columns
 data$gameid <- NULL
 data$MP <- NULL
@@ -87,3 +88,13 @@ names(season.data)[names(season.data) == "sum(Opp.TOV, na.rm = TRUE)"] <- "Opp.T
 
 # Save new data as csv file
 write.csv(season.data, file = "/Users/Christian/Documents/Bracketlytics/data/season_data.csv")
+
+
+####Changing Data type of strength of schedule data####
+
+sos.data$SOS <- as.numeric(as.character(sos.data$SOS))
+sos.data$Rank <- as.numeric(as.character(sos.data$Rank))
+names(sos.data)[names(sos.data) == "School"] <- "Team"
+
+
+write.csv(sos.data, file = '/Users/Christian/Documents/Bracketlytics/data/sos.csv')
