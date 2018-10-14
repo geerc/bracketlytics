@@ -84,3 +84,6 @@ names(season.data)[names(season.data) == "sum(Opp.FTA, na.rm = TRUE)"] <- "Opp.F
 names(season.data)[names(season.data) == "sum(Opp.ORB, na.rm = TRUE)"] <- "Opp.ORB"
 names(season.data)[names(season.data) == "sum(Opp.DRB, na.rm = TRUE)"] <- "Opp.DRB"
 names(season.data)[names(season.data) == "sum(Opp.TOV, na.rm = TRUE)"] <- "Opp.TOV"
+
+# Save new data as csv file
+write.csv(season.data, file = "/Users/Christian/Documents/Bracketlytics/data/season_data.csv")
