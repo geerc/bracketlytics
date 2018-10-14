@@ -98,3 +98,6 @@ names(sos.data)[names(sos.data) == "School"] <- "Team"
 
 
 write.csv(sos.data, file = '/Users/Christian/Documents/Bracketlytics/data/sos.csv')
+
+####Joining data####
+full_data = full_join(data, sos.data, by = "Team")
