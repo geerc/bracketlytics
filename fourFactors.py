@@ -17,3 +17,7 @@ df[['eFG', 'OeFG']] = df[['eFG', 'OeFG']].round(3)
 # Create offensive and defensive turnover percentage
 df['TOVp'] = df['TOV'] / (df['FGA'] + 0.44 + df['FTA'] + df['TOV'])
 df['oTOVp'] = df['Opp TOV'] / (df['Opp FGA'] + 0.44 + df['Opp FTA'] + df['Opp TOV'])
+
+# Create offensive and defensive rebounding percentage
+df['ORBp'] = df['ORB'] / (df['ORB'] + df['Opp DRB'])
+df['DRBp'] = df['DRB'] / (df['DRB'] + df['Opp DRB'])
