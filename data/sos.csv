@@ -1,0 +1,355 @@
+Rank,School,SOS
+1,Abilene Christian,-6.82
+2,Air Force,1.72
+3,Akron,-1.92
+4,Alabama A&M,-8.04
+5,Alabama-Birmingham,-0.65
+6,Alabama State,-8.62
+7,Alabama NCAA,10.64
+8,Albany (NY),-5.41
+9,Alcorn State,-8.60
+10,American,-6.17
+11,Appalachian State,-2.65
+12,Arizona State NCAA,6.56
+13,Arizona NCAA,6.84
+14,Little Rock,-2.21
+15,Arkansas-Pine Bluff,-9.36
+16,Arkansas State,-3.02
+17,Arkansas NCAA,9.85
+18,Army,-7.17
+19,Auburn NCAA,7.29
+20,Austin Peay,-2.49
+21,Ball State,-1.99
+22,Baylor,9.17
+23,Belmont,-2.88
+24,Bethune-Cookman,-12.48
+25,Binghamton,-6.36
+26,Boise State,3.05
+27,Boston College,7.20
+28,Boston University,-5.84
+29,Bowling Green State,-2.88
+30,Bradley,0.36
+31,Brigham Young,1.53
+32,Brown,-4.67
+33,Bryant,-5.43
+34,Bucknell NCAA,-3.46
+35,Buffalo NCAA,0.25
+36,Butler NCAA,10.55
+37,Cal Poly,-1.83
+38,Cal State Bakersfield,-0.73
+39,Cal State Fullerton NCAA,-1.02
+40,Cal State Northridge,-3.55
+41,UC-Davis,-1.84
+42,UC-Irvine,-0.33
+43,UC-Riverside,-1.53
+44,UC-Santa Barbara,-3.36
+45,University of California,6.06
+46,Campbell,-6.68
+47,Canisius,-4.80
+48,Central Arkansas,-5.97
+49,Central Connecticut State,-7.59
+50,Central Florida,3.75
+51,Central Michigan,-3.24
+52,Charleston Southern,-6.15
+53,Charlotte,0.27
+54,Chattanooga,-4.05
+55,Chicago State,1.17
+56,Cincinnati NCAA,3.53
+57,Citadel,-2.94
+58,Clemson NCAA,9.25
+59,Cleveland State,-3.64
+60,Coastal Carolina,-2.40
+61,Colgate,-5.73
+62,College of Charleston NCAA,-3.29
+63,Colorado State,3.79
+64,Colorado,7.00
+65,Columbia,-3.02
+66,Connecticut,6.05
+67,Coppin State,-7.25
+68,Cornell,-3.24
+69,Creighton NCAA,8.10
+70,Dartmouth,-4.00
+71,Davidson NCAA,2.57
+72,Dayton,2.70
+73,Delaware State,-9.32
+74,Delaware,-2.96
+75,Denver,-2.54
+76,DePaul,8.45
+77,Detroit Mercy,-2.07
+78,Drake,0.59
+79,Drexel,-2.48
+80,Duke NCAA,9.71
+81,Duquesne,-3.33
+82,East Carolina,-0.22
+83,East Tennessee State,-4.09
+84,Eastern Illinois,-3.40
+85,Eastern Kentucky,-3.68
+86,Eastern Michigan,-2.81
+87,Eastern Washington,-1.55
+88,Elon,-1.69
+89,Evansville,1.35
+90,Fairfield,-3.68
+91,Fairleigh Dickinson,-5.66
+92,Florida A&M,-8.34
+93,Florida Atlantic,-0.14
+94,Florida Gulf Coast,-5.44
+95,Florida International,-1.99
+96,Florida State NCAA,8.50
+97,Florida NCAA,10.08
+98,Fordham,1.26
+99,Fresno State,1.84
+100,Furman,-3.64
+101,Gardner-Webb,-3.79
+102,George Mason,0.83
+103,George Washington,2.13
+104,Georgetown,5.29
+105,Georgia Southern,-3.28
+106,Georgia State NCAA,-2.78
+107,Georgia Tech,7.47
+108,Georgia,8.87
+109,Gonzaga NCAA,2.59
+110,Grambling,-10.30
+111,Grand Canyon,-4.81
+112,Green Bay,-4.08
+113,Hampton,-9.57
+114,Hartford,-5.26
+115,Harvard,-1.70
+116,Hawaii,-2.50
+117,High Point,-6.37
+118,Hofstra,-1.60
+119,Holy Cross,-5.83
+120,Houston Baptist,-3.96
+121,Houston NCAA,4.16
+122,Howard,-9.75
+123,Idaho State,-3.70
+124,Idaho,-3.94
+125,Illinois-Chicago,-4.21
+126,Illinois State,3.67
+127,Illinois,7.53
+128,Incarnate Word,-5.04
+129,Indiana State,2.43
+130,Indiana,8.25
+131,Iona NCAA,-2.19
+132,Iowa State,9.49
+133,Iowa,7.13
+134,Fort Wayne,-3.24
+135,IUPUI,-3.53
+136,Jackson State,-10.49
+137,Jacksonville State,-4.87
+138,Jacksonville,-6.12
+139,James Madison,-2.15
+140,Kansas State NCAA,8.74
+141,Kansas NCAA,11.87
+142,Kennesaw State,-4.31
+143,Kent State,-1.75
+144,Kentucky NCAA,10.73
+145,La Salle,2.54
+146,Lafayette,-6.04
+147,Lamar,-7.22
+148,Lehigh,-5.66
+149,Liberty,-6.23
+150,Lipscomb NCAA,-3.80
+151,Long Beach State,0.89
+152,Long Island University NCAA,-8.19
+153,Longwood,-4.31
+154,Louisiana,-2.54
+155,Louisiana-Monroe,-3.31
+156,Louisiana State,8.03
+157,Louisiana Tech,-0.12
+158,Louisville,9.08
+159,Loyola (IL) NCAA,1.81
+160,Loyola Marymount,1.09
+161,Loyola (MD),-5.25
+162,Maine,-3.28
+163,Manhattan,-4.15
+164,Marist,-3.57
+165,Marquette,9.70
+166,Marshall NCAA,0.44
+167,Maryland-Baltimore County NCAA,-3.84
+168,Maryland-Eastern Shore,-7.57
+169,Maryland,7.94
+170,Massachusetts-Lowell,-5.78
+171,Massachusetts,1.10
+172,McNeese State,-6.10
+173,Memphis,2.16
+174,Mercer,-3.50
+175,Miami (FL) NCAA,6.96
+176,Miami (OH),-1.15
+177,Michigan State NCAA,7.10
+178,Michigan NCAA,9.41
+179,Middle Tennessee,2.83
+180,Milwaukee,-4.25
+181,Minnesota,6.91
+182,Mississippi State,6.82
+183,Mississippi Valley State,-8.13
+184,Mississippi,9.16
+185,Missouri-Kansas City,-1.02
+186,Missouri State,0.45
+187,Missouri NCAA,9.19
+188,Monmouth,-1.24
+189,Montana State,-3.53
+190,Montana NCAA,-2.25
+191,Morehead State,-1.91
+192,Morgan State,-11.97
+193,Mount St. Mary's,-8.05
+194,Murray State NCAA,-3.53
+195,Navy,-7.22
+196,Omaha,0.33
+197,Nebraska,7.32
+198,Nevada-Las Vegas,1.87
+199,Nevada NCAA,4.93
+200,New Hampshire,-4.32
+201,New Mexico State NCAA,-1.10
+202,New Mexico,3.30
+203,New Orleans,-5.78
+204,Niagara,-4.21
+205,Nicholls State,-5.86
+206,NJIT,-5.53
+207,Norfolk State,-10.18
+208,North Carolina-Asheville,-3.57
+209,North Carolina A&T,-11.20
+210,North Carolina Central NCAA,-12.31
+211,North Carolina-Greensboro NCAA,-3.87
+212,North Carolina State NCAA,6.70
+213,North Carolina-Wilmington,-1.15
+214,North Carolina NCAA,11.78
+215,North Dakota State,-1.58
+216,North Dakota,-0.20
+217,North Florida,-1.74
+218,North Texas,-0.40
+219,Northeastern,-1.61
+220,Northern Arizona,-1.03
+221,Northern Colorado,-2.27
+222,Northern Illinois,-1.71
+223,Northern Iowa,3.87
+224,Northern Kentucky,-4.07
+225,Northwestern State,-4.18
+226,Northwestern,8.37
+227,Notre Dame,7.94
+228,Oakland,-3.76
+229,Ohio State NCAA,9.03
+230,Ohio,-1.65
+231,Oklahoma State,9.12
+232,Oklahoma NCAA,10.56
+233,Old Dominion,-1.27
+234,Oral Roberts,1.05
+235,Oregon State,4.57
+236,Oregon,4.84
+237,Pacific,1.80
+238,Penn State,7.79
+239,Pennsylvania NCAA,-3.17
+240,Pepperdine,1.82
+241,Pittsburgh,8.47
+242,Portland State,-1.05
+243,Portland,2.43
+244,Prairie View,-7.71
+245,Presbyterian,-5.53
+246,Princeton,-1.97
+247,Providence NCAA,10.23
+248,Purdue NCAA,8.74
+249,Quinnipiac,-4.44
+250,Radford NCAA,-4.08
+251,Rhode Island NCAA,4.61
+252,Rice,-0.04
+253,Richmond,3.61
+254,Rider,-2.62
+255,Robert Morris,-6.11
+256,Rutgers,6.83
+257,Sacramento State,-0.74
+258,Sacred Heart,-6.98
+259,Saint Francis (PA),-6.71
+260,Saint Joseph's,1.90
+261,Saint Louis,2.92
+262,Saint Mary's (CA),0.33
+263,Saint Peter's,-4.36
+264,Sam Houston State,-4.80
+265,Samford,-3.37
+266,San Diego State NCAA,3.91
+267,San Diego,0.49
+268,San Francisco,1.63
+269,San Jose State,2.91
+270,Santa Clara,0.61
+271,Savannah State,-5.06
+272,Seattle,-3.09
+273,Seton Hall NCAA,10.11
+274,Siena,-2.99
+275,South Alabama,-2.87
+276,South Carolina State,-8.78
+277,South Carolina Upstate,-4.35
+278,South Carolina,9.23
+279,South Dakota State NCAA,-0.38
+280,South Dakota,-2.60
+281,South Florida,0.05
+282,Southeast Missouri State,-4.88
+283,Southeastern Louisiana,-6.20
+284,Southern California,6.29
+285,SIU Edwardsville,-3.36
+286,Southern Illinois,0.65
+287,Southern Methodist,3.66
+288,Southern Mississippi,1.31
+289,Southern Utah,-0.88
+290,Southern,-9.57
+291,St. Bonaventure NCAA,2.61
+292,St. Francis (NY),-7.32
+293,St. John's (NY),10.69
+294,Stanford,7.14
+295,Stephen F. Austin NCAA,-6.46
+296,Stetson,-6.46
+297,Stony Brook,-2.28
+298,Syracuse NCAA,10.02
+299,Temple,7.79
+300,Tennessee-Martin,-4.96
+301,Tennessee State,-2.98
+302,Tennessee Tech,-3.54
+303,Tennessee NCAA,10.12
+304,Texas A&M-Corpus Christi,-6.56
+305,Texas A&M NCAA,10.62
+306,Texas-Arlington,-1.43
+307,Texas Christian NCAA,9.68
+308,Texas-El Paso,-0.20
+309,Texas-Rio Grande Valley,-2.84
+310,Texas-San Antonio,-0.93
+311,Texas Southern NCAA,-5.53
+312,Texas State,-3.44
+313,Texas Tech NCAA,9.60
+314,Texas NCAA,10.67
+315,Toledo,-1.75
+316,Towson,-3.14
+317,Troy,-2.11
+318,Tulane,2.08
+319,Tulsa,2.38
+320,UCLA NCAA,6.86
+321,Utah State,2.65
+322,Utah Valley,-1.76
+323,Utah,6.40
+324,Valparaiso,0.93
+325,Vanderbilt,10.14
+326,Vermont,-3.17
+327,Villanova NCAA,10.24
+328,Virginia Commonwealth,2.42
+329,VMI,-4.25
+330,Virginia Tech NCAA,6.72
+331,Virginia NCAA,9.07
+332,Wagner,-6.90
+333,Wake Forest,8.79
+334,Washington State,5.22
+335,Washington,6.06
+336,Weber State,-2.88
+337,West Virginia NCAA,9.36
+338,Western Carolina,-1.63
+339,Western Illinois,-2.28
+340,Western Kentucky,3.65
+341,Western Michigan,-1.99
+342,Wichita State NCAA,5.46
+343,William & Mary,-1.32
+344,Winthrop,-5.84
+345,Wisconsin,9.50
+346,Wofford,-2.45
+347,Wright State NCAA,-3.64
+348,Wyoming,3.54
+349,Xavier NCAA,9.45
+350,Yale,-2.83
+351,Youngstown State,-2.56
+
+
+Provided by <a href="https://www.sports-reference.com/sharing.html?utm_source=direct&utm_medium=Share&utm_campaign=ShareTool">CBB at Sports Reference</a>: <a href="https://www.sports-reference.com/cbb/seasons/2018-school-stats.html?sr&utm_source=direct&utm_medium=Share&utm_campaign=ShareTool#basic_school_stats">View Original Table</a><br>Generated 10/14/2018.
