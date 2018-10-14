@@ -5,7 +5,7 @@ csv_path = '/Users/Christian/Documents/Bracketlytics/data/season_data.csv'
 sos_path = '/Users/Christian/Documents/Bracketlytics/data/sos.csv'
 sos = pd.read_csv(sos_path)
 df = pd.read_csv(csv_path)
-sos
+
 # Create effective field goal percentage for offense and defense
 df['eFG'] = (df['FG'] + float(0.5) * df['X3P']) / df['FGA']
 df['oEFG']= (df['Opp.FG'] + 0.5 * df['Opp.3P']) / df['Opp.FGA']
