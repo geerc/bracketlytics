@@ -4,7 +4,7 @@ import numpy as np
 csv_path = '/Users/Christian/Documents/Bracketlytics/data/season_data.csv'
 sos_path = '/Users/Christian/Documents/Bracketlytics/data/bf.csv'
 sos = pd.read_csv(bf_path)
-df2 = pd.read_csv(csv_path)
+df = pd.read_csv(csv_path)
 
 
 # Create effective field goal percentage for offense and defense
