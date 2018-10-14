@@ -11,5 +11,9 @@ df.dtypes
 
 # Create effective field goal percentage for offense and defense
 df['eFG'] = (df['FG'] + float(0.5) * df['3P']) / df['FGA']
-df['OeFG']= (df['Opp FG'] + 0.5 * df['Opp 3P']) / df['Opp FGA']
+df['oEFG']= (df['Opp FG'] + 0.5 * df['Opp 3P']) / df['Opp FGA']
 df[['eFG', 'OeFG']] = df[['eFG', 'OeFG']].round(3)
+
+# Create offensive and defensive turnover percentage
+df['TOVp'] = df['TOV'] / (df['FGA'] + 0.44 + df['FTA'] + df['TOV'])
+df['oTOVp'] = df['Opp TOV'] / (df['Opp FGA'] + 0.44 + df['Opp FTA'] + df['Opp TOV'])
