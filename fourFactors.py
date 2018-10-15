@@ -12,8 +12,8 @@ df['oEFG']= (df['Opp.FG'] + 0.5 * df['Opp.3P']) / df['Opp.FGA']
 df[['eFG', 'oEFG']] = df[['eFG', 'oEFG']].round(3)
 sos.dtypes
 df.dtypes
-
-
+df['Team'] = df['Team'].astype(str)
+sos['Team'] = sos['Team'].astype(str)
 # Create offensive and defensive turnover percentage
 df['TOVp'] = df['TOV'] / (df['FGA'] + 0.44 + df['FTA'] + df['TOV'])
 df['oTOVp'] = df['Opp.TOV'] / (df['Opp.FGA'] + 0.44 + df['Opp.FTA'] + df['Opp.TOV'])
@@ -30,7 +30,7 @@ df['oFTp'] = df['Opp.FT'] / df['Opp.FGA']
 df[['FTp', 'oFTp']] = df[['FTp', 'oFTp']].round(3)
 
 # Add in strength of schedule
-df = df.join(sos, on = ['Team'], how = 'inner')
+full_data = sos.join(df, on = ['Team'], how = 'right')
 
 # Create column for team score
 df['score'] = 0
