@@ -7,6 +7,13 @@ library(tidyverse)
 data = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/2018TeamStats_Final.csv', header = TRUE, sep = ",")
 sos.data = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/sos.csv')
 
+sos.data$SOS <- as.numeric(as.character(sos.data$SOS))
+sos.data$Rank <- as.numeric(as.character(sos.data$Rank))
+names(sos.data)[names(sos.data) == "School"] <- "Team"
+
+sos.data$Team <- tolower(sos.data$Team)
+full_data = full_join(season.data, sos.data, by = "Team")
+
 ####Compiling game data to season daata####
 # Remove uncessary columns
 data$gameid <- NULL
@@ -86,6 +93,12 @@ names(season.data)[names(season.data) == "sum(Opp.FTA, na.rm = TRUE)"] <- "Opp.F
 names(season.data)[names(season.data) == "sum(Opp.ORB, na.rm = TRUE)"] <- "Opp.ORB"
 names(season.data)[names(season.data) == "sum(Opp.DRB, na.rm = TRUE)"] <- "Opp.DRB"
 names(season.data)[names(season.data) == "sum(Opp.TOV, na.rm = TRUE)"] <- "Opp.TOV"
+
+# Reindex
+rownames(season.data) <- 1:nrow(season.data)
+
+# Filter out some teams
+# season.data <- filter(season.data)
 
 # Save new data as csv file
 write.csv(season.data, file = "/Users/Christian/Documents/Bracketlytics/data/season_data.csv")
