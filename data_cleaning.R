@@ -119,4 +119,4 @@ full_data = right_join(season.data, sos.data, by = "Team")
 
 full_data <- na.omit(full_data)
 
-write.csv(sos.data, file = '/Users/Christian/Documents/Bracketlytics/data/season_data.csv')
+write.csv(full_data, file = '/Users/Christian/Documents/Bracketlytics/data/season_data.csv')

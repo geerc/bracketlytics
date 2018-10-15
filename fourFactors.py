@@ -28,15 +28,48 @@ df['FTp'] = df['FT'] / df['FGA']
 df['oFTp'] = df['Opp.FT'] / df['Opp.FGA']
 df[['FTp', 'oFTp']] = df[['FTp', 'oFTp']].round(3)
 
-# Add in strength of schedule
-full_data = sos.join(df, on = ['Team'], how = 'right')
-
 # Create column for team score
 df['score'] = 0
-df
-# Determine team eFGp points
+
+## Determine scores for Off eFG%
+# Sort by eFG%, reset and renumber index/rank
 df = df.sort_values('eFG')
 df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
-df['score'] = df['score'] + (df['Rank'] * 0.4)
+# Create and add scores
+df['Off eFG Score'] = df['Rank'] * 0.4 * df['SOS']
+df['score'] += df['Rank'] * 0.4 * df['SOS']
+
+## Determine scores for def eFG%
+# Sort by OeFG%, reset and renumber index/rank
+df = df.sort_values('oEFG')
+df = df.reset_index(drop = True)
+df['Rank'] = df.index + 1
+
+# Create and add scores
+df['Def eFG score'] = df['Rank'] * 0.4 * df['SOS']
+df['score'] += df['Rank'] * 0.4 * df['SOS']
+
+## Determine scores for offensive turnovers
+# Sort by TOV, reset and renumber index/rank
+df = df.sort_values('TOV')
+df = df.reset_index(drop = True)
+df['Rank'] = df.index + 1
+
+# Create and add scores
+df['Off TOV score'] = df['Rank'] * 0.25 * df['SOS']
+df['score'] += df['Rank'] * 0.25 * df['SOS']
+
+## Determine scores for defensive turnovers
+df = df.sort_values('TOV')
+df = df.reset_index(drop = True)
+df['Rank'] = df.index + 1
+
+# Create and add scores
+
+
+
+
+df = df.sort_values('score', ascending = False)
+df
