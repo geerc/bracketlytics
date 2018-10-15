@@ -43,8 +43,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Off eFG Score'] = df['Rank'] * 0.4  + df['SOS']
-df['score'] += df['Rank'] * 0.4 + df['SOS']
+df['Off eFG Score'] = df['Rank'] * 0.4  + df['SOS rank']
+df['score'] += df['Rank'] * 0.4 + df['SOS rank']
 
 # Possible alternative score calculations
 # multiple SOS by x (where x < 1), and multiple score by weighted SOS
@@ -56,8 +56,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Def eFG score'] = df['Rank'] * 0.4 + df['SOS']
-df['score'] += df['Rank'] * 0.4 + df['SOS']
+df['Def eFG score'] = df['Rank'] * 0.4 + df['SOS rank']
+df['score'] += df['Rank'] * 0.4 + df['SOS rank']
 
 ## Determine scores for offensive turnovers
 # Sort by TOV, reset and renumber index/rank
@@ -66,8 +66,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Off TOVp score'] = df['Rank'] * 0.25 + df['SOS']
-df['score'] += df['Rank'] * 0.25 + df['SOS']
+df['Off TOVp score'] = df['Rank'] * 0.25 + df['SOS rank']
+df['score'] += df['Rank'] * 0.25 + df['SOS rank']
 
 ## Determine scores for defensive turnovers
 # Sort by oTOVp
@@ -76,11 +76,18 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Def TOVp score'] = df['Rank'] * 0.25 + df['SOS']
-df['score'] += df['Rank'] * 0.25 + df['SOS']
+df['Def TOVp score'] = df['Rank'] * 0.25 + df['SOS rank']
+df['score'] += df['Rank'] * 0.25 + df['SOS rank']
 
 ## Determine scores for offensive rebounding
 # Sort by ORBp
+df = df.sort_values('ORBp')
+df = df.reset_index(drop = True)
+df['Rank'] = df.index + 1
+
+# Create and add scores
+df['ORB score'] = df['Rank'] * 0.2 * df['SOS rank']
+
 
 
 df = df.sort_values('score', ascending = False)
