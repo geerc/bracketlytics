@@ -10,8 +10,7 @@ df = pd.read_csv(csv_path)
 df['eFG'] = (df['FG'] + float(0.5) * df['X3P']) / df['FGA']
 df['oEFG']= (df['Opp.FG'] + 0.5 * df['Opp.3P']) / df['Opp.FGA']
 df[['eFG', 'oEFG']] = df[['eFG', 'oEFG']].round(3)
-sos.dtypes
-df.dtypes
+
 df['Team'] = df['Team'].astype(str)
 sos['Team'] = sos['Team'].astype(str)
 # Create offensive and defensive turnover percentage
