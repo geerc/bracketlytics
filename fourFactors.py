@@ -56,7 +56,7 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Def eFG score'] = df['Rank'] * 0.2 + df['SOS rank']
+df['Def eFG score'] = df['Rank'] * 0.2 + (df['SOS rank'] * 0.5)
 df['score'] += df['Rank'] * 0.2 + df['SOS rank']
 
 ## Determine scores for offensive turnovers
@@ -66,7 +66,7 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Off TOVp score'] = df['Rank'] * 0.125 + df['SOS rank']
+df['Off TOVp score'] = df['Rank'] * 0.125 + (df['SOS rank'] * 0.5)
 df['score'] += df['Rank'] * 0.25 + df['SOS rank']
 
 ## Determine scores for defensive turnovers
@@ -76,7 +76,7 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Def TOVp score'] = df['Rank'] * 0.125 + df['SOS rank']
+df['Def TOVp score'] = df['Rank'] * 0.125 + (df['SOS rank'] * 0.5)
 df['score'] += df['Rank'] * 0.25 + df['SOS rank']
 
 ## Determine scores for offensive rebounding
@@ -86,8 +86,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['ORB score'] = df['Rank'] * 0.1 + df['SOS rank']
-df['score'] += df['Rank'] * 0.1 + df['SOS rank']
+df['ORB score'] = df['Rank'] * 0.1 + (df['SOS rank'] * 0.5)
+df['score'] += df['Rank'] * 0.1 + (df['SOS rank'] * 0.5)
 
 ## Determine scores for defensive rebounding
 # Sort by DRBp and reindex to get sorted rank
@@ -96,8 +96,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['DRB score'] = df['Rank'] * 0.1 + df['SOS rank']
-df['score'] += df['Rank'] * 0.1 + df['SOS rank']
+df['DRB score'] = df['Rank'] * 0.1 + (df['SOS rank'] * 0.5)
+df['score'] += df['Rank'] * 0.1 + (df['SOS rank'] * 0.5)
 
 ## Determine scored for offensive free throw percentage
 # Sort by FTp and reindex to get sorted ranks
@@ -106,8 +106,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Off FT percentage'] = df['Rank'] * 0.075 + df['SOS rank']
-df['score'] += df['Rank'] * 0.075 + df['SOS rank']
+df['Off FT percentage'] = df['Rank'] * 0.075 + (df['SOS rank'] * 0.5)
+df['score'] += df['Rank'] * 0.075 + (df['SOS rank'] * 0.5)
 
 ## Determine scored for defensive free throw percentage
 # Sort by FTp and reindex to get sorted ranks
@@ -116,8 +116,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Def FT percentage'] = df['Rank'] * 0.075 + df['SOS rank']
-df['score'] += df['Rank'] * 0.075 + df['SOS rank']
+df['Def FT percentage'] = df['Rank'] * 0.075 + (df['SOS rank'] * 0.5)
+df['score'] += df['Rank'] * 0.075 + (df['SOS rank'] * 0.5)
 
 df = df.sort_values('score', ascending = False)
 df
