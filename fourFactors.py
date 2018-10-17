@@ -43,8 +43,8 @@ df = df.reset_index(drop = True)
 df['Rank'] = df.index + 1
 
 # Create and add scores
-df['Off eFG Score'] = df['Rank'] * 0.2  + df['SOS rank']
-df['score'] += df['Rank'] * 0.2 + df['SOS rank']
+df['Off eFG Score'] = df['Rank'] * 0.2  + (df['SOS rank'] * 0.5)
+df['score'] += df['Rank'] * 0.2 + (df['SOS rank'] * 0.5)
 
 # Possible alternative score calculations
 # multiple SOS by x (where x < 1), and multiple score by weighted SOS
