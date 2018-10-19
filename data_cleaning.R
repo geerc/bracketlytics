@@ -136,15 +136,35 @@ Def_2013_2014 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/
 
 # Join offensive and defensive files together
 total_2017_2018 <- full_join(Off_2017_2018, Def_2017_2018, by = "School")
-write.csv(total_2017_2018, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2017_2018.csv')
 total_2016_2017 <- full_join(Off_2016_2017, Def_2016_2017, by = "School")
 total_2015_2016 <- full_join(Off_2015_2016, Def_2015_2016, by = "School")
 total_2014_2015 <- full_join(Off_2014_2015, Def_2014_2015, by = "School")
 total_2013_2014 <- full_join(Off_2013_2014, Def_2013_2014, by = "School")
 
+write.csv(total_2017_2018, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2017_2018.csv')
+write.csv(total_2016_2017, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2016_2017.csv')
+write.csv(total_2015_2016, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2015_2016.csv')
+write.csv(total_2014_2015, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2014_2015.csv')
+write.csv(total_2013_2014, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2013_2014.csv')
+
+
+full_data=gsub(" ID.*","",z$c)
+
+
 # Add year to school names
 total_2017_2018 <- transform(total_2017_2018, School = sprintf('2018_%s', School)) 
+total_2016_2017 <- transform(total_2016_2017, School = sprintf('2017_%s', School)) 
+total_2015_2016 <- transform(total_2015_2016, School = sprintf('2016_%s', School)) 
+total_2014_2015 <- transform(total_2014_2015, School = sprintf('2015_%s', School)) 
+total_2013_2014 <- transform(total_2013_2014, School = sprintf('2014_%s', School)) 
+
 
 # Append data sets to each other
-full_data <- full_join(total_2017_2018, total_2016_2017, by = NULL)
+full_data <- full_join(total_2017_2018, total_2016_2017, by = NULL) %>%
+  full_join(total_2015_2016, by = NULL) %>%
+  full_join(total_2015_2016, by = NULL) %>%
+  full_join(total_2014_2015, by = NULL) %>%
+  full_join(total_2013_2014, by = NULL)
+
+full_data$School = gsub(" Â NCAA","", full_data$School)
 
