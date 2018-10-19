@@ -122,21 +122,29 @@ full_data <- na.omit(full_data)
 write.csv(full_data, file = '/Users/Christian/Documents/Bracketlytics/data/season_data.csv')
 
 ####Linear Regression Data conversion and joining####
-Off_2017_2018 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2017-18.csv', header = TRUE, sep = ",")
-Off_2016_2017 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2016-17.csv', header = TRUE, sep = ",")
-Off_2015_2016 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2015-16.csv', header = TRUE, sep = ",")
-Off_2014_2015 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2014-15.csv', header = TRUE, sep = ",")
-Off_2013_2014 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2013-14.csv', header = TRUE, sep = ",")
+Off_2017_2018 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2017-18.csv', header = TRUE, sep = ",")
+Off_2016_2017 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2016-17.csv', header = TRUE, sep = ",")
+Off_2015_2016 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2015-16.csv', header = TRUE, sep = ",")
+Off_2014_2015 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2014-15.csv', header = TRUE, sep = ",")
+Off_2013_2014 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Off_2013-14.csv', header = TRUE, sep = ",")
 
-Def_2017_2018 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
-Def_2016_2017 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
-Def_2015_2016 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
-Def_2014_2015 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
-Def_2013_2014 = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
+Def_2017_2018 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
+Def_2016_2017 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
+Def_2015_2016 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
+Def_2014_2015 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
+Def_2013_2014 = read.csv(file <- '/Users/Christian/Documents/Bracketlytics/data/model_data/Def_2017-18.csv', header = TRUE, sep = ",")
 
 # Join offensive and defensive files together
-total_2017_2018 = full_join(Off_2017_2018, Def_2017_2018, by = "School")
-total_2016_2017 = full_join(Off_2016_2017, Def_2016_2017, by = "School")
-total_2015_2016 = full_join(Off_2015_2016, Def_2015_2016, by = "School")
-total_2014_2015 = full_join(Off_2014_2015, Def_2014_2015, by = "School")
-total_2013_2014 = full_join(Off_2013_2014, Def_2013_2014, by = "School")
+total_2017_2018 <- full_join(Off_2017_2018, Def_2017_2018, by = "School")
+write.csv(total_2017_2018, file = '/Users/Christian/Documents/Bracketlytics/data/model_data/total_2017_2018.csv')
+total_2016_2017 <- full_join(Off_2016_2017, Def_2016_2017, by = "School")
+total_2015_2016 <- full_join(Off_2015_2016, Def_2015_2016, by = "School")
+total_2014_2015 <- full_join(Off_2014_2015, Def_2014_2015, by = "School")
+total_2013_2014 <- full_join(Off_2013_2014, Def_2013_2014, by = "School")
+
+# Add year to school names
+total_2017_2018 <- transform(total_2017_2018, School = sprintf('2018_%s', School)) 
+
+# Append data sets to each other
+full_data <- full_join(total_2017_2018, total_2016_2017, by = NULL)
+
