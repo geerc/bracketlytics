@@ -163,6 +163,38 @@ total_2017_2018$School = gsub(" ID.*","",total_2017_2018$School)
 
 ####Convert data to float####
 
+data = read.csv(file = '/Users/Christian/Documents/Bracketlytics/data/2018TeamStats_Final.csv', header = TRUE, sep = ",")
+
+# Remove uncessary columns
+data$gameid <- NULL
+data$MP <- NULL
+data$FG. <- NULL
+data$X2P <- NULL
+data$X2PA <- NULL
+data$X2P. <- NULL
+data$X3PA <- NULL
+data$X3P. <- NULL
+data$FT. <- NULL
+data$TRB <- NULL
+data$AST <- NULL
+data$STL <- NULL
+data$BLK <- NULL
+data$PF <- NULL
+data$PTS <- NULL
+data$Opp.FG. <- NULL
+data$Opp.2P <- NULL
+data$Opp.2PA <- NULL
+data$Opp.2P. <- NULL
+data$Opp.3PA <- NULL
+data$Opp.3P. <- NULL
+data$Opp.FT. <- NULL
+data$Opp.TRB <- NULL
+data$Opp.AST <- NULL
+data$Opp.STL <- NULL
+data$Opp.BLK <- NULL
+data$Opp.PF <- NULL
+data$Opp.PTS <- NULL
+
 # Convert columns to numeric data type
 data$FG <- as.numeric(as.character(data$FG))
 data$FGA <- as.numeric(as.character(data$FGA))
@@ -181,6 +213,23 @@ data$Opp.DRB <- as.numeric(as.character(data$Opp.DRB))
 data$Opp.TOV <- as.numeric(as.character(data$Opp.TOV))
 data$Opp.FTA <- as.numeric(as.character(data$Opp.FTA))
 
-write.csv("/Users/Chrisian/Documents/Bracketlytics/data/game_data.csv")
+# Create new four factors stats and round
+data$eFG = (data$FG + 0.5 * data$X3P) / data$FGA
+data$OeFG = (data$Opp.FG + 0.5 * data$Opp.3P) / data$Opp.FGA
+data$eFG = round(data$eFG, digits = 3)
+data$OeFG = round(data$OeFG, digits = 3)
+
+data$TOVp = data$TOV / (data$FGA + 0.44 + data$FTA + data$TOV)
+data$oTOVp = data$Opp.TOV / (data$Opp.FGA + 0.44 + data$Opp.FTA + data$Opp.TOV)
+data$TOVp = round(data$TOVp, digits = 3)
+data$oTOVp = round(data$oTOVp, digits = 3)
+
+data$ORBp = data$ORB / (data$ORB + data$Opp.DRB)
+data$DRBp = data$DRB / (data$DRB + data$Opp.DRB)
+data$ORBp = round(data$ORBp, digits = 3)
+data$DRBp = round(data$DRBp, digits = 3)
+
+
+write.csv(data, file = "/Users/Christian/Documents/Bracketlytics/data/game_data.csv")
 
 
