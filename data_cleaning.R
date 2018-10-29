@@ -161,5 +161,26 @@ full_data <- full_join(total_2017_2018, total_2016_2017, by = NULL) %>%
 
 total_2017_2018$School = gsub(" ID.*","",total_2017_2018$School)
 
+####Convert data to float####
+
+# Convert columns to numeric data type
+data$FG <- as.numeric(as.character(data$FG))
+data$FGA <- as.numeric(as.character(data$FGA))
+data$X3P <- as.numeric(as.character(data$X3P))
+data$FT <- as.numeric(as.character(data$FT))
+data$ORB <- as.numeric(as.character(data$ORB))
+data$DRB <- as.numeric(as.character(data$DRB))
+data$TOV <- as.numeric(as.character(data$TOV))
+data$FTA <- as.numeric(as.character(data$FTA))
+data$Opp.FG <- as.numeric(as.character(data$Opp.FG))
+data$Opp.FGA <- as.numeric(as.character(data$Opp.FGA))
+data$Opp.3P <- as.numeric(as.character(data$Opp.3P))
+data$Opp.FT <- as.numeric(as.character(data$Opp.FT))
+data$Opp.ORB <- as.numeric(as.character(data$Opp.ORB))
+data$Opp.DRB <- as.numeric(as.character(data$Opp.DRB))
+data$Opp.TOV <- as.numeric(as.character(data$Opp.TOV))
+data$Opp.FTA <- as.numeric(as.character(data$Opp.FTA))
+
+write.csv("/Users/Chrisian/Documents/Bracketlytics/data/game_data.csv")
 
 
