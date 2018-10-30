@@ -229,6 +229,10 @@ data$DRBp = data$DRB / (data$DRB + data$Opp.DRB)
 data$ORBp = round(data$ORBp, digits = 3)
 data$DRBp = round(data$DRBp, digits = 3)
 
+data$FTp = data$FT / data$FGA
+data$oFTp = data$Opp.FT / data$Opp.FGA
+data$FTp = round(data$FTp, digits = 3)
+data$oFTp = round(data$FTp, digits = 3)
 
 write.csv(data, file = "/Users/Christian/Documents/Bracketlytics/data/game_data.csv")
 
