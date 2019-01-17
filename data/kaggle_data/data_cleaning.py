@@ -24,6 +24,6 @@ tourney_data['Ldr%'] = tourney_data['Ldr'] / (tourney_data['Ldr'] + tourney_data
 tourney_data[['Wor%', 'Wdr%']] = tourney_data[['Wor%', 'Wdr%']].round(3)
 
 #### Create offensive and defensive free throw percentage
-tourney_data['FTp'] = tourney_data['FT'] / tourney_data['FGA']
-tourney_data['Opp FTp'] = tourney_data['Opp FT'] / tourney_data['Opp FGA']
-tourney_data[['FTp', 'Opp FTp']] = tourney_data[['FTp', 'Opp FTp']].round(3)
+tourney_data['Wft%'] = tourney_data['Wftm'] / tourney_data['Wfga']
+tourney_data['Lft%'] = tourney_data['Lftm'] / tourney_data['Lfga']
+tourney_data[['Wft%', 'Lft%']] = tourney_data[['Wft%', 'Lft%']].round(3)
