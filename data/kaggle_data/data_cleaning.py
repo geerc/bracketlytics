@@ -7,14 +7,14 @@ tourney_data = pd.read_csv(ROOT + 'TourneyDetailedResults.csv')
 
 # Calculate advanced statistics
 #### Create effective field goal percentage for offense and defense
-tourney_data['WeFG%'] = (tourney_data['Wfgm'] + float(0.5) * tourney_data['Wfgm3']) / tourney_data['Wfga']
-tourney_data['Opp eFG%'] = (tourney_data['Opp FG'] + 0.5 * tourney_data['Opp 3P']) / tourney_data['Opp FGA']
-tourney_data[['eFG%', 'Opp eFG%']] = tourney_data[['eFG%', 'Opp eFG%']].round(3)
+tourney_data['Wefg%'] = (tourney_data['Wfgm'] + float(0.5) * tourney_data['Wfgm3']) / tourney_data['Wfga']
+tourney_data['Lefg%'] = (tourney_data['Lfgm'] + float(0.5) * tourney_data['Lfgm3']) / tourney_data['Lfga']
+tourney_data[['Wefg%', 'Lefg']] = tourney_data[['Wefg%', 'Lefg%']].round(3)
 
 #### Create offensive and defensive turnover percentage
-tourney_data['TOVp'] = tourney_data['TOV'] / (tourney_data['FGA'] + 0.44 + tourney_data['FTA'] + tourney_data['TOV'])
-tourney_data['Opp TOVp'] = tourney_data['Opp TOV'] / (tourney_data['Opp FGA'] + 0.44 + tourney_data['Opp FTA'] + tourney_data['Opp TOV'])
-tourney_data[['TOVp', 'Opp TOVp']] = tourney_data[['TOVp', 'Opp TOVp']].round(3)
+tourney_data['Wtov%'] = tourney_data['Wto'] / (tourney_data['Wfga'] + 0.44 + tourney_data['Wfta'] + tourney_data['Wto'])
+tourney_data['Ltov%'] = tourney_data['Lto'] / (tourney_data['Lfga'] + 0.44 + tourney_data['Lfta'] + tourney_data['Lto'])
+tourney_data[['Wtov%', 'Ltov%']] = tourney_data[['Wtov%', 'Ltov%']].round(3)
 
 #### Create offensive and defensive rebounding percentage
 tourney_data['ORBp'] = tourney_data['ORB'] / (tourney_data['ORB'] + tourney_data['Opp DRB'])
