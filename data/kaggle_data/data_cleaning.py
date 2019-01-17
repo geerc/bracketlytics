@@ -4,6 +4,10 @@ import numpy as np
 ROOT = '/Users/Christian/Documents/Bracketlytics/data/kaggle_data/'
 
 tourney_data = pd.read_csv(ROOT + 'TourneyDetailedResults.csv')
+teams = pd.read_csv(ROOT + 'Teams.csv')
+
+teams['Team_Name'] = teams['Team_Name'].str.lower()
+
 
 # Calculate advanced statistics
 #### Create effective field goal percentage for offense and defense
@@ -27,3 +31,14 @@ tourney_data[['Wor%', 'Wdr%']] = tourney_data[['Wor%', 'Wdr%']].round(3)
 tourney_data['Wft%'] = tourney_data['Wftm'] / tourney_data['Wfga']
 tourney_data['Lft%'] = tourney_data['Lftm'] / tourney_data['Lfga']
 tourney_data[['Wft%', 'Lft%']] = tourney_data[['Wft%', 'Lft%']].round(3)
+
+tourney_data.drop(tourney_data[['Lteam','Daynum','Wscore','Lscore','Wloc','Numot','Wfgm','Wfga','Wfgm3','Wfga3','Wftm','Wfta','Wor','Wdr','Wast','Wto','Wstl','Wblk','Wpf','Lfgm','Lfga','Lfgm3','Lfga3','Lftm','Lfta','Lor','Ldr','Last','Lto','Lstl','Lblk','Lpf']], inplace=True, axis=1)
+
+# Replace change Wteam to team_id to allow for join
+tourney_data = tourney_data.rename(columns={'Wteam':'Team_Id'})
+print(tourney_data)
+
+tourney_data.join(teams, on='Team_Id')
+
+
+tourney_data = tourney_data.join(teams, on=)
