@@ -17,9 +17,9 @@ tourney_data['Ltov%'] = tourney_data['Lto'] / (tourney_data['Lfga'] + 0.44 + tou
 tourney_data[['Wtov%', 'Ltov%']] = tourney_data[['Wtov%', 'Ltov%']].round(3)
 
 #### Create offensive and defensive rebounding percentage
-tourney_data['ORBp'] = tourney_data['ORB'] / (tourney_data['ORB'] + tourney_data['Opp DRB'])
-tourney_data['DRBp'] = tourney_data['DRB'] / (tourney_data['DRB'] + tourney_data['Opp DRB'])
-tourney_data[['ORBp', 'DRBp']] = tourney_data[['ORBp', 'DRBp']].round(3)
+tourney_data['Wor%'] = tourney_data['Wor'] / (tourney_data['Wor'] + tourney_data['Ldr'])
+tourney_data['Wdr%'] = tourney_data['Wdr'] / (tourney_data['Wdr'] + tourney_data['Lor'])
+tourney_data[['Wor%', 'Wdr%']] = tourney_data[['Wor%', 'Wdr%']].round(3)
 
 #### Create offensive and defensive free throw percentage
 tourney_data['FTp'] = tourney_data['FT'] / tourney_data['FGA']
