@@ -1,4 +1,4 @@
-Team_Id,Team_Name
+universityTeam_Id,Team_Name
 1101,Abilene-Chr
 1102,Air-Force
 1103,Akron
@@ -8,7 +8,7 @@ Team_Id,Team_Name
 1107,Albany-NY
 1108,Alcorn-state
 1109,Alliant-Intl
-1110,American-Univ
+1110,American-university
 1111,Appalachian-state
 1112,Arizona
 1113,Arizona-state
@@ -29,7 +29,7 @@ Team_Id,Team_Name
 1128,Birmingham-So
 1129,Boise-state
 1130,Boston-College
-1131,Boston-Univ
+1131,Boston-university
 1132,Bowling-Green
 1133,Bradley
 1134,Brooklyn
@@ -199,7 +199,7 @@ Team_Id,Team_Name
 1298,Navy
 1299,NC-A&T
 1300,NC-Central
-1301,NC-stateate
+1301,NC-state
 1302,NE-Illinois
 1303,NE-Omaha
 1304,Nebraska
@@ -278,7 +278,7 @@ Team_Id,Team_Name
 1377,South-Dakota
 1378,South-Florida
 1379,Southern-Miss
-1380,Southern-Univ
+1380,Southern-university
 1381,Southern-Utah
 1382,St-Bonaventure
 1383,St-Francis-NY

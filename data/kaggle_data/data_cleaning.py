@@ -44,5 +44,9 @@ tourney_data = tourney_data.groupby(['Season','Wteam']).mean()
 tourney_data = tourney_data.join(teams, how = 'left')
 tourney_data.columns = ['Wefg%','Lefg%','Lefg','Wtov%','Ltov%','Wor%','Wdr%','Lor%','Ldr%','Wft%','Lft%','wins']
 
+# rename wins columns t0 'wins'
+teams.columns = ['wins']
+
 # Write new data to csv
 tourney_data.to_csv(ROOT + 'new_tourney_data.csv')
+teams.to_csv(ROOT + 'wins.csv')
