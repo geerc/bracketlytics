@@ -6,7 +6,7 @@ ROOT = '/Users/Christian/Documents/GitHub/bracketlytics/data/kaggle_data/'
 tourney_data = pd.read_csv(ROOT + 'TourneyDetailedResults.csv')
 teams = pd.read_csv(ROOT + 'Teams.csv')
 
-teams['Team_Name'] = teams['Team_Name'].str.lower()
+teams['Team_Name'] = teams['Teams_Name'].str.lower()
 
 # Calculate advanced statistics
 #### Create effective field goal percentage for offense and defense
@@ -44,7 +44,7 @@ tourney_data = tourney_data.groupby(['Season','Wteam']).mean()
 tourney_data = tourney_data.join(teams, how = 'left')
 tourney_data.columns = ['Wefg%','Lefg%','Lefg','Wtov%','Ltov%','Wor%','Wdr%','Lor%','Ldr%','Wft%','Lft%','wins']
 
-# rename wins columns t0 'wins'
+# rename wins columns to 'wins'
 teams.columns = ['wins']
 
 # Write new data to csv
