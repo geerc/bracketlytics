@@ -5,6 +5,11 @@ ROOT = '/Users/Christian/Documents/GitHub/bracketlytics/data/kaggle_data/'
 
 tourney_data = pd.read_csv(ROOT + 'TourneyDetailedResults.csv')
 teams = pd.read_csv(ROOT + 'Teams.csv')
+season_2003 = pd.read_csv(ROOT + '/season_stats/2003.csv')
+
+# Remove NCAA suffix
+season_2003['School'] = season_2003['School'].replace("NCAA$", "2003", regex=True)
+print(season_2003)
 
 teams['Team_Name'] = teams['Team_Name'].str.lower()
 
@@ -49,9 +54,9 @@ print(teams)
 tourney_data = tourney_data.join(teams, how = 'left')
 tourney_data.columns = ['Wefg%','Lefg%','Lefg','Wtov%','Ltov%','Wor%','Wdr%','Lor%','Ldr%','Wft%','Lft%','wins']
 
-# rename wins columns to 'wins'
-teams.columns = ['wins']
+# rename wins columns to 'wins'teams.columns = ['wins']
 print(teams)
 # Write new data to csv
 tourney_data.to_csv(ROOT + 'new_tourney_data.csv')
 teams.to_csv(ROOT + 'wins.csv')
+season_2003.to_csv(ROOT + 'season_stats/2003.csv')
