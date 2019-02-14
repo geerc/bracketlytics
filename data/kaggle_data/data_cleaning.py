@@ -20,6 +20,7 @@ season_2014 = pd.read_csv(ROOT + '/season_stats/2014.csv')
 season_2015 = pd.read_csv(ROOT + '/season_stats/2015.csv')
 season_2016 = pd.read_csv(ROOT + '/season_stats/2016.csv')
 full_data = pd.read_csv(ROOT + 'full_season_data.csv')
+wins = pd.read_csv(ROOT + 'wins.csv')
 
 # Remove teams that did not make the tournament
 season_2003 = season_2003[season_2003.School.str.contains("NCAA")]
@@ -56,6 +57,9 @@ season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=Tru
 # Remove unnecssary columns
 full_data.drop(full_data[['Table Names-1','Table Names']], inplace=True, axis=1)
 
+# Added year suffix to wins.to_csv
+def suffix(df, season):
+    df['Team_Name'] = df['Team_Name'].add_suffix("season")
 
 
 # Convert team names to lower case
@@ -123,3 +127,4 @@ season_2013.to_csv(ROOT + 'season_stats/2013.csv')
 season_2014.to_csv(ROOT + 'season_stats/2014.csv')
 season_2015.to_csv(ROOT + 'season_stats/2015.csv')
 season_2016.to_csv(ROOT + 'season_stats/2016.csv')
+full_data.to_csv(ROOT + 'full_season_data_cleaned.csv')
