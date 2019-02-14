@@ -19,7 +19,7 @@ season_2013 = pd.read_csv(ROOT + '/season_stats/2013.csv')
 season_2014 = pd.read_csv(ROOT + '/season_stats/2014.csv')
 season_2015 = pd.read_csv(ROOT + '/season_stats/2015.csv')
 season_2016 = pd.read_csv(ROOT + '/season_stats/2016.csv')
-
+full_data = pd.read_csv(ROOT + 'full_season_data.csv')
 
 # Remove teams that did not make the tournament
 season_2003 = season_2003[season_2003.School.str.contains("NCAA")]
@@ -52,6 +52,13 @@ season_2013['School'] = season_2013['School'].replace("NCAA$", "2013", regex=Tru
 season_2014['School'] = season_2014['School'].replace("NCAA$", "2014", regex=True)
 season_2015['School'] = season_2015['School'].replace("NCAA$", "2015", regex=True)
 season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=True)
+
+# Remove unnecssary columns
+
+full_data.drop(full_data[['Table Names-1','Table Names']], inplace=True, axis=1)
+
+
+
 
 # Convert team names to lower case
 teams['Team_Name'] = teams['Team_Name'].str.lower()
@@ -93,12 +100,14 @@ teams_and_wins = team_wins.join(teams, how='left')
 # Isolate each team from each season
 tourney_data = tourney_data.groupby(['Season','Wteam']).mean()
 print(teams)
+
 # Add wins to tourney_data and rename the newly added column
 tourney_data = tourney_data.join(teams, how = 'left')
 tourney_data.columns = ['Wefg%','Lefg%','Lefg','Wtov%','Ltov%','Wor%','Wdr%','Lor%','Ldr%','Wft%','Lft%','wins']
 
 # rename wins columns to 'wins'teams.columns = ['wins']
 print(teams)
+
 # Write new data to csv
 tourney_data.to_csv(ROOT + 'new_tourney_data.csv')
 teams.to_csv(ROOT + 'wins.csv')
