@@ -53,8 +53,6 @@ season_2014['School'] = season_2014['School'].replace("NCAA$", "2014", regex=Tru
 season_2015['School'] = season_2015['School'].replace("NCAA$", "2015", regex=True)
 season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=True)
 
-print(season_2013)
-
 # Convert team names to lower case
 teams['Team_Name'] = teams['Team_Name'].str.lower()
 
