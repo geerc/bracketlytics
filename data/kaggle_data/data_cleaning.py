@@ -54,9 +54,7 @@ season_2015['School'] = season_2015['School'].replace("NCAA$", "2015", regex=Tru
 season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=True)
 
 # Remove unnecssary columns
-
 full_data.drop(full_data[['Table Names-1','Table Names']], inplace=True, axis=1)
-
 
 
 
