@@ -15,6 +15,11 @@ season_2009 = pd.read_csv(ROOT + '/season_stats/2009.csv')
 season_2010 = pd.read_csv(ROOT + '/season_stats/2010.csv')
 season_2011 = pd.read_csv(ROOT + '/season_stats/2011.csv')
 season_2012 = pd.read_csv(ROOT + '/season_stats/2012.csv')
+season_2013 = pd.read_csv(ROOT + '/season_stats/2013.csv')
+season_2014 = pd.read_csv(ROOT + '/season_stats/2014.csv')
+season_2015 = pd.read_csv(ROOT + '/season_stats/2015.csv')
+season_2016 = pd.read_csv(ROOT + '/season_stats/2016.csv')
+
 
 # Remove teams that did not make the tournament
 season_2003 = season_2003[season_2003.School.str.contains("NCAA")]
@@ -27,6 +32,10 @@ season_2009 = season_2009[season_2009.School.str.contains("NCAA")]
 season_2010 = season_2010[season_2010.School.str.contains("NCAA")]
 season_2011 = season_2011[season_2011.School.str.contains("NCAA")]
 season_2012 = season_2011[season_2012.School.str.contains("NCAA")]
+season_2013 = season_2011[season_2013.School.str.contains("NCAA")]
+season_2014 = season_2011[season_2014.School.str.contains("NCAA")]
+season_2015 = season_2011[season_2015.School.str.contains("NCAA")]
+season_2016 = season_2011[season_2016.School.str.contains("NCAA")]
 
 # Remove NCAA suffix
 season_2003['School'] = season_2003['School'].replace("NCAA$", "2003", regex=True)
@@ -39,6 +48,10 @@ season_2009['School'] = season_2009['School'].replace("NCAA$", "2009", regex=Tru
 season_2010['School'] = season_2010['School'].replace("NCAA$", "2010", regex=True)
 season_2011['School'] = season_2011['School'].replace("NCAA$", "2011", regex=True)
 season_2012['School'] = season_2012['School'].replace("NCAA$", "2012", regex=True)
+season_2013['School'] = season_2012['School'].replace("NCAA$", "2013", regex=True)
+season_2014['School'] = season_2012['School'].replace("NCAA$", "2014", regex=True)
+season_2015['School'] = season_2012['School'].replace("NCAA$", "2015", regex=True)
+season_2016['School'] = season_2012['School'].replace("NCAA$", "2016", regex=True)
 
 # Convert team names to lower case
 teams['Team_Name'] = teams['Team_Name'].str.lower()
@@ -99,3 +112,7 @@ season_2009.to_csv(ROOT + 'season_stats/2009.csv')
 season_2010.to_csv(ROOT + 'season_stats/2010.csv')
 season_2011.to_csv(ROOT + 'season_stats/2011.csv')
 season_2012.to_csv(ROOT + 'season_stats/2012.csv')
+season_2013.to_csv(ROOT + 'season_stats/2013.csv')
+season_2014.to_csv(ROOT + 'season_stats/2014.csv')
+season_2015.to_csv(ROOT + 'season_stats/2015.csv')
+season_2016.to_csv(ROOT + 'season_stats/2016.csv')
