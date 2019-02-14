@@ -31,11 +31,11 @@ season_2008 = season_2008[season_2008.School.str.contains("NCAA")]
 season_2009 = season_2009[season_2009.School.str.contains("NCAA")]
 season_2010 = season_2010[season_2010.School.str.contains("NCAA")]
 season_2011 = season_2011[season_2011.School.str.contains("NCAA")]
-season_2012 = season_2011[season_2012.School.str.contains("NCAA")]
-season_2013 = season_2011[season_2013.School.str.contains("NCAA")]
-season_2014 = season_2011[season_2014.School.str.contains("NCAA")]
-season_2015 = season_2011[season_2015.School.str.contains("NCAA")]
-season_2016 = season_2011[season_2016.School.str.contains("NCAA")]
+season_2012 = season_2012[season_2012.School.str.contains("NCAA")]
+season_2013 = season_2013[season_2013.School.str.contains("NCAA")]
+season_2014 = season_2014[season_2014.School.str.contains("NCAA")]
+season_2015 = season_2015[season_2015.School.str.contains("NCAA")]
+season_2016 = season_2016[season_2016.School.str.contains("NCAA")]
 
 # Remove NCAA suffix
 season_2003['School'] = season_2003['School'].replace("NCAA$", "2003", regex=True)
@@ -48,10 +48,12 @@ season_2009['School'] = season_2009['School'].replace("NCAA$", "2009", regex=Tru
 season_2010['School'] = season_2010['School'].replace("NCAA$", "2010", regex=True)
 season_2011['School'] = season_2011['School'].replace("NCAA$", "2011", regex=True)
 season_2012['School'] = season_2012['School'].replace("NCAA$", "2012", regex=True)
-season_2013['School'] = season_2012['School'].replace("NCAA$", "2013", regex=True)
-season_2014['School'] = season_2012['School'].replace("NCAA$", "2014", regex=True)
-season_2015['School'] = season_2012['School'].replace("NCAA$", "2015", regex=True)
-season_2016['School'] = season_2012['School'].replace("NCAA$", "2016", regex=True)
+season_2013['School'] = season_2013['School'].replace("NCAA$", "2013", regex=True)
+season_2014['School'] = season_2014['School'].replace("NCAA$", "2014", regex=True)
+season_2015['School'] = season_2015['School'].replace("NCAA$", "2015", regex=True)
+season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=True)
+
+print(season_2013)
 
 # Convert team names to lower case
 teams['Team_Name'] = teams['Team_Name'].str.lower()
