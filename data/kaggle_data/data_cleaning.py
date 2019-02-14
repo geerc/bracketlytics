@@ -7,13 +7,14 @@ tourney_data = pd.read_csv(ROOT + 'TourneyDetailedResults.csv')
 teams = pd.read_csv(ROOT + 'Teams.csv')
 season_2003 = pd.read_csv(ROOT + '/season_stats/2003.csv')
 season_2004 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2005 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2006 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2007 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2008 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2009 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2010 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2011 = pd.read_csv(ROOT + '/season_stats/2004.csv')
+season_2005 = pd.read_csv(ROOT + '/season_stats/2005.csv')
+season_2006 = pd.read_csv(ROOT + '/season_stats/2006.csv')
+season_2007 = pd.read_csv(ROOT + '/season_stats/2007.csv')
+season_2008 = pd.read_csv(ROOT + '/season_stats/2008.csv')
+season_2009 = pd.read_csv(ROOT + '/season_stats/2009.csv')
+season_2010 = pd.read_csv(ROOT + '/season_stats/2010.csv')
+season_2011 = pd.read_csv(ROOT + '/season_stats/2011.csv')
+season_2012 = pd.read_csv(ROOT + '/season_stats/2012.csv')
 
 # Remove teams that did not make the tournament
 season_2003 = season_2003[season_2003.School.str.contains("NCAA")]
@@ -25,6 +26,7 @@ season_2008 = season_2008[season_2008.School.str.contains("NCAA")]
 season_2009 = season_2009[season_2009.School.str.contains("NCAA")]
 season_2010 = season_2010[season_2010.School.str.contains("NCAA")]
 season_2011 = season_2011[season_2011.School.str.contains("NCAA")]
+season_2012 = season_2011[season_2012.School.str.contains("NCAA")]
 
 # Remove NCAA suffix
 season_2003['School'] = season_2003['School'].replace("NCAA$", "2003", regex=True)
@@ -36,6 +38,7 @@ season_2008['School'] = season_2008['School'].replace("NCAA$", "2008", regex=Tru
 season_2009['School'] = season_2009['School'].replace("NCAA$", "2009", regex=True)
 season_2010['School'] = season_2010['School'].replace("NCAA$", "2010", regex=True)
 season_2011['School'] = season_2011['School'].replace("NCAA$", "2011", regex=True)
+season_2012['School'] = season_2012['School'].replace("NCAA$", "2012", regex=True)
 
 # Convert team names to lower case
 teams['Team_Name'] = teams['Team_Name'].str.lower()
@@ -95,3 +98,4 @@ season_2008.to_csv(ROOT + 'season_stats/2008.csv')
 season_2009.to_csv(ROOT + 'season_stats/2009.csv')
 season_2010.to_csv(ROOT + 'season_stats/2010.csv')
 season_2011.to_csv(ROOT + 'season_stats/2011.csv')
+season_2012.to_csv(ROOT + 'season_stats/2012.csv')
