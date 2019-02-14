@@ -57,10 +57,12 @@ season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=Tru
 # Remove unnecssary columns
 full_data.drop(full_data[['Table Names-1','Table Names']], inplace=True, axis=1)
 
-# Added year suffix to wins.to_csv
-def suffix(df, season):
-    df['Team_Name'] = df['Team_Name'].add_suffix("season")
+# Added year suffix to wins.to_csv and remove unnecssary columns
+wins['Season'] = wins['Season'].astype(str)
 
+wins['team'] = wins['Team_Name'] + " " + wins['Season']
+
+wins = wins.drop(wins[['Season','Team_Id-1','Team_Name']], axis=1)
 
 # Convert team names to lower case
 teams['Team_Name'] = teams['Team_Name'].str.lower()
@@ -128,3 +130,4 @@ season_2014.to_csv(ROOT + 'season_stats/2014.csv')
 season_2015.to_csv(ROOT + 'season_stats/2015.csv')
 season_2016.to_csv(ROOT + 'season_stats/2016.csv')
 full_data.to_csv(ROOT + 'full_season_data_cleaned.csv')
+wins.to_csv(ROOT + 'wins_cleaned.csv')
