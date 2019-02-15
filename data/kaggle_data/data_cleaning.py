@@ -21,6 +21,7 @@ season_2015 = pd.read_csv(ROOT + '/season_stats/2015.csv')
 season_2016 = pd.read_csv(ROOT + '/season_stats/2016.csv')
 full_data = pd.read_csv(ROOT + 'full_season_data.csv')
 wins = pd.read_csv(ROOT + 'wins.csv')
+wins_cleaned = pd.read_csv(ROOT + 'wins_cleaned.csv')
 
 # Remove teams that did not make the tournament
 season_2003 = season_2003[season_2003.School.str.contains("NCAA")]
