@@ -1,352 +1,69 @@
-School,ORB,TRB
-Abilene Christian,266,1031
-Air Force,326,1187
-Akron,401,1315
-Alabama A&M,307,1025
-Alabama-Birmingham,390,1144
-Alabama State,324,1170
-Alabama,431,1259
-Albany (NY),310,1027
-Alcorn State,324,1038
-American,284,992
-Appalachian State,357,1157
-Arizona State,302,1159
-Arizona NCAA,320,1055
-Little Rock NCAA,353,1190
-Arkansas-Pine Bluff,408,1248
-Arkansas State,401,1257
-Arkansas,349,1187
-Army,342,1230
-Auburn,376,1270
-Austin Peay NCAA,378,1236
-Ball State,335,1189
-Baylor NCAA,314,1011
-Belmont,370,1137
-Bethune-Cookman,428,1258
-Binghamton,298,1108
-Boise State,264,1054
-Boston College,302,1175
-Boston University,346,1184
-Bowling Green State,350,1208
-Bradley,288,1121
-Brigham Young,359,1340
-Brown,338,1092
-Bryant,378,1217
-Bucknell,321,1067
-Buffalo NCAA,378,1273
-Butler NCAA,309,1082
-Cal Poly,287,1102
-Cal State Bakersfield NCAA,347,1128
-Cal State Fullerton,307,1096
-Cal State Northridge,348,1150
-UC-Davis,296,1057
-UC-Irvine,403,1325
-UC-Riverside,321,1136
-UC-Santa Barbara,340,1178
-University of California NCAA,327,1126
-Campbell,314,1109
-Canisius,353,1228
-Central Arkansas,303,1028
-Central Connecticut State,309,1096
-Central Florida,367,1089
-Central Michigan,367,1232
-Charleston Southern,267,1101
-Charlotte,314,1200
-Chattanooga NCAA,344,1133
-Chicago State,366,1287
-Cincinnati NCAA,373,1136
-Citadel,413,1440
-Clemson,327,1060
-Cleveland State,336,1121
-Coastal Carolina,366,1181
-Colgate,301,1043
-College of Charleston,274,1056
-Colorado State,305,1176
-Colorado NCAA,322,1140
-Columbia,311,1155
-Connecticut NCAA,393,1242
-Coppin State,399,1283
-Cornell,370,1198
-Creighton,341,1230
-Dartmouth,271,934
-Davidson,373,1294
-Dayton NCAA,299,1113
-Delaware State,435,1311
-Delaware,311,1099
-Denver,276,945
-DePaul,317,1034
-Detroit Mercy,330,1107
-Drake,297,1031
-Drexel,285,1107
-Duke NCAA,456,1322
-Duquesne,387,1277
-East Carolina,370,1161
-East Tennessee State,393,1307
-Eastern Illinois,364,1161
-Eastern Kentucky,367,1101
-Eastern Michigan,441,1262
-Eastern Washington,322,1161
-Elon,356,1218
-Evansville,314,1101
-Fairfield,438,1342
-Fairleigh Dickinson NCAA,417,1285
-Florida A&M,324,1143
-Florida Atlantic,373,1280
-Florida Gulf Coast NCAA,385,1235
-Florida International,366,1111
-Florida State,342,1140
-Florida,405,1364
-Fordham,268,1008
-Fresno State NCAA,368,1275
-Furman,326,1099
-Gardner-Webb,341,1216
-George Mason,277,1107
-George Washington,378,1245
-Georgetown,343,1142
-Georgia Southern,374,1232
-Georgia State,307,1047
-Georgia Tech,346,1131
-Georgia,392,1217
-Gonzaga NCAA,359,1159
-Grambling,327,1116
-Grand Canyon,334,1169
-Green Bay NCAA,432,1458
-Hampton NCAA,324,1169
-Hartford,415,1389
-Harvard,307,1026
-Hawaii NCAA,321,1124
-High Point,337,1060
-Hofstra,392,1253
-Holy Cross NCAA,323,1253
-Houston Baptist,392,1189
-Houston,395,1132
-Howard,438,1250
-Idaho State,334,1165
-Idaho,293,1012
-Illinois-Chicago,363,1209
-Illinois State,312,1128
-Illinois,320,1262
-Incarnate Word,290,1069
-Indiana State,296,1195
-Indiana NCAA,356,1060
-Iona NCAA,390,1234
-Iowa State NCAA,401,1261
-Iowa NCAA,390,1229
-Fort Wayne,312,1163
-IUPUI,309,1147
-Jackson State,358,1339
-Jacksonville State,337,1163
-Jacksonville,305,1200
-James Madison,332,1136
-Kansas State,344,1089
-Kansas NCAA,392,1234
-Kennesaw State,378,1169
-Kent State,308,1074
-Kentucky NCAA,433,1209
-La Salle,353,1173
-Lafayette,350,1192
-Lamar,345,1125
-Lehigh,321,1056
-Liberty,282,1042
-Lipscomb,374,1273
-Long Beach State,385,1338
-Long Island University,355,1167
-Longwood,322,1124
-Louisiana,323,1133
-Louisiana-Monroe,385,1178
-Louisiana State,367,1233
-Louisiana Tech,362,1249
-Louisville,317,981
-Loyola (IL),317,1126
-Loyola Marymount,324,1156
-Loyola (MD),318,1048
-Maine,342,1212
-Manhattan,324,1113
-Marist,336,1150
-Marquette,385,1181
-Marshall,397,1339
-Maryland-Baltimore County,300,1141
-Maryland-Eastern Shore,306,1042
-Maryland NCAA,398,1193
-Massachusetts-Lowell,338,1084
-Massachusetts,365,1242
-McNeese State,357,1163
-Memphis,396,1304
-Mercer,336,1077
-Miami (FL) NCAA,357,1129
-Miami (OH),330,1159
-Michigan State NCAA,329,1055
-Michigan NCAA,308,1190
-Middle Tennessee NCAA,312,1213
-Milwaukee,292,1117
-Minnesota,312,1169
-Mississippi State,377,1145
-Mississippi Valley State,458,1480
-Mississippi,363,1164
-Missouri-Kansas City,332,1066
-Missouri State,311,1158
-Missouri,345,1152
-Monmouth,448,1415
-Montana State,289,1087
-Montana,266,1043
-Morehead State,333,1197
-Morgan State,363,1205
-Mount St. Mary's,358,1299
-Murray State,255,969
-Navy,302,1031
-Omaha,352,1178
-Nebraska,321,1130
-Nevada-Las Vegas,383,1282
-Nevada,450,1460
-New Hampshire,257,1121
-New Mexico State,326,1065
-New Mexico,345,1054
-New Orleans,346,1113
-Niagara,356,1144
-Nicholls State,421,1345
-NJIT,388,1276
-Norfolk State,411,1210
-North Carolina-Asheville NCAA,359,1204
-North Carolina A&T,356,1188
-North Carolina Central,356,1117
-North Carolina-Greensboro,314,1195
-North Carolina State,371,1173
-North Carolina-Wilmington NCAA,374,1210
-North Carolina NCAA,441,1282
-North Dakota State,295,1114
-North Dakota,311,1196
-North Florida,443,1312
-North Texas,347,1179
-Northeastern,335,1161
-Northern Arizona,304,1186
-Northern Colorado,313,1074
-Northern Illinois,338,1186
-Northern Iowa NCAA,326,1238
-Northern Kentucky,311,1071
-Northwestern State,393,1103
-Northwestern,325,1105
-Notre Dame NCAA,410,1210
-Oakland,401,1286
-Ohio State,391,1263
-Ohio,326,1197
-Oklahoma State,383,1151
-Oklahoma NCAA,434,1341
-Old Dominion,356,1229
-Oral Roberts,324,1092
-Oregon State NCAA,364,1180
-Oregon NCAA,408,1257
-Pacific,279,969
-Penn State,324,1152
-Pennsylvania,308,1030
-Pepperdine,346,1150
-Pittsburgh NCAA,310,1022
-Portland State,336,1130
-Portland,394,1230
-Prairie View,366,1167
-Presbyterian,325,1116
-Princeton,272,985
-Providence NCAA,370,1293
-Purdue NCAA,315,1074
-Quinnipiac,333,1127
-Radford,334,1077
-Rhode Island,280,1038
-Rice,346,1144
-Richmond,357,1188
-Rider,350,1173
-Robert Morris,392,1253
-Rutgers,441,1334
-Sacramento State,366,1182
-Sacred Heart,359,1114
-Saint Francis (PA),329,1062
-Saint Joseph's NCAA,351,1277
-Saint Louis,316,1196
-Saint Mary's (CA),332,1048
-Saint Peter's,278,1012
-Sam Houston State,259,1154
-Samford,369,1157
-San Diego State,390,1266
-San Diego,281,1081
-San Francisco,336,1096
-San Jose State,317,1133
-Santa Clara,324,1144
-Savannah State,310,1151
-Seattle,352,1092
-Seton Hall NCAA,408,1231
-Siena,385,1097
-South Alabama,401,1262
-South Carolina State,362,1190
-South Carolina Upstate,382,1173
-South Carolina,381,1167
-South Dakota State NCAA,311,1102
-South Dakota,334,1179
-South Florida,413,1193
-Southeast Missouri State,294,1105
-Southeastern Louisiana,389,1192
-Southern California NCAA,430,1279
-SIU Edwardsville,273,981
-Southern Illinois,268,1038
-Southern Methodist,313,878
-Southern Mississippi,281,1026
-Southern Utah,299,1091
-Southern NCAA,413,1311
-St. Bonaventure,380,1134
-St. Francis (NY),349,1155
-St. John's (NY),355,1265
-Stanford,318,1053
-Stephen F. Austin NCAA,335,1099
-Stetson,407,1362
-Stony Brook NCAA,301,1058
-Syracuse NCAA,471,1357
-Temple NCAA,358,1262
-Tennessee-Martin,358,1213
-Tennessee State,319,1068
-Tennessee Tech,368,1118
-Tennessee,456,1361
-Texas A&M-Corpus Christi,381,1186
-Texas A&M NCAA,396,1296
-Texas-Arlington,351,1237
-Texas Christian,349,1204
-Texas-El Paso,403,1294
-Texas-Rio Grande Valley,400,1235
-Texas-San Antonio,280,1180
-Texas Southern,332,1079
-Texas State,312,1063
-Texas Tech NCAA,360,1080
-Texas NCAA,362,1183
-Toledo,275,1064
-Towson,306,1053
-Troy,356,1202
-Tulane,369,1264
-Tulsa NCAA,347,1185
-UCLA,381,1188
-Utah State,315,1070
-Utah Valley,341,1205
-Utah NCAA,371,1173
-Valparaiso,347,1208
-Vanderbilt NCAA,396,1235
-Vermont,368,1223
-Villanova NCAA,418,1322
-Virginia Commonwealth NCAA,342,1242
-VMI,339,1163
-Virginia Tech,400,1251
-Virginia NCAA,287,1047
-Wagner,331,1117
-Wake Forest,367,1142
-Washington State,333,1107
-Washington,490,1438
-Weber State NCAA,336,1170
-West Virginia NCAA,305,1078
-Western Carolina,375,1230
-Western Illinois,251,943
-Western Kentucky,363,1128
-Western Michigan,286,1097
-Wichita State NCAA,276,1154
-William & Mary,319,1075
-Winthrop,407,1202
-Wisconsin NCAA,314,1121
-Wofford,254,1005
-Wright State,294,1215
-Wyoming,340,1181
-Xavier NCAA,334,1138
-Yale NCAA,256,881
-Youngstown State,396,1336
+,School,opp_ORB,opp_DRB
+12,Arizona 2016,320,735
+13,Little Rock 2016,353,837
+19,Austin Peay 2016,378,858
+21,Baylor 2016,314,697
+34,Buffalo 2016,378,895
+35,Butler 2016,309,773
+37,Cal State Bakersfield 2016,347,781
+44,University of California 2016,327,799
+53,Chattanooga 2016,344,789
+55,Cincinnati 2016,373,763
+63,Colorado 2016,322,818
+65,Connecticut 2016,393,849
+71,Dayton 2016,299,814
+79,Duke 2016,456,866
+90,Fairleigh Dickinson 2016,417,868
+93,Florida Gulf Coast 2016,385,850
+98,Fresno State 2016,368,907
+108,Gonzaga 2016,359,800
+111,Green Bay 2016,432,1026
+112,Hampton 2016,324,845
+115,Hawaii 2016,321,803
+118,Holy Cross 2016,323,930
+129,Indiana 2016,356,704
+130,Iona 2016,390,844
+131,Iowa State 2016,401,860
+132,Iowa 2016,390,839
+140,Kansas 2016,392,842
+143,Kentucky 2016,433,776
+168,Maryland 2016,398,795
+174,Miami (FL) 2016,357,772
+176,Michigan State 2016,329,726
+177,Michigan 2016,308,882
+178,Middle Tennessee 2016,312,901
+207,North Carolina-Asheville 2016,359,845
+212,North Carolina-Wilmington 2016,374,836
+213,North Carolina 2016,441,841
+222,Northern Iowa 2016,326,912
+226,Notre Dame 2016,410,800
+231,Oklahoma 2016,434,907
+234,Oregon State 2016,364,816
+235,Oregon 2016,408,849
+240,Pittsburgh 2016,310,712
+246,Providence 2016,370,923
+247,Purdue 2016,315,759
+259,Saint Joseph's 2016,351,926
+272,Seton Hall 2016,408,823
+278,South Dakota State 2016,311,791
+283,Southern California 2016,430,849
+289,Southern 2016,413,898
+294,Stephen F. Austin 2016,335,764
+296,Stony Brook 2016,301,757
+297,Syracuse 2016,471,886
+298,Temple 2016,358,904
+304,Texas A&M 2016,396,900
+312,Texas Tech 2016,360,720
+313,Texas 2016,362,821
+318,Tulsa 2016,347,838
+322,Utah 2016,371,802
+324,Vanderbilt 2016,396,839
+326,Villanova 2016,418,904
+327,Virginia Commonwealth 2016,342,900
+330,Virginia 2016,287,760
+335,Weber State 2016,336,834
+336,West Virginia 2016,305,773
+341,Wichita State 2016,276,878
+344,Wisconsin 2016,314,807
+348,Xavier 2016,334,804
+349,Yale 2016,256,625
