@@ -83,7 +83,7 @@ opp_2016.drop(opp_2016[['TRB']], inplace=True, axis=1)
 opp_2016.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2015['DRB'] = opp_2015['TRB'] - opp_2015['ORB']
-opp_2015.drop(opp_2015[['TRB'], inplace=True, axis=1)
+opp_2015.drop(opp_2015[['TRB']], inplace=True, axis=1)
 opp_2015.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2014['DRB'] = opp_2014['TRB'] - opp_2014['ORB']
@@ -200,11 +200,18 @@ season_2007.to_csv(ROOT + 'season_stats/2007.csv')
 season_2008.to_csv(ROOT + 'season_stats/2008.csv')
 season_2009.to_csv(ROOT + 'season_stats/2009.csv')
 season_2010.to_csv(ROOT + 'season_stats/2010.csv')
+opp_2010.to_csv(ROOT + 'season_stats/opp_2010.csv')
 season_2011.to_csv(ROOT + 'season_stats/2011.csv')
+opp_2011.to_csv(ROOT + 'season_stats/opp_2011.csv')
 season_2012.to_csv(ROOT + 'season_stats/2012.csv')
+opp_2012.to_csv(ROOT + 'season_stats/opp_2012.csv')
 season_2013.to_csv(ROOT + 'season_stats/2013.csv')
+opp_2013.to_csv(ROOT + 'season_stats/opp_2013.csv')
 season_2014.to_csv(ROOT + 'season_stats/2014.csv')
+opp_2014.to_csv(ROOT + 'season_stats/opp_2014.csv')
 season_2015.to_csv(ROOT + 'season_stats/2015.csv')
+opp_2015.to_csv(ROOT + 'season_stats/opp_2015.csv')
 season_2016.to_csv(ROOT + 'season_stats/2016.csv')
+opp_2016.to_csv(ROOT + 'season_stats/opp_2016.csv')
 full_data.to_csv(ROOT + 'full_season_data_cleaned.csv')
 wins.to_csv(ROOT + 'wins_cleaned.csv')
