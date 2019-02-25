@@ -1,345 +1,69 @@
-School,ORB,TRB
-Air Force,299,993
-Akron,400,1133
-Alabama A&M,318,1018
-Alabama-Birmingham,335,990
-Alabama State,345,1155
-Alabama NCAA,373,1072
-Albany (NY),371,1108
-Alcorn State,403,1148
-American,334,1090
-Appalachian State,357,1097
-Arizona State,307,929
-Arizona,380,1173
-Little Rock,326,1112
-Arkansas-Pine Bluff,403,1194
-Arkansas State,327,1068
-Arkansas,416,1204
-Army,307,1077
-Auburn,355,1093
-Austin Peay,389,1130
-Ball State,335,977
-Baylor NCAA,428,1181
-Belmont NCAA,402,1163
-Bethune-Cookman,388,1169
-Binghamton,298,1057
-Boise State,231,922
-Boston College,341,1111
-Boston University,358,1110
-Bowling Green State,338,1038
-Bradley,345,1190
-Brigham Young NCAA,348,1213
-Brown,317,1162
-Bryant,343,1110
-Bucknell,277,1011
-Buffalo,358,1033
-Butler,332,1176
-Cal Poly,255,958
-Cal State Bakersfield,302,959
-Cal State Fullerton,333,990
-Cal State Northridge,322,1021
-UC-Davis,386,1138
-UC-Irvine,388,1222
-UC-Riverside,361,1113
-UC-Santa Barbara,375,1048
-University of California NCAA,315,1037
-Campbell,378,1092
-Canisius,387,1110
-Central Arkansas,377,1204
-Central Connecticut State,363,1054
-Central Florida,368,1105
-Central Michigan,367,1172
-Charleston Southern,309,1062
-Charlotte,325,1104
-Chattanooga,342,1162
-Chicago State,344,1145
-Cincinnati NCAA,443,1324
-Citadel,310,1025
-Clemson,293,994
-Cleveland State,366,1053
-Coastal Carolina,349,994
-Colgate,302,1013
-College of Charleston,421,1230
-Colorado State NCAA,309,971
-Colorado NCAA,366,1182
-Columbia,263,960
-Connecticut NCAA,457,1185
-Coppin State,396,1152
-Cornell,309,1069
-Creighton NCAA,328,1068
-Dartmouth,265,982
-Davidson NCAA,315,1072
-Dayton,347,1060
-Delaware State,389,1074
-Delaware,435,1238
-Denver,302,944
-DePaul,412,1229
-Detroit Mercy NCAA,381,1160
-Drake,320,1179
-Drexel,322,1057
-Duke NCAA,395,1159
-Duquesne,414,1186
-East Carolina,337,1071
-East Tennessee State,349,1048
-Eastern Illinois,334,979
-Eastern Kentucky,326,1073
-Eastern Michigan,374,1086
-Eastern Washington,333,1171
-Elon,382,1213
-Evansville,337,1095
-Fairfield,415,1214
-Fairleigh Dickinson,343,1065
-Florida A&M,459,1300
-Florida Atlantic,334,1064
-Florida Gulf Coast,420,1131
-Florida International,352,1001
-Florida State NCAA,430,1168
-Florida NCAA,391,1217
-Fordham,371,1118
-Fresno State,351,1178
-Furman,313,994
-Gardner-Webb,337,1096
-George Mason,409,1125
-George Washington,350,1041
-Georgetown NCAA,360,1017
-Georgia Southern,307,985
-Georgia State,386,1196
-Georgia Tech,306,980
-Georgia,322,1115
-Gonzaga NCAA,332,1011
-Grambling,361,1082
-Green Bay,330,1024
-Hampton,438,1272
-Hartford,314,1115
-Harvard NCAA,273,877
-Hawaii,405,1119
-High Point,370,1094
-Hofstra,319,1078
-Holy Cross,321,994
-Houston Baptist,367,1167
-Houston,371,1024
-Howard,348,1069
-Idaho State,300,1028
-Idaho,379,1059
-Illinois-Chicago,300,1012
-Illinois State,342,1147
-Illinois,298,1002
-Indiana State,290,1098
-Indiana NCAA,391,1094
-Iona NCAA,379,1126
-Iowa State NCAA,316,1092
-Iowa,381,1193
-Fort Wayne,279,981
-IUPUI,356,1082
-Jackson State,369,1086
-Jacksonville State,337,1105
-Jacksonville,337,1032
-James Madison,399,1181
-Kansas State NCAA,385,1070
-Kansas NCAA,419,1256
-Kennesaw State,353,1120
-Kent State,409,1153
-Kentucky NCAA,487,1286
-La Salle,415,1233
-Lafayette,329,1086
-Lamar NCAA,385,1202
-Lehigh NCAA,369,1202
-Liberty,336,1058
-Lipscomb,396,1207
-Long Beach State NCAA,373,1109
-Long Island University NCAA,470,1233
-Longwood,344,1226
-Louisiana,367,1135
-Louisiana-Monroe,291,1019
-Louisiana State,357,1178
-Louisiana Tech,393,1261
-Louisville NCAA,509,1441
-Loyola (IL),288,916
-Loyola Marymount,414,1220
-Loyola (MD) NCAA,363,1062
-Maine,377,1087
-Manhattan,384,1115
-Marist,364,1132
-Marquette NCAA,468,1275
-Marshall,363,1143
-Maryland-Baltimore County,339,1130
-Maryland-Eastern Shore,337,1082
-Maryland,369,1112
-Massachusetts,501,1450
-McNeese State,345,1150
-Memphis NCAA,424,1152
-Mercer,474,1247
-Miami (FL),381,1152
-Miami (OH),297,955
-Michigan State NCAA,364,1106
-Michigan NCAA,329,1076
-Middle Tennessee,410,1108
-Milwaukee,344,1150
-Minnesota,425,1184
-Mississippi State,334,1112
-Mississippi Valley State NCAA,386,1282
-Mississippi,410,1205
-Missouri-Kansas City,325,1059
-Missouri State,309,1078
-Missouri NCAA,380,1109
-Monmouth,392,1232
-Montana State,286,1011
-Montana NCAA,346,1071
-Morehead State,299,938
-Morgan State,387,1043
-Mount St. Mary's,325,948
-Murray State NCAA,382,1053
-Navy,248,904
-Nebraska,262,932
-Nevada-Las Vegas NCAA,383,1218
-Nevada,377,1157
-New Hampshire,289,1032
-New Mexico State NCAA,382,1125
-New Mexico NCAA,351,1093
-Niagara,368,1205
-Nicholls State,379,1121
-NJIT,352,1158
-Norfolk State NCAA,431,1241
-North Carolina-Asheville NCAA,415,1133
-North Carolina A&T,459,1285
-North Carolina Central,368,1044
-North Carolina-Greensboro,363,1176
-North Carolina State NCAA,414,1232
-North Carolina-Wilmington,375,1125
-North Carolina NCAA,425,1313
-North Dakota State,305,978
-North Dakota,330,1128
-North Florida,385,1106
-North Texas,348,1117
-Northeastern,345,1009
-Northern Arizona,293,982
-Northern Colorado,257,820
-Northern Illinois,287,997
-Northern Iowa,273,1102
-Northwestern State,473,1292
-Northwestern,401,1182
-Notre Dame NCAA,381,1167
-Oakland,355,1222
-Ohio State NCAA,327,1159
-Ohio NCAA,416,1297
-Oklahoma State,400,1239
-Oklahoma,334,1043
-Old Dominion,376,1227
-Oral Roberts,290,963
-Oregon State,422,1246
-Oregon,376,1105
-Pacific,348,1086
-Penn State,266,1024
-Pennsylvania,341,1099
-Pepperdine,287,964
-Pittsburgh,393,1158
-Portland State,339,1016
-Portland,338,1047
-Prairie View,329,1192
-Presbyterian,275,856
-Princeton,329,1051
-Providence,426,1152
-Purdue NCAA,352,1192
-Quinnipiac,330,1057
-Radford,350,1173
-Rhode Island,322,1083
-Rice,353,1222
-Richmond,387,1148
-Rider,416,1168
-Robert Morris,355,1133
-Rutgers,379,1088
-Sacramento State,270,891
-Sacred Heart,371,1076
-Saint Francis (PA),356,988
-Saint Joseph's,423,1188
-Saint Louis NCAA,309,1059
-Saint Mary's (CA) NCAA,298,973
-Saint Peter's,369,1114
-Sam Houston State,326,1069
-Samford,383,1081
-San Diego State NCAA,320,1103
-San Diego,329,1073
-San Francisco,289,1098
-San Jose State,364,1164
-Santa Clara,320,1100
-Savannah State,297,1037
-Seattle,302,1012
-Seton Hall,357,1159
-Siena,364,1074
-South Alabama,347,933
-South Carolina State,404,1187
-South Carolina Upstate,352,1112
-South Carolina,353,1032
-South Dakota State NCAA,327,1127
-South Dakota,295,1010
-South Florida NCAA,373,1093
-Southeast Missouri State,323,1009
-Southeastern Louisiana,315,1004
-Southern California,338,1160
-SIU Edwardsville,320,963
-Southern Illinois,292,1047
-Southern Methodist,326,1075
-Southern Mississippi NCAA,295,1091
-Southern Utah,280,915
-Southern,429,1221
-St. Bonaventure NCAA,328,967
-St. Francis (NY),308,1019
-St. John's (NY),453,1216
-Stanford,362,1202
-Stephen F. Austin,248,892
-Stetson,372,1050
-Stony Brook,259,936
-Syracuse NCAA,541,1348
-Temple NCAA,364,1088
-Tennessee-Martin,336,1062
-Tennessee State,322,1050
-Tennessee Tech,345,1048
-Tennessee,372,1145
-Texas A&M-Corpus Christi,341,1112
-Texas A&M,298,1033
-Texas-Arlington,377,1128
-Texas Christian,313,1126
-Texas-El Paso,340,1033
-Texas-Rio Grande Valley,367,1144
-Texas-San Antonio,380,1139
-Texas Southern,412,1151
-Texas State,375,1165
-Texas Tech,344,1005
-Texas NCAA,409,1134
-Toledo,463,1241
-Towson,377,1079
-Troy,354,1082
-Tulane,296,1032
-Tulsa,287,952
-UCLA,322,1044
-Utah State,442,1210
-Utah Valley,354,1156
-Utah,312,1063
-Valparaiso,343,1073
-Vanderbilt NCAA,407,1189
-Vermont NCAA,387,1155
-Villanova,381,1114
-Virginia Commonwealth NCAA,393,1268
-VMI,414,1305
-Virginia Tech,381,1124
-Virginia NCAA,266,946
-Wagner,357,1054
-Wake Forest,371,1125
-Washington State,385,1142
-Washington,412,1223
-Weber State,326,1079
-West Virginia NCAA,331,1043
-Western Carolina,387,1240
-Western Illinois,270,1017
-Western Kentucky NCAA,395,1264
-Western Michigan,376,1112
-Wichita State NCAA,321,1034
-William & Mary,330,1113
-Winthrop,283,1051
-Wisconsin NCAA,331,1122
-Wofford,284,1037
-Wright State,265,1045
-Wyoming,274,1000
-Xavier NCAA,397,1228
-Yale,278,946
-Youngstown State,364,1129
+,School,opp_ORB,opp_DRB
+5,Alabama 2012,373,699
+20,Baylor 2012,428,753
+21,Belmont 2012,402,761
+29,Brigham Young 2012,348,865
+43,University of California 2012,315,722
+54,Cincinnati 2012,443,881
+61,Colorado State 2012,309,662
+62,Colorado 2012,366,816
+64,Connecticut 2012,457,728
+67,Creighton 2012,328,740
+69,Davidson 2012,315,757
+75,Detroit Mercy 2012,381,779
+78,Duke 2012,395,764
+94,Florida State 2012,430,738
+95,Florida 2012,391,826
+102,Georgetown 2012,360,657
+107,Gonzaga 2012,332,679
+112,Harvard 2012,273,604
+126,Indiana 2012,391,703
+127,Iona 2012,379,747
+128,Iowa State 2012,316,776
+136,Kansas State 2012,385,685
+137,Kansas 2012,419,837
+140,Kentucky 2012,487,799
+143,Lamar 2012,385,817
+144,Lehigh 2012,369,833
+147,Long Beach State 2012,373,736
+148,Long Island University 2012,470,763
+154,Louisville 2012,509,932
+157,Loyola (MD) 2012,363,699
+161,Marquette 2012,468,807
+168,Memphis 2012,424,728
+172,Michigan State 2012,364,742
+173,Michigan 2012,329,747
+178,Mississippi Valley State 2012,386,896
+182,Missouri 2012,380,729
+185,Montana 2012,346,725
+189,Murray State 2012,382,671
+192,Nevada-Las Vegas 2012,383,835
+195,New Mexico State 2012,382,743
+196,New Mexico 2012,351,742
+200,Norfolk State 2012,431,810
+201,North Carolina-Asheville 2012,415,718
+205,North Carolina State 2012,414,818
+207,North Carolina 2012,425,888
+219,Notre Dame 2012,381,786
+221,Ohio State 2012,327,832
+222,Ohio 2012,416,881
+240,Purdue 2012,352,840
+253,Saint Louis 2012,309,750
+254,Saint Mary's (CA) 2012,298,675
+258,San Diego State 2012,320,783
+271,South Dakota State 2012,327,800
+273,South Florida 2012,373,720
+280,Southern Mississippi 2012,295,796
+283,St. Bonaventure 2012,328,639
+290,Syracuse 2012,541,807
+291,Temple 2012,364,724
+306,Texas 2012,409,725
+317,Vanderbilt 2012,407,782
+318,Vermont 2012,387,768
+320,Virginia Commonwealth 2012,393,875
+323,Virginia 2012,266,680
+329,West Virginia 2012,331,712
+332,Western Kentucky 2012,395,869
+334,Wichita State 2012,321,713
+337,Wisconsin 2012,331,791
+341,Xavier 2012,397,831
