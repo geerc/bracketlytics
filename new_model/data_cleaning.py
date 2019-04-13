@@ -81,13 +81,8 @@ def efg_pct(data):
     data['efg%'] = (data['FG'] + float(0.5) * data['3P']) / data['FGA']
     data[['efg%']] = data[['efg%']].round(3)
 
-season_2010['efg%'] = (season_2010['FG'] + float(0.5) * season_2010['3P']) / season_2010['FGA']
-
 efg_pct(season_2010)
 
-print(season_2010)
-opp_2010.dtypes
-opp_2010['FG']
 
 #### Create effective field goal percentage for offense and defense
 tourney_data['Wefg%'] = (tourney_data['Wfgm'] + float(0.5) * tourney_data['Wfgm3']) / tourney_data['Wfga']
