@@ -20,19 +20,12 @@ opp_2010 = pd.read_csv(ROOT + '/opp_2010.csv')
 wins_cleaned = pd.read_csv(ROOT + 'wins_cleaned.csv')
 
 # Remove teams that did not make the tournament
-season_2010 = season_2010[season_2010.School.str.contains("NCAA")]
 opp_2010 = opp_2010[opp_2010.School.str.contains("NCAA")]
-season_2011 = season_2011[season_2011.School.str.contains("NCAA")]
 opp_2011 = opp_2011[opp_2011.School.str.contains("NCAA")]
-season_2012 = season_2012[season_2012.School.str.contains("NCAA")]
 opp_2012 = opp_2012[opp_2012.School.str.contains("NCAA")]
-season_2013 = season_2013[season_2013.School.str.contains("NCAA")]
 opp_2013 = opp_2013[opp_2013.School.str.contains("NCAA")]
-season_2014 = season_2014[season_2014.School.str.contains("NCAA")]
 opp_2014 = opp_2014[opp_2014.School.str.contains("NCAA")]
-season_2015 = season_2015[season_2015.School.str.contains("NCAA")]
 opp_2015 = opp_2015[opp_2015.School.str.contains("NCAA")]
-season_2016 = season_2016[season_2016.School.str.contains("NCAA")]
 opp_2016 = opp_2016[opp_2016.School.str.contains("NCAA")]
 
 # Remove NCAA suffix
@@ -82,7 +75,7 @@ def efg_pct(data):
     data[['efg%']] = data[['efg%']].round(3)
 
 efg_pct(season_2010)
-
+efg_pct(season_2011)
 
 #### Create effective field goal percentage for offense and defense
 tourney_data['Wefg%'] = (tourney_data['Wfgm'] + float(0.5) * tourney_data['Wfgm3']) / tourney_data['Wfga']
