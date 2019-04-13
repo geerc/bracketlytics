@@ -44,8 +44,6 @@ opp_2015['School'] = opp_2015['School'].replace("NCAA$", "2015", regex=True)
 season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=True)
 opp_2016['School'] = opp_2016['School'].replace("NCAA$", "2016", regex=True)
 
-print(opp_2016)
-
 # Add DRB column and remove TRB
 opp_2016['opp_DRB'] = opp_2016['opp_TRB'] - opp_2016['opp_ORB']
 opp_2016.drop(opp_2016[['opp_TRB']], inplace=True, axis=1)
@@ -68,15 +66,32 @@ opp_2011.drop(opp_2011[['opp_TRB']], inplace=True, axis=1)
 opp_2010['opp_DRB'] = opp_2010['opp_TRB'] - opp_2010['opp_ORB']
 opp_2010.drop(opp_2010[['opp_TRB']], inplace=True, axis=1)
 
+# write csv files to be joined in tableu prep, then brought back for calculations
+season_2010.to_csv(ROOT + '2010_new.csv')
+season_2011.to_csv(ROOT + '2011_new.csv')
+season_2012.to_csv(ROOT + '2012_new.csv')
+season_2013.to_csv(ROOT + '2013_new.csv')
+season_2014.to_csv(ROOT + '2014_new.csv')
+season_2015.to_csv(ROOT + '2015_new.csv')
+season_2016.to_csv(ROOT + '2016_new.csv')
+
+opp_2010.to_csv(ROOT + 'opp_2010_new.csv')
+opp_2011.to_csv(ROOT + 'opp_2011_new.csv')
+opp_2012.to_csv(ROOT + 'opp_2012_new.csv')
+opp_2013.to_csv(ROOT + 'opp_2013_new.csv')
+opp_2014.to_csv(ROOT + 'opp_2014_new.csv')
+opp_2015.to_csv(ROOT + 'opp_2015_new.csv')
+opp_2016.to_csv(ROOT + 'opp_2016_new.csv')
+
 # Calculate advanced statistics (tourney_data)
 #### Create effective field goal percentage for each seasoon (off and def)
 def efg_pct(data):
     data['EFG%'] = (data['FG'] + float(0.5) * data['3P']) / data['FGA']
-    data[['EFG%']] = data[['efg%']].round(3)
+    data[['EFG%']] = data[['EFG%']].round(3)
 
 def opp_efg_pct(data):
     data['opp_EFG%'] = (data['opp_FG'] + float(0.5) * data['opp_3P']) / data['opp_FGA']
-    data[['opp_EFG%']] = data[['opp_efg%']].round(3)
+    data[['opp_EFG%']] = data[['opp_EFG%']].round(3)
 
 efg_pct(season_2010)
 efg_pct(season_2011)
@@ -95,7 +110,7 @@ opp_efg_pct(opp_2015)
 opp_efg_pct(opp_2016)
 
 def efg_pct(data):
-    data['ORB%']
+    data['ORB%'] = data['ORB'] / (data['ORB'] + data[''])
 
 #### Create offensive and defensive rebounding percentage
 tourney_data['Wor%'] = tourney_data['Wor'] / (tourney_data['Wor'] + tourney_data['Ldr'])
