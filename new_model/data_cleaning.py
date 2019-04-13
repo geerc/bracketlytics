@@ -69,24 +69,30 @@ opp_2010['opp_DRB'] = opp_2010['opp_TRB'] - opp_2010['opp_ORB']
 opp_2010.drop(opp_2010[['opp_TRB']], inplace=True, axis=1)
 
 # Calculate advanced statistics (tourney_data)
-
+#### Create effective field goal percentage for each seasoon (off and def)
 def efg_pct(data):
     data['efg%'] = (data['FG'] + float(0.5) * data['3P']) / data['FGA']
     data[['efg%']] = data[['efg%']].round(3)
 
+def opp_efg_pct(data):
+    data['opp_efg%'] = (data['opp_FG'] + float(0.5) * data['opp_3P']) / data['opp_FGA']
+    data[['opp_efg%']] = data[['opp_efg%']].round(3)
+
 efg_pct(season_2010)
 efg_pct(season_2011)
+efg_pct(season_2012)
+efg_pct(season_2013)
+efg_pct(season_2014)
+efg_pct(season_2015)
+efg_pct(season_2016)
 
-#### Create effective field goal percentage for offense and defense
-tourney_data['Wefg%'] = (tourney_data['Wfgm'] + float(0.5) * tourney_data['Wfgm3']) / tourney_data['Wfga']
-tourney_data['Lefg%'] = (tourney_data['Lfgm'] + float(0.5) * tourney_data['Lfgm3']) / tourney_data['Lfga']
-tourney_data[['Wefg%', 'Lefg']] = tourney_data[['Wefg%', 'Lefg%']].round(3)
-
-
-#### Create offensive and defensive turnover percentage
-tourney_data['Wtov%'] = tourney_data['Wto'] / (tourney_data['Wfga'] + 0.44 + tourney_data['Wfta'] + tourney_data['Wto'])
-tourney_data['Ltov%'] = tourney_data['Lto'] / (tourney_data['Lfga'] + 0.44 + tourney_data['Lfta'] + tourney_data['Lto'])
-tourney_data[['Wtov%', 'Ltov%']] = tourney_data[['Wtov%', 'Ltov%']].round(3)
+opp_efg_pct(opp_2010)
+opp_efg_pct(opp_2011)
+opp_efg_pct(opp_2012)
+opp_efg_pct(opp_2013)
+opp_efg_pct(opp_2014)
+opp_efg_pct(opp_2015)
+opp_efg_pct(opp_2016)
 
 #### Create offensive and defensive rebounding percentage
 tourney_data['Wor%'] = tourney_data['Wor'] / (tourney_data['Wor'] + tourney_data['Ldr'])
