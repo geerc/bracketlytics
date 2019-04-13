@@ -36,13 +36,6 @@ season_2016 = season_2016[season_2016.School.str.contains("NCAA")]
 opp_2016 = opp_2016[opp_2016.School.str.contains("NCAA")]
 
 # Remove NCAA suffix
-season_2003['School'] = season_2003['School'].replace("NCAA$", "2003", regex=True)
-season_2004['School'] = season_2004['School'].replace("NCAA$", "2004", regex=True)
-season_2005['School'] = season_2005['School'].replace("NCAA$", "2005", regex=True)
-season_2006['School'] = season_2006['School'].replace("NCAA$", "2006", regex=True)
-season_2007['School'] = season_2007['School'].replace("NCAA$", "2007", regex=True)
-season_2008['School'] = season_2008['School'].replace("NCAA$", "2008", regex=True)
-season_2009['School'] = season_2009['School'].replace("NCAA$", "2009", regex=True)
 season_2010['School'] = season_2010['School'].replace("NCAA$", "2010", regex=True)
 opp_2010['School'] = opp_2010['School'].replace("NCAA$", "2010", regex=True)
 season_2011['School'] = season_2011['School'].replace("NCAA$", "2011", regex=True)
