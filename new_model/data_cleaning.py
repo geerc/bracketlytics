@@ -71,12 +71,12 @@ opp_2010.drop(opp_2010[['opp_TRB']], inplace=True, axis=1)
 # Calculate advanced statistics (tourney_data)
 #### Create effective field goal percentage for each seasoon (off and def)
 def efg_pct(data):
-    data['efg%'] = (data['FG'] + float(0.5) * data['3P']) / data['FGA']
-    data[['efg%']] = data[['efg%']].round(3)
+    data['EFG%'] = (data['FG'] + float(0.5) * data['3P']) / data['FGA']
+    data[['EFG%']] = data[['efg%']].round(3)
 
 def opp_efg_pct(data):
-    data['opp_efg%'] = (data['opp_FG'] + float(0.5) * data['opp_3P']) / data['opp_FGA']
-    data[['opp_efg%']] = data[['opp_efg%']].round(3)
+    data['opp_EFG%'] = (data['opp_FG'] + float(0.5) * data['opp_3P']) / data['opp_FGA']
+    data[['opp_EFG%']] = data[['opp_efg%']].round(3)
 
 efg_pct(season_2010)
 efg_pct(season_2011)
@@ -93,6 +93,9 @@ opp_efg_pct(opp_2013)
 opp_efg_pct(opp_2014)
 opp_efg_pct(opp_2015)
 opp_efg_pct(opp_2016)
+
+def efg_pct(data):
+    data['ORB%']
 
 #### Create offensive and defensive rebounding percentage
 tourney_data['Wor%'] = tourney_data['Wor'] / (tourney_data['Wor'] + tourney_data['Ldr'])
