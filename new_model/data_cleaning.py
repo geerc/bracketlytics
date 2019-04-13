@@ -75,17 +75,6 @@ opp_2011.drop(opp_2011[['opp_TRB']], inplace=True, axis=1)
 opp_2010['opp_DRB'] = opp_2010['opp_TRB'] - opp_2010['opp_ORB']
 opp_2010.drop(opp_2010[['opp_TRB']], inplace=True, axis=1)
 
-
-# Added year suffix to wins.to_csv and remove unnecssary columns
-wins['Season'] = wins['Season'].astype(str)
-
-wins['team'] = wins['Team_Name'] + " " + wins['Season']
-
-wins = wins.drop(wins[['Season','Team_Id-1','Team_Name']], axis=1)
-
-# Convert team names to lower case
-teams['Team_Name'] = teams['Team_Name'].str.lower()
-
 # Calculate advanced statistics (tourney_data)
 #### Create effective field goal percentage for offense and defense
 tourney_data['Wefg%'] = (tourney_data['Wfgm'] + float(0.5) * tourney_data['Wfgm3']) / tourney_data['Wfga']
