@@ -75,8 +75,6 @@ opp_2011.drop(opp_2011[['opp_TRB']], inplace=True, axis=1)
 opp_2010['opp_DRB'] = opp_2010['opp_TRB'] - opp_2010['opp_ORB']
 opp_2010.drop(opp_2010[['opp_TRB']], inplace=True, axis=1)
 
-# Remove unnecssary columns
-full_data.drop(full_data[['Table Names-1','Table Names']], inplace=True, axis=1)
 
 # Added year suffix to wins.to_csv and remove unnecssary columns
 wins['Season'] = wins['Season'].astype(str)
