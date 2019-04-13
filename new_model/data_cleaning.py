@@ -3,42 +3,23 @@ import numpy as np
 
 ROOT = '/Users/Christian/Documents/GitHub/bracketlytics/new_model/data/'
 
-tourney_data = pd.read_csv(ROOT + 'TourneyDetailedResults.csv')
-teams = pd.read_csv(ROOT + 'Teams.csv')
-season_2003 = pd.read_csv(ROOT + '/season_stats/2003.csv')
-season_2004 = pd.read_csv(ROOT + '/season_stats/2004.csv')
-season_2005 = pd.read_csv(ROOT + '/season_stats/2005.csv')
-season_2006 = pd.read_csv(ROOT + '/season_stats/2006.csv')
-season_2007 = pd.read_csv(ROOT + '/season_stats/2007.csv')
-season_2008 = pd.read_csv(ROOT + '/season_stats/2008.csv')
-season_2009 = pd.read_csv(ROOT + '/season_stats/2009.csv')
-season_2010 = pd.read_csv(ROOT + '/season_stats/2010.csv')
-season_2011 = pd.read_csv(ROOT + '/season_stats/2011.csv')
-season_2012 = pd.read_csv(ROOT + '/season_stats/2012.csv')
-season_2013 = pd.read_csv(ROOT + '/season_stats/2013.csv')
-season_2014 = pd.read_csv(ROOT + '/season_stats/2014.csv')
-season_2015 = pd.read_csv(ROOT + '/season_stats/2015.csv')
-season_2016 = pd.read_csv(ROOT + '/season_stats/2016.csv')
-opp_2016 = pd.read_csv(ROOT + '/season_stats/opp_2016.csv')
-opp_2015 = pd.read_csv(ROOT + '/season_stats/opp_2015.csv')
-opp_2014 = pd.read_csv(ROOT + '/season_stats/opp_2014.csv')
-opp_2013 = pd.read_csv(ROOT + '/season_stats/opp_2013.csv')
-opp_2012 = pd.read_csv(ROOT + '/season_stats/opp_2012.csv')
-opp_2011 = pd.read_csv(ROOT + '/season_stats/opp_2011.csv')
-opp_2010 = pd.read_csv(ROOT + '/season_stats/opp_2010.csv')
-full_data = pd.read_csv(ROOT + 'full_season_data.csv')
-wins = pd.read_csv(ROOT + 'wins.csv')
+season_2010 = pd.read_csv(ROOT + '/2010.csv')
+season_2011 = pd.read_csv(ROOT + '/2011.csv')
+season_2012 = pd.read_csv(ROOT + '/2012.csv')
+season_2013 = pd.read_csv(ROOT + '/2013.csv')
+season_2014 = pd.read_csv(ROOT + '/2014.csv')
+season_2015 = pd.read_csv(ROOT + '/2015.csv')
+season_2016 = pd.read_csv(ROOT + '/2016.csv')
+opp_2016 = pd.read_csv(ROOT + '/opp_2016.csv')
+opp_2015 = pd.read_csv(ROOT + '/opp_2015.csv')
+opp_2014 = pd.read_csv(ROOT + '/opp_2014.csv')
+opp_2013 = pd.read_csv(ROOT + '/opp_2013.csv')
+opp_2012 = pd.read_csv(ROOT + '/opp_2012.csv')
+opp_2011 = pd.read_csv(ROOT + '/opp_2011.csv')
+opp_2010 = pd.read_csv(ROOT + '/opp_2010.csv')
 wins_cleaned = pd.read_csv(ROOT + 'wins_cleaned.csv')
-final_data = pd.read_csv(ROOT + 'final_data.csv')
 
 # Remove teams that did not make the tournament
-season_2003 = season_2003[season_2003.School.str.contains("NCAA")]
-season_2004 = season_2004[season_2004.School.str.contains("NCAA")]
-season_2005 = season_2005[season_2005.School.str.contains("NCAA")]
-season_2006 = season_2006[season_2006.School.str.contains("NCAA")]
-season_2007 = season_2007[season_2007.School.str.contains("NCAA")]
-season_2008 = season_2008[season_2008.School.str.contains("NCAA")]
-season_2009 = season_2009[season_2009.School.str.contains("NCAA")]
 season_2010 = season_2010[season_2010.School.str.contains("NCAA")]
 opp_2010 = opp_2010[opp_2010.School.str.contains("NCAA")]
 season_2011 = season_2011[season_2011.School.str.contains("NCAA")]
