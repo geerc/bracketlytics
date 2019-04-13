@@ -54,33 +54,26 @@ opp_2016['School'] = opp_2016['School'].replace("NCAA$", "2016", regex=True)
 print(opp_2016)
 
 # Add DRB column and remove TRB
-opp_2016['opp_DRB'] = opp_2016['TRB'] - opp_2016['ORB']
-opp_2016.drop(opp_2016[['TRB']], inplace=True, axis=1)
-opp_2016.columns = ['School','opp_ORB','opp_DRB']
+opp_2016['opp_DRB'] = opp_2016['opp_TRB'] - opp_2016['opp_ORB']
+opp_2016.drop(opp_2016[['opp_TRB']], inplace=True, axis=1)
 
 opp_2015['DRB'] = opp_2015['TRB'] - opp_2015['ORB']
 opp_2015.drop(opp_2015[['TRB']], inplace=True, axis=1)
-opp_2015.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2014['DRB'] = opp_2014['TRB'] - opp_2014['ORB']
 opp_2014.drop(opp_2014[['TRB']], inplace=True, axis=1)
-opp_2014.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2013['DRB'] = opp_2013['TRB'] - opp_2013['ORB']
 opp_2013.drop(opp_2013[['TRB']], inplace=True, axis=1)
-opp_2013.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2012['DRB'] = opp_2012['TRB'] - opp_2012['ORB']
 opp_2012.drop(opp_2012[['TRB']], inplace=True, axis=1)
-opp_2012.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2011['DRB'] = opp_2011['TRB'] - opp_2011['ORB']
 opp_2011.drop(opp_2011[['TRB']], inplace=True, axis=1)
-opp_2011.columns = ['School','opp_ORB','opp_DRB']
 
 opp_2010['DRB'] = opp_2010['TRB'] - opp_2010['ORB']
 opp_2010.drop(opp_2010[['TRB']], inplace=True, axis=1)
-opp_2010.columns = ['School','opp_ORB','opp_DRB']
 
 # Remove unnecssary columns
 full_data.drop(full_data[['Table Names-1','Table Names']], inplace=True, axis=1)
