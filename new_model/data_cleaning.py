@@ -116,13 +116,9 @@ def calculate_stats(data):
     data['opp_FT%'] = data['opp_FT'] / data['opp_FGA']
     data[['opp_FT%']] = data[['opp_FT%']].round(3)
 
+# Calculate the stats
 calculate_stats(data)
-print(data)
 
-#### Create offensive and defensive free throw percentage
-tourney_data['Wft%'] = tourney_data['Wftm'] / tourney_data['Wfga']
-tourney_data['Lft%'] = tourney_data['Lftm'] / tourney_data['Lfga']
-tourney_data[['Wft%', 'Lft%']] = tourney_data[['Wft%', 'Lft%']].round(3)
 
 tourney_data.drop(tourney_data[['Lteam','Daynum','Wscore','Lscore','Wloc','Numot','Wfgm','Wfga','Wfgm3','Wfga3','Wftm','Wfta','Wor','Wdr','Wast','Wto','Wstl','Wblk','Wpf','Lfgm','Lfga','Lfgm3','Lfga3','Lftm','Lfta','Lor','Ldr','Last','Lto','Lstl','Lblk','Lpf']], inplace=True, axis=1)
 
