@@ -45,6 +45,15 @@ season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=Tru
 opp_2016['School'] = opp_2016['School'].replace("NCAA$", "2016", regex=True)
 
 # Add DRB column and remove TRB
+def add_opp_DRB(data):
+    data['opp_DRB'] = data['opp_TRB'] - data['opp_ORB']
+    data.drop(data[['opp_TRB']], inplace=True, axis=1)
+
+def add_DRB(data):
+    data['DRB'] = data['TRB'] - data['ORB']
+    data.drop(data[['TRB']], inplace=True, axis=1)
+
+
 opp_2016['opp_DRB'] = opp_2016['opp_TRB'] - opp_2016['opp_ORB']
 opp_2016.drop(opp_2016[['opp_TRB']], inplace=True, axis=1)
 
@@ -105,10 +114,16 @@ def calculate_stats(data):
     data['DRB%'] = data['DRB'] / (data['DRB'] + data['opp_ORB'])
     data[['DRB%']] = data[['DRB%']].round(3)
 
-    #
+    # Offensive free throw percentage
+    data['FT%'] = data['FT'] / data['FGA']
+    data[['FT%']] = data[['FT%']].round(3)
 
-efg_pct(data)
-opp_efg_pct(data)
+    # Defensive free throw percentage
+    data['opp_FT%'] = data['opp_FT'] / data['opp_FGA']
+    data[['opp_FT%']] = data[['opp_FT%']].round(3)
+
+calculate_stats(data)
+print(data)
 
 #### Create offensive and defensive free throw percentage
 tourney_data['Wft%'] = tourney_data['Wftm'] / tourney_data['Wfga']
