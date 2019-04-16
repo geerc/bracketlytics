@@ -132,4 +132,4 @@ print(data)
 # Remove unnecssary columns
 data = data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
 
-data.to_csv(ROOT + 'model_data')
+data.to_csv(ROOT + 'model_data.csv')
