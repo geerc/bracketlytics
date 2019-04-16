@@ -83,6 +83,10 @@ opp_2014.to_csv(ROOT + 'opp_2014_new.csv')
 opp_2015.to_csv(ROOT + 'opp_2015_new.csv')
 opp_2016.to_csv(ROOT + 'opp_2016_new.csv')
 
+data = pd.read_csv(ROOT + 'pre_calc_data.csv')
+
+print(data)
+
 # Calculate advanced statistics (tourney_data)
 #### Create effective field goal percentage for each seasoon (off and def)
 def efg_pct(data):
@@ -93,26 +97,13 @@ def opp_efg_pct(data):
     data['opp_EFG%'] = (data['opp_FG'] + float(0.5) * data['opp_3P']) / data['opp_FGA']
     data[['opp_EFG%']] = data[['opp_EFG%']].round(3)
 
-efg_pct(season_2010)
-efg_pct(season_2011)
-efg_pct(season_2012)
-efg_pct(season_2013)
-efg_pct(season_2014)
-efg_pct(season_2015)
-efg_pct(season_2016)
-
-opp_efg_pct(opp_2010)
-opp_efg_pct(opp_2011)
-opp_efg_pct(opp_2012)
-opp_efg_pct(opp_2013)
-opp_efg_pct(opp_2014)
-opp_efg_pct(opp_2015)
-opp_efg_pct(opp_2016)
-
-def efg_pct(data):
-    data['ORB%'] = data['ORB'] / (data['ORB'] + data[''])
+efg_pct(data)
+opp_efg_pct(data)
 
 #### Create offensive and defensive rebounding percentage
+
+
+
 tourney_data['Wor%'] = tourney_data['Wor'] / (tourney_data['Wor'] + tourney_data['Ldr'])
 tourney_data['Wdr%'] = tourney_data['Wdr'] / (tourney_data['Wdr'] + tourney_data['Lor'])
 tourney_data['Lor%'] = tourney_data['Lor'] / (tourney_data['Lor'] + tourney_data['Wdr'])
