@@ -130,7 +130,9 @@ calculate_stats(data)
 print(data)
 
 # Remove unnecssary columns
-data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
+data = data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
+
+data.to_csv(ROOT + 'model_data')
 
 # Get number of wins in tournament for each team, convert that series to a dataframe
 team_wins = tourney_data.groupby(['Season','Wteam']).size()
