@@ -118,7 +118,7 @@ def calculate_stats(data):
 
     # Offensive turnover percentage
     data['TOV%'] = data['TOV'] / (data['FGA'] + .44 * data['FTA'] + data['TOV'])
-    data[['TOV%']] = data[['TOV&']].round(3)
+    data[['TOV%']] = data[['TOV%']].round(3)
 
     # Defensive turnover percentage
     data['opp_TOV%'] = data['opp_TOV'] / (data['opp_FGA'] + 0.44 * data['opp_FTA'] + data['opp_TOV'])
@@ -130,7 +130,6 @@ calculate_stats(data)
 print(data)
 
 # Remove unnecssary columns
-data.drop(data[['FG':'opp_DRB']], inplace=True, axis=1)
 data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
 
 # Get number of wins in tournament for each team, convert that series to a dataframe
