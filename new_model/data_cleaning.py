@@ -133,3 +133,19 @@ print(data)
 data = data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
 
 data.to_csv(ROOT + 'model_data.csv')
+
+# Add teams that did not win a game to wins_cleaned
+while count > len(data.index):
+    count = 0
+    for i, j in wins_cleaned.iterrows():
+        wins_cleaned_school = (j['School'])
+    if wins_cleaned_school in data.index == True:
+        return 1
+    else:
+        return 0
+    count += 1
+
+
+print(wins_cleaned_school)    
+
+wins_cleaned_school in data.School
