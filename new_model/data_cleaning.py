@@ -19,7 +19,7 @@ opp_2011 = pd.read_csv(ROOT + '/opp_2011.csv')
 opp_2010 = pd.read_csv(ROOT + '/opp_2010.csv')
 wins_cleaned = pd.read_csv(ROOT + 'wins_cleaned.csv')
 
-# Remove teams that did not make the tournament
+# Remove teams that did not make the tournament (aldready done for non opp stats)
 opp_2010 = opp_2010[opp_2010.School.str.contains("NCAA")]
 opp_2011 = opp_2011[opp_2011.School.str.contains("NCAA")]
 opp_2012 = opp_2012[opp_2012.School.str.contains("NCAA")]
@@ -52,6 +52,23 @@ def add_opp_DRB(data):
 def add_DRB(data):
     data['DRB'] = data['TRB'] - data['ORB']
     data.drop(data[['TRB']], inplace=True, axis=1)
+
+add_opp_DRB(opp_2010)
+add_opp_DRB(opp_2011)
+add_opp_DRB(opp_2012)
+add_opp_DRB(opp_2013)
+add_opp_DRB(opp_2014)
+add_opp_DRB(opp_2015)
+add_opp_DRB(opp_2016)
+
+add_DRB(season_2010)
+add_DRB(season_2011)
+add_DRB(season_2012)
+add_DRB(season_2013)
+add_DRB(season_2014)
+add_DRB(season_2015)
+add_DRB(season_2016)
+
 
 
 opp_2016['opp_DRB'] = opp_2016['opp_TRB'] - opp_2016['opp_ORB']
