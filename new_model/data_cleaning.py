@@ -116,11 +116,22 @@ def calculate_stats(data):
     data['opp_FT%'] = data['opp_FT'] / data['opp_FGA']
     data[['opp_FT%']] = data[['opp_FT%']].round(3)
 
+    # Offensive turnover percentage
+    data['TOV%'] = data['TOV'] / (data['FGA'] + .44 * data['FTA'] + data['TOV'])
+    data[['TOV%']] = data[['TOV&']].round(3)
+
+    # Defensive turnover percentage
+    data['opp_TOV%'] = data['opp_TOV'] / (data['opp_FGA'] + 0.44 * data['opp_FTA'] + data['opp_TOV'])
+    data[['opp_TOV%']] = data[['opp_TOV%']].round(3)
+
 # Calculate the stats
 calculate_stats(data)
 
+print(data)
 
-tourney_data.drop(tourney_data[['Lteam','Daynum','Wscore','Lscore','Wloc','Numot','Wfgm','Wfga','Wfgm3','Wfga3','Wftm','Wfta','Wor','Wdr','Wast','Wto','Wstl','Wblk','Wpf','Lfgm','Lfga','Lfgm3','Lfga3','Lftm','Lfta','Lor','Ldr','Last','Lto','Lstl','Lblk','Lpf']], inplace=True, axis=1)
+# Remove unnecssary columns
+data.drop(data[['FG':'opp_DRB']], inplace=True, axis=1)
+data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
 
 # Get number of wins in tournament for each team, convert that series to a dataframe
 team_wins = tourney_data.groupby(['Season','Wteam']).size()
