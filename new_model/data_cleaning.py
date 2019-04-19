@@ -142,10 +142,3 @@ for i, j in wins_cleaned.iterrows():
     else:
         # Pass the row elements as key value pairs to append() function
         wins_cleaned = wins_cleaned.append({'School': wins_cleaned_school, 'wins': 0} , ignore_index=True)
-
-modDfObj = wins_cleaned.append({'School' : "Nova 2020" , 'wins' : 0} , ignore_index=True)
-
-
-print(modDfObj)
-print(data)
-wins_cleaned_school in data.school
