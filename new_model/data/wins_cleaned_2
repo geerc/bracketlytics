@@ -1,310 +1,531 @@
-,wins,School
-0,1,Ark Pine Bluff 2010
-1,3,Baylor 2010
-2,5,Butler 2010
-3,1,BYU 2010
-4,1,California 2010
-5,2,Cornell 2010
-6,6,Duke 2010
-7,1,Georgia Tech 2010
-8,1,Gonzaga 2010
-9,1,Kansas 2010
-10,3,Kansas St 2010
-11,3,Kentucky 2010
-12,1,Maryland 2010
-13,4,Michigan St 2010
-14,1,Missouri 2010
-15,1,Murray St 2010
-16,1,New Mexico 2010
-17,2,Northern Iowa 2010
-18,1,Ohio 2010
-19,2,Ohio St 2010
-20,1,Old Dominion 2010
-21,1,Pittsburgh 2010
-22,2,Purdue 2010
-23,2,St Mary's CA 2010
-24,2,Syracuse 2010
-25,3,Tennessee 2010
-26,1,Texas A&M 2010
-27,1,Villanova 2010
-28,1,Wake Forest 2010
-29,2,Washington 2010
-30,4,West Virginia 2010
-31,1,Wisconsin 2010
-32,2,Xavier 2010
-33,3,Arizona 2011
-34,5,Butler 2011
-35,2,BYU 2011
-36,1,Cincinnati 2011
-37,1,Clemson 2011
-38,6,Connecticut 2011
-39,2,Duke 2011
-40,3,Florida 2011
-41,2,Florida St 2011
-42,1,George Mason 2011
-43,1,Gonzaga 2011
-44,1,Illinois 2011
-45,3,Kansas 2011
-46,1,Kansas St 2011
-47,4,Kentucky 2011
-48,2,Marquette 2011
-49,1,Michigan 2011
-50,1,Morehead St 2011
-51,3,North Carolina 2011
-52,1,Notre Dame 2011
-53,2,Ohio St 2011
-54,1,Pittsburgh 2011
-55,1,Purdue 2011
-56,2,Richmond 2011
-57,2,San Diego St 2011
-58,1,Syracuse 2011
-59,1,Temple 2011
-60,1,Texas 2011
-61,1,UCLA 2011
-62,1,UNC Asheville 2011
-63,1,UT San Antonio 2011
-64,5,VA Commonwealth 2011
-65,1,Washington 2011
-66,1,West Virginia 2011
-67,2,Wisconsin 2011
-68,3,Baylor 2012
-69,1,BYU 2012
-70,2,Cincinnati 2012
-71,1,Colorado 2012
-72,1,Creighton 2012
-73,3,Florida 2012
-74,1,Florida St 2012
-75,1,Georgetown 2012
-76,1,Gonzaga 2012
-77,2,Indiana 2012
-78,1,Iowa St 2012
-79,5,Kansas 2012
-80,1,Kansas St 2012
-81,6,Kentucky 2012
-82,1,Lehigh 2012
-83,4,Louisville 2012
-84,2,Marquette 2012
-85,2,Michigan St 2012
-86,1,Murray St 2012
-87,2,NC State 2012
-88,1,New Mexico 2012
-89,1,Norfolk St 2012
-90,3,North Carolina 2012
-91,2,Ohio 2012
-92,4,Ohio St 2012
-93,1,Purdue 2012
-94,2,South Florida 2012
-95,1,St Louis 2012
-96,3,Syracuse 2012
-97,1,VA Commonwealth 2012
-98,1,Vanderbilt 2012
-99,1,Vermont 2012
-100,1,WKU 2012
-101,2,Wisconsin 2012
-102,2,Xavier 2012
-103,2,Arizona 2013
-104,1,Butler 2013
-105,1,California 2013
-106,1,Colorado St 2013
-107,1,Creighton 2013
-108,3,Duke 2013
-109,2,FL Gulf Coast 2013
-110,3,Florida 2013
-111,1,Gonzaga 2013
-112,1,Harvard 2013
-113,1,Illinois 2013
-114,2,Indiana 2013
-115,1,Iowa St 2013
-116,1,James Madison 2013
-117,2,Kansas 2013
-118,3,La Salle 2013
-119,6,Louisville 2013
-120,3,Marquette 2013
-121,1,Memphis 2013
-122,2,Miami FL 2013
-123,5,Michigan 2013
-124,2,Michigan St 2013
-125,1,Minnesota 2013
-126,1,Mississippi 2013
-127,1,NC A&T 2013
-128,1,North Carolina 2013
-129,3,Ohio St 2013
-130,2,Oregon 2013
-131,1,San Diego St 2013
-132,1,St Louis 2013
-133,1,St Mary's CA 2013
-134,4,Syracuse 2013
-135,1,Temple 2013
-136,1,VA Commonwealth 2013
-137,4,Wichita St 2013
-138,1,Albany NY 2014
-139,3,Arizona 2014
-140,2,Baylor 2014
-141,1,Cal Poly SLO 2014
-142,6,Connecticut 2014
-143,1,Creighton 2014
-144,3,Dayton 2014
-145,4,Florida 2014
-146,1,Gonzaga 2014
-147,1,Harvard 2014
-148,2,Iowa St 2014
-149,1,Kansas 2014
-150,5,Kentucky 2014
-151,2,Louisville 2014
-152,1,Memphis 2014
-153,1,Mercer 2014
-154,3,Michigan 2014
-155,3,Michigan St 2014
-156,1,N Dakota St 2014
-157,1,NC State 2014
-158,1,North Carolina 2014
-159,1,Oregon 2014
-160,1,Pittsburgh 2014
-161,2,San Diego St 2014
-162,1,SF Austin 2014
-163,1,St Louis 2014
-164,2,Stanford 2014
-165,1,Syracuse 2014
-166,3,Tennessee 2014
-167,1,Texas 2014
-168,2,UCLA 2014
-169,1,Villanova 2014
-170,2,Virginia 2014
-171,1,Wichita St 2014
-172,4,Wisconsin 2014
-173,3,Arizona 2015
-174,1,Arkansas 2015
-175,1,Butler 2015
-176,1,Cincinnati 2015
-177,2,Dayton 2015
-178,6,Duke 2015
-179,1,Georgetown 2015
-180,1,Georgia St 2015
-181,3,Gonzaga 2015
-182,1,Hampton 2015
-183,1,Iowa 2015
-184,1,Kansas 2015
-185,4,Kentucky 2015
-186,3,Louisville 2015
-187,1,Maryland 2015
-188,4,Michigan St 2015
-189,1,Mississippi 2015
-190,2,NC State 2015
-191,2,North Carolina 2015
-192,1,Northern Iowa 2015
-193,3,Notre Dame 2015
-194,1,Ohio St 2015
-195,2,Oklahoma 2015
-196,1,Oregon 2015
-197,1,Robert Morris 2015
-198,1,San Diego St 2015
-199,1,UAB 2015
-200,2,UCLA 2015
-201,2,Utah 2015
-202,1,Villanova 2015
-203,1,Virginia 2015
-204,2,West Virginia 2015
-205,2,Wichita St 2015
-206,5,Wisconsin 2015
-207,2,Xavier 2015
-208,1,Ark Little Rock 2016
-209,1,Butler 2016
-210,1,Connecticut 2016
-211,2,Duke 2016
-212,1,FL Gulf Coast 2016
-213,2,Gonzaga 2016
-214,1,Hawaii 2016
-215,1,Holy Cross 2016
-216,2,Indiana 2016
-217,1,Iowa 2016
-218,2,Iowa St 2016
-219,3,Kansas 2016
-220,1,Kentucky 2016
-221,2,Maryland 2016
-222,2,Miami FL 2016
-223,1,Michigan 2016
-224,1,MTSU 2016
-225,5,North Carolina 2016
-226,1,Northern Iowa 2016
-227,3,Notre Dame 2016
-228,4,Oklahoma 2016
-229,3,Oregon 2016
-230,1,Providence 2016
-231,1,SF Austin 2016
-232,1,St Joseph's PA 2016
-233,4,Syracuse 2016
-234,2,Texas A&M 2016
-235,1,Utah 2016
-236,1,VA Commonwealth 2016
-237,6,Villanova 2016
-238,3,Virginia 2016
-239,2,Wichita St 2016
-240,2,Wisconsin 2016
-241,1,Xavier 2016
-242,1,Yale 2016
-243,0,Ark Pine Bluff 2010
-244,0,BYU 2010
-245,0,Kansas St 2010
-246,0,Michigan St 2010
-247,0,Murray St 2010
-248,0,Ohio St 2010
-249,0,St Mary's CA 2010
-250,0,BYU 2011
-251,0,Florida St 2011
-252,0,Kansas St 2011
-253,0,Morehead St 2011
-254,0,Ohio St 2011
-255,0,San Diego St 2011
-256,0,UNC Asheville 2011
-257,0,UT San Antonio 2011
-258,0,VA Commonwealth 2011
-259,0,BYU 2012
-260,0,Florida St 2012
-261,0,Iowa St 2012
-262,0,Kansas St 2012
-263,0,Michigan St 2012
-264,0,Murray St 2012
-265,0,NC State 2012
-266,0,Norfolk St 2012
-267,0,Ohio St 2012
-268,0,St Louis 2012
-269,0,VA Commonwealth 2012
-270,0,WKU 2012
-271,0,Colorado St 2013
-272,0,FL Gulf Coast 2013
-273,0,Iowa St 2013
-274,0,Miami FL 2013
-275,0,Michigan St 2013
-276,0,NC A&T 2013
-277,0,Ohio St 2013
-278,0,San Diego St 2013
-279,0,St Louis 2013
-280,0,St Mary's CA 2013
-281,0,VA Commonwealth 2013
-282,0,Wichita St 2013
-283,0,Albany NY 2014
-284,0,Cal Poly SLO 2014
-285,0,Iowa St 2014
-286,0,Michigan St 2014
-287,0,N Dakota St 2014
-288,0,NC State 2014
-289,0,San Diego St 2014
-290,0,SF Austin 2014
-291,0,St Louis 2014
-292,0,Wichita St 2014
-293,0,Georgia St 2015
-294,0,Michigan St 2015
-295,0,NC State 2015
-296,0,Ohio St 2015
-297,0,San Diego St 2015
-298,0,UAB 2015
-299,0,Wichita St 2015
-300,0,Ark Little Rock 2016
-301,0,FL Gulf Coast 2016
-302,0,Iowa St 2016
-303,0,Miami FL 2016
-304,0,MTSU 2016
-305,0,SF Austin 2016
-306,0,St Joseph's PA 2016
-307,0,VA Commonwealth 2016
-308,0,Wichita St 2016
+,Unnamed: 0,Team_Id,wins,School
+0,231.0,1115.0,1,Ark Pine Bluff 2010
+1,232.0,1124.0,3,Baylor 2010
+2,233.0,1139.0,5,Butler 2010
+3,234.0,1140.0,1,BYU 2010
+4,235.0,1143.0,1,California 2010
+5,236.0,1165.0,2,Cornell 2010
+6,237.0,1181.0,6,Duke 2010
+7,238.0,1210.0,1,Georgia Tech 2010
+8,239.0,1211.0,1,Gonzaga 2010
+9,240.0,1242.0,1,Kansas 2010
+10,241.0,1243.0,3,Kansas St 2010
+11,242.0,1246.0,3,Kentucky 2010
+12,243.0,1268.0,1,Maryland 2010
+13,244.0,1277.0,4,Michigan St 2010
+14,245.0,1281.0,1,Missouri 2010
+15,246.0,1293.0,1,Murray St 2010
+16,247.0,1307.0,1,New Mexico 2010
+17,248.0,1320.0,2,Northern Iowa 2010
+18,249.0,1325.0,1,Ohio 2010
+19,250.0,1326.0,2,Ohio St 2010
+20,251.0,1330.0,1,Old Dominion 2010
+21,252.0,1338.0,1,Pittsburgh 2010
+22,253.0,1345.0,2,Purdue 2010
+23,254.0,1388.0,2,St Mary's CA 2010
+24,255.0,1393.0,2,Syracuse 2010
+25,256.0,1397.0,3,Tennessee 2010
+26,257.0,1401.0,1,Texas A&M 2010
+27,258.0,1437.0,1,Villanova 2010
+28,259.0,1448.0,1,Wake Forest 2010
+29,260.0,1449.0,2,Washington 2010
+30,261.0,1452.0,4,West Virginia 2010
+31,262.0,1458.0,1,Wisconsin 2010
+32,263.0,1462.0,2,Xavier 2010
+33,264.0,1112.0,3,Arizona 2011
+34,265.0,1139.0,5,Butler 2011
+35,266.0,1140.0,2,BYU 2011
+36,267.0,1153.0,1,Cincinnati 2011
+37,268.0,1155.0,1,Clemson 2011
+38,269.0,1163.0,6,Connecticut 2011
+39,270.0,1181.0,2,Duke 2011
+40,271.0,1196.0,3,Florida 2011
+41,272.0,1199.0,2,Florida St 2011
+42,273.0,1206.0,1,George Mason 2011
+43,274.0,1211.0,1,Gonzaga 2011
+44,275.0,1228.0,1,Illinois 2011
+45,276.0,1242.0,3,Kansas 2011
+46,277.0,1243.0,1,Kansas St 2011
+47,278.0,1246.0,4,Kentucky 2011
+48,279.0,1266.0,2,Marquette 2011
+49,280.0,1276.0,1,Michigan 2011
+50,281.0,1287.0,1,Morehead St 2011
+51,282.0,1314.0,3,North Carolina 2011
+52,283.0,1323.0,1,Notre Dame 2011
+53,284.0,1326.0,2,Ohio St 2011
+54,285.0,1338.0,1,Pittsburgh 2011
+55,286.0,1345.0,1,Purdue 2011
+56,287.0,1350.0,2,Richmond 2011
+57,288.0,1361.0,2,San Diego St 2011
+58,289.0,1393.0,1,Syracuse 2011
+59,290.0,1396.0,1,Temple 2011
+60,291.0,1400.0,1,Texas 2011
+61,292.0,1417.0,1,UCLA 2011
+62,293.0,1421.0,1,UNC Asheville 2011
+63,294.0,1427.0,1,UT San Antonio 2011
+64,295.0,1433.0,5,VA Commonwealth 2011
+65,296.0,1449.0,1,Washington 2011
+66,297.0,1452.0,1,West Virginia 2011
+67,298.0,1458.0,2,Wisconsin 2011
+68,299.0,1124.0,3,Baylor 2012
+69,300.0,1140.0,1,BYU 2012
+70,301.0,1153.0,2,Cincinnati 2012
+71,302.0,1160.0,1,Colorado 2012
+72,303.0,1166.0,1,Creighton 2012
+73,304.0,1196.0,3,Florida 2012
+74,305.0,1199.0,1,Florida St 2012
+75,306.0,1207.0,1,Georgetown 2012
+76,307.0,1211.0,1,Gonzaga 2012
+77,308.0,1231.0,2,Indiana 2012
+78,309.0,1235.0,1,Iowa St 2012
+79,310.0,1242.0,5,Kansas 2012
+80,311.0,1243.0,1,Kansas St 2012
+81,312.0,1246.0,6,Kentucky 2012
+82,313.0,1250.0,1,Lehigh 2012
+83,314.0,1257.0,4,Louisville 2012
+84,315.0,1266.0,2,Marquette 2012
+85,316.0,1277.0,2,Michigan St 2012
+86,317.0,1293.0,1,Murray St 2012
+87,318.0,1301.0,2,NC State 2012
+88,319.0,1307.0,1,New Mexico 2012
+89,320.0,1313.0,1,Norfolk St 2012
+90,321.0,1314.0,3,North Carolina 2012
+91,322.0,1325.0,2,Ohio 2012
+92,323.0,1326.0,4,Ohio St 2012
+93,324.0,1345.0,1,Purdue 2012
+94,325.0,1378.0,2,South Florida 2012
+95,326.0,1387.0,1,St Louis 2012
+96,327.0,1393.0,3,Syracuse 2012
+97,328.0,1433.0,1,VA Commonwealth 2012
+98,329.0,1435.0,1,Vanderbilt 2012
+99,330.0,1436.0,1,Vermont 2012
+100,331.0,1443.0,1,WKU 2012
+101,332.0,1458.0,2,Wisconsin 2012
+102,333.0,1462.0,2,Xavier 2012
+103,334.0,1112.0,2,Arizona 2013
+104,335.0,1139.0,1,Butler 2013
+105,336.0,1143.0,1,California 2013
+106,337.0,1161.0,1,Colorado St 2013
+107,338.0,1166.0,1,Creighton 2013
+108,339.0,1181.0,3,Duke 2013
+109,340.0,1195.0,2,FL Gulf Coast 2013
+110,341.0,1196.0,3,Florida 2013
+111,342.0,1211.0,1,Gonzaga 2013
+112,343.0,1217.0,1,Harvard 2013
+113,344.0,1228.0,1,Illinois 2013
+114,345.0,1231.0,2,Indiana 2013
+115,346.0,1235.0,1,Iowa St 2013
+116,347.0,1241.0,1,James Madison 2013
+117,348.0,1242.0,2,Kansas 2013
+118,349.0,1247.0,3,La Salle 2013
+119,350.0,1257.0,6,Louisville 2013
+120,351.0,1266.0,3,Marquette 2013
+121,352.0,1272.0,1,Memphis 2013
+122,353.0,1274.0,2,Miami FL 2013
+123,354.0,1276.0,5,Michigan 2013
+124,355.0,1277.0,2,Michigan St 2013
+125,356.0,1278.0,1,Minnesota 2013
+126,357.0,1279.0,1,Mississippi 2013
+127,358.0,1299.0,1,NC A&T 2013
+128,359.0,1314.0,1,North Carolina 2013
+129,360.0,1326.0,3,Ohio St 2013
+130,361.0,1332.0,2,Oregon 2013
+131,362.0,1361.0,1,San Diego St 2013
+132,363.0,1387.0,1,St Louis 2013
+133,364.0,1388.0,1,St Mary's CA 2013
+134,365.0,1393.0,4,Syracuse 2013
+135,366.0,1396.0,1,Temple 2013
+136,367.0,1433.0,1,VA Commonwealth 2013
+137,368.0,1455.0,4,Wichita St 2013
+138,369.0,1107.0,1,Albany NY 2014
+139,370.0,1112.0,3,Arizona 2014
+140,371.0,1124.0,2,Baylor 2014
+141,372.0,1142.0,1,Cal Poly SLO 2014
+142,373.0,1163.0,6,Connecticut 2014
+143,374.0,1166.0,1,Creighton 2014
+144,375.0,1173.0,3,Dayton 2014
+145,376.0,1196.0,4,Florida 2014
+146,377.0,1211.0,1,Gonzaga 2014
+147,378.0,1217.0,1,Harvard 2014
+148,379.0,1235.0,2,Iowa St 2014
+149,380.0,1242.0,1,Kansas 2014
+150,381.0,1246.0,5,Kentucky 2014
+151,382.0,1257.0,2,Louisville 2014
+152,383.0,1272.0,1,Memphis 2014
+153,384.0,1273.0,1,Mercer 2014
+154,385.0,1276.0,3,Michigan 2014
+155,386.0,1277.0,3,Michigan St 2014
+156,387.0,1295.0,1,N Dakota St 2014
+157,388.0,1301.0,1,NC State 2014
+158,389.0,1314.0,1,North Carolina 2014
+159,390.0,1332.0,1,Oregon 2014
+160,391.0,1338.0,1,Pittsburgh 2014
+161,392.0,1361.0,2,San Diego St 2014
+162,393.0,1372.0,1,SF Austin 2014
+163,394.0,1387.0,1,St Louis 2014
+164,395.0,1390.0,2,Stanford 2014
+165,396.0,1393.0,1,Syracuse 2014
+166,397.0,1397.0,3,Tennessee 2014
+167,398.0,1400.0,1,Texas 2014
+168,399.0,1417.0,2,UCLA 2014
+169,400.0,1437.0,1,Villanova 2014
+170,401.0,1438.0,2,Virginia 2014
+171,402.0,1455.0,1,Wichita St 2014
+172,403.0,1458.0,4,Wisconsin 2014
+173,404.0,1112.0,3,Arizona 2015
+174,405.0,1116.0,1,Arkansas 2015
+175,406.0,1139.0,1,Butler 2015
+176,407.0,1153.0,1,Cincinnati 2015
+177,408.0,1173.0,2,Dayton 2015
+178,409.0,1181.0,6,Duke 2015
+179,410.0,1207.0,1,Georgetown 2015
+180,411.0,1209.0,1,Georgia St 2015
+181,412.0,1211.0,3,Gonzaga 2015
+182,413.0,1214.0,1,Hampton 2015
+183,414.0,1234.0,1,Iowa 2015
+184,415.0,1242.0,1,Kansas 2015
+185,416.0,1246.0,4,Kentucky 2015
+186,417.0,1257.0,3,Louisville 2015
+187,418.0,1268.0,1,Maryland 2015
+188,419.0,1277.0,4,Michigan St 2015
+189,420.0,1279.0,1,Mississippi 2015
+190,421.0,1301.0,2,NC State 2015
+191,422.0,1314.0,2,North Carolina 2015
+192,423.0,1320.0,1,Northern Iowa 2015
+193,424.0,1323.0,3,Notre Dame 2015
+194,425.0,1326.0,1,Ohio St 2015
+195,426.0,1328.0,2,Oklahoma 2015
+196,427.0,1332.0,1,Oregon 2015
+197,428.0,1352.0,1,Robert Morris 2015
+198,429.0,1361.0,1,San Diego St 2015
+199,430.0,1412.0,1,UAB 2015
+200,431.0,1417.0,2,UCLA 2015
+201,432.0,1428.0,2,Utah 2015
+202,433.0,1437.0,1,Villanova 2015
+203,434.0,1438.0,1,Virginia 2015
+204,435.0,1452.0,2,West Virginia 2015
+205,436.0,1455.0,2,Wichita St 2015
+206,437.0,1458.0,5,Wisconsin 2015
+207,438.0,1462.0,2,Xavier 2015
+208,439.0,1114.0,1,Ark Little Rock 2016
+209,440.0,1139.0,1,Butler 2016
+210,441.0,1163.0,1,Connecticut 2016
+211,442.0,1181.0,2,Duke 2016
+212,443.0,1195.0,1,FL Gulf Coast 2016
+213,444.0,1211.0,2,Gonzaga 2016
+214,445.0,1218.0,1,Hawaii 2016
+215,446.0,1221.0,1,Holy Cross 2016
+216,447.0,1231.0,2,Indiana 2016
+217,448.0,1234.0,1,Iowa 2016
+218,449.0,1235.0,2,Iowa St 2016
+219,450.0,1242.0,3,Kansas 2016
+220,451.0,1246.0,1,Kentucky 2016
+221,452.0,1268.0,2,Maryland 2016
+222,453.0,1274.0,2,Miami FL 2016
+223,454.0,1276.0,1,Michigan 2016
+224,455.0,1292.0,1,MTSU 2016
+225,456.0,1314.0,5,North Carolina 2016
+226,457.0,1320.0,1,Northern Iowa 2016
+227,458.0,1323.0,3,Notre Dame 2016
+228,459.0,1328.0,4,Oklahoma 2016
+229,460.0,1332.0,3,Oregon 2016
+230,461.0,1344.0,1,Providence 2016
+231,462.0,1372.0,1,SF Austin 2016
+232,463.0,1386.0,1,St Joseph's PA 2016
+233,464.0,1393.0,4,Syracuse 2016
+234,465.0,1401.0,2,Texas A&M 2016
+235,466.0,1428.0,1,Utah 2016
+236,467.0,1433.0,1,VA Commonwealth 2016
+237,468.0,1437.0,6,Villanova 2016
+238,469.0,1438.0,3,Virginia 2016
+239,470.0,1455.0,2,Wichita St 2016
+240,471.0,1458.0,2,Wisconsin 2016
+241,472.0,1462.0,1,Xavier 2016
+242,473.0,1463.0,1,Yale 2016
+243,,,0,Akron 2013
+244,,,0,Albany (NY) 2013
+245,,,0,Belmont 2013
+246,,,0,Boise State 2013
+247,,,0,Bucknell 2013
+249,,,0,Cincinnati 2013
+251,,,0,Colorado 2013
+252,,,0,Davidson 2013
+254,,,0,Georgetown 2013
+255,,,0,Iona 2013
+257,,,0,Kansas State 2013
+258,,,0,Liberty 2013
+259,,,0,Long Island University 2013
+261,,,0,Middle Tennessee 2013
+262,,,0,Missouri 2013
+263,,,0,Montana 2013
+264,,,0,Nevada-Las Vegas 2013
+265,,,0,New Mexico State 2013
+266,,,0,New Mexico 2013
+268,,,0,North Carolina State 2013
+269,,,0,Northwestern State 2013
+270,,,0,Notre Dame 2013
+271,,,0,Ohio State 2013
+
+272,,,0,Oklahoma State 2013
+273,,,0,Oklahoma 2013
+274,,,0,Pacific 2013
+275,,,0,Pittsburgh 2013
+276,,,0,Saint Louis 2013
+277,,,0,Saint Mary's (CA) 2013
+278,,,0,San Diego State 2013
+279,,,0,South Dakota State 2013
+280,,,0,Southern 2013
+281,,,0,UCLA 2013
+282,,,0,Valparaiso 2013
+283,,,0,Villanova 2013
+284,,,0,Virginia Commonwealth 2013
+285,,,0,Western Kentucky 2013
+286,,,0,Wichita State 2013
+287,,,0,Wisconsin 2013
+288,,,0,Alabama-Birmingham 2015
+289,,,0,Albany (NY) 2015
+290,,,0,Baylor 2015
+291,,,0,Belmont 2015
+292,,,0,Boise State 2015
+293,,,0,Brigham Young 2015
+294,,,0,Buffalo 2015
+295,,,0,UC-Irvine 2015
+296,,,0,Coastal Carolina 2015
+297,,,0,Davidson 2015
+298,,,0,Eastern Washington 2015
+299,,,0,Georgia State 2015
+300,,,0,Georgia 2015
+301,,,0,Harvard 2015
+302,,,0,Indiana 2015
+303,,,0,Iowa State 2015
+304,,,0,Lafayette 2015
+305,,,0,Louisiana State 2015
+306,,,0,Manhattan 2015
+307,,,0,Michigan State 2015
+308,,,0,New Mexico State 2015
+309,,,0,North Carolina State 2015
+310,,,0,North Dakota State 2015
+311,,,0,North Florida 2015
+312,,,0,Northeastern 2015
+313,,,0,Ohio State 2015
+314,,,0,Oklahoma State 2015
+315,,,0,Providence 2015
+316,,,0,Purdue 2015
+317,,,0,San Diego State 2015
+318,,,0,Southern Methodist 2015
+319,,,0,St. John's (NY) 2015
+320,,,0,Stephen F. Austin 2015
+321,,,0,Texas Southern 2015
+322,,,0,Texas 2015
+323,,,0,Valparaiso 2015
+324,,,0,Virginia Commonwealth 2015
+325,,,0,Wichita State 2015
+326,,,0,Wofford 2015
+327,,,0,Wyoming 2015
+328,,,0,Akron 2011
+329,,,0,Alabama-Birmingham 2011
+330,,,0,Alabama State 2011
+331,,,0,Little Rock 2011
+332,,,0,Belmont 2011
+333,,,0,Boston University 2011
+334,,,0,Brigham Young 2011
+335,,,0,Bucknell 2011
+336,,,0,UC-Santa Barbara 2011
+337,,,0,Florida State 2011
+338,,,0,Georgetown 2011
+339,,,0,Georgia 2011
+340,,,0,Hampton 2011
+341,,,0,Indiana State 2011
+342,,,0,Kansas State 2011
+343,,,0,Long Island University 2011
+344,,,0,Louisville 2011
+345,,,0,Memphis 2011
+346,,,0,Michigan State 2011
+347,,,0,Missouri 2011
+348,,,0,Morehead State 2011
+349,,,0,Nevada-Las Vegas 2011
+350,,,0,North Carolina-Asheville 2011
+351,,,0,Northern Colorado 2011
+352,,,0,Oakland 2011
+353,,,0,Ohio State 2011
+354,,,0,Old Dominion 2011
+355,,,0,Penn State 2011
+356,,,0,Princeton 2011
+357,,,0,Saint Peter's 2011
+358,,,0,San Diego State 2011
+359,,,0,Southern California 2011
+360,,,0,St. John's (NY) 2011
+361,,,0,Tennessee 2011
+362,,,0,Texas A&M 2011
+363,,,0,Texas-San Antonio 2011
+364,,,0,Utah State 2011
+365,,,0,Vanderbilt 2011
+366,,,0,Villanova 2011
+367,,,0,Virginia Commonwealth 2011
+368,,,0,Wofford 2011
+369,,,0,Xavier 2011
+370,,,0,Arizona 2016
+371,,,0,Austin Peay 2016
+372,,,0,Baylor 2016
+373,,,0,Buffalo 2016
+374,,,0,Cal State Bakersfield 2016
+375,,,0,University of California 2016
+376,,,0,Chattanooga 2016
+377,,,0,Cincinnati 2016
+378,,,0,Colorado 2016
+379,,,0,Dayton 2016
+380,,,0,Fairleigh Dickinson 2016
+381,,,0,Florida Gulf Coast 2016
+382,,,0,Fresno State 2016
+383,,,0,Green Bay 2016
+384,,,0,Hampton 2016
+385,,,0,Iona 2016
+386,,,0,Iowa State 2016
+387,,,0,Michigan State 2016
+388,,,0,Middle Tennessee 2016
+389,,,0,North Carolina-Asheville 2016
+390,,,0,North Carolina-Wilmington 2016
+391,,,0,Oregon State 2016
+392,,,0,Pittsburgh 2016
+393,,,0,Purdue 2016
+394,,,0,Saint Joseph's 2016
+395,,,0,Seton Hall 2016
+396,,,0,South Dakota State 2016
+397,,,0,Southern California 2016
+398,,,0,Southern 2016
+399,,,0,Stephen F. Austin 2016
+400,,,0,Stony Brook 2016
+401,,,0,Temple 2016
+402,,,0,Texas Tech 2016
+403,,,0,Texas 2016
+404,,,0,Tulsa 2016
+405,,,0,Vanderbilt 2016
+406,,,0,Virginia Commonwealth 2016
+407,,,0,Weber State 2016
+408,,,0,West Virginia 2016
+409,,,0,Wichita State 2016
+410,,,0,American 2014
+411,,,0,Arizona State 2014
+412,,,0,Brigham Young 2014
+413,,,0,Cal Poly 2014
+414,,,0,Cincinnati 2014
+415,,,0,Coastal Carolina 2014
+416,,,0,Colorado 2014
+417,,,0,Delaware 2014
+418,,,0,Duke 2014
+419,,,0,Eastern Kentucky 2014
+420,,,0,George Washington 2014
+421,,,0,Iowa State 2014
+422,,,0,Iowa 2014
+423,,,0,Kansas State 2014
+424,,,0,Louisiana 2014
+425,,,0,Manhattan 2014
+426,,,0,Massachusetts 2014
+427,,,0,Michigan State 2014
+428,,,0,Milwaukee 2014
+429,,,0,Mount St. Mary's 2014
+430,,,0,Nebraska 2014
+431,,,0,New Mexico State 2014
+432,,,0,New Mexico 2014
+433,,,0,North Carolina Central 2014
+434,,,0,North Carolina State 2014
+435,,,0,North Dakota State 2014
+436,,,0,Ohio State 2014
+437,,,0,Oklahoma State 2014
+438,,,0,Oklahoma 2014
+439,,,0,Providence 2014
+440,,,0,Saint Joseph's 2014
+441,,,0,Saint Louis 2014
+442,,,0,San Diego State 2014
+443,,,0,Stephen F. Austin 2014
+444,,,0,Texas Southern 2014
+445,,,0,Tulsa 2014
+446,,,0,Virginia Commonwealth 2014
+447,,,0,Weber State 2014
+448,,,0,Western Michigan 2014
+449,,,0,Wichita State 2014
+450,,,0,Wofford 2014
+451,,,0,Xavier 2014
+452,,,0,Alabama 2012
+453,,,0,Belmont 2012
+454,,,0,Brigham Young 2012
+455,,,0,University of California 2012
+456,,,0,Colorado State 2012
+457,,,0,Connecticut 2012
+458,,,0,Davidson 2012
+459,,,0,Detroit Mercy 2012
+460,,,0,Duke 2012
+461,,,0,Florida State 2012
+462,,,0,Harvard 2012
+463,,,0,Iona 2012
+464,,,0,Iowa State 2012
+465,,,0,Kansas State 2012
+466,,,0,Lamar 2012
+467,,,0,Long Beach State 2012
+468,,,0,Long Island University 2012
+469,,,0,Loyola (MD) 2012
+470,,,0,Memphis 2012
+471,,,0,Michigan State 2012
+472,,,0,Michigan 2012
+473,,,0,Mississippi Valley State 2012
+474,,,0,Missouri 2012
+475,,,0,Montana 2012
+476,,,0,Murray State 2012
+477,,,0,Nevada-Las Vegas 2012
+478,,,0,New Mexico State 2012
+479,,,0,Norfolk State 2012
+480,,,0,North Carolina-Asheville 2012
+481,,,0,North Carolina State 2012
+482,,,0,Notre Dame 2012
+483,,,0,Ohio State 2012
+484,,,0,Saint Louis 2012
+485,,,0,Saint Mary's (CA) 2012
+486,,,0,San Diego State 2012
+487,,,0,South Dakota State 2012
+488,,,0,Southern Mississippi 2012
+489,,,0,St. Bonaventure 2012
+490,,,0,Temple 2012
+491,,,0,Texas 2012
+492,,,0,Virginia Commonwealth 2012
+493,,,0,Virginia 2012
+494,,,0,West Virginia 2012
+495,,,0,Western Kentucky 2012
+496,,,0,Wichita State 2012
+498,,,0,Brigham Young 2010
+499,,,0,UC-Santa Barbara 2010
+500,,,0,University of California 2010
+501,,,0,Clemson 2010
+502,,,0,East Tennessee State 2010
+503,,,0,Florida State 2010
+504,,,0,Florida 2010
+505,,,0,Georgetown 2010
+506,,,0,Houston 2010
+507,,,0,Kansas State 2010
+508,,,0,Lehigh 2010
+509,,,0,Louisville 2010
+510,,,0,Marquette 2010
+511,,,0,Michigan State 2010
+512,,,0,Minnesota 2010
+513,,,0,Montana 2010
+514,,,0,Morgan State 2010
+515,,,0,Murray State 2010
+516,,,0,Nevada-Las Vegas 2010
+517,,,0,New Mexico State 2010
+518,,,0,North Texas 2010
+519,,,0,Notre Dame 2010
+520,,,0,Oakland 2010
+521,,,0,Ohio State 2010
+522,,,0,Oklahoma State 2010
+523,,,0,Richmond 2010
+524,,,0,Robert Morris 2010
+525,,,0,Saint Mary's (CA) 2010
+526,,,0,Sam Houston State 2010
+527,,,0,San Diego State 2010
+528,,,0,Siena 2010
+529,,,0,Temple 2010
+530,,,0,Texas-El Paso 2010
+531,,,0,Utah State 2010
+532,,,0,Vanderbilt 2010
+533,,,0,Vermont 2010
+534,,,0,Winthrop 2010
+535,,,0,Wofford 2010
