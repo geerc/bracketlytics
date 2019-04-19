@@ -127,18 +127,27 @@ def calculate_stats(data):
 # Calculate the stats
 calculate_stats(data)
 
-print(data)
-
 # Remove unnecssary columns
 data = data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
 
 data.to_csv(ROOT + 'model_data.csv')
+wins_cleaned = pd.read_csv(ROOT + 'wins_cleaned.csv')
+
 
 # Add teams that did not win a game to wins_cleaned
-for i, j in wins_cleaned.iterrows():
-    wins_cleaned_school = (j['School'])
-    if data['School'].str.contains(wins_cleaned_school).any():
-        pass
+for i, j in data.iterrows():
+    school = (j['School'])
+    print(school)
+    if wins_cleaned['School'].str.contains(school).any():
+         pass
     else:
-        # Pass the row elements as key value pairs to append() function
-        wins_cleaned = wins_cleaned.append({'School': wins_cleaned_school, 'wins': 0} , ignore_index=True)
+         # Pass the row elements as key value pairs to append() function
+         wins_cleaned = wins_cleaned.append({'School': school, 'wins': 0} , ignore_index=True)
+ # Remove unecessary columns from wins_cleaned
+wins_cleaned = wins_cleaned.drop(wins_cleaned.iloc[:,0:2].head(0).columns, axis=1)
+
+wins_cleaned.to_csv(ROOT + 'wins_cleaned_2')
+print(wins_cleaned)
+
+with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+    print(wins_cleaned)
