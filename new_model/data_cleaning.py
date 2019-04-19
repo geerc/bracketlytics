@@ -141,7 +141,7 @@ for i, j in wins_cleaned.iterrows():
         pass
     else:
         # Pass the row elements as key value pairs to append() function
-        modDfObj = wins_cleaned.append({'Team_Id': 0, 'School' : wins_cleaned_school , 'wins' : 0} , ignore_inex=True)
+        wins_cleaned = wins_cleaned.append({'School': wins_cleaned_school, 'wins': 0} , ignore_index=True)
 
 modDfObj = wins_cleaned.append({'School' : "Nova 2020" , 'wins' : 0} , ignore_index=True)
 
