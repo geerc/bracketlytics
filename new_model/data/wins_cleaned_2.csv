@@ -86,7 +86,7 @@
 84,315.0,1266.0,2,Marquette 2012
 85,316.0,1277.0,2,Michigan St 2012
 86,317.0,1293.0,1,Murray St 2012
-87,318.0,1301.0,2,NC st 2012
+87,318.0,1301.0,2,NC St 2012
 88,319.0,1307.0,1,New Mexico 2012
 89,320.0,1313.0,1,Norfolk St 2012
 90,321.0,1314.0,3,North Carolina 2012
@@ -156,7 +156,7 @@
 154,385.0,1276.0,3,Michigan 2014
 155,386.0,1277.0,3,Michigan St 2014
 156,387.0,1295.0,1,N Dakota St 2014
-157,388.0,1301.0,1,NC st 2014
+157,388.0,1301.0,1,NC St 2014
 158,389.0,1314.0,1,North Carolina 2014
 159,390.0,1332.0,1,Oregon 2014
 160,391.0,1338.0,1,Pittsburgh 2014
@@ -189,7 +189,7 @@
 187,418.0,1268.0,1,Maryland 2015
 188,419.0,1277.0,4,Michigan St 2015
 189,420.0,1279.0,1,Mississippi 2015
-190,421.0,1301.0,2,NC st 2015
+190,421.0,1301.0,2,NC St 2015
 191,422.0,1314.0,2,North Carolina 2015
 192,423.0,1320.0,1,Northern Iowa 2015
 193,424.0,1323.0,3,Notre Dame 2015
@@ -245,29 +245,29 @@
 243,,,0,Akron 2013
 244,,,0,Albany (NY) 2013
 245,,,0,Belmont 2013
-246,,,0,Boise st 2013
+246,,,0,Boise St 2013
 247,,,0,Bucknell 2013
 249,,,0,Cincinnati 2013
 251,,,0,Colorado 2013
 252,,,0,Davidson 2013
 254,,,0,Georgetown 2013
 255,,,0,Iona 2013
-257,,,0,Kansas st 2013
+257,,,0,Kansas St 2013
 258,,,0,Liberty 2013
 259,,,0,Long Island University 2013
 262,,,0,Missouri 2013
 263,,,0,Montana 2013
 264,,,0,Nevada-Las Vegas 2013
-265,,,0,New Mexico st 2013
+265,,,0,New Mexico St 2013
 266,,,0,New Mexico 2013
-268,,,0,North Carolina st 2013
-269,,,0,Northwestern st 2013
+268,,,0,North Carolina St 2013
+269,,,0,Northwestern St 2013
 270,,,0,Notre Dame 2013
-272,,,0,Oklahoma st 2013
+272,,,0,Oklahoma St 2013
 273,,,0,Oklahoma 2013
 274,,,0,Pacific 2013
 275,,,0,Pittsburgh 2013
-279,,,0,South Dakota st 2013
+279,,,0,South Dakota St 2013
 280,,,0,Southern 2013
 281,,,0,UCLA 2013
 282,,,0,Valparaiso 2013
@@ -277,7 +277,7 @@
 289,,,0,Albany (NY) 2015
 290,,,0,Baylor 2015
 291,,,0,Belmont 2015
-292,,,0,Boise st 2015
+292,,,0,Boise St 2015
 293,,,0,Brigham Young 2015
 294,,,0,Buffalo 2015
 295,,,0,UC-Irvine 2015
@@ -287,15 +287,15 @@
 300,,,0,Georgia 2015
 301,,,0,Harvard 2015
 302,,,0,Indiana 2015
-303,,,0,Iowa st 2015
+303,,,0,Iowa St 2015
 304,,,0,Lafayette 2015
-305,,,0,Louisiana st 2015
+305,,,0,Louisiana St 2015
 306,,,0,Manhattan 2015
-308,,,0,New Mexico st 2015
-310,,,0,North Dakota st 2015
+308,,,0,New Mexico St 2015
+310,,,0,North Dakota St 2015
 311,,,0,North Florida 2015
 312,,,0,Northeastern 2015
-314,,,0,Oklahoma st 2015
+314,,,0,Oklahoma St 2015
 315,,,0,Providence 2015
 316,,,0,Purdue 2015
 318,,,0,Southern Methodist 2015
@@ -309,7 +309,7 @@
 327,,,0,Wyoming 2015
 328,,,0,Akron 2011
 329,,,0,Alabama-Birmingham 2011
-330,,,0,Alabama st 2011
+330,,,0,Alabama St 2011
 331,,,0,Little Rock 2011
 332,,,0,Belmont 2011
 333,,,0,Boston University 2011
@@ -318,24 +318,24 @@
 338,,,0,Georgetown 2011
 339,,,0,Georgia 2011
 340,,,0,Hampton 2011
-341,,,0,Indiana st 2011
+341,,,0,Indiana St 2011
 343,,,0,Long Island University 2011
 344,,,0,Louisville 2011
 345,,,0,Memphis 2011
-346,,,0,Michigan st 2011
+346,,,0,Michigan St 2011
 347,,,0,Missouri 2011
 349,,,0,Nevada-Las Vegas 2011
 351,,,0,Northern Colorado 2011
 352,,,0,Oakland 2011
 354,,,0,Old Dominion 2011
-355,,,0,Penn st 2011
+355,,,0,Penn St 2011
 356,,,0,Princeton 2011
 357,,,0,Saint Peter's 2011
 359,,,0,Southern California 2011
 360,,,0,St. John's (NY) 2011
 361,,,0,Tennessee 2011
 362,,,0,Texas A&M 2011
-364,,,0,Utah st 2011
+364,,,0,Utah St 2011
 365,,,0,Vanderbilt 2011
 366,,,0,Villanova 2011
 368,,,0,Wofford 2011
@@ -344,26 +344,26 @@
 371,,,0,Austin Peay 2016
 372,,,0,Baylor 2016
 373,,,0,Buffalo 2016
-374,,,0,Cal st Bakersfield 2016
+374,,,0,Cal St Bakersfield 2016
 375,,,0,University of California 2016
 376,,,0,Chattanooga 2016
 377,,,0,Cincinnati 2016
 378,,,0,Colorado 2016
 379,,,0,Dayton 2016
 380,,,0,Fairleigh Dickinson 2016
-382,,,0,Fresno st 2016
+382,,,0,Fresno St 2016
 383,,,0,Green Bay 2016
 384,,,0,Hampton 2016
 385,,,0,Iona 2016
-387,,,0,Michigan st 2016
+387,,,0,Michigan St 2016
 388,,,0,Middle Tennessee 2016
 389,,,0,North Carolina-Asheville 2016
 390,,,0,North Carolina-Wilmington 2016
-391,,,0,Oregon st 2016
+391,,,0,Oregon St 2016
 392,,,0,Pittsburgh 2016
 393,,,0,Purdue 2016
 395,,,0,Seton Hall 2016
-396,,,0,South Dakota st 2016
+396,,,0,South Dakota St 2016
 397,,,0,Southern California 2016
 398,,,0,Southern 2016
 400,,,0,Stony Brook 2016
@@ -372,10 +372,10 @@
 403,,,0,Texas 2016
 404,,,0,Tulsa 2016
 405,,,0,Vanderbilt 2016
-407,,,0,Weber st 2016
+407,,,0,Weber St 2016
 408,,,0,West Virginia 2016
 410,,,0,American 2014
-411,,,0,Arizona st 2014
+411,,,0,Arizona St 2014
 412,,,0,Brigham Young 2014
 413,,,0,Cal Poly 2014
 414,,,0,Cincinnati 2014
@@ -385,32 +385,32 @@
 418,,,0,Duke 2014
 419,,,0,Eastern Kentucky 2014
 422,,,0,Iowa 2014
-423,,,0,Kansas st 2014
+423,,,0,Kansas St 2014
 424,,,0,Louisiana 2014
 425,,,0,Manhattan 2014
 426,,,0,Massachusetts 2014
 428,,,0,Milwaukee 2014
 429,,,0,Mount St. Mary's 2014
 430,,,0,Nebraska 2014
-431,,,0,New Mexico st 2014
+431,,,0,New Mexico St 2014
 432,,,0,New Mexico 2014
 433,,,0,North Carolina Central 2014
-435,,,0,North Dakota st 2014
-436,,,0,Ohio st 2014
-437,,,0,Oklahoma st 2014
+435,,,0,North Dakota St 2014
+436,,,0,Ohio St 2014
+437,,,0,Oklahoma St 2014
 438,,,0,Oklahoma 2014
 439,,,0,Providence 2014
 440,,,0,Saint Joseph's 2014
 444,,,0,Texas Southern 2014
 445,,,0,Tulsa 2014
-447,,,0,Weber st 2014
+447,,,0,Weber St 2014
 448,,,0,Western Michigan 2014
 450,,,0,Wofford 2014
 451,,,0,Xavier 2014
 452,,,0,Alabama 2012
 453,,,0,Belmont 2012
 455,,,0,University of California 2012
-456,,,0,Colorado st 2012
+456,,,0,Colorado St 2012
 457,,,0,Connecticut 2012
 458,,,0,Davidson 2012
 459,,,0,Detroit Mercy 2012
@@ -418,22 +418,22 @@
 462,,,0,Harvard 2012
 463,,,0,Iona 2012
 466,,,0,Lamar 2012
-467,,,0,Long Beach st 2012
+467,,,0,Long Beach St 2012
 468,,,0,Long Island University 2012
 469,,,0,Loyola (MD) 2012
 470,,,0,Memphis 2012
 472,,,0,Michigan 2012
-473,,,0,Mississippi Valley st 2012
+473,,,0,Mississippi Valley St 2012
 474,,,0,Missouri 2012
 475,,,0,Montana 2012
 477,,,0,Nevada-Las Vegas 2012
-478,,,0,New Mexico st 2012
+478,,,0,New Mexico St 2012
 480,,,0,North Carolina-Asheville 2012
 482,,,0,Notre Dame 2012
-483,,,0,Ohio st 2012
+483,,,0,Ohio St 2012
 485,,,0,Saint Mary's (CA) 2012
-486,,,0,San Diego st 2012
-487,,,0,South Dakota st 2012
+486,,,0,San Diego St 2012
+487,,,0,South Dakota St 2012
 488,,,0,Southern Mississippi 2012
 489,,,0,St. Bonaventure 2012
 490,,,0,Temple 2012
@@ -441,11 +441,11 @@
 493,,,0,Virginia 2012
 494,,,0,West Virginia 2012
 495,,,0,Western Kentucky 2012
-496,,,0,Wichita st 2012
+496,,,0,Wichita St 2012
 499,,,0,UC-Santa Barbara 2010
 501,,,0,Clemson 2010
-502,,,0,East Tennessee st 2010
-503,,,0,Florida st 2010
+502,,,0,East Tennessee St 2010
+503,,,0,Florida St 2010
 504,,,0,Florida 2010
 505,,,0,Georgetown 2010
 506,,,0,Houston 2010
@@ -454,22 +454,22 @@
 510,,,0,Marquette 2010
 512,,,0,Minnesota 2010
 513,,,0,Montana 2010
-514,,,0,Morgan st 2010
+514,,,0,Morgan St 2010
 516,,,0,Nevada-Las Vegas 2010
-517,,,0,New Mexico st 2010
+517,,,0,New Mexico St 2010
 518,,,0,North Texas 2010
 519,,,0,Notre Dame 2010
 520,,,0,Oakland 2010
-521,,,0,Ohio st 2010
-522,,,0,Oklahoma st 2010
+521,,,0,Ohio St 2010
+522,,,0,Oklahoma St 2010
 523,,,0,Richmond 2010
 524,,,0,Robert Morris 2010
-526,,,0,Sam Houston st 2010
-527,,,0,San Diego st 2010
+526,,,0,Sam Houston St 2010
+527,,,0,San Diego St 2010
 528,,,0,Siena 2010
 529,,,0,Temple 2010
 530,,,0,Texas-El Paso 2010
-531,,,0,Utah st 2010
+531,,,0,Utah St 2010
 532,,,0,Vanderbilt 2010
 533,,,0,Vermont 2010
 534,,,0,Winthrop 2010
