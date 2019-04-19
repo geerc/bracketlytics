@@ -135,8 +135,6 @@ data = data.drop(data.loc[:,'FG':'opp_DRB'].head(0).columns, axis=1)
 data.to_csv(ROOT + 'model_data.csv')
 
 # Add teams that did not win a game to wins_cleaned
-count = 0
-while count > len(wins_cleaned.index)
     for i, j in wins_cleaned.iterrows():
         wins_cleaned_school = (j['School'])
         if data['School'].str.contains(wins_cleaned_school).any():
@@ -144,7 +142,6 @@ while count > len(wins_cleaned.index)
         else:
             # Pass the row elements as ket value pairs to append() function
             modDfObj = wins_cleaned.append({'Team_Id': 0, 'School' : wins_cleaned_school , 'wins' : 0} , ignore_inex=True)
-        count += 1
 
 modDfObj = wins_cleaned.append({'School' : "Nova 2020" , 'wins' : 0} , ignore_index=True)
 
