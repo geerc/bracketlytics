@@ -22,8 +22,19 @@ Y = dataset[:,10]
 def baseline_model():
 	# create model
 	model = Sequential()
-	model.add(Dense(13, input_dim=13, kernel_initializer='normal', activation='relu'))
+	model.add(Dense(8, input_dim=8, kernel_initializer='normal', activation='relu'))
 	model.add(Dense(1, kernel_initializer='normal'))
 	# Compile model
 	model.compile(loss='mean_squared_error', optimizer='adam')
 	return model
+
+# fix random seed for reproducibility
+seed = 7
+numpy.random.seed(seed)
+# evaluate model with standardized dataset
+estimator = KerasRegressor(build_fn=baseline_model, epochs=100, batch_size=5, verbose=0)
+
+# Evaluate the baseline model
+kfold = KFold(n_splits=10, random_state=seed)
+results = cross_val_score(estimator, X, Y, cv=kfold)
+print("Results: %.2f (%.2f) MSE" % (results.mean(), results.std()))
