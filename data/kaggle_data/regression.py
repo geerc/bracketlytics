@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.metrics import classification_report
 
-ROOT = '/Users/Christian/Documents/GitHub/bracketlytics/data/kaggle_data/'
+ROOT = '/Users/christiangeer/bracketlytics/data/kaggle_data/'
 
 tourney_data = pd.read_csv(ROOT + 'new_tourney_data.csv')
 teams = pd.read_csv(ROOT + 'Teams.csv')

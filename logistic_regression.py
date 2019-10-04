@@ -20,7 +20,7 @@ round5 = Queue()
 round6 = Queue()
 round7 = Queue()
 
-ROOT = '/Users/christiangeer/project-cmpsc-310-fall-2018-allegheny-college-craig-engels-fan-club'
+ROOT = '/Users/christiangeer/bracketlytics'
 
 game_data = pd.read_csv(ROOT + '/data/2018TeamStats_Final.csv')
 season_stats = pd.read_csv(ROOT + '/data/season_data.csv')
