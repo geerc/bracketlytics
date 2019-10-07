@@ -17,3 +17,5 @@ tourny_games['Team'] = tourny_games['Team'].astype(str) + " " + tourny_games['Ye
 
 # Add year suffix to Team 1
 tourny_games['Team 1'] = tourny_games['Team 1'].astype(str) + " " + tourny_games['Year']
+
+tourny_games.to_csv(ROOT + 'tourney_games_wsuffix.csv')
