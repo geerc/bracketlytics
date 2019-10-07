@@ -1,0 +1,631 @@
+﻿Year,Team,Team 1,win
+2010,Kansas,Lehigh,True
+2010,Ohio St,Santa Barbara,True
+2010,Georgetown,Ohio,False
+2010,Maryland,Houston,True
+2010,Michigan St,New Mexico St,True
+2010,Tennessee,San Diego St,True
+2010,Oklahoma St,Georgia Tech,False
+2010,UNLV,Northern Iowa,False
+2010,Syracuse,Vermont,True
+2010,Kansas St,North Texas,True
+2010,Pittsburgh,Oakland,True
+2010,Vanderbilt,Murray St,False
+2010,Butler,UTEP,True
+2010,Xavier,Minnesota,True
+2010,BYU,Florida,True
+2010,Gonzaga,Florida St,True
+2010,Kentucky,East Tennessee St,True
+2010,West Virginia,Morgan St,True
+2010,New Mexico,Montana,True
+2010,Wisconsin,Wofford,True
+2010,Temple,Cornell,False
+2010,Marquette,Washington,False
+2010,Clemson,Missouri,False
+2010,Texas,Wake Forest,False
+2010,Duke,Arkansas Pine Bluff,True
+2010,Villanova,Robert Morris,True
+2010,Baylor,Sam Houston St,True
+2010,Purdue,Siena,True
+2010,Texas A&M,Utah St,True
+2010,Notre Dame,Old Dominion,False
+2010,Richmond,St Marys,False
+2010,California,Louisville,True
+2010,Kansas,Northern Iowa,False
+2010,Ohio St,Georgia Tech,True
+2010,Ohio,Tennessee,False
+2010,Maryland,Michigan St,False
+2010,Syracuse,Gonzaga,True
+2010,Kansas St,BYU,True
+2010,Pittsburgh,Xavier,False
+2010,Murray St,Butler,False
+2010,Kentucky,Wake Forest,True
+2010,West Virginia,Missouri,True
+2010,New Mexico,Washington,False
+2010,Wisconsin,Cornell,False
+2010,Duke,California,True
+2010,Villanova,St Marys,False
+2010,Baylor,Old Dominion,True
+2010,Purdue,Texas A&M,True
+2010,Northern Iowa,Michigan St,False
+2010,Ohio St,Tennessee,False
+2010,Syracuse,Butler,False
+2010,Kansas St,Xavier,True
+2010,Kentucky,Cornell,True
+2010,West Virginia,Washington,True
+2010,Duke,Purdue,True
+2010,St Marys,Baylor,False
+2010,Michigan St,Tennessee,True
+2010,Butler,Kansas St,True
+2010,Kentucky,West Virginia,False
+2010,Duke,Baylor,True
+2010,Michigan St,Butler,False
+2010,West Virginia,Duke,False
+2010,Butler,Duke,False
+2011,Ohio St,Texas San Antonio,True
+2011,North Carolina,Long Island Brooklyn,True
+2011,Syracuse,Indiana St,True
+2011,Kentucky,Princeton,True
+2011,West Virginia,Clemson,True
+2011,Xavier,Marquette,False
+2011,Washington,Georgia,True
+2011,George Mason,Villanova,True
+2011,Duke,Hampton,True
+2011,San Diego St,Northern Colorado,True
+2011,Connecticut,Bucknell,True
+2011,Texas,Oakland,True
+2011,Arizona,Memphis,True
+2011,Cincinnati,Missouri,True
+2011,Temple,Penn St,True
+2011,Michigan,Tennessee,True
+2011,Kansas,Boston University,True
+2011,Notre Dame,Akron,True
+2011,Purdue,St Peters,True
+2011,Louisville,Morehead St,False
+2011,Vanderbilt,Richmond,False
+2011,Georgetown,VCU,False
+2011,Texas A&M,Florida St,False
+2011,UNLV,Illinois,False
+2011,Pittsburgh,UNC Asheville,True
+2011,Florida,Santa Barbara,True
+2011,BYU,Wofford,True
+2011,Wisconsin,Belmont,True
+2011,Kansas St,Utah St,True
+2011,St Johns,Gonzaga,False
+2011,UCLA,Michigan St,True
+2011,Butler,Old Dominion,True
+2011,Ohio St,George Mason,True
+2011,North Carolina,Washington,True
+2011,Syracuse,Marquette,False
+2011,Kentucky,West Virginia,True
+2011,Duke,Michigan,True
+2011,San Diego St,Temple,True
+2011,Connecticut,Cincinnati,True
+2011,Texas,Arizona,False
+2011,Kansas,Illinois,True
+2011,Notre Dame,Florida St,False
+2011,Purdue,VCU,False
+2011,Morehead St,Richmond,False
+2011,Pittsburgh,Butler,False
+2011,Florida,UCLA,True
+2011,BYU,Gonzaga,True
+2011,Wisconsin,Kansas St,True
+2011,Ohio St,Kentucky,False
+2011,North Carolina,Marquette,True
+2011,Duke,Arizona,False
+2011,San Diego St,Connecticut,False
+2011,Kansas,Richmond,True
+2011,Florida St,VCU,False
+2011,Butler,Wisconsin,True
+2011,Florida,BYU,True
+2011,Kentucky,North Carolina,True
+2011,Arizona,Connecticut,False
+2011,Kansas,VCU,False
+2011,Butler,Florida,True
+2011,Kentucky,Connecticut,False
+2011,VCU,Butler,False
+2011,Connecticut,Butler,True
+2012,Kentucky,Western Kentucky,True
+2012,Duke,Lehigh,False
+2012,Baylor,South Dakota St,True
+2012,Indiana,New Mexico St,True
+2012,Wichita St,VCU,False
+2012,UNLV,Colorado,False
+2012,Notre Dame,Xavier,False
+2012,Iowa St,Connecticut,True
+2012,Michigan St,Long Island Brooklyn,True
+2012,Missouri,Norfolk St,False
+2012,Marquette,BYU,True
+2012,Louisville,Davidson,True
+2012,New Mexico,Long Beach St,True
+2012,Murray St,Colorado St,True
+2012,Florida,Virginia,True
+2012,Memphis,St Louis,False
+2012,Syracuse,UNC Asheville,True
+2012,Ohio St,Loyola Maryland,True
+2012,Florida St,St Bonaventure,True
+2012,Wisconsin,Montana,True
+2012,Vanderbilt,Harvard,True
+2012,Cincinnati,Texas,True
+2012,Gonzaga,West Virginia,True
+2012,Kansas St,Southern Mississippi,True
+2012,North Carolina,Vermont,True
+2012,Kansas,Detroit,True
+2012,Georgetown,Belmont,True
+2012,Michigan,Ohio,False
+2012,Temple,South Florida,False
+2012,San Diego St,NC State,False
+2012,St Marys,Purdue,False
+2012,Creighton,Alabama,True
+2012,Kentucky,Iowa St,True
+2012,Lehigh,Xavier,False
+2012,Baylor,Colorado,True
+2012,Indiana,VCU,True
+2012,Michigan St,St Louis,True
+2012,Norfolk St,Florida,False
+2012,Marquette,Murray St,True
+2012,Louisville,New Mexico,True
+2012,Syracuse,Kansas St,True
+2012,Ohio St,Gonzaga,True
+2012,Florida St,Cincinnati,False
+2012,Wisconsin,Vanderbilt,True
+2012,North Carolina,Creighton,True
+2012,Kansas,Purdue,True
+2012,Georgetown,NC State,False
+2012,Ohio,South Florida,True
+2012,Kentucky,Indiana,True
+2012,Xavier,Baylor,False
+2012,Michigan St,Louisville,False
+2012,Florida,Marquette,True
+2012,Syracuse,Wisconsin,True
+2012,Ohio St,Cincinnati,True
+2012,North Carolina,Ohio,True
+2012,Kansas,NC State,True
+2012,Kentucky,Baylor,True
+2012,Louisville,Florida,True
+2012,Syracuse,Ohio St,False
+2012,North Carolina,Kansas,False
+2012,Kentucky,Louisville,True
+2012,Ohio St,Kansas,False
+2012,Kentucky,Kansas,True
+2013,Louisville,North Carolina A&T,True
+2013,Duke,Albany,True
+2013,Michigan St,Valparaiso,True
+2013,St Louis,New Mexico St,True
+2013,Oklahoma St,Oregon,False
+2013,Memphis,St Marys,True
+2013,Creighton,Cincinnati,True
+2013,Colorado St,Missouri,True
+2013,Gonzaga,Southern,True
+2013,Ohio St,Iona,True
+2013,New Mexico,Harvard,False
+2013,Kansas St,La Salle,False
+2013,Wisconsin,Ole Miss,False
+2013,Arizona,Belmont,True
+2013,Notre Dame,Iowa St,False
+2013,Pittsburgh,Wichita St,False
+2013,Kansas,Western Kentucky,True
+2013,Georgetown,Florida Gulf Coast,False
+2013,Florida,Northwestern St,True
+2013,Michigan,South Dakota St,True
+2013,VCU,Akron,True
+2013,UCLA,Minnesota,False
+2013,San Diego St,Oklahoma,True
+2013,North Carolina,Villanova,True
+2013,Indiana,James Madison,True
+2013,Miami,Pacific,True
+2013,Marquette,Davidson,True
+2013,Syracuse,Montana,True
+2013,UNLV,California,False
+2013,Butler,Bucknell,True
+2013,Illinois,Colorado,True
+2013,NC State,Temple,False
+2013,Louisville,Colorado St,True
+2013,Duke,Creighton,True
+2013,Michigan St,Memphis,True
+2013,St Louis,Oregon,False
+2013,Gonzaga,Wichita St,False
+2013,Ohio St,Iowa St,True
+2013,Harvard,Arizona,False
+2013,La Salle,Ole Miss,True
+2013,Kansas,North Carolina,True
+2013,Florida Gulf Coast,San Diego St,True
+2013,Florida,Minnesota,True
+2013,Michigan,VCU,True
+2013,Indiana,Temple,True
+2013,Miami,Illinois,True
+2013,Marquette,Butler,True
+2013,Syracuse,California,True
+2013,Louisville,Oregon,True
+2013,Duke,Michigan St,True
+2013,Wichita St,La Salle,True
+2013,Ohio St,Arizona,True
+2013,Kansas,Michigan,False
+2013,Florida Gulf Coast,Florida,False
+2013,Indiana,Syracuse,False
+2013,Miami,Marquette,False
+2013,Louisville,Duke,True
+2013,Wichita St,Ohio St,True
+2013,Michigan,Florida,True
+2013,Syracuse,Marquette,True
+2013,Louisville,Wichita St,True
+2013,Michigan,Syracuse,True
+2013,Louisville,Michigan,True
+2014,Florida,Albany,True
+2014,Kansas,Eastern Kentucky,True
+2014,Syracuse,Western Michigan,True
+2014,UCLA,Tulsa,True
+2014,VCU,Stephen F Austin,False
+2014,Ohio St,Dayton,False
+2014,New Mexico,Stanford,False
+2014,Colorado,Pittsburgh,False
+2014,Virginia,Coastal Carolina,True
+2014,Villanova,Wisconsin Milwaukee,True
+2014,Iowa St,North Carolina Central,True
+2014,Michigan St,Delaware,True
+2014,Cincinnati,Harvard,False
+2014,North Carolina,Providence,True
+2014,Connecticut,St Josephs,True
+2014,Memphis,George Washington,True
+2014,Arizona,Weber St,True
+2014,Wisconsin,American,True
+2014,Creighton,Louisiana Lafayette,True
+2014,San Diego St,New Mexico St,True
+2014,Oklahoma,North Dakota St,False
+2014,Baylor,Nebraska,True
+2014,Oregon,BYU,True
+2014,Gonzaga,Oklahoma St,True
+2014,Wichita St,Cal Poly,True
+2014,Michigan,Wofford,True
+2014,Duke,Mercer,False
+2014,Louisville,Manhattan,True
+2014,St Louis,NC State,True
+2014,Massachusetts,Tennessee,False
+2014,Texas,Arizona St,True
+2014,Kentucky,Kansas St,True
+2014,Florida,Pittsburgh,True
+2014,Kansas,Stanford,False
+2014,Syracuse,Dayton,False
+2014,UCLA,Stephen F Austin,True
+2014,Virginia,Memphis,True
+2014,Villanova,Connecticut,False
+2014,Iowa St,North Carolina,True
+2014,Michigan St,Harvard,True
+2014,Arizona,Gonzaga,True
+2014,Wisconsin,Oregon,True
+2014,Creighton,Baylor,False
+2014,San Diego St,North Dakota St,True
+2014,Wichita St,Kentucky,False
+2014,Michigan,Texas,True
+2014,Mercer,Tennessee,False
+2014,Louisville,St Louis,True
+2014,Florida,UCLA,True
+2014,Stanford,Dayton,False
+2014,Virginia,Michigan St,False
+2014,Connecticut,Iowa St,True
+2014,Arizona,San Diego St,True
+2014,Wisconsin,Baylor,True
+2014,Kentucky,Louisville,True
+2014,Michigan,Tennessee,True
+2014,Florida,Dayton,True
+2014,Michigan St,Connecticut,False
+2014,Arizona,Wisconsin,False
+2014,Kentucky,Michigan,True
+2014,Florida,Connecticut,False
+2014,Wisconsin,Kentucky,False
+2014,Connecticut,Kentucky,True
+2015,Kentucky,Hampton,True
+2015,Kansas,New Mexico St,True
+2015,Notre Dame,Northeastern,True
+2015,Maryland,Valparaiso,True
+2015,West Virginia,Buffalo,True
+2015,Butler,Texas,True
+2015,Wichita St,Indiana,True
+2015,Cincinnati,Purdue,True
+2015,Wisconsin,Coastal Carolina,True
+2015,Arizona,Texas Southern,True
+2015,Baylor,Georgia St,False
+2015,North Carolina,Harvard,True
+2015,Arkansas,Wofford,True
+2015,Xavier,Ole Miss,True
+2015,VCU,Ohio St,False
+2015,Oregon,Oklahoma St,True
+2015,Villanova,Lafayette,True
+2015,Virginia,Belmont,True
+2015,Oklahoma,Albany,True
+2015,Louisville,Cal Irvine,True
+2015,Northern Iowa,Wyoming,True
+2015,Providence,Dayton,False
+2015,Michigan St,Georgia,True
+2015,NC State,LSU,True
+2015,Duke,Robert Morris,True
+2015,Gonzaga,North Dakota St,True
+2015,Iowa St,UAB,False
+2015,Georgetown,Eastern Washington,True
+2015,Utah,Stephen F Austin,True
+2015,SMU,UCLA,False
+2015,Iowa,Davidson,True
+2015,San Diego St,St Johns,True
+2015,Kentucky,Cincinnati,True
+2015,Kansas,Wichita St,False
+2015,Notre Dame,Butler,True
+2015,Maryland,West Virginia,False
+2015,Wisconsin,Oregon,True
+2015,Arizona,Ohio St,True
+2015,Georgia St,Xavier,False
+2015,North Carolina,Arkansas,True
+2015,Villanova,NC State,False
+2015,Virginia,Michigan St,False
+2015,Oklahoma,Dayton,True
+2015,Louisville,Northern Iowa,True
+2015,Duke,San Diego St,True
+2015,Gonzaga,Iowa,True
+2015,UAB,UCLA,False
+2015,Georgetown,Utah,False
+2015,Kentucky,West Virginia,True
+2015,Wichita St,Notre Dame,False
+2015,Wisconsin,North Carolina,True
+2015,Arizona,Xavier,True
+2015,NC State,Louisville,False
+2015,Michigan St,Oklahoma,True
+2015,Duke,Utah,True
+2015,Gonzaga,UCLA,True
+2015,Kentucky,Notre Dame,True
+2015,Wisconsin,Arizona,True
+2015,Louisville,Michigan St,False
+2015,Duke,Gonzaga,True
+2015,Kentucky,Wisconsin,False
+2015,Michigan St,Duke,False
+2015,Wisconsin,Duke,False
+2016,Kansas,Austin Peay,True
+2016,Villanova,UNC Asheville,True
+2016,Miami,Buffalo,True
+2016,California,Hawaii,False
+2016,Maryland,South Dakota St,True
+2016,Arizona,Wichita St,False
+2016,Iowa,Temple,True
+2016,Colorado,Connecticut,False
+2016,Oregon,Holy Cross,True
+2016,Oklahoma,Cal St Bakersfield,True
+2016,Texas A&M,Wisconsin Green Bay,True
+2016,Duke,UNC Wilmington,True
+2016,Baylor,Yale,False
+2016,Texas,Northern Iowa,False
+2016,Oregon St,VCU,False
+2016,St Josephs,Cincinnati,True
+2016,North Carolina,Florida Gulf Coast,True
+2016,Xavier,Weber St,True
+2016,West Virginia,Stephen F Austin,False
+2016,Kentucky,Stony Brook,True
+2016,Indiana,Chattanooga,True
+2016,Notre Dame,Michigan,True
+2016,Wisconsin,Pittsburgh,True
+2016,USC,Providence,False
+2016,Virginia,Hampton,True
+2016,Michigan St,Middle Tennessee St,False
+2016,Utah,Fresno St,True
+2016,Iowa St,Iona,True
+2016,Purdue,Arkansas Little Rock,False
+2016,Seton Hall,Gonzaga,False
+2016,Dayton,Syracuse,False
+2016,Texas Tech,Butler,False
+2016,Kansas,Connecticut,True
+2016,Villanova,Iowa,True
+2016,Miami,Wichita St,True
+2016,Hawaii,Maryland,False
+2016,Oregon,St Josephs,True
+2016,Oklahoma,VCU,True
+2016,Texas A&M,Northern Iowa,True
+2016,Duke,Yale,True
+2016,North Carolina,Providence,True
+2016,Xavier,Wisconsin,False
+2016,Stephen F Austin,Notre Dame,False
+2016,Kentucky,Indiana,False
+2016,Virginia,Butler,True
+2016,Middle Tennessee St,Syracuse,False
+2016,Utah,Gonzaga,False
+2016,Iowa St,Arkansas Little Rock,True
+2016,Kansas,Maryland,True
+2016,Villanova,Miami,True
+2016,Oregon,Duke,True
+2016,Oklahoma,Texas A&M,True
+2016,North Carolina,Indiana,True
+2016,Wisconsin,Notre Dame,False
+2016,Virginia,Iowa St,True
+2016,Syracuse,Gonzaga,True
+2016,Kansas,Villanova,False
+2016,Oregon,Oklahoma,False
+2016,North Carolina,Notre Dame,True
+2016,Virginia,Syracuse,False
+2016,Villanova,Oklahoma,True
+2016,North Carolina,Syracuse,True
+2016,Villanova,North Carolina,True
+2017,Villanova,Mount St Marys,True
+2017,Duke,Troy,True
+2017,Baylor,New Mexico St,True
+2017,Florida,East Tennessee St,True
+2017,Virginia,UNC Wilmington,True
+2017,SMU,USC,False
+2017,South Carolina,Marquette,True
+2017,Wisconsin,Virginia Tech,True
+2017,Gonzaga,South Dakota St,True
+2017,Arizona,North Dakota,True
+2017,Florida St,Florida Gulf Coast,True
+2017,West Virginia,Bucknell,True
+2017,Notre Dame,Princeton,True
+2017,Maryland,Xavier,False
+2017,St Marys,VCU,True
+2017,Northwestern,Vanderbilt,True
+2017,Kansas,UC Davis,True
+2017,Louisville,Jacksonville St,True
+2017,Oregon,Iona,True
+2017,Purdue,Vermont,True
+2017,Iowa St,Nevada,True
+2017,Creighton,Rhode Island,False
+2017,Michigan,Oklahoma St,True
+2017,Miami,Michigan St,False
+2017,North Carolina,Texas Southern,True
+2017,Kentucky,Northern Kentucky,True
+2017,UCLA,Kent St,True
+2017,Butler,Winthrop,True
+2017,Minnesota,Middle Tennessee St,False
+2017,Cincinnati,Kansas St,True
+2017,Dayton,Wichita St,False
+2017,Arkansas,Seton Hall,True
+2017,Villanova,Wisconsin,False
+2017,Duke,South Carolina,False
+2017,Baylor,USC,True
+2017,Florida,Virginia,True
+2017,Gonzaga,Northwestern,True
+2017,Arizona,St Marys,True
+2017,Florida St,Xavier,False
+2017,West Virginia,Notre Dame,True
+2017,Kansas,Michigan St,True
+2017,Louisville,Michigan,False
+2017,Oregon,Rhode Island,True
+2017,Purdue,Iowa St,True
+2017,North Carolina,Arkansas,True
+2017,Kentucky,Wichita St,True
+2017,UCLA,Cincinnati,True
+2017,Butler,Middle Tennessee St,True
+2017,Wisconsin,Florida,False
+2017,South Carolina,Baylor,True
+2017,Gonzaga,West Virginia,True
+2017,Arizona,Xavier,False
+2017,Kansas,Purdue,True
+2017,Michigan,Oregon,False
+2017,North Carolina,Butler,True
+2017,Kentucky,UCLA,True
+2017,Florida,South Carolina,False
+2017,Gonzaga,Xavier,True
+2017,Kansas,Oregon,False
+2017,North Carolina,Kentucky,True
+2017,South Carolina,Gonzaga,False
+2017,Oregon,North Carolina,False
+2017,Gonzaga,North Carolina,False
+2018,Virginia,UMBC,False
+2018,Cincinnati,Georgia St,True
+2018,Tennessee,Wright St,True
+2018,Arizona,Buffalo,False
+2018,Kentucky,Davidson,True
+2018,Miami,Loyola Chicago,False
+2018,Nevada,Texas,True
+2018,Creighton,Kansas St,False
+2018,Xavier,Texas Southern,True
+2018,North Carolina,Lipscomb,True
+2018,Michigan,Montana,True
+2018,Gonzaga,UNC Greensboro,True
+2018,Ohio St,South Dakota St,True
+2018,Houston,San Diego St,True
+2018,Texas A&M,Providence,True
+2018,Missouri,Florida St,False
+2018,Villanova,Radford,True
+2018,Purdue,Cal St Fullerton,True
+2018,Texas Tech,Stephen F Austin,True
+2018,Wichita St,Marshall,False
+2018,West Virginia,Murray St,True
+2018,Florida,St Bonaventure,True
+2018,Arkansas,Butler,False
+2018,Virginia Tech,Alabama,False
+2018,Kansas,Pennsylvania,True
+2018,Duke,Iona,True
+2018,Michigan St,Bucknell,True
+2018,Auburn,College of Charleston,True
+2018,Clemson,New Mexico St,True
+2018,TCU,Syracuse,False
+2018,Rhode Island,Oklahoma,True
+2018,Seton Hall,NC State,True
+2018,UMBC,Kansas St,False
+2018,Cincinnati,Nevada,False
+2018,Tennessee,Loyola Chicago,False
+2018,Buffalo,Kentucky,False
+2018,Xavier,Florida St,False
+2018,North Carolina,Texas A&M,False
+2018,Michigan,Houston,True
+2018,Gonzaga,Ohio St,True
+2018,Villanova,Alabama,True
+2018,Purdue,Butler,True
+2018,Texas Tech,Florida,True
+2018,Marshall,West Virginia,False
+2018,Kansas,Seton Hall,True
+2018,Duke,Rhode Island,True
+2018,Michigan St,Syracuse,False
+2018,Auburn,Clemson,False
+2018,Kansas St,Kentucky,True
+2018,Nevada,Loyola Chicago,False
+2018,Florida St,Gonzaga,True
+2018,Texas A&M,Michigan,False
+2018,Villanova,West Virginia,True
+2018,Purdue,Texas Tech,False
+2018,Kansas,Clemson,True
+2018,Duke,Syracuse,True
+2018,Kansas St,Loyola Chicago,False
+2018,Florida St,Michigan,False
+2018,Villanova,Texas Tech,True
+2018,Kansas,Duke,True
+2018,Loyola Chicago,Michigan,False
+2018,Villanova,Kansas,True
+2018,Michigan,Villanova,False
+2019,Duke,North Dakota St,True
+2019,Michigan St,Bradley,True
+2019,LSU,Yale,True
+2019,Virginia Tech,St Louis,True
+2019,Mississippi St,Liberty,False
+2019,Maryland,Belmont,True
+2019,Louisville,Minnesota,False
+2019,VCU,Central Florida,False
+2019,Gonzaga,Fairleigh Dickinson,True
+2019,Michigan,Montana,True
+2019,Texas Tech,Northern Kentucky,True
+2019,Florida St,Vermont,True
+2019,Marquette,Murray St,False
+2019,Buffalo,Arizona St,True
+2019,Nevada,Florida,False
+2019,Syracuse,Baylor,False
+2019,Virginia,Gardner Webb,True
+2019,Tennessee,Colgate,True
+2019,Purdue,Old Dominion,True
+2019,Kansas St,UC Irvine,False
+2019,Wisconsin,Oregon,False
+2019,Villanova,St Marys,True
+2019,Cincinnati,Iowa,False
+2019,Ole Miss,Oklahoma,False
+2019,North Carolina,Iona,True
+2019,Kentucky,Abilene Christian,True
+2019,Houston,Georgia St,True
+2019,Kansas,Northeastern,True
+2019,Auburn,New Mexico St,True
+2019,Iowa St,Ohio St,False
+2019,Wofford,Seton Hall,True
+2019,Utah St,Washington,False
+2019,Duke,Central Florida,True
+2019,Michigan St,Minnesota,True
+2019,LSU,Maryland,True
+2019,Virginia Tech,Liberty,True
+2019,Gonzaga,Baylor,True
+2019,Michigan,Florida,True
+2019,Texas Tech,Buffalo,True
+2019,Florida St,Murray St,True
+2019,Virginia,Oklahoma,True
+2019,Tennessee,Iowa,True
+2019,Purdue,Villanova,True
+2019,UC Irvine,Oregon,False
+2019,North Carolina,Washington,True
+2019,Kentucky,Wofford,True
+2019,Houston,Ohio St,True
+2019,Kansas,Auburn,False
+2019,Duke,Virginia Tech,True
+2019,Michigan St,LSU,True
+2019,Gonzaga,Florida St,True
+2019,Michigan,Texas Tech,False
+2019,Virginia,Oregon,True
+2019,Tennessee,Purdue,False
+2019,North Carolina,Auburn,False
+2019,Kentucky,Houston,True
+2019,Duke,Michigan St,False
+2019,Gonzaga,Texas Tech,False
+2019,Virginia,Purdue,True
+2019,Auburn,Kentucky,True
+2019,Michigan St,Texas Tech,False
+2019,Virginia,Auburn,True
+2019,Texas Tech,Virginia,False

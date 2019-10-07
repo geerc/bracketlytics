@@ -1,0 +1,631 @@
+,Year,Team,Team 1,win
+0,2010,Kansas,Lehigh,1
+1,2010,Ohio St,Santa Barbara,1
+2,2010,Georgetown,Ohio,0
+3,2010,Maryland,Houston,1
+4,2010,Michigan St,New Mexico St,1
+5,2010,Tennessee,San Diego St,1
+6,2010,Oklahoma St,Georgia Tech,0
+7,2010,UNLV,Northern Iowa,0
+8,2010,Syracuse,Vermont,1
+9,2010,Kansas St,North Texas,1
+10,2010,Pittsburgh,Oakland,1
+11,2010,Vanderbilt,Murray St,0
+12,2010,Butler,UTEP,1
+13,2010,Xavier,Minnesota,1
+14,2010,BYU,Florida,1
+15,2010,Gonzaga,Florida St,1
+16,2010,Kentucky,East Tennessee St,1
+17,2010,West Virginia,Morgan St,1
+18,2010,New Mexico,Montana,1
+19,2010,Wisconsin,Wofford,1
+20,2010,Temple,Cornell,0
+21,2010,Marquette,Washington,0
+22,2010,Clemson,Missouri,0
+23,2010,Texas,Wake Forest,0
+24,2010,Duke,Arkansas Pine Bluff,1
+25,2010,Villanova,Robert Morris,1
+26,2010,Baylor,Sam Houston St,1
+27,2010,Purdue,Siena,1
+28,2010,Texas A&M,Utah St,1
+29,2010,Notre Dame,Old Dominion,0
+30,2010,Richmond,St Marys,0
+31,2010,California,Louisville,1
+32,2010,Kansas,Northern Iowa,0
+33,2010,Ohio St,Georgia Tech,1
+34,2010,Ohio,Tennessee,0
+35,2010,Maryland,Michigan St,0
+36,2010,Syracuse,Gonzaga,1
+37,2010,Kansas St,BYU,1
+38,2010,Pittsburgh,Xavier,0
+39,2010,Murray St,Butler,0
+40,2010,Kentucky,Wake Forest,1
+41,2010,West Virginia,Missouri,1
+42,2010,New Mexico,Washington,0
+43,2010,Wisconsin,Cornell,0
+44,2010,Duke,California,1
+45,2010,Villanova,St Marys,0
+46,2010,Baylor,Old Dominion,1
+47,2010,Purdue,Texas A&M,1
+48,2010,Northern Iowa,Michigan St,0
+49,2010,Ohio St,Tennessee,0
+50,2010,Syracuse,Butler,0
+51,2010,Kansas St,Xavier,1
+52,2010,Kentucky,Cornell,1
+53,2010,West Virginia,Washington,1
+54,2010,Duke,Purdue,1
+55,2010,St Marys,Baylor,0
+56,2010,Michigan St,Tennessee,1
+57,2010,Butler,Kansas St,1
+58,2010,Kentucky,West Virginia,0
+59,2010,Duke,Baylor,1
+60,2010,Michigan St,Butler,0
+61,2010,West Virginia,Duke,0
+62,2010,Butler,Duke,0
+63,2011,Ohio St,Texas San Antonio,1
+64,2011,North Carolina,Long Island Brooklyn,1
+65,2011,Syracuse,Indiana St,1
+66,2011,Kentucky,Princeton,1
+67,2011,West Virginia,Clemson,1
+68,2011,Xavier,Marquette,0
+69,2011,Washington,Georgia,1
+70,2011,George Mason,Villanova,1
+71,2011,Duke,Hampton,1
+72,2011,San Diego St,Northern Colorado,1
+73,2011,Connecticut,Bucknell,1
+74,2011,Texas,Oakland,1
+75,2011,Arizona,Memphis,1
+76,2011,Cincinnati,Missouri,1
+77,2011,Temple,Penn St,1
+78,2011,Michigan,Tennessee,1
+79,2011,Kansas,Boston University,1
+80,2011,Notre Dame,Akron,1
+81,2011,Purdue,St Peters,1
+82,2011,Louisville,Morehead St,0
+83,2011,Vanderbilt,Richmond,0
+84,2011,Georgetown,VCU,0
+85,2011,Texas A&M,Florida St,0
+86,2011,UNLV,Illinois,0
+87,2011,Pittsburgh,UNC Asheville,1
+88,2011,Florida,Santa Barbara,1
+89,2011,BYU,Wofford,1
+90,2011,Wisconsin,Belmont,1
+91,2011,Kansas St,Utah St,1
+92,2011,St Johns,Gonzaga,0
+93,2011,UCLA,Michigan St,1
+94,2011,Butler,Old Dominion,1
+95,2011,Ohio St,George Mason,1
+96,2011,North Carolina,Washington,1
+97,2011,Syracuse,Marquette,0
+98,2011,Kentucky,West Virginia,1
+99,2011,Duke,Michigan,1
+100,2011,San Diego St,Temple,1
+101,2011,Connecticut,Cincinnati,1
+102,2011,Texas,Arizona,0
+103,2011,Kansas,Illinois,1
+104,2011,Notre Dame,Florida St,0
+105,2011,Purdue,VCU,0
+106,2011,Morehead St,Richmond,0
+107,2011,Pittsburgh,Butler,0
+108,2011,Florida,UCLA,1
+109,2011,BYU,Gonzaga,1
+110,2011,Wisconsin,Kansas St,1
+111,2011,Ohio St,Kentucky,0
+112,2011,North Carolina,Marquette,1
+113,2011,Duke,Arizona,0
+114,2011,San Diego St,Connecticut,0
+115,2011,Kansas,Richmond,1
+116,2011,Florida St,VCU,0
+117,2011,Butler,Wisconsin,1
+118,2011,Florida,BYU,1
+119,2011,Kentucky,North Carolina,1
+120,2011,Arizona,Connecticut,0
+121,2011,Kansas,VCU,0
+122,2011,Butler,Florida,1
+123,2011,Kentucky,Connecticut,0
+124,2011,VCU,Butler,0
+125,2011,Connecticut,Butler,1
+126,2012,Kentucky,Western Kentucky,1
+127,2012,Duke,Lehigh,0
+128,2012,Baylor,South Dakota St,1
+129,2012,Indiana,New Mexico St,1
+130,2012,Wichita St,VCU,0
+131,2012,UNLV,Colorado,0
+132,2012,Notre Dame,Xavier,0
+133,2012,Iowa St,Connecticut,1
+134,2012,Michigan St,Long Island Brooklyn,1
+135,2012,Missouri,Norfolk St,0
+136,2012,Marquette,BYU,1
+137,2012,Louisville,Davidson,1
+138,2012,New Mexico,Long Beach St,1
+139,2012,Murray St,Colorado St,1
+140,2012,Florida,Virginia,1
+141,2012,Memphis,St Louis,0
+142,2012,Syracuse,UNC Asheville,1
+143,2012,Ohio St,Loyola Maryland,1
+144,2012,Florida St,St Bonaventure,1
+145,2012,Wisconsin,Montana,1
+146,2012,Vanderbilt,Harvard,1
+147,2012,Cincinnati,Texas,1
+148,2012,Gonzaga,West Virginia,1
+149,2012,Kansas St,Southern Mississippi,1
+150,2012,North Carolina,Vermont,1
+151,2012,Kansas,Detroit,1
+152,2012,Georgetown,Belmont,1
+153,2012,Michigan,Ohio,0
+154,2012,Temple,South Florida,0
+155,2012,San Diego St,NC State,0
+156,2012,St Marys,Purdue,0
+157,2012,Creighton,Alabama,1
+158,2012,Kentucky,Iowa St,1
+159,2012,Lehigh,Xavier,0
+160,2012,Baylor,Colorado,1
+161,2012,Indiana,VCU,1
+162,2012,Michigan St,St Louis,1
+163,2012,Norfolk St,Florida,0
+164,2012,Marquette,Murray St,1
+165,2012,Louisville,New Mexico,1
+166,2012,Syracuse,Kansas St,1
+167,2012,Ohio St,Gonzaga,1
+168,2012,Florida St,Cincinnati,0
+169,2012,Wisconsin,Vanderbilt,1
+170,2012,North Carolina,Creighton,1
+171,2012,Kansas,Purdue,1
+172,2012,Georgetown,NC State,0
+173,2012,Ohio,South Florida,1
+174,2012,Kentucky,Indiana,1
+175,2012,Xavier,Baylor,0
+176,2012,Michigan St,Louisville,0
+177,2012,Florida,Marquette,1
+178,2012,Syracuse,Wisconsin,1
+179,2012,Ohio St,Cincinnati,1
+180,2012,North Carolina,Ohio,1
+181,2012,Kansas,NC State,1
+182,2012,Kentucky,Baylor,1
+183,2012,Louisville,Florida,1
+184,2012,Syracuse,Ohio St,0
+185,2012,North Carolina,Kansas,0
+186,2012,Kentucky,Louisville,1
+187,2012,Ohio St,Kansas,0
+188,2012,Kentucky,Kansas,1
+189,2013,Louisville,North Carolina A&T,1
+190,2013,Duke,Albany,1
+191,2013,Michigan St,Valparaiso,1
+192,2013,St Louis,New Mexico St,1
+193,2013,Oklahoma St,Oregon,0
+194,2013,Memphis,St Marys,1
+195,2013,Creighton,Cincinnati,1
+196,2013,Colorado St,Missouri,1
+197,2013,Gonzaga,Southern,1
+198,2013,Ohio St,Iona,1
+199,2013,New Mexico,Harvard,0
+200,2013,Kansas St,La Salle,0
+201,2013,Wisconsin,Ole Miss,0
+202,2013,Arizona,Belmont,1
+203,2013,Notre Dame,Iowa St,0
+204,2013,Pittsburgh,Wichita St,0
+205,2013,Kansas,Western Kentucky,1
+206,2013,Georgetown,Florida Gulf Coast,0
+207,2013,Florida,Northwestern St,1
+208,2013,Michigan,South Dakota St,1
+209,2013,VCU,Akron,1
+210,2013,UCLA,Minnesota,0
+211,2013,San Diego St,Oklahoma,1
+212,2013,North Carolina,Villanova,1
+213,2013,Indiana,James Madison,1
+214,2013,Miami,Pacific,1
+215,2013,Marquette,Davidson,1
+216,2013,Syracuse,Montana,1
+217,2013,UNLV,California,0
+218,2013,Butler,Bucknell,1
+219,2013,Illinois,Colorado,1
+220,2013,NC State,Temple,0
+221,2013,Louisville,Colorado St,1
+222,2013,Duke,Creighton,1
+223,2013,Michigan St,Memphis,1
+224,2013,St Louis,Oregon,0
+225,2013,Gonzaga,Wichita St,0
+226,2013,Ohio St,Iowa St,1
+227,2013,Harvard,Arizona,0
+228,2013,La Salle,Ole Miss,1
+229,2013,Kansas,North Carolina,1
+230,2013,Florida Gulf Coast,San Diego St,1
+231,2013,Florida,Minnesota,1
+232,2013,Michigan,VCU,1
+233,2013,Indiana,Temple,1
+234,2013,Miami,Illinois,1
+235,2013,Marquette,Butler,1
+236,2013,Syracuse,California,1
+237,2013,Louisville,Oregon,1
+238,2013,Duke,Michigan St,1
+239,2013,Wichita St,La Salle,1
+240,2013,Ohio St,Arizona,1
+241,2013,Kansas,Michigan,0
+242,2013,Florida Gulf Coast,Florida,0
+243,2013,Indiana,Syracuse,0
+244,2013,Miami,Marquette,0
+245,2013,Louisville,Duke,1
+246,2013,Wichita St,Ohio St,1
+247,2013,Michigan,Florida,1
+248,2013,Syracuse,Marquette,1
+249,2013,Louisville,Wichita St,1
+250,2013,Michigan,Syracuse,1
+251,2013,Louisville,Michigan,1
+252,2014,Florida,Albany,1
+253,2014,Kansas,Eastern Kentucky,1
+254,2014,Syracuse,Western Michigan,1
+255,2014,UCLA,Tulsa,1
+256,2014,VCU,Stephen F Austin,0
+257,2014,Ohio St,Dayton,0
+258,2014,New Mexico,Stanford,0
+259,2014,Colorado,Pittsburgh,0
+260,2014,Virginia,Coastal Carolina,1
+261,2014,Villanova,Wisconsin Milwaukee,1
+262,2014,Iowa St,North Carolina Central,1
+263,2014,Michigan St,Delaware,1
+264,2014,Cincinnati,Harvard,0
+265,2014,North Carolina,Providence,1
+266,2014,Connecticut,St Josephs,1
+267,2014,Memphis,George Washington,1
+268,2014,Arizona,Weber St,1
+269,2014,Wisconsin,American,1
+270,2014,Creighton,Louisiana Lafayette,1
+271,2014,San Diego St,New Mexico St,1
+272,2014,Oklahoma,North Dakota St,0
+273,2014,Baylor,Nebraska,1
+274,2014,Oregon,BYU,1
+275,2014,Gonzaga,Oklahoma St,1
+276,2014,Wichita St,Cal Poly,1
+277,2014,Michigan,Wofford,1
+278,2014,Duke,Mercer,0
+279,2014,Louisville,Manhattan,1
+280,2014,St Louis,NC State,1
+281,2014,Massachusetts,Tennessee,0
+282,2014,Texas,Arizona St,1
+283,2014,Kentucky,Kansas St,1
+284,2014,Florida,Pittsburgh,1
+285,2014,Kansas,Stanford,0
+286,2014,Syracuse,Dayton,0
+287,2014,UCLA,Stephen F Austin,1
+288,2014,Virginia,Memphis,1
+289,2014,Villanova,Connecticut,0
+290,2014,Iowa St,North Carolina,1
+291,2014,Michigan St,Harvard,1
+292,2014,Arizona,Gonzaga,1
+293,2014,Wisconsin,Oregon,1
+294,2014,Creighton,Baylor,0
+295,2014,San Diego St,North Dakota St,1
+296,2014,Wichita St,Kentucky,0
+297,2014,Michigan,Texas,1
+298,2014,Mercer,Tennessee,0
+299,2014,Louisville,St Louis,1
+300,2014,Florida,UCLA,1
+301,2014,Stanford,Dayton,0
+302,2014,Virginia,Michigan St,0
+303,2014,Connecticut,Iowa St,1
+304,2014,Arizona,San Diego St,1
+305,2014,Wisconsin,Baylor,1
+306,2014,Kentucky,Louisville,1
+307,2014,Michigan,Tennessee,1
+308,2014,Florida,Dayton,1
+309,2014,Michigan St,Connecticut,0
+310,2014,Arizona,Wisconsin,0
+311,2014,Kentucky,Michigan,1
+312,2014,Florida,Connecticut,0
+313,2014,Wisconsin,Kentucky,0
+314,2014,Connecticut,Kentucky,1
+315,2015,Kentucky,Hampton,1
+316,2015,Kansas,New Mexico St,1
+317,2015,Notre Dame,Northeastern,1
+318,2015,Maryland,Valparaiso,1
+319,2015,West Virginia,Buffalo,1
+320,2015,Butler,Texas,1
+321,2015,Wichita St,Indiana,1
+322,2015,Cincinnati,Purdue,1
+323,2015,Wisconsin,Coastal Carolina,1
+324,2015,Arizona,Texas Southern,1
+325,2015,Baylor,Georgia St,0
+326,2015,North Carolina,Harvard,1
+327,2015,Arkansas,Wofford,1
+328,2015,Xavier,Ole Miss,1
+329,2015,VCU,Ohio St,0
+330,2015,Oregon,Oklahoma St,1
+331,2015,Villanova,Lafayette,1
+332,2015,Virginia,Belmont,1
+333,2015,Oklahoma,Albany,1
+334,2015,Louisville,Cal Irvine,1
+335,2015,Northern Iowa,Wyoming,1
+336,2015,Providence,Dayton,0
+337,2015,Michigan St,Georgia,1
+338,2015,NC State,LSU,1
+339,2015,Duke,Robert Morris,1
+340,2015,Gonzaga,North Dakota St,1
+341,2015,Iowa St,UAB,0
+342,2015,Georgetown,Eastern Washington,1
+343,2015,Utah,Stephen F Austin,1
+344,2015,SMU,UCLA,0
+345,2015,Iowa,Davidson,1
+346,2015,San Diego St,St Johns,1
+347,2015,Kentucky,Cincinnati,1
+348,2015,Kansas,Wichita St,0
+349,2015,Notre Dame,Butler,1
+350,2015,Maryland,West Virginia,0
+351,2015,Wisconsin,Oregon,1
+352,2015,Arizona,Ohio St,1
+353,2015,Georgia St,Xavier,0
+354,2015,North Carolina,Arkansas,1
+355,2015,Villanova,NC State,0
+356,2015,Virginia,Michigan St,0
+357,2015,Oklahoma,Dayton,1
+358,2015,Louisville,Northern Iowa,1
+359,2015,Duke,San Diego St,1
+360,2015,Gonzaga,Iowa,1
+361,2015,UAB,UCLA,0
+362,2015,Georgetown,Utah,0
+363,2015,Kentucky,West Virginia,1
+364,2015,Wichita St,Notre Dame,0
+365,2015,Wisconsin,North Carolina,1
+366,2015,Arizona,Xavier,1
+367,2015,NC State,Louisville,0
+368,2015,Michigan St,Oklahoma,1
+369,2015,Duke,Utah,1
+370,2015,Gonzaga,UCLA,1
+371,2015,Kentucky,Notre Dame,1
+372,2015,Wisconsin,Arizona,1
+373,2015,Louisville,Michigan St,0
+374,2015,Duke,Gonzaga,1
+375,2015,Kentucky,Wisconsin,0
+376,2015,Michigan St,Duke,0
+377,2015,Wisconsin,Duke,0
+378,2016,Kansas,Austin Peay,1
+379,2016,Villanova,UNC Asheville,1
+380,2016,Miami,Buffalo,1
+381,2016,California,Hawaii,0
+382,2016,Maryland,South Dakota St,1
+383,2016,Arizona,Wichita St,0
+384,2016,Iowa,Temple,1
+385,2016,Colorado,Connecticut,0
+386,2016,Oregon,Holy Cross,1
+387,2016,Oklahoma,Cal St Bakersfield,1
+388,2016,Texas A&M,Wisconsin Green Bay,1
+389,2016,Duke,UNC Wilmington,1
+390,2016,Baylor,Yale,0
+391,2016,Texas,Northern Iowa,0
+392,2016,Oregon St,VCU,0
+393,2016,St Josephs,Cincinnati,1
+394,2016,North Carolina,Florida Gulf Coast,1
+395,2016,Xavier,Weber St,1
+396,2016,West Virginia,Stephen F Austin,0
+397,2016,Kentucky,Stony Brook,1
+398,2016,Indiana,Chattanooga,1
+399,2016,Notre Dame,Michigan,1
+400,2016,Wisconsin,Pittsburgh,1
+401,2016,USC,Providence,0
+402,2016,Virginia,Hampton,1
+403,2016,Michigan St,Middle Tennessee St,0
+404,2016,Utah,Fresno St,1
+405,2016,Iowa St,Iona,1
+406,2016,Purdue,Arkansas Little Rock,0
+407,2016,Seton Hall,Gonzaga,0
+408,2016,Dayton,Syracuse,0
+409,2016,Texas Tech,Butler,0
+410,2016,Kansas,Connecticut,1
+411,2016,Villanova,Iowa,1
+412,2016,Miami,Wichita St,1
+413,2016,Hawaii,Maryland,0
+414,2016,Oregon,St Josephs,1
+415,2016,Oklahoma,VCU,1
+416,2016,Texas A&M,Northern Iowa,1
+417,2016,Duke,Yale,1
+418,2016,North Carolina,Providence,1
+419,2016,Xavier,Wisconsin,0
+420,2016,Stephen F Austin,Notre Dame,0
+421,2016,Kentucky,Indiana,0
+422,2016,Virginia,Butler,1
+423,2016,Middle Tennessee St,Syracuse,0
+424,2016,Utah,Gonzaga,0
+425,2016,Iowa St,Arkansas Little Rock,1
+426,2016,Kansas,Maryland,1
+427,2016,Villanova,Miami,1
+428,2016,Oregon,Duke,1
+429,2016,Oklahoma,Texas A&M,1
+430,2016,North Carolina,Indiana,1
+431,2016,Wisconsin,Notre Dame,0
+432,2016,Virginia,Iowa St,1
+433,2016,Syracuse,Gonzaga,1
+434,2016,Kansas,Villanova,0
+435,2016,Oregon,Oklahoma,0
+436,2016,North Carolina,Notre Dame,1
+437,2016,Virginia,Syracuse,0
+438,2016,Villanova,Oklahoma,1
+439,2016,North Carolina,Syracuse,1
+440,2016,Villanova,North Carolina,1
+441,2017,Villanova,Mount St Marys,1
+442,2017,Duke,Troy,1
+443,2017,Baylor,New Mexico St,1
+444,2017,Florida,East Tennessee St,1
+445,2017,Virginia,UNC Wilmington,1
+446,2017,SMU,USC,0
+447,2017,South Carolina,Marquette,1
+448,2017,Wisconsin,Virginia Tech,1
+449,2017,Gonzaga,South Dakota St,1
+450,2017,Arizona,North Dakota,1
+451,2017,Florida St,Florida Gulf Coast,1
+452,2017,West Virginia,Bucknell,1
+453,2017,Notre Dame,Princeton,1
+454,2017,Maryland,Xavier,0
+455,2017,St Marys,VCU,1
+456,2017,Northwestern,Vanderbilt,1
+457,2017,Kansas,UC Davis,1
+458,2017,Louisville,Jacksonville St,1
+459,2017,Oregon,Iona,1
+460,2017,Purdue,Vermont,1
+461,2017,Iowa St,Nevada,1
+462,2017,Creighton,Rhode Island,0
+463,2017,Michigan,Oklahoma St,1
+464,2017,Miami,Michigan St,0
+465,2017,North Carolina,Texas Southern,1
+466,2017,Kentucky,Northern Kentucky,1
+467,2017,UCLA,Kent St,1
+468,2017,Butler,Winthrop,1
+469,2017,Minnesota,Middle Tennessee St,0
+470,2017,Cincinnati,Kansas St,1
+471,2017,Dayton,Wichita St,0
+472,2017,Arkansas,Seton Hall,1
+473,2017,Villanova,Wisconsin,0
+474,2017,Duke,South Carolina,0
+475,2017,Baylor,USC,1
+476,2017,Florida,Virginia,1
+477,2017,Gonzaga,Northwestern,1
+478,2017,Arizona,St Marys,1
+479,2017,Florida St,Xavier,0
+480,2017,West Virginia,Notre Dame,1
+481,2017,Kansas,Michigan St,1
+482,2017,Louisville,Michigan,0
+483,2017,Oregon,Rhode Island,1
+484,2017,Purdue,Iowa St,1
+485,2017,North Carolina,Arkansas,1
+486,2017,Kentucky,Wichita St,1
+487,2017,UCLA,Cincinnati,1
+488,2017,Butler,Middle Tennessee St,1
+489,2017,Wisconsin,Florida,0
+490,2017,South Carolina,Baylor,1
+491,2017,Gonzaga,West Virginia,1
+492,2017,Arizona,Xavier,0
+493,2017,Kansas,Purdue,1
+494,2017,Michigan,Oregon,0
+495,2017,North Carolina,Butler,1
+496,2017,Kentucky,UCLA,1
+497,2017,Florida,South Carolina,0
+498,2017,Gonzaga,Xavier,1
+499,2017,Kansas,Oregon,0
+500,2017,North Carolina,Kentucky,1
+501,2017,South Carolina,Gonzaga,0
+502,2017,Oregon,North Carolina,0
+503,2017,Gonzaga,North Carolina,0
+504,2018,Virginia,UMBC,0
+505,2018,Cincinnati,Georgia St,1
+506,2018,Tennessee,Wright St,1
+507,2018,Arizona,Buffalo,0
+508,2018,Kentucky,Davidson,1
+509,2018,Miami,Loyola Chicago,0
+510,2018,Nevada,Texas,1
+511,2018,Creighton,Kansas St,0
+512,2018,Xavier,Texas Southern,1
+513,2018,North Carolina,Lipscomb,1
+514,2018,Michigan,Montana,1
+515,2018,Gonzaga,UNC Greensboro,1
+516,2018,Ohio St,South Dakota St,1
+517,2018,Houston,San Diego St,1
+518,2018,Texas A&M,Providence,1
+519,2018,Missouri,Florida St,0
+520,2018,Villanova,Radford,1
+521,2018,Purdue,Cal St Fullerton,1
+522,2018,Texas Tech,Stephen F Austin,1
+523,2018,Wichita St,Marshall,0
+524,2018,West Virginia,Murray St,1
+525,2018,Florida,St Bonaventure,1
+526,2018,Arkansas,Butler,0
+527,2018,Virginia Tech,Alabama,0
+528,2018,Kansas,Pennsylvania,1
+529,2018,Duke,Iona,1
+530,2018,Michigan St,Bucknell,1
+531,2018,Auburn,College of Charleston,1
+532,2018,Clemson,New Mexico St,1
+533,2018,TCU,Syracuse,0
+534,2018,Rhode Island,Oklahoma,1
+535,2018,Seton Hall,NC State,1
+536,2018,UMBC,Kansas St,0
+537,2018,Cincinnati,Nevada,0
+538,2018,Tennessee,Loyola Chicago,0
+539,2018,Buffalo,Kentucky,0
+540,2018,Xavier,Florida St,0
+541,2018,North Carolina,Texas A&M,0
+542,2018,Michigan,Houston,1
+543,2018,Gonzaga,Ohio St,1
+544,2018,Villanova,Alabama,1
+545,2018,Purdue,Butler,1
+546,2018,Texas Tech,Florida,1
+547,2018,Marshall,West Virginia,0
+548,2018,Kansas,Seton Hall,1
+549,2018,Duke,Rhode Island,1
+550,2018,Michigan St,Syracuse,0
+551,2018,Auburn,Clemson,0
+552,2018,Kansas St,Kentucky,1
+553,2018,Nevada,Loyola Chicago,0
+554,2018,Florida St,Gonzaga,1
+555,2018,Texas A&M,Michigan,0
+556,2018,Villanova,West Virginia,1
+557,2018,Purdue,Texas Tech,0
+558,2018,Kansas,Clemson,1
+559,2018,Duke,Syracuse,1
+560,2018,Kansas St,Loyola Chicago,0
+561,2018,Florida St,Michigan,0
+562,2018,Villanova,Texas Tech,1
+563,2018,Kansas,Duke,1
+564,2018,Loyola Chicago,Michigan,0
+565,2018,Villanova,Kansas,1
+566,2018,Michigan,Villanova,0
+567,2019,Duke,North Dakota St,1
+568,2019,Michigan St,Bradley,1
+569,2019,LSU,Yale,1
+570,2019,Virginia Tech,St Louis,1
+571,2019,Mississippi St,Liberty,0
+572,2019,Maryland,Belmont,1
+573,2019,Louisville,Minnesota,0
+574,2019,VCU,Central Florida,0
+575,2019,Gonzaga,Fairleigh Dickinson,1
+576,2019,Michigan,Montana,1
+577,2019,Texas Tech,Northern Kentucky,1
+578,2019,Florida St,Vermont,1
+579,2019,Marquette,Murray St,0
+580,2019,Buffalo,Arizona St,1
+581,2019,Nevada,Florida,0
+582,2019,Syracuse,Baylor,0
+583,2019,Virginia,Gardner Webb,1
+584,2019,Tennessee,Colgate,1
+585,2019,Purdue,Old Dominion,1
+586,2019,Kansas St,UC Irvine,0
+587,2019,Wisconsin,Oregon,0
+588,2019,Villanova,St Marys,1
+589,2019,Cincinnati,Iowa,0
+590,2019,Ole Miss,Oklahoma,0
+591,2019,North Carolina,Iona,1
+592,2019,Kentucky,Abilene Christian,1
+593,2019,Houston,Georgia St,1
+594,2019,Kansas,Northeastern,1
+595,2019,Auburn,New Mexico St,1
+596,2019,Iowa St,Ohio St,0
+597,2019,Wofford,Seton Hall,1
+598,2019,Utah St,Washington,0
+599,2019,Duke,Central Florida,1
+600,2019,Michigan St,Minnesota,1
+601,2019,LSU,Maryland,1
+602,2019,Virginia Tech,Liberty,1
+603,2019,Gonzaga,Baylor,1
+604,2019,Michigan,Florida,1
+605,2019,Texas Tech,Buffalo,1
+606,2019,Florida St,Murray St,1
+607,2019,Virginia,Oklahoma,1
+608,2019,Tennessee,Iowa,1
+609,2019,Purdue,Villanova,1
+610,2019,UC Irvine,Oregon,0
+611,2019,North Carolina,Washington,1
+612,2019,Kentucky,Wofford,1
+613,2019,Houston,Ohio St,1
+614,2019,Kansas,Auburn,0
+615,2019,Duke,Virginia Tech,1
+616,2019,Michigan St,LSU,1
+617,2019,Gonzaga,Florida St,1
+618,2019,Michigan,Texas Tech,0
+619,2019,Virginia,Oregon,1
+620,2019,Tennessee,Purdue,0
+621,2019,North Carolina,Auburn,0
+622,2019,Kentucky,Houston,1
+623,2019,Duke,Michigan St,0
+624,2019,Gonzaga,Texas Tech,0
+625,2019,Virginia,Purdue,1
+626,2019,Auburn,Kentucky,1
+627,2019,Michigan St,Texas Tech,0
+628,2019,Virginia,Auburn,1
+629,2019,Texas Tech,Virginia,0
