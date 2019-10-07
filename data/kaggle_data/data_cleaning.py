@@ -77,7 +77,7 @@ opp_2015['School'] = opp_2015['School'].replace("NCAA$", "2015", regex=True)
 season_2016['School'] = season_2016['School'].replace("NCAA$", "2016", regex=True)
 opp_2016['School'] = opp_2016['School'].replace("NCAA$", "2016", regex=True)
 
-print(opp_2016)
+# print(opp_2016)
 
 # Add DRB column and remove TRB
 opp_2016['opp_DRB'] = opp_2016['TRB'] - opp_2016['ORB']

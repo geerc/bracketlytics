@@ -28,3 +28,6 @@ advanced_stats[['orb%', 'drb%']] = advanced_stats[['orb%', 'drb%']].round(3)
 advanced_stats['ft%'] = season_data['FT'] / season_data['FGA']
 advanced_stats['def_ft%'] = season_data['opp_FT'] / season_data['opp_FTA']
 advanced_stats[['ft%', 'def_ft%']] = advanced_stats[['ft%', 'def_ft%']].round(3)
+
+# write advanced_stats to file
+advanced_stats.to_csv(ROOT + 'advanced_stats.csv')
