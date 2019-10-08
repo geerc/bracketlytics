@@ -22,4 +22,7 @@ round7 = Queue()
 
 ROOT = '/Users/christiangeer/bracketlytics/data/kaggle_data/data2/'
 
-data = 
+data = pd.read_csv(ROOT + 'combined_data.csv')
+
+# Cast wins as int
+data['win'] = data['win'].astype(int)

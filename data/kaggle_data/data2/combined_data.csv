@@ -1,4 +1,4 @@
-﻿F1-1,Year,Team,Team 1,win,F1,School,SOS,efg%,def_efg%,tov%,def_tov%,tov%%,orb%,drb%,ft%,def_ft%,F1-2,School-1,SOS-1,efg%-1,def_efg%-1,tov%-1,def_tov%-1,tov%%-1,orb%-1,drb%-1,ft%-1,def_ft%-1
+﻿F1-1,Year,Team,Team 1,win,F1,School,SOS,efg%,def_efg%,tov%,def_tov%,tov%,orb%,drb%,ft%,def_ft%,F1-2,School-1,SOS-1,efg%-1,def_efg%-1,tov%-1,def_tov%-1,tov%-1,orb%-1,drb%-1,ft%-1,def_ft%-1
 628,2019,Virginia_2019,Auburn_2019,True,63,Virginia_2019,10.15,0.552,0.447,0.114,0.139,0.114,0.258,1.439,0.216,0.666,2,Auburn_2019,10.92,0.543,0.512,0.127,0.189,0.127,0.334,0.998,0.221,0.707
 614,2019,Kansas_2019,Auburn_2019,False,23,Kansas_2019,12.79,0.526,0.478,0.143,0.139,0.143,0.272,1.34,0.229,0.686,2,Auburn_2019,10.92,0.543,0.512,0.127,0.189,0.127,0.334,0.998,0.221,0.707
 582,2019,Syracuse_2019,Baylor_2019,False,54,Syracuse_2019,10.09,0.496,0.48,0.14,0.175,0.14,0.309,1.117,0.252,0.722,3,Baylor_2019,9.26,0.512,0.491,0.146,0.142,0.146,0.348,0.936,0.219,0.683

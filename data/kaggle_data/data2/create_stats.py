@@ -17,7 +17,7 @@ advanced_stats[['efg%', 'def_efg%']] = advanced_stats[['efg%', 'def_efg%']].roun
 # Turnover percentage (off and def)
 advanced_stats['tov%'] = season_data['TOV'] / (season_data['FGA'] + 0.44 + season_data['FTA'] + season_data['TOV'])
 advanced_stats['def_tov%'] = season_data['opp_TOV'] / (season_data['opp_FGA'] + 0.44 + season_data['opp_FTA'] + season_data['opp_TOV'])
-advanced_stats[['tov%%', 'def_tov%']] = advanced_stats[['tov%', 'def_tov%']].round(3)
+advanced_stats[['tov%', 'def_tov%']] = advanced_stats[['tov%', 'def_tov%']].round(3)
 
 # Rebounding percenteage (off and def)
 advanced_stats['orb%'] = season_data['ORB'] / (season_data['ORB'] + season_data['DRB'])
