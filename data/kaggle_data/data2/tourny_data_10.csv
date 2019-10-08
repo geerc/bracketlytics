@@ -1,235 +1,235 @@
-,Year,Team,Team 1,win
+,Year,Team,Team_1,win
 0,2010,Kansas_2010,Lehigh_2010,1
-1,2010,Ohio St_2010,Santa Barbara_2010,1
+1,2010,Ohio_St_2010,Santa_Barbara_2010,1
 2,2010,Georgetown_2010,Ohio_2010,0
 3,2010,Maryland_2010,Houston_2010,1
-4,2010,Michigan St_2010,New Mexico St_2010,1
-5,2010,Tennessee_2010,San Diego St_2010,1
-6,2010,Oklahoma St_2010,Georgia Tech_2010,0
-7,2010,UNLV_2010,Northern Iowa_2010,0
+4,2010,Michigan_St_2010,New_Mexico_St_2010,1
+5,2010,Tennessee_2010,San_Diego_St_2010,1
+6,2010,Oklahoma_St_2010,Georgia_Tech_2010,0
+7,2010,UNLV_2010,Northern_Iowa_2010,0
 8,2010,Syracuse_2010,Vermont_2010,1
-9,2010,Kansas St_2010,North Texas_2010,1
+9,2010,Kansas_St_2010,North_Texas_2010,1
 10,2010,Pittsburgh_2010,Oakland_2010,1
-11,2010,Vanderbilt_2010,Murray St_2010,0
+11,2010,Vanderbilt_2010,Murray_St_2010,0
 12,2010,Butler_2010,UTEP_2010,1
 13,2010,Xavier_2010,Minnesota_2010,1
 14,2010,BYU_2010,Florida_2010,1
-15,2010,Gonzaga_2010,Florida St_2010,1
-16,2010,Kentucky_2010,East Tennessee St_2010,1
-17,2010,West Virginia_2010,Morgan St_2010,1
-18,2010,New Mexico_2010,Montana_2010,1
+15,2010,Gonzaga_2010,Florida_St_2010,1
+16,2010,Kentucky_2010,East_Tennessee_St_2010,1
+17,2010,West_Virginia_2010,Morgan_St_2010,1
+18,2010,New_Mexico_2010,Montana_2010,1
 19,2010,Wisconsin_2010,Wofford_2010,1
 20,2010,Temple_2010,Cornell_2010,0
 21,2010,Marquette_2010,Washington_2010,0
 22,2010,Clemson_2010,Missouri_2010,0
-23,2010,Texas_2010,Wake Forest_2010,0
-24,2010,Duke_2010,Arkansas Pine Bluff_2010,1
-25,2010,Villanova_2010,Robert Morris_2010,1
-26,2010,Baylor_2010,Sam Houston St_2010,1
+23,2010,Texas_2010,Wake_Forest_2010,0
+24,2010,Duke_2010,Arkansas_Pine_Bluff_2010,1
+25,2010,Villanova_2010,Robert_Morris_2010,1
+26,2010,Baylor_2010,Sam_Houston_St_2010,1
 27,2010,Purdue_2010,Siena_2010,1
-28,2010,Texas A&M_2010,Utah St_2010,1
-29,2010,Notre Dame_2010,Old Dominion_2010,0
-30,2010,Richmond_2010,St Marys_2010,0
+28,2010,Texas_A&M_2010,Utah_St_2010,1
+29,2010,Notre_Dame_2010,Old_Dominion_2010,0
+30,2010,Richmond_2010,St_Marys_2010,0
 31,2010,California_2010,Louisville_2010,1
-32,2010,Kansas_2010,Northern Iowa_2010,0
-33,2010,Ohio St_2010,Georgia Tech_2010,1
+32,2010,Kansas_2010,Northern_Iowa_2010,0
+33,2010,Ohio_St_2010,Georgia_Tech_2010,1
 34,2010,Ohio_2010,Tennessee_2010,0
-35,2010,Maryland_2010,Michigan St_2010,0
+35,2010,Maryland_2010,Michigan_St_2010,0
 36,2010,Syracuse_2010,Gonzaga_2010,1
-37,2010,Kansas St_2010,BYU_2010,1
+37,2010,Kansas_St_2010,BYU_2010,1
 38,2010,Pittsburgh_2010,Xavier_2010,0
-39,2010,Murray St_2010,Butler_2010,0
-40,2010,Kentucky_2010,Wake Forest_2010,1
-41,2010,West Virginia_2010,Missouri_2010,1
-42,2010,New Mexico_2010,Washington_2010,0
+39,2010,Murray_St_2010,Butler_2010,0
+40,2010,Kentucky_2010,Wake_Forest_2010,1
+41,2010,West_Virginia_2010,Missouri_2010,1
+42,2010,New_Mexico_2010,Washington_2010,0
 43,2010,Wisconsin_2010,Cornell_2010,0
 44,2010,Duke_2010,California_2010,1
-45,2010,Villanova_2010,St Marys_2010,0
-46,2010,Baylor_2010,Old Dominion_2010,1
-47,2010,Purdue_2010,Texas A&M_2010,1
-48,2010,Northern Iowa_2010,Michigan St_2010,0
-49,2010,Ohio St_2010,Tennessee_2010,0
+45,2010,Villanova_2010,St_Marys_2010,0
+46,2010,Baylor_2010,Old_Dominion_2010,1
+47,2010,Purdue_2010,Texas_A&M_2010,1
+48,2010,Northern_Iowa_2010,Michigan_St_2010,0
+49,2010,Ohio_St_2010,Tennessee_2010,0
 50,2010,Syracuse_2010,Butler_2010,0
-51,2010,Kansas St_2010,Xavier_2010,1
+51,2010,Kansas_St_2010,Xavier_2010,1
 52,2010,Kentucky_2010,Cornell_2010,1
-53,2010,West Virginia_2010,Washington_2010,1
+53,2010,West_Virginia_2010,Washington_2010,1
 54,2010,Duke_2010,Purdue_2010,1
-55,2010,St Marys_2010,Baylor_2010,0
-56,2010,Michigan St_2010,Tennessee_2010,1
-57,2010,Butler_2010,Kansas St_2010,1
-58,2010,Kentucky_2010,West Virginia_2010,0
+55,2010,St_Marys_2010,Baylor_2010,0
+56,2010,Michigan_St_2010,Tennessee_2010,1
+57,2010,Butler_2010,Kansas_St_2010,1
+58,2010,Kentucky_2010,West_Virginia_2010,0
 59,2010,Duke_2010,Baylor_2010,1
-60,2010,Michigan St_2010,Butler_2010,0
-61,2010,West Virginia_2010,Duke_2010,0
+60,2010,Michigan_St_2010,Butler_2010,0
+61,2010,West_Virginia_2010,Duke_2010,0
 62,2010,Butler_2010,Duke_2010,0
-63,2011,Ohio St_2011,Texas San Antonio_2011,1
-64,2011,North Carolina_2011,Long Island Brooklyn_2011,1
-65,2011,Syracuse_2011,Indiana St_2011,1
+63,2011,Ohio_St_2011,Texas_San_Antonio_2011,1
+64,2011,North_Carolina_2011,Long_Island_Brooklyn_2011,1
+65,2011,Syracuse_2011,Indiana_St_2011,1
 66,2011,Kentucky_2011,Princeton_2011,1
-67,2011,West Virginia_2011,Clemson_2011,1
+67,2011,West_Virginia_2011,Clemson_2011,1
 68,2011,Xavier_2011,Marquette_2011,0
 69,2011,Washington_2011,Georgia_2011,1
-70,2011,George Mason_2011,Villanova_2011,1
+70,2011,George_Mason_2011,Villanova_2011,1
 71,2011,Duke_2011,Hampton_2011,1
-72,2011,San Diego St_2011,Northern Colorado_2011,1
+72,2011,San_Diego_St_2011,Northern_Colorado_2011,1
 73,2011,Connecticut_2011,Bucknell_2011,1
 74,2011,Texas_2011,Oakland_2011,1
 75,2011,Arizona_2011,Memphis_2011,1
 76,2011,Cincinnati_2011,Missouri_2011,1
-77,2011,Temple_2011,Penn St_2011,1
+77,2011,Temple_2011,Penn_St_2011,1
 78,2011,Michigan_2011,Tennessee_2011,1
-79,2011,Kansas_2011,Boston University_2011,1
-80,2011,Notre Dame_2011,Akron_2011,1
-81,2011,Purdue_2011,St Peters_2011,1
-82,2011,Louisville_2011,Morehead St_2011,0
+79,2011,Kansas_2011,Boston_University_2011,1
+80,2011,Notre_Dame_2011,Akron_2011,1
+81,2011,Purdue_2011,St_Peters_2011,1
+82,2011,Louisville_2011,Morehead_St_2011,0
 83,2011,Vanderbilt_2011,Richmond_2011,0
 84,2011,Georgetown_2011,VCU_2011,0
-85,2011,Texas A&M_2011,Florida St_2011,0
+85,2011,Texas_A&M_2011,Florida_St_2011,0
 86,2011,UNLV_2011,Illinois_2011,0
-87,2011,Pittsburgh_2011,UNC Asheville_2011,1
-88,2011,Florida_2011,Santa Barbara_2011,1
+87,2011,Pittsburgh_2011,UNC_Asheville_2011,1
+88,2011,Florida_2011,Santa_Barbara_2011,1
 89,2011,BYU_2011,Wofford_2011,1
 90,2011,Wisconsin_2011,Belmont_2011,1
-91,2011,Kansas St_2011,Utah St_2011,1
-92,2011,St Johns_2011,Gonzaga_2011,0
-93,2011,UCLA_2011,Michigan St_2011,1
-94,2011,Butler_2011,Old Dominion_2011,1
-95,2011,Ohio St_2011,George Mason_2011,1
-96,2011,North Carolina_2011,Washington_2011,1
+91,2011,Kansas_St_2011,Utah_St_2011,1
+92,2011,St_Johns_2011,Gonzaga_2011,0
+93,2011,UCLA_2011,Michigan_St_2011,1
+94,2011,Butler_2011,Old_Dominion_2011,1
+95,2011,Ohio_St_2011,George_Mason_2011,1
+96,2011,North_Carolina_2011,Washington_2011,1
 97,2011,Syracuse_2011,Marquette_2011,0
-98,2011,Kentucky_2011,West Virginia_2011,1
+98,2011,Kentucky_2011,West_Virginia_2011,1
 99,2011,Duke_2011,Michigan_2011,1
-100,2011,San Diego St_2011,Temple_2011,1
+100,2011,San_Diego_St_2011,Temple_2011,1
 101,2011,Connecticut_2011,Cincinnati_2011,1
 102,2011,Texas_2011,Arizona_2011,0
 103,2011,Kansas_2011,Illinois_2011,1
-104,2011,Notre Dame_2011,Florida St_2011,0
+104,2011,Notre_Dame_2011,Florida_St_2011,0
 105,2011,Purdue_2011,VCU_2011,0
-106,2011,Morehead St_2011,Richmond_2011,0
+106,2011,Morehead_St_2011,Richmond_2011,0
 107,2011,Pittsburgh_2011,Butler_2011,0
 108,2011,Florida_2011,UCLA_2011,1
 109,2011,BYU_2011,Gonzaga_2011,1
-110,2011,Wisconsin_2011,Kansas St_2011,1
-111,2011,Ohio St_2011,Kentucky_2011,0
-112,2011,North Carolina_2011,Marquette_2011,1
+110,2011,Wisconsin_2011,Kansas_St_2011,1
+111,2011,Ohio_St_2011,Kentucky_2011,0
+112,2011,North_Carolina_2011,Marquette_2011,1
 113,2011,Duke_2011,Arizona_2011,0
-114,2011,San Diego St_2011,Connecticut_2011,0
+114,2011,San_Diego_St_2011,Connecticut_2011,0
 115,2011,Kansas_2011,Richmond_2011,1
-116,2011,Florida St_2011,VCU_2011,0
+116,2011,Florida_St_2011,VCU_2011,0
 117,2011,Butler_2011,Wisconsin_2011,1
 118,2011,Florida_2011,BYU_2011,1
-119,2011,Kentucky_2011,North Carolina_2011,1
+119,2011,Kentucky_2011,North_Carolina_2011,1
 120,2011,Arizona_2011,Connecticut_2011,0
 121,2011,Kansas_2011,VCU_2011,0
 122,2011,Butler_2011,Florida_2011,1
 123,2011,Kentucky_2011,Connecticut_2011,0
 124,2011,VCU_2011,Butler_2011,0
 125,2011,Connecticut_2011,Butler_2011,1
-126,2012,Kentucky_2012,Western Kentucky_2012,1
+126,2012,Kentucky_2012,Western_Kentucky_2012,1
 127,2012,Duke_2012,Lehigh_2012,0
-128,2012,Baylor_2012,South Dakota St_2012,1
-129,2012,Indiana_2012,New Mexico St_2012,1
-130,2012,Wichita St_2012,VCU_2012,0
+128,2012,Baylor_2012,South_Dakota_St_2012,1
+129,2012,Indiana_2012,New_Mexico_St_2012,1
+130,2012,Wichita_St_2012,VCU_2012,0
 131,2012,UNLV_2012,Colorado_2012,0
-132,2012,Notre Dame_2012,Xavier_2012,0
-133,2012,Iowa St_2012,Connecticut_2012,1
-134,2012,Michigan St_2012,Long Island Brooklyn_2012,1
-135,2012,Missouri_2012,Norfolk St_2012,0
+132,2012,Notre_Dame_2012,Xavier_2012,0
+133,2012,Iowa_St_2012,Connecticut_2012,1
+134,2012,Michigan_St_2012,Long_Island_Brooklyn_2012,1
+135,2012,Missouri_2012,Norfolk_St_2012,0
 136,2012,Marquette_2012,BYU_2012,1
 137,2012,Louisville_2012,Davidson_2012,1
-138,2012,New Mexico_2012,Long Beach St_2012,1
-139,2012,Murray St_2012,Colorado St_2012,1
+138,2012,New_Mexico_2012,Long_Beach_St_2012,1
+139,2012,Murray_St_2012,Colorado_St_2012,1
 140,2012,Florida_2012,Virginia_2012,1
-141,2012,Memphis_2012,St Louis_2012,0
-142,2012,Syracuse_2012,UNC Asheville_2012,1
-143,2012,Ohio St_2012,Loyola Maryland_2012,1
-144,2012,Florida St_2012,St Bonaventure_2012,1
+141,2012,Memphis_2012,St_Louis_2012,0
+142,2012,Syracuse_2012,UNC_Asheville_2012,1
+143,2012,Ohio_St_2012,Loyola_Maryland_2012,1
+144,2012,Florida_St_2012,St_Bonaventure_2012,1
 145,2012,Wisconsin_2012,Montana_2012,1
 146,2012,Vanderbilt_2012,Harvard_2012,1
 147,2012,Cincinnati_2012,Texas_2012,1
-148,2012,Gonzaga_2012,West Virginia_2012,1
-149,2012,Kansas St_2012,Southern Mississippi_2012,1
-150,2012,North Carolina_2012,Vermont_2012,1
+148,2012,Gonzaga_2012,West_Virginia_2012,1
+149,2012,Kansas_St_2012,Southern_Mississippi_2012,1
+150,2012,North_Carolina_2012,Vermont_2012,1
 151,2012,Kansas_2012,Detroit_2012,1
 152,2012,Georgetown_2012,Belmont_2012,1
 153,2012,Michigan_2012,Ohio_2012,0
-154,2012,Temple_2012,South Florida_2012,0
-155,2012,San Diego St_2012,NC State_2012,0
-156,2012,St Marys_2012,Purdue_2012,0
+154,2012,Temple_2012,South_Florida_2012,0
+155,2012,San_Diego_St_2012,NC_State_2012,0
+156,2012,St_Marys_2012,Purdue_2012,0
 157,2012,Creighton_2012,Alabama_2012,1
-158,2012,Kentucky_2012,Iowa St_2012,1
+158,2012,Kentucky_2012,Iowa_St_2012,1
 159,2012,Lehigh_2012,Xavier_2012,0
 160,2012,Baylor_2012,Colorado_2012,1
 161,2012,Indiana_2012,VCU_2012,1
-162,2012,Michigan St_2012,St Louis_2012,1
-163,2012,Norfolk St_2012,Florida_2012,0
-164,2012,Marquette_2012,Murray St_2012,1
-165,2012,Louisville_2012,New Mexico_2012,1
-166,2012,Syracuse_2012,Kansas St_2012,1
-167,2012,Ohio St_2012,Gonzaga_2012,1
-168,2012,Florida St_2012,Cincinnati_2012,0
+162,2012,Michigan_St_2012,St_Louis_2012,1
+163,2012,Norfolk_St_2012,Florida_2012,0
+164,2012,Marquette_2012,Murray_St_2012,1
+165,2012,Louisville_2012,New_Mexico_2012,1
+166,2012,Syracuse_2012,Kansas_St_2012,1
+167,2012,Ohio_St_2012,Gonzaga_2012,1
+168,2012,Florida_St_2012,Cincinnati_2012,0
 169,2012,Wisconsin_2012,Vanderbilt_2012,1
-170,2012,North Carolina_2012,Creighton_2012,1
+170,2012,North_Carolina_2012,Creighton_2012,1
 171,2012,Kansas_2012,Purdue_2012,1
-172,2012,Georgetown_2012,NC State_2012,0
-173,2012,Ohio_2012,South Florida_2012,1
+172,2012,Georgetown_2012,NC_State_2012,0
+173,2012,Ohio_2012,South_Florida_2012,1
 174,2012,Kentucky_2012,Indiana_2012,1
 175,2012,Xavier_2012,Baylor_2012,0
-176,2012,Michigan St_2012,Louisville_2012,0
+176,2012,Michigan_St_2012,Louisville_2012,0
 177,2012,Florida_2012,Marquette_2012,1
 178,2012,Syracuse_2012,Wisconsin_2012,1
-179,2012,Ohio St_2012,Cincinnati_2012,1
-180,2012,North Carolina_2012,Ohio_2012,1
-181,2012,Kansas_2012,NC State_2012,1
+179,2012,Ohio_St_2012,Cincinnati_2012,1
+180,2012,North_Carolina_2012,Ohio_2012,1
+181,2012,Kansas_2012,NC_State_2012,1
 182,2012,Kentucky_2012,Baylor_2012,1
 183,2012,Louisville_2012,Florida_2012,1
-184,2012,Syracuse_2012,Ohio St_2012,0
-185,2012,North Carolina_2012,Kansas_2012,0
+184,2012,Syracuse_2012,Ohio_St_2012,0
+185,2012,North_Carolina_2012,Kansas_2012,0
 186,2012,Kentucky_2012,Louisville_2012,1
-187,2012,Ohio St_2012,Kansas_2012,0
+187,2012,Ohio_St_2012,Kansas_2012,0
 188,2012,Kentucky_2012,Kansas_2012,1
-189,2013,Louisville_2013,North Carolina A&T_2013,1
+189,2013,Louisville_2013,North_Carolina_A&T_2013,1
 190,2013,Duke_2013,Albany_2013,1
-191,2013,Michigan St_2013,Valparaiso_2013,1
-192,2013,St Louis_2013,New Mexico St_2013,1
-193,2013,Oklahoma St_2013,Oregon_2013,0
-194,2013,Memphis_2013,St Marys_2013,1
+191,2013,Michigan_St_2013,Valparaiso_2013,1
+192,2013,St_Louis_2013,New_Mexico_St_2013,1
+193,2013,Oklahoma_St_2013,Oregon_2013,0
+194,2013,Memphis_2013,St_Marys_2013,1
 195,2013,Creighton_2013,Cincinnati_2013,1
-196,2013,Colorado St_2013,Missouri_2013,1
+196,2013,Colorado_St_2013,Missouri_2013,1
 197,2013,Gonzaga_2013,Southern_2013,1
-198,2013,Ohio St_2013,Iona_2013,1
-199,2013,New Mexico_2013,Harvard_2013,0
-200,2013,Kansas St_2013,La Salle_2013,0
-201,2013,Wisconsin_2013,Ole Miss_2013,0
+198,2013,Ohio_St_2013,Iona_2013,1
+199,2013,New_Mexico_2013,Harvard_2013,0
+200,2013,Kansas_St_2013,La_Salle_2013,0
+201,2013,Wisconsin_2013,Ole_Miss_2013,0
 202,2013,Arizona_2013,Belmont_2013,1
-203,2013,Notre Dame_2013,Iowa St_2013,0
-204,2013,Pittsburgh_2013,Wichita St_2013,0
-205,2013,Kansas_2013,Western Kentucky_2013,1
-206,2013,Georgetown_2013,Florida Gulf Coast_2013,0
-207,2013,Florida_2013,Northwestern St_2013,1
-208,2013,Michigan_2013,South Dakota St_2013,1
+203,2013,Notre_Dame_2013,Iowa_St_2013,0
+204,2013,Pittsburgh_2013,Wichita_St_2013,0
+205,2013,Kansas_2013,Western_Kentucky_2013,1
+206,2013,Georgetown_2013,Florida_Gulf_Coast_2013,0
+207,2013,Florida_2013,Northwestern_St_2013,1
+208,2013,Michigan_2013,South_Dakota_St_2013,1
 209,2013,VCU_2013,Akron_2013,1
 210,2013,UCLA_2013,Minnesota_2013,0
-211,2013,San Diego St_2013,Oklahoma_2013,1
-212,2013,North Carolina_2013,Villanova_2013,1
-213,2013,Indiana_2013,James Madison_2013,1
+211,2013,San_Diego_St_2013,Oklahoma_2013,1
+212,2013,North_Carolina_2013,Villanova_2013,1
+213,2013,Indiana_2013,James_Madison_2013,1
 214,2013,Miami_2013,Pacific_2013,1
 215,2013,Marquette_2013,Davidson_2013,1
 216,2013,Syracuse_2013,Montana_2013,1
 217,2013,UNLV_2013,California_2013,0
 218,2013,Butler_2013,Bucknell_2013,1
 219,2013,Illinois_2013,Colorado_2013,1
-220,2013,NC State_2013,Temple_2013,0
-221,2013,Louisville_2013,Colorado St_2013,1
+220,2013,NC_State_2013,Temple_2013,0
+221,2013,Louisville_2013,Colorado_St_2013,1
 222,2013,Duke_2013,Creighton_2013,1
-223,2013,Michigan St_2013,Memphis_2013,1
-224,2013,St Louis_2013,Oregon_2013,0
-225,2013,Gonzaga_2013,Wichita St_2013,0
-226,2013,Ohio St_2013,Iowa St_2013,1
+223,2013,Michigan_St_2013,Memphis_2013,1
+224,2013,St_Louis_2013,Oregon_2013,0
+225,2013,Gonzaga_2013,Wichita_St_2013,0
+226,2013,Ohio_St_2013,Iowa_St_2013,1
 227,2013,Harvard_2013,Arizona_2013,0
-228,2013,La Salle_2013,Ole Miss_2013,1
-229,2013,Kansas_2013,North Carolina_2013,1
-230,2013,Florida Gulf Coast_2013,San Diego St_2013,1
+228,2013,La_Salle_2013,Ole_Miss_2013,1
+229,2013,Kansas_2013,North_Carolina_2013,1
+230,2013,Florida_Gulf_Coast_2013,San_Diego_St_2013,1
 231,2013,Florida_2013,Minnesota_2013,1
 232,2013,Michigan_2013,VCU_2013,1
 233,2013,Indiana_2013,Temple_2013,1
@@ -237,395 +237,395 @@
 235,2013,Marquette_2013,Butler_2013,1
 236,2013,Syracuse_2013,California_2013,1
 237,2013,Louisville_2013,Oregon_2013,1
-238,2013,Duke_2013,Michigan St_2013,1
-239,2013,Wichita St_2013,La Salle_2013,1
-240,2013,Ohio St_2013,Arizona_2013,1
+238,2013,Duke_2013,Michigan_St_2013,1
+239,2013,Wichita_St_2013,La_Salle_2013,1
+240,2013,Ohio_St_2013,Arizona_2013,1
 241,2013,Kansas_2013,Michigan_2013,0
-242,2013,Florida Gulf Coast_2013,Florida_2013,0
+242,2013,Florida_Gulf_Coast_2013,Florida_2013,0
 243,2013,Indiana_2013,Syracuse_2013,0
 244,2013,Miami_2013,Marquette_2013,0
 245,2013,Louisville_2013,Duke_2013,1
-246,2013,Wichita St_2013,Ohio St_2013,1
+246,2013,Wichita_St_2013,Ohio_St_2013,1
 247,2013,Michigan_2013,Florida_2013,1
 248,2013,Syracuse_2013,Marquette_2013,1
-249,2013,Louisville_2013,Wichita St_2013,1
+249,2013,Louisville_2013,Wichita_St_2013,1
 250,2013,Michigan_2013,Syracuse_2013,1
 251,2013,Louisville_2013,Michigan_2013,1
 252,2014,Florida_2014,Albany_2014,1
-253,2014,Kansas_2014,Eastern Kentucky_2014,1
-254,2014,Syracuse_2014,Western Michigan_2014,1
+253,2014,Kansas_2014,Eastern_Kentucky_2014,1
+254,2014,Syracuse_2014,Western_Michigan_2014,1
 255,2014,UCLA_2014,Tulsa_2014,1
-256,2014,VCU_2014,Stephen F Austin_2014,0
-257,2014,Ohio St_2014,Dayton_2014,0
-258,2014,New Mexico_2014,Stanford_2014,0
+256,2014,VCU_2014,Stephen_F_Austin_2014,0
+257,2014,Ohio_St_2014,Dayton_2014,0
+258,2014,New_Mexico_2014,Stanford_2014,0
 259,2014,Colorado_2014,Pittsburgh_2014,0
-260,2014,Virginia_2014,Coastal Carolina_2014,1
-261,2014,Villanova_2014,Wisconsin Milwaukee_2014,1
-262,2014,Iowa St_2014,North Carolina Central_2014,1
-263,2014,Michigan St_2014,Delaware_2014,1
+260,2014,Virginia_2014,Coastal_Carolina_2014,1
+261,2014,Villanova_2014,Wisconsin_Milwaukee_2014,1
+262,2014,Iowa_St_2014,North_Carolina_Central_2014,1
+263,2014,Michigan_St_2014,Delaware_2014,1
 264,2014,Cincinnati_2014,Harvard_2014,0
-265,2014,North Carolina_2014,Providence_2014,1
-266,2014,Connecticut_2014,St Josephs_2014,1
-267,2014,Memphis_2014,George Washington_2014,1
-268,2014,Arizona_2014,Weber St_2014,1
+265,2014,North_Carolina_2014,Providence_2014,1
+266,2014,Connecticut_2014,St_Josephs_2014,1
+267,2014,Memphis_2014,George_Washington_2014,1
+268,2014,Arizona_2014,Weber_St_2014,1
 269,2014,Wisconsin_2014,American_2014,1
-270,2014,Creighton_2014,Louisiana Lafayette_2014,1
-271,2014,San Diego St_2014,New Mexico St_2014,1
-272,2014,Oklahoma_2014,North Dakota St_2014,0
+270,2014,Creighton_2014,Louisiana_Lafayette_2014,1
+271,2014,San_Diego_St_2014,New_Mexico_St_2014,1
+272,2014,Oklahoma_2014,North_Dakota_St_2014,0
 273,2014,Baylor_2014,Nebraska_2014,1
 274,2014,Oregon_2014,BYU_2014,1
-275,2014,Gonzaga_2014,Oklahoma St_2014,1
-276,2014,Wichita St_2014,Cal Poly_2014,1
+275,2014,Gonzaga_2014,Oklahoma_St_2014,1
+276,2014,Wichita_St_2014,Cal_Poly_2014,1
 277,2014,Michigan_2014,Wofford_2014,1
 278,2014,Duke_2014,Mercer_2014,0
 279,2014,Louisville_2014,Manhattan_2014,1
-280,2014,St Louis_2014,NC State_2014,1
+280,2014,St_Louis_2014,NC_State_2014,1
 281,2014,Massachusetts_2014,Tennessee_2014,0
-282,2014,Texas_2014,Arizona St_2014,1
-283,2014,Kentucky_2014,Kansas St_2014,1
+282,2014,Texas_2014,Arizona_St_2014,1
+283,2014,Kentucky_2014,Kansas_St_2014,1
 284,2014,Florida_2014,Pittsburgh_2014,1
 285,2014,Kansas_2014,Stanford_2014,0
 286,2014,Syracuse_2014,Dayton_2014,0
-287,2014,UCLA_2014,Stephen F Austin_2014,1
+287,2014,UCLA_2014,Stephen_F_Austin_2014,1
 288,2014,Virginia_2014,Memphis_2014,1
 289,2014,Villanova_2014,Connecticut_2014,0
-290,2014,Iowa St_2014,North Carolina_2014,1
-291,2014,Michigan St_2014,Harvard_2014,1
+290,2014,Iowa_St_2014,North_Carolina_2014,1
+291,2014,Michigan_St_2014,Harvard_2014,1
 292,2014,Arizona_2014,Gonzaga_2014,1
 293,2014,Wisconsin_2014,Oregon_2014,1
 294,2014,Creighton_2014,Baylor_2014,0
-295,2014,San Diego St_2014,North Dakota St_2014,1
-296,2014,Wichita St_2014,Kentucky_2014,0
+295,2014,San_Diego_St_2014,North_Dakota_St_2014,1
+296,2014,Wichita_St_2014,Kentucky_2014,0
 297,2014,Michigan_2014,Texas_2014,1
 298,2014,Mercer_2014,Tennessee_2014,0
-299,2014,Louisville_2014,St Louis_2014,1
+299,2014,Louisville_2014,St_Louis_2014,1
 300,2014,Florida_2014,UCLA_2014,1
 301,2014,Stanford_2014,Dayton_2014,0
-302,2014,Virginia_2014,Michigan St_2014,0
-303,2014,Connecticut_2014,Iowa St_2014,1
-304,2014,Arizona_2014,San Diego St_2014,1
+302,2014,Virginia_2014,Michigan_St_2014,0
+303,2014,Connecticut_2014,Iowa_St_2014,1
+304,2014,Arizona_2014,San_Diego_St_2014,1
 305,2014,Wisconsin_2014,Baylor_2014,1
 306,2014,Kentucky_2014,Louisville_2014,1
 307,2014,Michigan_2014,Tennessee_2014,1
 308,2014,Florida_2014,Dayton_2014,1
-309,2014,Michigan St_2014,Connecticut_2014,0
+309,2014,Michigan_St_2014,Connecticut_2014,0
 310,2014,Arizona_2014,Wisconsin_2014,0
 311,2014,Kentucky_2014,Michigan_2014,1
 312,2014,Florida_2014,Connecticut_2014,0
 313,2014,Wisconsin_2014,Kentucky_2014,0
 314,2014,Connecticut_2014,Kentucky_2014,1
 315,2015,Kentucky_2015,Hampton_2015,1
-316,2015,Kansas_2015,New Mexico St_2015,1
-317,2015,Notre Dame_2015,Northeastern_2015,1
+316,2015,Kansas_2015,New_Mexico_St_2015,1
+317,2015,Notre_Dame_2015,Northeastern_2015,1
 318,2015,Maryland_2015,Valparaiso_2015,1
-319,2015,West Virginia_2015,Buffalo_2015,1
+319,2015,West_Virginia_2015,Buffalo_2015,1
 320,2015,Butler_2015,Texas_2015,1
-321,2015,Wichita St_2015,Indiana_2015,1
+321,2015,Wichita_St_2015,Indiana_2015,1
 322,2015,Cincinnati_2015,Purdue_2015,1
-323,2015,Wisconsin_2015,Coastal Carolina_2015,1
-324,2015,Arizona_2015,Texas Southern_2015,1
-325,2015,Baylor_2015,Georgia St_2015,0
-326,2015,North Carolina_2015,Harvard_2015,1
+323,2015,Wisconsin_2015,Coastal_Carolina_2015,1
+324,2015,Arizona_2015,Texas_Southern_2015,1
+325,2015,Baylor_2015,Georgia_St_2015,0
+326,2015,North_Carolina_2015,Harvard_2015,1
 327,2015,Arkansas_2015,Wofford_2015,1
-328,2015,Xavier_2015,Ole Miss_2015,1
-329,2015,VCU_2015,Ohio St_2015,0
-330,2015,Oregon_2015,Oklahoma St_2015,1
+328,2015,Xavier_2015,Ole_Miss_2015,1
+329,2015,VCU_2015,Ohio_St_2015,0
+330,2015,Oregon_2015,Oklahoma_St_2015,1
 331,2015,Villanova_2015,Lafayette_2015,1
 332,2015,Virginia_2015,Belmont_2015,1
 333,2015,Oklahoma_2015,Albany_2015,1
-334,2015,Louisville_2015,Cal Irvine_2015,1
-335,2015,Northern Iowa_2015,Wyoming_2015,1
+334,2015,Louisville_2015,Cal_Irvine_2015,1
+335,2015,Northern_Iowa_2015,Wyoming_2015,1
 336,2015,Providence_2015,Dayton_2015,0
-337,2015,Michigan St_2015,Georgia_2015,1
-338,2015,NC State_2015,LSU_2015,1
-339,2015,Duke_2015,Robert Morris_2015,1
-340,2015,Gonzaga_2015,North Dakota St_2015,1
-341,2015,Iowa St_2015,UAB_2015,0
-342,2015,Georgetown_2015,Eastern Washington_2015,1
-343,2015,Utah_2015,Stephen F Austin_2015,1
+337,2015,Michigan_St_2015,Georgia_2015,1
+338,2015,NC_State_2015,LSU_2015,1
+339,2015,Duke_2015,Robert_Morris_2015,1
+340,2015,Gonzaga_2015,North_Dakota_St_2015,1
+341,2015,Iowa_St_2015,UAB_2015,0
+342,2015,Georgetown_2015,Eastern_Washington_2015,1
+343,2015,Utah_2015,Stephen_F_Austin_2015,1
 344,2015,SMU_2015,UCLA_2015,0
 345,2015,Iowa_2015,Davidson_2015,1
-346,2015,San Diego St_2015,St Johns_2015,1
+346,2015,San_Diego_St_2015,St_Johns_2015,1
 347,2015,Kentucky_2015,Cincinnati_2015,1
-348,2015,Kansas_2015,Wichita St_2015,0
-349,2015,Notre Dame_2015,Butler_2015,1
-350,2015,Maryland_2015,West Virginia_2015,0
+348,2015,Kansas_2015,Wichita_St_2015,0
+349,2015,Notre_Dame_2015,Butler_2015,1
+350,2015,Maryland_2015,West_Virginia_2015,0
 351,2015,Wisconsin_2015,Oregon_2015,1
-352,2015,Arizona_2015,Ohio St_2015,1
-353,2015,Georgia St_2015,Xavier_2015,0
-354,2015,North Carolina_2015,Arkansas_2015,1
-355,2015,Villanova_2015,NC State_2015,0
-356,2015,Virginia_2015,Michigan St_2015,0
+352,2015,Arizona_2015,Ohio_St_2015,1
+353,2015,Georgia_St_2015,Xavier_2015,0
+354,2015,North_Carolina_2015,Arkansas_2015,1
+355,2015,Villanova_2015,NC_State_2015,0
+356,2015,Virginia_2015,Michigan_St_2015,0
 357,2015,Oklahoma_2015,Dayton_2015,1
-358,2015,Louisville_2015,Northern Iowa_2015,1
-359,2015,Duke_2015,San Diego St_2015,1
+358,2015,Louisville_2015,Northern_Iowa_2015,1
+359,2015,Duke_2015,San_Diego_St_2015,1
 360,2015,Gonzaga_2015,Iowa_2015,1
 361,2015,UAB_2015,UCLA_2015,0
 362,2015,Georgetown_2015,Utah_2015,0
-363,2015,Kentucky_2015,West Virginia_2015,1
-364,2015,Wichita St_2015,Notre Dame_2015,0
-365,2015,Wisconsin_2015,North Carolina_2015,1
+363,2015,Kentucky_2015,West_Virginia_2015,1
+364,2015,Wichita_St_2015,Notre_Dame_2015,0
+365,2015,Wisconsin_2015,North_Carolina_2015,1
 366,2015,Arizona_2015,Xavier_2015,1
-367,2015,NC State_2015,Louisville_2015,0
-368,2015,Michigan St_2015,Oklahoma_2015,1
+367,2015,NC_State_2015,Louisville_2015,0
+368,2015,Michigan_St_2015,Oklahoma_2015,1
 369,2015,Duke_2015,Utah_2015,1
 370,2015,Gonzaga_2015,UCLA_2015,1
-371,2015,Kentucky_2015,Notre Dame_2015,1
+371,2015,Kentucky_2015,Notre_Dame_2015,1
 372,2015,Wisconsin_2015,Arizona_2015,1
-373,2015,Louisville_2015,Michigan St_2015,0
+373,2015,Louisville_2015,Michigan_St_2015,0
 374,2015,Duke_2015,Gonzaga_2015,1
 375,2015,Kentucky_2015,Wisconsin_2015,0
-376,2015,Michigan St_2015,Duke_2015,0
+376,2015,Michigan_St_2015,Duke_2015,0
 377,2015,Wisconsin_2015,Duke_2015,0
-378,2016,Kansas_2016,Austin Peay_2016,1
-379,2016,Villanova_2016,UNC Asheville_2016,1
+378,2016,Kansas_2016,Austin_Peay_2016,1
+379,2016,Villanova_2016,UNC_Asheville_2016,1
 380,2016,Miami_2016,Buffalo_2016,1
 381,2016,California_2016,Hawaii_2016,0
-382,2016,Maryland_2016,South Dakota St_2016,1
-383,2016,Arizona_2016,Wichita St_2016,0
+382,2016,Maryland_2016,South_Dakota_St_2016,1
+383,2016,Arizona_2016,Wichita_St_2016,0
 384,2016,Iowa_2016,Temple_2016,1
 385,2016,Colorado_2016,Connecticut_2016,0
-386,2016,Oregon_2016,Holy Cross_2016,1
-387,2016,Oklahoma_2016,Cal St Bakersfield_2016,1
-388,2016,Texas A&M_2016,Wisconsin Green Bay_2016,1
-389,2016,Duke_2016,UNC Wilmington_2016,1
+386,2016,Oregon_2016,Holy_Cross_2016,1
+387,2016,Oklahoma_2016,Cal_St_Bakersfield_2016,1
+388,2016,Texas_A&M_2016,Wisconsin_Green_Bay_2016,1
+389,2016,Duke_2016,UNC_Wilmington_2016,1
 390,2016,Baylor_2016,Yale_2016,0
-391,2016,Texas_2016,Northern Iowa_2016,0
-392,2016,Oregon St_2016,VCU_2016,0
-393,2016,St Josephs_2016,Cincinnati_2016,1
-394,2016,North Carolina_2016,Florida Gulf Coast_2016,1
-395,2016,Xavier_2016,Weber St_2016,1
-396,2016,West Virginia_2016,Stephen F Austin_2016,0
-397,2016,Kentucky_2016,Stony Brook_2016,1
+391,2016,Texas_2016,Northern_Iowa_2016,0
+392,2016,Oregon_St_2016,VCU_2016,0
+393,2016,St_Josephs_2016,Cincinnati_2016,1
+394,2016,North_Carolina_2016,Florida_Gulf_Coast_2016,1
+395,2016,Xavier_2016,Weber_St_2016,1
+396,2016,West_Virginia_2016,Stephen_F_Austin_2016,0
+397,2016,Kentucky_2016,Stony_Brook_2016,1
 398,2016,Indiana_2016,Chattanooga_2016,1
-399,2016,Notre Dame_2016,Michigan_2016,1
+399,2016,Notre_Dame_2016,Michigan_2016,1
 400,2016,Wisconsin_2016,Pittsburgh_2016,1
 401,2016,USC_2016,Providence_2016,0
 402,2016,Virginia_2016,Hampton_2016,1
-403,2016,Michigan St_2016,Middle Tennessee St_2016,0
-404,2016,Utah_2016,Fresno St_2016,1
-405,2016,Iowa St_2016,Iona_2016,1
-406,2016,Purdue_2016,Arkansas Little Rock_2016,0
-407,2016,Seton Hall_2016,Gonzaga_2016,0
+403,2016,Michigan_St_2016,Middle_Tennessee_St_2016,0
+404,2016,Utah_2016,Fresno_St_2016,1
+405,2016,Iowa_St_2016,Iona_2016,1
+406,2016,Purdue_2016,Arkansas_Little_Rock_2016,0
+407,2016,Seton_Hall_2016,Gonzaga_2016,0
 408,2016,Dayton_2016,Syracuse_2016,0
-409,2016,Texas Tech_2016,Butler_2016,0
+409,2016,Texas_Tech_2016,Butler_2016,0
 410,2016,Kansas_2016,Connecticut_2016,1
 411,2016,Villanova_2016,Iowa_2016,1
-412,2016,Miami_2016,Wichita St_2016,1
+412,2016,Miami_2016,Wichita_St_2016,1
 413,2016,Hawaii_2016,Maryland_2016,0
-414,2016,Oregon_2016,St Josephs_2016,1
+414,2016,Oregon_2016,St_Josephs_2016,1
 415,2016,Oklahoma_2016,VCU_2016,1
-416,2016,Texas A&M_2016,Northern Iowa_2016,1
+416,2016,Texas_A&M_2016,Northern_Iowa_2016,1
 417,2016,Duke_2016,Yale_2016,1
-418,2016,North Carolina_2016,Providence_2016,1
+418,2016,North_Carolina_2016,Providence_2016,1
 419,2016,Xavier_2016,Wisconsin_2016,0
-420,2016,Stephen F Austin_2016,Notre Dame_2016,0
+420,2016,Stephen_F_Austin_2016,Notre_Dame_2016,0
 421,2016,Kentucky_2016,Indiana_2016,0
 422,2016,Virginia_2016,Butler_2016,1
-423,2016,Middle Tennessee St_2016,Syracuse_2016,0
+423,2016,Middle_Tennessee_St_2016,Syracuse_2016,0
 424,2016,Utah_2016,Gonzaga_2016,0
-425,2016,Iowa St_2016,Arkansas Little Rock_2016,1
+425,2016,Iowa_St_2016,Arkansas_Little_Rock_2016,1
 426,2016,Kansas_2016,Maryland_2016,1
 427,2016,Villanova_2016,Miami_2016,1
 428,2016,Oregon_2016,Duke_2016,1
-429,2016,Oklahoma_2016,Texas A&M_2016,1
-430,2016,North Carolina_2016,Indiana_2016,1
-431,2016,Wisconsin_2016,Notre Dame_2016,0
-432,2016,Virginia_2016,Iowa St_2016,1
+429,2016,Oklahoma_2016,Texas_A&M_2016,1
+430,2016,North_Carolina_2016,Indiana_2016,1
+431,2016,Wisconsin_2016,Notre_Dame_2016,0
+432,2016,Virginia_2016,Iowa_St_2016,1
 433,2016,Syracuse_2016,Gonzaga_2016,1
 434,2016,Kansas_2016,Villanova_2016,0
 435,2016,Oregon_2016,Oklahoma_2016,0
-436,2016,North Carolina_2016,Notre Dame_2016,1
+436,2016,North_Carolina_2016,Notre_Dame_2016,1
 437,2016,Virginia_2016,Syracuse_2016,0
 438,2016,Villanova_2016,Oklahoma_2016,1
-439,2016,North Carolina_2016,Syracuse_2016,1
-440,2016,Villanova_2016,North Carolina_2016,1
-441,2017,Villanova_2017,Mount St Marys_2017,1
+439,2016,North_Carolina_2016,Syracuse_2016,1
+440,2016,Villanova_2016,North_Carolina_2016,1
+441,2017,Villanova_2017,Mount_St_Marys_2017,1
 442,2017,Duke_2017,Troy_2017,1
-443,2017,Baylor_2017,New Mexico St_2017,1
-444,2017,Florida_2017,East Tennessee St_2017,1
-445,2017,Virginia_2017,UNC Wilmington_2017,1
+443,2017,Baylor_2017,New_Mexico_St_2017,1
+444,2017,Florida_2017,East_Tennessee_St_2017,1
+445,2017,Virginia_2017,UNC_Wilmington_2017,1
 446,2017,SMU_2017,USC_2017,0
-447,2017,South Carolina_2017,Marquette_2017,1
-448,2017,Wisconsin_2017,Virginia Tech_2017,1
-449,2017,Gonzaga_2017,South Dakota St_2017,1
-450,2017,Arizona_2017,North Dakota_2017,1
-451,2017,Florida St_2017,Florida Gulf Coast_2017,1
-452,2017,West Virginia_2017,Bucknell_2017,1
-453,2017,Notre Dame_2017,Princeton_2017,1
+447,2017,South_Carolina_2017,Marquette_2017,1
+448,2017,Wisconsin_2017,Virginia_Tech_2017,1
+449,2017,Gonzaga_2017,South_Dakota_St_2017,1
+450,2017,Arizona_2017,North_Dakota_2017,1
+451,2017,Florida_St_2017,Florida_Gulf_Coast_2017,1
+452,2017,West_Virginia_2017,Bucknell_2017,1
+453,2017,Notre_Dame_2017,Princeton_2017,1
 454,2017,Maryland_2017,Xavier_2017,0
-455,2017,St Marys_2017,VCU_2017,1
+455,2017,St_Marys_2017,VCU_2017,1
 456,2017,Northwestern_2017,Vanderbilt_2017,1
-457,2017,Kansas_2017,UC Davis_2017,1
-458,2017,Louisville_2017,Jacksonville St_2017,1
+457,2017,Kansas_2017,UC_Davis_2017,1
+458,2017,Louisville_2017,Jacksonville_St_2017,1
 459,2017,Oregon_2017,Iona_2017,1
 460,2017,Purdue_2017,Vermont_2017,1
-461,2017,Iowa St_2017,Nevada_2017,1
-462,2017,Creighton_2017,Rhode Island_2017,0
-463,2017,Michigan_2017,Oklahoma St_2017,1
-464,2017,Miami_2017,Michigan St_2017,0
-465,2017,North Carolina_2017,Texas Southern_2017,1
-466,2017,Kentucky_2017,Northern Kentucky_2017,1
-467,2017,UCLA_2017,Kent St_2017,1
+461,2017,Iowa_St_2017,Nevada_2017,1
+462,2017,Creighton_2017,Rhode_Island_2017,0
+463,2017,Michigan_2017,Oklahoma_St_2017,1
+464,2017,Miami_2017,Michigan_St_2017,0
+465,2017,North_Carolina_2017,Texas_Southern_2017,1
+466,2017,Kentucky_2017,Northern_Kentucky_2017,1
+467,2017,UCLA_2017,Kent_St_2017,1
 468,2017,Butler_2017,Winthrop_2017,1
-469,2017,Minnesota_2017,Middle Tennessee St_2017,0
-470,2017,Cincinnati_2017,Kansas St_2017,1
-471,2017,Dayton_2017,Wichita St_2017,0
-472,2017,Arkansas_2017,Seton Hall_2017,1
+469,2017,Minnesota_2017,Middle_Tennessee_St_2017,0
+470,2017,Cincinnati_2017,Kansas_St_2017,1
+471,2017,Dayton_2017,Wichita_St_2017,0
+472,2017,Arkansas_2017,Seton_Hall_2017,1
 473,2017,Villanova_2017,Wisconsin_2017,0
-474,2017,Duke_2017,South Carolina_2017,0
+474,2017,Duke_2017,South_Carolina_2017,0
 475,2017,Baylor_2017,USC_2017,1
 476,2017,Florida_2017,Virginia_2017,1
 477,2017,Gonzaga_2017,Northwestern_2017,1
-478,2017,Arizona_2017,St Marys_2017,1
-479,2017,Florida St_2017,Xavier_2017,0
-480,2017,West Virginia_2017,Notre Dame_2017,1
-481,2017,Kansas_2017,Michigan St_2017,1
+478,2017,Arizona_2017,St_Marys_2017,1
+479,2017,Florida_St_2017,Xavier_2017,0
+480,2017,West_Virginia_2017,Notre_Dame_2017,1
+481,2017,Kansas_2017,Michigan_St_2017,1
 482,2017,Louisville_2017,Michigan_2017,0
-483,2017,Oregon_2017,Rhode Island_2017,1
-484,2017,Purdue_2017,Iowa St_2017,1
-485,2017,North Carolina_2017,Arkansas_2017,1
-486,2017,Kentucky_2017,Wichita St_2017,1
+483,2017,Oregon_2017,Rhode_Island_2017,1
+484,2017,Purdue_2017,Iowa_St_2017,1
+485,2017,North_Carolina_2017,Arkansas_2017,1
+486,2017,Kentucky_2017,Wichita_St_2017,1
 487,2017,UCLA_2017,Cincinnati_2017,1
-488,2017,Butler_2017,Middle Tennessee St_2017,1
+488,2017,Butler_2017,Middle_Tennessee_St_2017,1
 489,2017,Wisconsin_2017,Florida_2017,0
-490,2017,South Carolina_2017,Baylor_2017,1
-491,2017,Gonzaga_2017,West Virginia_2017,1
+490,2017,South_Carolina_2017,Baylor_2017,1
+491,2017,Gonzaga_2017,West_Virginia_2017,1
 492,2017,Arizona_2017,Xavier_2017,0
 493,2017,Kansas_2017,Purdue_2017,1
 494,2017,Michigan_2017,Oregon_2017,0
-495,2017,North Carolina_2017,Butler_2017,1
+495,2017,North_Carolina_2017,Butler_2017,1
 496,2017,Kentucky_2017,UCLA_2017,1
-497,2017,Florida_2017,South Carolina_2017,0
+497,2017,Florida_2017,South_Carolina_2017,0
 498,2017,Gonzaga_2017,Xavier_2017,1
 499,2017,Kansas_2017,Oregon_2017,0
-500,2017,North Carolina_2017,Kentucky_2017,1
-501,2017,South Carolina_2017,Gonzaga_2017,0
-502,2017,Oregon_2017,North Carolina_2017,0
-503,2017,Gonzaga_2017,North Carolina_2017,0
+500,2017,North_Carolina_2017,Kentucky_2017,1
+501,2017,South_Carolina_2017,Gonzaga_2017,0
+502,2017,Oregon_2017,North_Carolina_2017,0
+503,2017,Gonzaga_2017,North_Carolina_2017,0
 504,2018,Virginia_2018,UMBC_2018,0
-505,2018,Cincinnati_2018,Georgia St_2018,1
-506,2018,Tennessee_2018,Wright St_2018,1
+505,2018,Cincinnati_2018,Georgia_St_2018,1
+506,2018,Tennessee_2018,Wright_St_2018,1
 507,2018,Arizona_2018,Buffalo_2018,0
 508,2018,Kentucky_2018,Davidson_2018,1
-509,2018,Miami_2018,Loyola Chicago_2018,0
+509,2018,Miami_2018,Loyola_Chicago_2018,0
 510,2018,Nevada_2018,Texas_2018,1
-511,2018,Creighton_2018,Kansas St_2018,0
-512,2018,Xavier_2018,Texas Southern_2018,1
-513,2018,North Carolina_2018,Lipscomb_2018,1
+511,2018,Creighton_2018,Kansas_St_2018,0
+512,2018,Xavier_2018,Texas_Southern_2018,1
+513,2018,North_Carolina_2018,Lipscomb_2018,1
 514,2018,Michigan_2018,Montana_2018,1
-515,2018,Gonzaga_2018,UNC Greensboro_2018,1
-516,2018,Ohio St_2018,South Dakota St_2018,1
-517,2018,Houston_2018,San Diego St_2018,1
-518,2018,Texas A&M_2018,Providence_2018,1
-519,2018,Missouri_2018,Florida St_2018,0
+515,2018,Gonzaga_2018,UNC_Greensboro_2018,1
+516,2018,Ohio_St_2018,South_Dakota_St_2018,1
+517,2018,Houston_2018,San_Diego_St_2018,1
+518,2018,Texas_A&M_2018,Providence_2018,1
+519,2018,Missouri_2018,Florida_St_2018,0
 520,2018,Villanova_2018,Radford_2018,1
-521,2018,Purdue_2018,Cal St Fullerton_2018,1
-522,2018,Texas Tech_2018,Stephen F Austin_2018,1
-523,2018,Wichita St_2018,Marshall_2018,0
-524,2018,West Virginia_2018,Murray St_2018,1
-525,2018,Florida_2018,St Bonaventure_2018,1
+521,2018,Purdue_2018,Cal_St_Fullerton_2018,1
+522,2018,Texas_Tech_2018,Stephen_F_Austin_2018,1
+523,2018,Wichita_St_2018,Marshall_2018,0
+524,2018,West_Virginia_2018,Murray_St_2018,1
+525,2018,Florida_2018,St_Bonaventure_2018,1
 526,2018,Arkansas_2018,Butler_2018,0
-527,2018,Virginia Tech_2018,Alabama_2018,0
+527,2018,Virginia_Tech_2018,Alabama_2018,0
 528,2018,Kansas_2018,Pennsylvania_2018,1
 529,2018,Duke_2018,Iona_2018,1
-530,2018,Michigan St_2018,Bucknell_2018,1
-531,2018,Auburn_2018,College of Charleston_2018,1
-532,2018,Clemson_2018,New Mexico St_2018,1
+530,2018,Michigan_St_2018,Bucknell_2018,1
+531,2018,Auburn_2018,College_of_Charleston_2018,1
+532,2018,Clemson_2018,New_Mexico_St_2018,1
 533,2018,TCU_2018,Syracuse_2018,0
-534,2018,Rhode Island_2018,Oklahoma_2018,1
-535,2018,Seton Hall_2018,NC State_2018,1
-536,2018,UMBC_2018,Kansas St_2018,0
+534,2018,Rhode_Island_2018,Oklahoma_2018,1
+535,2018,Seton_Hall_2018,NC_State_2018,1
+536,2018,UMBC_2018,Kansas_St_2018,0
 537,2018,Cincinnati_2018,Nevada_2018,0
-538,2018,Tennessee_2018,Loyola Chicago_2018,0
+538,2018,Tennessee_2018,Loyola_Chicago_2018,0
 539,2018,Buffalo_2018,Kentucky_2018,0
-540,2018,Xavier_2018,Florida St_2018,0
-541,2018,North Carolina_2018,Texas A&M_2018,0
+540,2018,Xavier_2018,Florida_St_2018,0
+541,2018,North_Carolina_2018,Texas_A&M_2018,0
 542,2018,Michigan_2018,Houston_2018,1
-543,2018,Gonzaga_2018,Ohio St_2018,1
+543,2018,Gonzaga_2018,Ohio_St_2018,1
 544,2018,Villanova_2018,Alabama_2018,1
 545,2018,Purdue_2018,Butler_2018,1
-546,2018,Texas Tech_2018,Florida_2018,1
-547,2018,Marshall_2018,West Virginia_2018,0
-548,2018,Kansas_2018,Seton Hall_2018,1
-549,2018,Duke_2018,Rhode Island_2018,1
-550,2018,Michigan St_2018,Syracuse_2018,0
+546,2018,Texas_Tech_2018,Florida_2018,1
+547,2018,Marshall_2018,West_Virginia_2018,0
+548,2018,Kansas_2018,Seton_Hall_2018,1
+549,2018,Duke_2018,Rhode_Island_2018,1
+550,2018,Michigan_St_2018,Syracuse_2018,0
 551,2018,Auburn_2018,Clemson_2018,0
-552,2018,Kansas St_2018,Kentucky_2018,1
-553,2018,Nevada_2018,Loyola Chicago_2018,0
-554,2018,Florida St_2018,Gonzaga_2018,1
-555,2018,Texas A&M_2018,Michigan_2018,0
-556,2018,Villanova_2018,West Virginia_2018,1
-557,2018,Purdue_2018,Texas Tech_2018,0
+552,2018,Kansas_St_2018,Kentucky_2018,1
+553,2018,Nevada_2018,Loyola_Chicago_2018,0
+554,2018,Florida_St_2018,Gonzaga_2018,1
+555,2018,Texas_A&M_2018,Michigan_2018,0
+556,2018,Villanova_2018,West_Virginia_2018,1
+557,2018,Purdue_2018,Texas_Tech_2018,0
 558,2018,Kansas_2018,Clemson_2018,1
 559,2018,Duke_2018,Syracuse_2018,1
-560,2018,Kansas St_2018,Loyola Chicago_2018,0
-561,2018,Florida St_2018,Michigan_2018,0
-562,2018,Villanova_2018,Texas Tech_2018,1
+560,2018,Kansas_St_2018,Loyola_Chicago_2018,0
+561,2018,Florida_St_2018,Michigan_2018,0
+562,2018,Villanova_2018,Texas_Tech_2018,1
 563,2018,Kansas_2018,Duke_2018,1
-564,2018,Loyola Chicago_2018,Michigan_2018,0
+564,2018,Loyola_Chicago_2018,Michigan_2018,0
 565,2018,Villanova_2018,Kansas_2018,1
 566,2018,Michigan_2018,Villanova_2018,0
-567,2019,Duke_2019,North Dakota St_2019,1
-568,2019,Michigan St_2019,Bradley_2019,1
+567,2019,Duke_2019,North_Dakota_St_2019,1
+568,2019,Michigan_St_2019,Bradley_2019,1
 569,2019,LSU_2019,Yale_2019,1
-570,2019,Virginia Tech_2019,St Louis_2019,1
-571,2019,Mississippi St_2019,Liberty_2019,0
+570,2019,Virginia_Tech_2019,St_Louis_2019,1
+571,2019,Mississippi_St_2019,Liberty_2019,0
 572,2019,Maryland_2019,Belmont_2019,1
 573,2019,Louisville_2019,Minnesota_2019,0
-574,2019,VCU_2019,Central Florida_2019,0
-575,2019,Gonzaga_2019,Fairleigh Dickinson_2019,1
+574,2019,VCU_2019,Central_Florida_2019,0
+575,2019,Gonzaga_2019,Fairleigh_Dickinson_2019,1
 576,2019,Michigan_2019,Montana_2019,1
-577,2019,Texas Tech_2019,Northern Kentucky_2019,1
-578,2019,Florida St_2019,Vermont_2019,1
-579,2019,Marquette_2019,Murray St_2019,0
-580,2019,Buffalo_2019,Arizona St_2019,1
+577,2019,Texas_Tech_2019,Northern_Kentucky_2019,1
+578,2019,Florida_St_2019,Vermont_2019,1
+579,2019,Marquette_2019,Murray_St_2019,0
+580,2019,Buffalo_2019,Arizona_St_2019,1
 581,2019,Nevada_2019,Florida_2019,0
 582,2019,Syracuse_2019,Baylor_2019,0
-583,2019,Virginia_2019,Gardner Webb_2019,1
+583,2019,Virginia_2019,Gardner_Webb_2019,1
 584,2019,Tennessee_2019,Colgate_2019,1
-585,2019,Purdue_2019,Old Dominion_2019,1
-586,2019,Kansas St_2019,UC Irvine_2019,0
+585,2019,Purdue_2019,Old_Dominion_2019,1
+586,2019,Kansas_St_2019,UC_Irvine_2019,0
 587,2019,Wisconsin_2019,Oregon_2019,0
-588,2019,Villanova_2019,St Marys_2019,1
+588,2019,Villanova_2019,St_Marys_2019,1
 589,2019,Cincinnati_2019,Iowa_2019,0
-590,2019,Ole Miss_2019,Oklahoma_2019,0
-591,2019,North Carolina_2019,Iona_2019,1
-592,2019,Kentucky_2019,Abilene Christian_2019,1
-593,2019,Houston_2019,Georgia St_2019,1
+590,2019,Ole_Miss_2019,Oklahoma_2019,0
+591,2019,North_Carolina_2019,Iona_2019,1
+592,2019,Kentucky_2019,Abilene_Christian_2019,1
+593,2019,Houston_2019,Georgia_St_2019,1
 594,2019,Kansas_2019,Northeastern_2019,1
-595,2019,Auburn_2019,New Mexico St_2019,1
-596,2019,Iowa St_2019,Ohio St_2019,0
-597,2019,Wofford_2019,Seton Hall_2019,1
-598,2019,Utah St_2019,Washington_2019,0
-599,2019,Duke_2019,Central Florida_2019,1
-600,2019,Michigan St_2019,Minnesota_2019,1
+595,2019,Auburn_2019,New_Mexico_St_2019,1
+596,2019,Iowa_St_2019,Ohio_St_2019,0
+597,2019,Wofford_2019,Seton_Hall_2019,1
+598,2019,Utah_St_2019,Washington_2019,0
+599,2019,Duke_2019,Central_Florida_2019,1
+600,2019,Michigan_St_2019,Minnesota_2019,1
 601,2019,LSU_2019,Maryland_2019,1
-602,2019,Virginia Tech_2019,Liberty_2019,1
+602,2019,Virginia_Tech_2019,Liberty_2019,1
 603,2019,Gonzaga_2019,Baylor_2019,1
 604,2019,Michigan_2019,Florida_2019,1
-605,2019,Texas Tech_2019,Buffalo_2019,1
-606,2019,Florida St_2019,Murray St_2019,1
+605,2019,Texas_Tech_2019,Buffalo_2019,1
+606,2019,Florida_St_2019,Murray_St_2019,1
 607,2019,Virginia_2019,Oklahoma_2019,1
 608,2019,Tennessee_2019,Iowa_2019,1
 609,2019,Purdue_2019,Villanova_2019,1
-610,2019,UC Irvine_2019,Oregon_2019,0
-611,2019,North Carolina_2019,Washington_2019,1
+610,2019,UC_Irvine_2019,Oregon_2019,0
+611,2019,North_Carolina_2019,Washington_2019,1
 612,2019,Kentucky_2019,Wofford_2019,1
-613,2019,Houston_2019,Ohio St_2019,1
+613,2019,Houston_2019,Ohio_St_2019,1
 614,2019,Kansas_2019,Auburn_2019,0
-615,2019,Duke_2019,Virginia Tech_2019,1
-616,2019,Michigan St_2019,LSU_2019,1
-617,2019,Gonzaga_2019,Florida St_2019,1
-618,2019,Michigan_2019,Texas Tech_2019,0
+615,2019,Duke_2019,Virginia_Tech_2019,1
+616,2019,Michigan_St_2019,LSU_2019,1
+617,2019,Gonzaga_2019,Florida_St_2019,1
+618,2019,Michigan_2019,Texas_Tech_2019,0
 619,2019,Virginia_2019,Oregon_2019,1
 620,2019,Tennessee_2019,Purdue_2019,0
-621,2019,North Carolina_2019,Auburn_2019,0
+621,2019,North_Carolina_2019,Auburn_2019,0
 622,2019,Kentucky_2019,Houston_2019,1
-623,2019,Duke_2019,Michigan St_2019,0
-624,2019,Gonzaga_2019,Texas Tech_2019,0
+623,2019,Duke_2019,Michigan_St_2019,0
+624,2019,Gonzaga_2019,Texas_Tech_2019,0
 625,2019,Virginia_2019,Purdue_2019,1
 626,2019,Auburn_2019,Kentucky_2019,1
-627,2019,Michigan St_2019,Texas Tech_2019,0
+627,2019,Michigan_St_2019,Texas_Tech_2019,0
 628,2019,Virginia_2019,Auburn_2019,1
-629,2019,Texas Tech_2019,Virginia_2019,0
+629,2019,Texas_Tech_2019,Virginia_2019,0
