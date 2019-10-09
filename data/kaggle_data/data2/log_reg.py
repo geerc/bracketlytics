@@ -26,3 +26,5 @@ data = pd.read_csv(ROOT + 'combined_data.csv')
 
 # Cast wins as int
 data['win'] = data['win'].astype(int)
+
+print(data['win'])
