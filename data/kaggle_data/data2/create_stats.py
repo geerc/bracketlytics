@@ -7,7 +7,7 @@ season_data = pd.read_csv(ROOT + 'season_data.csv')
 advanced_stats = pd.concat([season_data['School'], season_data['SOS']], axis=1)
 
 # print(season_data)
-# print(advanced_stats)
+# print(advanced_stats.to_string())
 
 # Effective field goal percetenge (off and def)
 advanced_stats['efg%'] = (season_data['FG'] + float(0.5) * season_data['3P']) / season_data['FGA']
@@ -29,5 +29,5 @@ advanced_stats['ft%'] = season_data['FT'] / season_data['FGA']
 advanced_stats['def_ft%'] = season_data['opp_FT'] / season_data['opp_FTA']
 advanced_stats[['ft%', 'def_ft%']] = advanced_stats[['ft%', 'def_ft%']].round(3)
 
-# write advanced_stats to file
+# Write advanced_stats to file
 advanced_stats.to_csv(ROOT + 'advanced_stats.csv')
