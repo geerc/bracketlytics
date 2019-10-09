@@ -23,7 +23,7 @@ round7 = Queue()
 ROOT = '/Users/christiangeer/bracketlytics'
 
 game_data = pd.read_csv(ROOT + '/data/2018TeamStats_Final.csv')
-season_stats = pd.read_csv(ROOT + '/data/season_data.csv')
+season_stats = pd.read_csv(ROOT + '/data/kaggle_dataseason_data.csv')
 sos = pd.read_csv(ROOT + '/data/sos.csv')
 
 # Remove unnecassary columns
