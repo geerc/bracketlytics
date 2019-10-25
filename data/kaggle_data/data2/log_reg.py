@@ -47,12 +47,28 @@ predictions_2019 = LogReg.predict(data_2019.iloc[[1],3:21])
 print(predictions_2019)
 
 # iterate over rows with iterrows()
-for index in predictions_2019:
-     # access data using column names
-     print(data['Team'] + " VS. " + data['Team_1'] + " \n \t " + index.astype(str))
+# for index in predictions_2019:
+#      # access data using column names
+#      print(data['Team'] + " VS. " + data['Team_1'] + " \n \t " + index.astype(str))
 
 
-for x in range(len(predictions_2019)):
-    data_2019['prediction'] = predictions_2019[x]
+# for x in range(len(predictions_2019)):
+#     data_2019['prediction'] = predictions_2019[x]
+
+# def predict_game(Team, Team_1):
+#     data_2019.set_index('Team', inplace=True)
+#
+#     team = data_2019.loc[Team]
+#     print(team)
+#     team = team.iloc[:,3:]
+#
+#     team1 = data_2019.loc[Team_1]
+#     team1 = team1.iloc[:,3:]
+#
+#     print(team + " " + team1)
+
+
+
+
 
 print(data_2019.to_string())

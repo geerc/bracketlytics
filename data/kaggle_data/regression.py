@@ -156,7 +156,7 @@ def advance_team(winner, round):
     print(winner)
     round.put(winner)
 
-print(tourney_data)
+# print(tourney_data)
 X = tourney_data.iloc[:,2:11].values
 y = tourney_data.iloc[:,12].values
 
@@ -173,6 +173,8 @@ y_train = pd.DataFrame(y)
 # Create and fit the regression
 LogReg = LogisticRegression()
 LogReg.fit(X_train, y_train)
+result = LogReg.score(X_test, y_test)
+print("Accuracy: %.2f%%" % (result*100.0))
 
 # from sklearn.metrics import confusion_matrix
 # confusion_matrix = confusion_matrix(y_test, y_pred)
