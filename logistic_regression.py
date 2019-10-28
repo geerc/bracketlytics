@@ -23,7 +23,7 @@ round7 = Queue()
 ROOT = '/Users/christiangeer/bracketlytics'
 
 game_data = pd.read_csv(ROOT + '/data/2018TeamStats_Final.csv')
-season_stats = pd.read_csv(ROOT + '/data/kaggle_dataseason_data.csv')
+season_stats = pd.read_csv(ROOT + '/data/kaggle_data/season_data.csv')
 sos = pd.read_csv(ROOT + '/data/sos.csv')
 
 # Remove unnecassary columns
@@ -43,7 +43,7 @@ sos.index = sos.index.str.lower()
 
 # Convert stat variables to numeric
 game_data['FG'] = game_data['FG'].apply(pd.to_numeric, errors='coerce')
-game_data['FGA'] = game_data['FGA'].apply(pd.to_numeric, errors='corerce')
+game_data['FGA'] = game_data['FGA'].apply(pd.to_numeric, errors='coerce')
 game_data['3P'] = game_data['3P'].apply(pd.to_numeric, errors='coerce')
 game_data['FT'] = game_data['FT'].apply(pd.to_numeric, errors='coerce')
 game_data['FTA'] = game_data['FTA'].apply(pd.to_numeric, errors='coerce')
@@ -52,7 +52,7 @@ game_data['DRB'] = game_data['DRB'].apply(pd.to_numeric, errors='coerce')
 game_data['TOV'] = game_data['TOV'].apply(pd.to_numeric, errors='coerce')
 game_data['Win?'] = game_data['Win?'].apply(pd.to_numeric, errors='coerce')
 game_data['Opp FG'] = game_data['Opp FG'].apply(pd.to_numeric, errors='coerce')
-game_data['Opp FGA'] = game_data['Opp FGA'].apply(pd.to_numeric, errors='corerce')
+game_data['Opp FGA'] = game_data['Opp FGA'].apply(pd.to_numeric, errors='coerce')
 game_data['Opp 3P'] = game_data['Opp 3P'].apply(pd.to_numeric, errors='coerce')
 game_data['Opp FT'] = game_data['Opp FT'].apply(pd.to_numeric, errors='coerce')
 game_data['Opp FTA'] = game_data['Opp FTA'].apply(pd.to_numeric, errors='coerce')
@@ -65,7 +65,7 @@ functions.create_stats(season_stats)
 
 # Drop unnecassary columns
 game_data.drop(labels=['FG','FGA','3P','FT','FTA','ORB','DRB','TOV','Opp FG','Opp FGA','Opp 3P','Opp FT','Opp FTA','Opp ORB','Opp DRB','Opp TOV'], inplace=True, axis=1)
-season_stats.drop(labels=['Unnamed: 0','FG','FGA','3P','FT','FTA','ORB','DRB','TOV','Opp FG','Opp FGA','Opp 3P','Opp FT','Opp FTA','Opp ORB','Opp DRB','Opp TOV'], inplace=True, axis=1)
+season_stats.drop(labels=['Unnamed: 0','FG','FGA','FT','FTA','ORB','DRB','TOV','Opp FG','Opp FGA','Opp 3P','Opp FT','Opp FTA','Opp ORB','Opp DRB','Opp TOV'], inplace=True, axis=1)
 
 X = game_data.iloc[:,2:10].values
 y = game_data.iloc[:,1].values
@@ -84,12 +84,17 @@ y_train = y_train.drop(y_train.index[5282])
 LogReg = LogisticRegression()
 LogReg.fit(X_train, y_train)
 
+result = LogReg.score(X_test, y_test)
+print("Accuracy: %.2f%%" % (result*100.0))
+
+
 # from sklearn.metrics import confusion_matrix
 # confusion_matrix = confusion_matrix(y_test, y_pred)
 # print('Confusion Matrix: \n', confusion_matrix)
 #
 # print(classification_report(y_test, y_pred))
-
+high_seed = 'villanova'
+low_seed = 'auburn'
 # function predict the probabilites of each team winning, and return the higher team
 def predict_game(high_seed, low_seed):
     if high_seed != 1 and low_seed != 1:
@@ -114,7 +119,7 @@ def predict_game(high_seed, low_seed):
 
         # Change series to dataframe so that it can be fed into the model
         game = DataFrame(dict(s1 = game_a, s2 = game_b))
-
+        print(game)
         # Transpose df and rename indices
         game = game.T
         game = game.rename({'s1': high_seed, 's2': low_seed}, axis='index')
