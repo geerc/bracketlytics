@@ -65,7 +65,7 @@ functions.create_stats(season_stats)
 
 # Drop unnecassary columns
 game_data.drop(labels=['FG','FGA','3P','FT','FTA','ORB','DRB','TOV','Opp FG','Opp FGA','Opp 3P','Opp FT','Opp FTA','Opp ORB','Opp DRB','Opp TOV'], inplace=True, axis=1)
-season_stats.drop(labels=['Unnamed: 0','FG','FGA','FT','FTA','ORB','DRB','TOV','Opp FG','Opp FGA','Opp 3P','Opp FT','Opp FTA','Opp ORB','Opp DRB','Opp TOV'], inplace=True, axis=1)
+season_stats.drop(labels=['Unnamed: 0','FG','3P','FGA','FT','FTA','ORB','DRB','TOV','Opp FG','Opp FGA','Opp 3P','Opp FT','Opp FTA','Opp ORB','Opp DRB','Opp TOV'], inplace=True, axis=1)
 
 X = game_data.iloc[:,2:10].values
 y = game_data.iloc[:,1].values
@@ -93,15 +93,15 @@ print("Accuracy: %.2f%%" % (result*100.0))
 # print('Confusion Matrix: \n', confusion_matrix)
 #
 # print(classification_report(y_test, y_pred))
-high_seed = 'villanova'
-low_seed = 'auburn'
+
 # function predict the probabilites of each team winning, and return the higher team
 def predict_game(high_seed, low_seed):
+    high_seed = 'auburn'
+    low_seed = 'kansas'
     if high_seed != 1 and low_seed != 1:
         # Get stats for two teams playing
         team1a = season_stats.loc[high_seed]
         team1a = team1a.loc[['eFG%','TOVp','ORBp','FTp']]
-
         team2a = season_stats.loc[low_seed]
         team2a = team2a.loc[['eFG%','TOVp','ORBp','FTp']]
         team2a = team2a.rename({'eFG%':'Opp_eFG%', 'TOVp':'Opp_TOVp', 'ORBp':'Opp_ORBp', 'FTp':'Opp_FTp'})
@@ -119,7 +119,6 @@ def predict_game(high_seed, low_seed):
 
         # Change series to dataframe so that it can be fed into the model
         game = DataFrame(dict(s1 = game_a, s2 = game_b))
-        print(game)
         # Transpose df and rename indices
         game = game.T
         game = game.rename({'s1': high_seed, 's2': low_seed}, axis='index')
@@ -130,11 +129,12 @@ def predict_game(high_seed, low_seed):
         # Select just each teams probabilites of winning
         team1 = y_pred_prob[0, 0]
         team2 = y_pred_prob[1, 0]
-
+        type(team1)
         # Create strength of schedule
-        high_seed_sos = sos.loc[high_seed].item()
-        low_seed_sos = sos.loc[low_seed].item()
-
+        high_seed_sos = sos.loc[high_seed].iloc[0]
+        low_seed_sos = sos.loc[low_seed].iloc[0]
+        type(high_seed_sos)
+        type(low_seed_sos)
         # Determine winner
         if team1 * high_seed_sos > team2 * low_seed_sos:
             winner = high_seed
@@ -142,10 +142,13 @@ def predict_game(high_seed, low_seed):
             winner = low_seed
 
         return(winner)
+        # print(winner)
     elif high_seed == 1:
         return low_seed
+        # print(low_seed)
     elif low_seed == 1:
         return high_seed
+        # print(high_seed)
 
 # Function to move winning team to next round
 def advance_team(winner, round):
