@@ -14,6 +14,7 @@ from sklearn.metrics import classification_report
 ROOT = '/Users/christiangeer/bracketlytics/data/kaggle_data/data2/'
 
 data = pd.read_csv(ROOT + 'combined_data.csv')
+data_2018 = pd.read_csv(ROOT + 'combined_data_2018')
 data_2019 = pd.read_csv(ROOT + 'combined_data_2019.csv')
 season_stats = pd.read_csv(ROOT + 'advanced_stats.csv')
 
