@@ -47,6 +47,7 @@ for K in range(100):
 curve = pd.DataFrame(rmse_val) #elbow curve
 curve.plot()
 
-predict = model.predict(test)
-submission['Item_Outlet_Sales'] = predict
-submission.to_csv('submit_file.csv',index=False)
+predict = model.predict(X_test)
+# submission['Item_Outlet_Sales'] = predict
+# submission.to_csv('submit_file.csv',index=False)
+print(predict)

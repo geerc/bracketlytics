@@ -32,6 +32,7 @@ model = lm.fit(X,y)
 
 #
 predictions = lm.predict(X)
-print(predictions)[0:5]
+# print(predictions)[0:5]
+print(predictions)
 
 lm.score(X,y)
