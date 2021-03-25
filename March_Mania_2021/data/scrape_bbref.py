@@ -11,7 +11,7 @@
 # root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 #
 # BASE_URL = 'https://www.sports-reference.com/cbb/seasons/YEAR-school-stats.html'
-# YEAR = list(map(str,range(1987,2020)))
+# YEAR = list(map(str,range(1993,2020)))
 #
 # all_stats = pd.DataFrame(columns=['School','G','W','L','W-L%','SRS','SOS','DELETE','W','L','DELETE','W','L','DELETE','W','L','DELETE','Tm.','Opp.','DELETE','MP','FG','FGA','FG%','3P','3PA','3P%','FT','FTA','FT%','ORB','DRB','AST','STL','BLK','TOV','PF'])
 # # breakpoint()
@@ -28,7 +28,10 @@
 #     # pp.pprint(these_games)
 #     yr_stats = pd.DataFrame(yr_stats,columns=['School','G','W','L','W-L%','SRS','SOS','DELETE','W','L','DELETE','W','L','DELETE','W','L','DELETE','Tm.','Opp.','DELETE','MP','FG','FGA','FG%','3P','3PA','3P%','FT','FTA','FT%','ORB','DRB','AST','STL','BLK','TOV','PF'])
 #     yr_stats['Season'] = yr
-#     all_stats = all_stats.append(yr_stats)
+#     print(yr_stats)
+#     # all_stats = all_stats.append(yr_stats)
+#     # pd.concat((yr_stats,all_stats), ignore_index=True)
+#
 #     # pp.pprint(all_games)
 # # these_games.head()
 # # all_games.tail()
@@ -69,15 +72,27 @@ for yr in tqdm(year):
 
     if yr == '1993':
         all_stats = pd.DataFrame(columns=headers)
+        # print('all stats after creation', '\n', all_stats)
 
     # avoid the first header row
     rows = soup.findAll('tr')[1:]
     team_stats = [[td.getText() for td in rows[i].findAll('td')]
             for i in range(len(rows))]
     stats = pd.DataFrame(team_stats, columns = headers)
+    stats['School'] = stats['School'].astype(str) + '_'  + yr
     # print(stats)
+    # df1['State_new'] = df1['State'].astype(str) + '-USA'
+
+    # if yr == 1993:
+    #     stats['Season'] = 0
+
+    # print(stats)
+    # print("YEAR: ", yr)
+    # print("Stats: ", stats)
+    # print('all_stats: ', all_stats)
+    # print('all stats before error', '\n', all_stats)
     all_stats = all_stats.append(stats)
-    all_stats['Season'] = yr
+    # all_stats['Season'] = yr
 
 
 # write new csv
