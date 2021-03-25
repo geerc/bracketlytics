@@ -33,4 +33,4 @@ for yr in tqdm(YEAR):
 # these_games.head()
 # all_games.tail()
 
-all_stats.to_csv(root + 'bbref.csv')
+all_stats.to_csv(root + 'data/bbref.csv')
