@@ -68,7 +68,7 @@ for yr in tqdm(year):
 
     headers = headers[1:]
 
-    if yr = 1993:
+    if yr == 1993:
         all_stats = pd.DataFrame(columns=heads)
 
     # avoid the first header row
