@@ -45,6 +45,18 @@ year = list(map(str,range(1987,2020)))
 # URL page we will scraping (see image above)
 url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
 
-# this is the HTML from the given URL
-html = urlopen(url)
-soup = BeautifulSoup(html)
+for yr in tqdm(YEAR):
+
+    # this is the HTML from the given URL
+    html = urlopen(url)
+
+    soup = BeautifulSoup(html)
+
+
+    # use findALL() to get the column headers
+    soup.findAll('tr', limit=2)
+    # use getText()to extract the text we need into a list
+    headers = [th.getText() for th in soup.findAll('tr', limit=2)[0].findAll('th')]
+    # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+    headers = headers[1:]
+    headers
