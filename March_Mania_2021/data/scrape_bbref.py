@@ -8,6 +8,8 @@ pbar = ProgressBar()
 
 pd.options.display.max_columns=1999
 
+root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
+
 BASE_URL = 'https://www.sports-reference.com/cbb/seasons/YEAR-school-stats.html'
 YEAR = list(map(str,range(1987,2020)))
 
