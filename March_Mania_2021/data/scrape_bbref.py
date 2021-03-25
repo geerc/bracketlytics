@@ -50,7 +50,6 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 year = list(map(str,range(1993,2021)))
 
 for yr in tqdm(year):
-    print(yr)
     # URL page we will scraping (see image above)
     url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
     # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
