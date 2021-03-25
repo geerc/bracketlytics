@@ -75,9 +75,10 @@ for yr in tqdm(year):
     team_stats = [[td.getText() for td in rows[i].findAll('td')]
             for i in range(len(rows))]
     stats = pd.DataFrame(team_stats, columns = headers)
+    # print(stats)
     all_stats = all_stats.append(stats)
-    stats['Season'] = yr
+    all_stats['Season'] = yr
 
 
 # write new csv
-stats.to_csv(root + "data/bbref.csv")
+all_stats.to_csv(root + "data/bbref.csv")
