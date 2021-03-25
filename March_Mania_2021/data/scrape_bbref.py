@@ -28,7 +28,7 @@
 #     # pp.pprint(these_games)
 #     yr_stats = pd.DataFrame(yr_stats,columns=['School','G','W','L','W-L%','SRS','SOS','DELETE','W','L','DELETE','W','L','DELETE','W','L','DELETE','Tm.','Opp.','DELETE','MP','FG','FGA','FG%','3P','3PA','3P%','FT','FTA','FT%','ORB','DRB','AST','STL','BLK','TOV','PF'])
 #     yr_stats['Season'] = yr
-#     all_stats = all_stats.append(all_stats)
+#     all_stats = all_stats.append(yr_stats)
 #     # pp.pprint(all_games)
 # # these_games.head()
 # # all_games.tail()
@@ -47,7 +47,7 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 
 # Seasons we will be analyzing
-year = list(map(str,range(1993,2020)))
+year = list(map(str,range(1993,2021)))
 
 for yr in tqdm(year):
 
@@ -67,16 +67,19 @@ for yr in tqdm(year):
     # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
 
     headers = headers[1:]
-    headers
+
+    if yr = 1993:
+        all_stats = pd.DataFrame(columns=heads)
 
     # avoid the first header row
     rows = soup.findAll('tr')[1:]
     team_stats = [[td.getText() for td in rows[i].findAll('td')]
             for i in range(len(rows))]
     stats = pd.DataFrame(team_stats, columns = headers)
+    all_stats = all_stats.append(stats)
     stats['Season'] = yr
 
-    stats.head(10)
+
 
 # write new csv
 stats.to_csv(root + "data/bbref.csv")
