@@ -49,11 +49,12 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 # Seasons we will be analyzing
 year = list(map(str,range(1987,2020)))
 
-# URL page we will scraping (see image above)
-url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
-# url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
-
 for yr in tqdm(year):
+
+    # URL page we will scraping (see image above)
+    url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
+    # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+
 
     # this is the HTML from the given URL
     html = urlopen(url)
