@@ -50,7 +50,7 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 year = list(map(str,range(1993,2021)))
 
 for yr in tqdm(year):
-
+    print(yr)
     # URL page we will scraping (see image above)
     url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
     # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
@@ -68,8 +68,8 @@ for yr in tqdm(year):
 
     headers = headers[1:]
 
-    if yr == 1993:
-        all_stats = pd.DataFrame(columns=heads)
+    if yr == '1993':
+        all_stats = pd.DataFrame(columns=headers)
 
     # avoid the first header row
     rows = soup.findAll('tr')[1:]
@@ -78,7 +78,6 @@ for yr in tqdm(year):
     stats = pd.DataFrame(team_stats, columns = headers)
     all_stats = all_stats.append(stats)
     stats['Season'] = yr
-
 
 
 # write new csv
