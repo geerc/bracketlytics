@@ -50,8 +50,8 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 year = list(map(str,range(1987,2020)))
 
 # URL page we will scraping (see image above)
-# url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
-url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
+# url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
 
 for yr in tqdm(year):
 
