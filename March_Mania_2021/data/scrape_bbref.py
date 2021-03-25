@@ -79,6 +79,9 @@ for yr in tqdm(year):
     team_stats = [[td.getText() for td in rows[i].findAll('td')]
             for i in range(len(rows))]
     stats = pd.DataFrame(team_stats, columns = headers)
+    stats = stats.dropna(axis='rows')
+    stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+
     stats['School'] = stats['School'].astype(str) + '_'  + yr
     # print(stats)
     # df1['State_new'] = df1['State'].astype(str) + '-USA'
