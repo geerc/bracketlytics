@@ -38,25 +38,45 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
+from progressbar import ProgressBar
+from tqdm import tqdm
+
+pbar = ProgressBar()
+
+root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
+
 
 # Seasons we will be analyzing
 year = list(map(str,range(1987,2020)))
 
 # URL page we will scraping (see image above)
-url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
+# url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
+url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
 
-for yr in tqdm(YEAR):
+for yr in tqdm(year):
 
     # this is the HTML from the given URL
     html = urlopen(url)
 
-    soup = BeautifulSoup(html)
-
+    soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
 
     # use findALL() to get the column headers
     soup.findAll('tr', limit=2)
     # use getText()to extract the text we need into a list
-    headers = [th.getText() for th in soup.findAll('tr', limit=2)[0].findAll('th')]
+    headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
     # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+
     headers = headers[1:]
     headers
+
+    # avoid the first header row
+    rows = soup.findAll('tr')[1:]
+    team_stats = [[td.getText() for td in rows[i].findAll('td')]
+            for i in range(len(rows))]
+    stats = pd.DataFrame(team_stats, columns = headers)
+    stats['Season'] = yr
+
+    stats.head(10)
+
+# write new csv
+stats.to_csv(root + "data/bbref.csv")
