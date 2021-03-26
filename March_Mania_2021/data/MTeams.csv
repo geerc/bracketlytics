@@ -5,15 +5,15 @@
 3,3,1104,Alabama
 4,4,1105,Alabama A&M
 5,5,1106,Alabama State
-6,6,1107,SUNY Albany
+6,6,1107,Albany (NY)
 7,7,1108,Alcorn State
 8,8,1109,Alliant Intl
-9,9,1110,American Univ
+9,9,1110,American
 10,10,1111,Appalachian State
 11,11,1112,Arizona
 12,12,1113,Arizona State
-13,13,1114,Ark Little Rock
-14,14,1115,Ark Pine Bluff
+13,13,1114,Little Rock
+14,14,1115,Arkansas-Pine Bluff
 15,15,1116,Arkansas
 16,16,1117,Arkansas State
 17,17,1118,Armstrong State
@@ -29,8 +29,8 @@
 27,27,1128,Birmingham So
 28,28,1129,Boise State
 29,29,1130,Boston College
-30,30,1131,Boston Univ
-31,31,1132,Bowling Green
+30,30,1131,Boston Univiversity
+31,31,1132,Bowling Green State
 32,32,1133,Bradley
 33,33,1134,Brooklyn
 34,34,1135,Brown
@@ -38,16 +38,16 @@
 36,36,1137,Bucknell
 37,37,1138,Buffalo
 38,38,1139,Butler
-39,39,1140,BYU
-40,40,1141,C Michigan
+39,39,1140,Brigham Young
+40,40,1141,Central Michigan
 41,41,1142,Cal Poly
-42,42,1143,California
+42,42,1143,University of California
 43,43,1144,Campbell
 44,44,1145,Canisius
 45,45,1146,Cent Arkansas
-46,46,1147,Centenary
-47,47,1148,Central Conn
-48,48,1149,Charleston So
+46,46,1147,Centenary (LA)
+47,47,1148,Central Connecticut State
+48,48,1149,Charleston Southern
 49,49,1150,Charlotte
 50,50,1151,Chattanooga
 51,51,1152,Chicago State
@@ -55,8 +55,8 @@
 53,53,1154,Citadel
 54,54,1155,Clemson
 55,55,1156,Cleveland State
-56,56,1157,Coastal Car
-57,57,1158,Col Charleston
+56,56,1157,Coastal Carolina
+57,57,1158,College of Charleston
 58,58,1159,Colgate
 59,59,1160,Colorado
 60,60,1161,Colorado State
@@ -65,10 +65,10 @@
 63,63,1164,Coppin State
 64,64,1165,Cornell
 65,65,1166,Creighton
-66,66,1167,CS Bakersfield
-67,67,1168,CS Fullerton
-68,68,1169,CS Northridge
-69,69,1170,CS Sacramento
+66,66,1167,Cal State Bakersfield
+67,67,1168,Cal State Fullerton
+68,68,1169,Cal State Northridge
+69,69,1170,Cal State Sacramento
 70,70,1171,Dartmouth
 71,71,1172,Davidson
 72,72,1173,Dayton
@@ -76,21 +76,21 @@
 74,74,1175,Delaware State
 75,75,1176,Denver
 76,76,1177,DePaul
-77,77,1178,Detroit
+77,77,1178,Detroit Mercy
 78,78,1179,Drake
 79,79,1180,Drexel
 80,80,1181,Duke
 81,81,1182,Duquesne
-82,82,1183,E Illinois
-83,83,1184,E Kentucky
-84,84,1185,E Michigan
-85,85,1186,E Washington
+82,82,1183,Eastern Illinois
+83,83,1184,Eastern Kentucky
+84,84,1185,Eastern Michigan
+85,85,1186,Eastern Washington
 86,86,1187,East Carolina
 87,87,1188,SIUE
 88,88,1189,Elon
 89,89,1190,ETSU
 90,90,1191,Evansville
-91,91,1192,F Dickinson
+91,91,1192,Fairleigh Dickinson
 92,92,1193,Fairfield
 93,93,1194,FL Atlantic
 94,94,1195,FL Gulf Coast
@@ -262,7 +262,7 @@
 260,260,1361,San Diego State
 261,261,1362,San Francisco
 262,262,1363,San Jose State
-263,263,1364,UC Santa Barbara
+263,263,1364,UC-Santa Barbara
 264,264,1365,Santa Clara
 265,265,1366,Savannah State
 266,266,1367,SC Upstate
@@ -311,9 +311,9 @@
 309,309,1410,UTRGV
 310,310,1411,TX Southern
 311,311,1412,UAB
-312,312,1413,UC Davis
-313,313,1414,UC Irvine
-314,314,1415,UC Riverside
+312,312,1413,UC-Davis
+313,313,1414,UC-Irvine
+314,314,1415,UC-Riverside
 315,315,1416,UCF
 316,316,1417,UCLA
 317,317,1418,Louisiana
