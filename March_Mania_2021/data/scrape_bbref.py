@@ -48,19 +48,21 @@ pbar = ProgressBar()
 
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
+teams = pd.read_csv(root + 'data/MTeams.csv')
+teams = teams[['TeamID','School']]
 
 # Seasons we will be analyzing
 year = list(map(str,range(1993,2021)))
 
 for yr in tqdm(year):
     # URL page we will scraping (see image above)
-    url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
-    # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+    # url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
+    url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
 
     # this is the HTML from the given URL
     html = urlopen(url)
 
-    soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
+    soup = BeautifulSoup(html) #features ensures runs the same on different systems
 
     # use findALL() to get the column headers
     soup.findAll('tr', limit=2)
@@ -79,9 +81,23 @@ for yr in tqdm(year):
     team_stats = [[td.getText() for td in rows[i].findAll('td')]
             for i in range(len(rows))]
     stats = pd.DataFrame(team_stats, columns = headers)
+    # drop na/none values
     stats = stats.dropna(axis='rows')
+
+    # remove the ncaa suffix
     stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
 
+    # add in team ids from kaggle data
+    stats
+    teams
+    merged = pd.merge(stats, teams, on='School', how='left')
+
+    stats['Schol'].to_csv(root + 'data/stats.csv')
+    teams.to_csv(root + 'data/MTeams.csv')
+    merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
+
+
+    # add year to the end of each school name
     stats['School'] = stats['School'].astype(str) + '_'  + yr
     # print(stats)
     # df1['State_new'] = df1['State'].astype(str) + '-USA'
