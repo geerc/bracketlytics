@@ -6,3 +6,5 @@ data = pd.read_csv(root + 'data/season_data.csv')
 
 # Replace dashes with spaces to make easier joining
 data['Team'] = data.Team.str.replace('-', ' ')
+
+data.to_csv(root + 'data/season_data_cleaned.csv')
