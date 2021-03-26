@@ -49,7 +49,6 @@ pbar = ProgressBar()
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 teams = pd.read_csv(root + 'data/MTeams.csv')
-teams = teams[['TeamID','School']]
 
 # Seasons we will be analyzing
 year = list(map(str,range(1993,2021)))
@@ -90,10 +89,11 @@ for yr in tqdm(year):
     # add in team ids from kaggle data
     stats
     teams
-    merged = pd.merge(stats, teams, on='School', how='left')
 
-    stats['Schol'].to_csv(root + 'data/stats.csv')
+    stats['School'].to_csv(root + 'data/stats.csv')
     teams.to_csv(root + 'data/MTeams.csv')
+
+    merged = pd.merge(stats, teams, on='School', how='left')
     merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
 
 
