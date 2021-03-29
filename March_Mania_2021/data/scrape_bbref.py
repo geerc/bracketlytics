@@ -52,7 +52,7 @@ teams = pd.read_csv(root + 'data/MTeams.csv')
 
 # Seasons we will be analyzing
 year = list(map(str,range(1997,2019)))
-cur_year = 2019
+cur_year = str(2019)
 
 for yr in tqdm(year):
     # URL page we will scraping (see image above)
@@ -103,10 +103,10 @@ for yr in tqdm(year):
 
 
 # write new csv
-all_stats.to_csv(root + "data/bbref.csv")
+all_stats.to_csv(root + "data/hist_bbref.csv")
 
 # URL page we will scraping (see image above)
-url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
+url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(cur_year)
 # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
 
 # this is the HTML from the given URL
@@ -123,8 +123,7 @@ headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
 headers = headers[1:]
 
 # if its the first year, create blank dataframe, need to do here to get headers
-if yr == '1997':
-    all_stats = pd.DataFrame(columns=headers)
+curr_stats = pd.DataFrame(columns=headers)
 
 # avoid the first header row
 rows = soup.findAll('tr')[1:]
@@ -146,7 +145,10 @@ stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
 
 
 # add year to the end of each school name
-stats['School'] = stats['School'].astype(str) + '_'  + yr
+stats['School'] = stats['School'].astype(str) + '_'  + cur_year
 
 # append to dataframe
-all_stats = all_stats.append(stats)
+curr_stats = curr_stats.append(stats)
+
+# write to csv
+curr_stats.to_csv(root + 'data/curr_bbref.csv')
