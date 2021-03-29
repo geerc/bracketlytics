@@ -61,7 +61,7 @@ for yr in tqdm(year):
     # this is the HTML from the given URL
     html = urlopen(url)
 
-    soup = BeautifulSoup(html) #features ensures runs the same on different systems
+    soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
 
     # use findALL() to get the column headers
     soup.findAll('tr', limit=2)
