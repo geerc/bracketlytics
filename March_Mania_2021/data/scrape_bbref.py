@@ -122,7 +122,7 @@ headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
 
 headers = headers[1:]
 
-# if its the first year, create blank dataframe, need to do here to get headers
+# create blank dataframe, need to do here to get headers
 curr_stats = pd.DataFrame(columns=headers)
 
 # avoid the first header row
@@ -134,8 +134,12 @@ stats = pd.DataFrame(team_stats, columns = headers)
 # drop na/none values
 stats = stats.dropna(axis='rows')
 
+curr_tourn = stats[stats.School.str.contains("NCAA")]
+curr_tourn = curr_tourn.copy()
+
 # remove the ncaa suffix
 stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+curr_tourn['School'] = curr_tourn['School'].replace(" NCAA$", "", regex=True)
 
 # stats['School'].to_csv(root + 'data/stats.csv')
 # teams.to_csv(root + 'data/MTeams.csv')
@@ -152,3 +156,4 @@ curr_stats = curr_stats.append(stats)
 
 # write to csv
 curr_stats.to_csv(root + 'data/curr_bbref.csv')
+curr_tourn.to_csv(root + 'data/curr_tourn.csv')
