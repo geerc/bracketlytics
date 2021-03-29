@@ -5,16 +5,15 @@ from progressbar import ProgressBar
 from tqdm import tqdm
 import requests
 import csv
+import pandas as pd
 
 pbar = ProgressBar()
 
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
-# create empty list to add teams
-list = []
 
-list of seasons
-year = list(map(str,range(1993,2021)))
+# list of seasons
+year = [*map(str,range(1993,2021))]
 
 for yr in tqdm(year):
 
@@ -25,6 +24,9 @@ for yr in tqdm(year):
     # create BeautifulSoup object
     soup = BeautifulSoup(page.content, 'html.parser')
 
+    # create empty list to add teams, gets rewrote each loop
+    list = []
+
     # loops through all winner div tags, pulls text, and splits by '\n', appends to the list
     for div in soup.find_all('div', class_='winner'):
         text = div.text
@@ -32,10 +34,21 @@ for yr in tqdm(year):
         list.append(split)
         # list.append(yr)
 
-# write the list to csv
-with open("output.csv", "w") as f:
-    writer = csv.writer(f)
-    writer.writerows(list)
+    # write the list to csv
+    # with open("output.csv", "w") as f:
+    #     writer = csv.writer(f)
+    #     writer.writerows(list)
+
+    list_df = pd.DataFrame(list, columns=['X','Seed','School','Score','X.1'])
+    print(list_df)
+    list_df['Season'] = yr
+    print(list_df)
+    list_df.to_csv('my_csv.csv', mode='a', header=False)
+    print(list_df)
+
+
+
+
 
 # for winner in winners:
 #     print(winner, end='\n'*2)
