@@ -1,1702 +1,865 @@
-,Seed,School,Season
-0,1,UNC,1993
-1,8,Rhode Island,1993
-2,5,St. John's (NY),1993
-3,4,Arkansas,1993
-4,6,Virginia,1993
-5,3,UMass,1993
-6,7,New Mexico State,1993
-7,2,Cincinnati,1993
-8,1,UNC,1993
-9,4,Arkansas,1993
-10,6,Virginia,1993
-11,2,Cincinnati,1993
-12,1,UNC,1993
-13,2,Cincinnati,1993
-14,1,UNC,1993
-15,1,Indiana,1993
-16,9,Xavier,1993
-17,5,Oklahoma State,1993
-18,4,Louisville,1993
-19,6,California,1993
-20,3,Duke,1993
-21,7,BYU,1993
-22,2,Kansas,1993
-23,1,Indiana,1993
-24,4,Louisville,1993
-25,6,California,1993
-26,2,Kansas,1993
-27,1,Indiana,1993
-28,2,Kansas,1993
-29,2,Kansas,1993
-30,1,Kentucky,1993
-31,8,Utah,1993
-32,5,Wake Forest,1993
-33,4,Iowa,1993
-34,11,Tulane,1993
-35,3,Florida State,1993
-36,7,Western Kentucky,1993
-37,2,Seton Hall,1993
-38,1,Kentucky,1993
-39,5,Wake Forest,1993
-40,3,Florida State,1993
-41,7,Western Kentucky,1993
-42,1,Kentucky,1993
-43,3,Florida State,1993
-44,1,Kentucky,1993
-45,1,Michigan,1993
-46,9,UCLA,1993
-47,12,George Washington,1993
-48,13,Southern,1993
-49,6,Illinois,1993
-50,3,Vanderbilt,1993
-51,7,Temple,1993
-52,15,Santa Clara,1993
-53,1,Michigan,1993
-54,12,George Washington,1993
-55,3,Vanderbilt,1993
-56,7,Temple,1993
-57,1,Michigan,1993
-58,7,Temple,1993
-59,1,Michigan,1993
-60,1,UNC,1993
-61,1,Michigan,1993
-62,1,UNC,1993
-0,1,UNC,1994
-1,9,Boston College,1994
-2,5,Indiana,1994
-3,4,Temple,1994
-4,11,Penn,1994
-5,3,Florida,1994
-6,10,George Washington,1994
-7,2,UConn,1994
-8,9,Boston College,1994
-9,5,Indiana,1994
-10,3,Florida,1994
-11,2,UConn,1994
-12,9,Boston College,1994
-13,3,Florida,1994
-14,3,Florida,1994
-15,1,Arkansas,1994
-16,9,Georgetown,1994
-17,12,Tulsa,1994
-18,4,Oklahoma State,1994
-19,6,Texas,1994
-20,3,Michigan,1994
-21,10,Maryland,1994
-22,2,UMass,1994
-23,1,Arkansas,1994
-24,12,Tulsa,1994
-25,3,Michigan,1994
-26,10,Maryland,1994
-27,1,Arkansas,1994
-28,3,Michigan,1994
-29,1,Arkansas,1994
-30,1,Purdue,1994
-31,9,Alabama,1994
-32,5,Wake Forest,1994
-33,4,Kansas,1994
-34,6,Marquette,1994
-35,3,Kentucky,1994
-36,7,Michigan State,1994
-37,2,Duke,1994
-38,1,Purdue,1994
-39,4,Kansas,1994
-40,6,Marquette,1994
-41,2,Duke,1994
-42,1,Purdue,1994
-43,2,Duke,1994
-44,2,Duke,1994
-45,1,Missouri,1994
-46,9,Wisconsin,1994
-47,12,Green Bay,1994
-48,4,Syracuse,1994
-49,6,Minnesota,1994
-50,3,Louisville,1994
-51,7,Virginia,1994
-52,2,Arizona,1994
-53,1,Missouri,1994
-54,4,Syracuse,1994
-55,3,Louisville,1994
-56,2,Arizona,1994
-57,1,Missouri,1994
-58,2,Arizona,1994
-59,2,Arizona,1994
-60,1,Arkansas,1994
-61,2,Duke,1994
-62,1,Arkansas,1994
-0,1,Wake Forest,1995
-1,9,Saint Louis,1995
-2,5,Alabama,1995
-3,4,Oklahoma State,1995
-4,6,Tulsa,1995
-5,14,Old Dominion,1995
-6,10,Stanford,1995
-7,2,UMass,1995
-8,1,Wake Forest,1995
-9,4,Oklahoma State,1995
-10,6,Tulsa,1995
-11,2,UMass,1995
-12,4,Oklahoma State,1995
-13,2,UMass,1995
-14,4,Oklahoma State,1995
-15,1,Kansas,1995
-16,8,Western Kentucky,1995
-17,12,Miami (OH),1995
-18,4,Virginia,1995
-19,6,Memphis,1995
-20,3,Purdue,1995
-21,7,Syracuse,1995
-22,2,Arkansas,1995
-23,1,Kansas,1995
-24,4,Virginia,1995
-25,6,Memphis,1995
-26,2,Arkansas,1995
-27,4,Virginia,1995
-28,2,Arkansas,1995
-29,2,Arkansas,1995
-30,1,Kentucky,1995
-31,9,Tulane,1995
-32,5,Arizona State,1995
-33,13,Manhattan,1995
-34,6,Georgetown,1995
-35,14,Weber State,1995
-36,7,Iowa State,1995
-37,2,UNC,1995
-38,1,Kentucky,1995
-39,5,Arizona State,1995
-40,6,Georgetown,1995
-41,2,UNC,1995
-42,1,Kentucky,1995
-43,2,UNC,1995
-44,2,UNC,1995
-45,1,UCLA,1995
-46,8,Missouri,1995
-47,5,Mississippi State,1995
-48,4,Utah,1995
-49,11,Texas,1995
-50,3,Maryland,1995
-51,7,Cincinnati,1995
-52,2,UConn,1995
-53,1,UCLA,1995
-54,5,Mississippi State,1995
-55,3,Maryland,1995
-56,2,UConn,1995
-57,1,UCLA,1995
-58,2,UConn,1995
-59,1,UCLA,1995
-60,1,UCLA,1995
-61,2,Arkansas,1995
-62,1,UCLA,1995
-0,1,UMass,1996
-1,9,Stanford,1996
-2,12,Arkansas,1996
-3,4,Marquette,1996
-4,6,UNC,1996
-5,3,Texas Tech,1996
-6,7,New Mexico,1996
-7,2,Georgetown,1996
-8,1,UMass,1996
-9,12,Arkansas,1996
-10,3,Texas Tech,1996
-11,2,Georgetown,1996
-12,1,UMass,1996
-13,2,Georgetown,1996
-14,1,UMass,1996
-15,1,Kentucky,1996
-16,9,Virginia Tech,1996
-17,5,Iowa State,1996
-18,4,Utah,1996
-19,6,Louisville,1996
-20,3,Villanova,1996
-21,10,Texas,1996
-22,2,Wake Forest,1996
-23,1,Kentucky,1996
-24,4,Utah,1996
-25,6,Louisville,1996
-26,2,Wake Forest,1996
-27,1,Kentucky,1996
-28,2,Wake Forest,1996
-29,1,Kentucky,1996
-30,1,UConn,1996
-31,9,Eastern Michigan,1996
-32,5,Mississippi State,1996
-33,13,Princeton,1996
-34,11,Boston College,1996
-35,3,Georgia Tech,1996
-36,7,Temple,1996
-37,2,Cincinnati,1996
-38,1,UConn,1996
-39,5,Mississippi State,1996
-40,3,Georgia Tech,1996
-41,2,Cincinnati,1996
-42,5,Mississippi State,1996
-43,2,Cincinnati,1996
-44,5,Mississippi State,1996
-45,1,Purdue,1996
-46,8,Georgia,1996
-47,12,Drexel,1996
-48,4,Syracuse,1996
-49,6,Iowa,1996
-50,3,Arizona,1996
-51,10,Santa Clara,1996
-52,2,Kansas,1996
-53,8,Georgia,1996
-54,4,Syracuse,1996
-55,3,Arizona,1996
-56,2,Kansas,1996
-57,4,Syracuse,1996
-58,2,Kansas,1996
-59,4,Syracuse,1996
-60,1,Kentucky,1996
-61,4,Syracuse,1996
-62,1,Kentucky,1996
-0,1,UNC,1997
-1,9,Colorado,1997
-2,5,California,1997
-3,4,Villanova,1997
-4,6,Louisville,1997
-5,3,New Mexico,1997
-6,10,Texas,1997
-7,15,Coppin State,1997
-8,1,UNC,1997
-9,5,California,1997
-10,6,Louisville,1997
-11,10,Texas,1997
-12,1,UNC,1997
-13,6,Louisville,1997
-14,1,UNC,1997
-15,1,Minnesota,1997
-16,9,Temple,1997
-17,5,Tulsa,1997
-18,4,Clemson,1997
-19,6,Iowa State,1997
-20,3,Cincinnati,1997
-21,7,Xavier,1997
-22,2,UCLA,1997
-23,1,Minnesota,1997
-24,4,Clemson,1997
-25,6,Iowa State,1997
-26,2,UCLA,1997
-27,1,Minnesota,1997
-28,2,UCLA,1997
-29,1,Minnesota,1997
-30,1,Kansas,1997
-31,8,Purdue,1997
-32,12,College of Charleston,1997
-33,4,Arizona,1997
-34,6,Illinois,1997
-35,14,Chattanooga,1997
-36,10,Providence,1997
-37,2,Duke,1997
-38,1,Kansas,1997
-39,4,Arizona,1997
-40,14,Chattanooga,1997
-41,10,Providence,1997
-42,4,Arizona,1997
-43,10,Providence,1997
-44,4,Arizona,1997
-45,1,Kentucky,1997
-46,8,Iowa,1997
-47,5,Boston College,1997
-48,4,St. Joseph's,1997
-49,6,Stanford,1997
-50,3,Wake Forest,1997
-51,7,Charlotte,1997
-52,2,Utah,1997
-53,1,Kentucky,1997
-54,4,St. Joseph's,1997
-55,6,Stanford,1997
-56,2,Utah,1997
-57,1,Kentucky,1997
-58,2,Utah,1997
-59,1,Kentucky,1997
-60,4,Arizona,1997
-61,1,Kentucky,1997
-62,4,Arizona,1997
-0,1,UNC,1998
-1,8,Charlotte,1998
-2,5,Princeton,1998
-3,4,Michigan State,1998
-4,11,Washington,1998
-5,14,Richmond,1998
-6,7,Indiana,1998
-7,2,UConn,1998
-8,1,UNC,1998
-9,4,Michigan State,1998
-10,11,Washington,1998
-11,2,UConn,1998
-12,1,UNC,1998
-13,2,UConn,1998
-14,1,UNC,1998
-15,1,Kansas,1998
-16,8,Rhode Island,1998
-17,12,Florida State,1998
-18,13,Valparaiso,1998
-19,11,Western Michigan,1998
-20,3,Stanford,1998
-21,10,Detroit,1998
-22,2,Purdue,1998
-23,8,Rhode Island,1998
-24,13,Valparaiso,1998
-25,3,Stanford,1998
-26,2,Purdue,1998
-27,8,Rhode Island,1998
-28,3,Stanford,1998
-29,3,Stanford,1998
-30,1,Duke,1998
-31,8,Oklahoma State,1998
-32,5,Syracuse,1998
-33,4,New Mexico,1998
-34,6,UCLA,1998
-35,3,Michigan,1998
-36,10,Saint Louis,1998
-37,2,Kentucky,1998
-38,1,Duke,1998
-39,5,Syracuse,1998
-40,6,UCLA,1998
-41,2,Kentucky,1998
-42,1,Duke,1998
-43,2,Kentucky,1998
-44,2,Kentucky,1998
-45,1,Arizona,1998
-46,9,Illinois State,1998
-47,5,Illinois,1998
-48,4,Maryland,1998
-49,6,Arkansas,1998
-50,3,Utah,1998
-51,10,West Virginia,1998
-52,2,Cincinnati,1998
-53,1,Arizona,1998
-54,4,Maryland,1998
-55,3,Utah,1998
-56,10,West Virginia,1998
-57,1,Arizona,1998
-58,3,Utah,1998
-59,3,Utah,1998
-60,2,Kentucky,1998
-61,3,Utah,1998
-62,2,Kentucky,1998
-0,1,Duke,1999
-1,9,Tulsa,1999
-2,12,Missouri State,1999
-3,4,Tennessee,1999
-4,6,Temple,1999
-5,3,Cincinnati,1999
-6,10,Purdue,1999
-7,2,Miami (FL),1999
-8,1,Duke,1999
-9,12,Missouri State,1999
-10,6,Temple,1999
-11,10,Purdue,1999
-12,1,Duke,1999
-13,6,Temple,1999
-14,1,Duke,1999
-15,1,Michigan State,1999
-16,9,Ole Miss,1999
-17,5,Charlotte,1999
-18,13,Oklahoma,1999
-19,6,Kansas,1999
-20,3,Kentucky,1999
-21,10,Miami (OH),1999
-22,2,Utah,1999
-23,1,Michigan State,1999
-24,13,Oklahoma,1999
-25,3,Kentucky,1999
-26,10,Miami (OH),1999
-27,1,Michigan State,1999
-28,3,Kentucky,1999
-29,1,Michigan State,1999
-30,1,Auburn,1999
-31,9,Oklahoma State,1999
-32,12,Detroit,1999
-33,4,Ohio State,1999
-34,6,Indiana,1999
-35,3,St. John's (NY),1999
-36,10,Creighton,1999
-37,2,Maryland,1999
-38,1,Auburn,1999
-39,4,Ohio State,1999
-40,3,St. John's (NY),1999
-41,2,Maryland,1999
-42,4,Ohio State,1999
-43,3,St. John's (NY),1999
-44,4,Ohio State,1999
-45,1,UConn,1999
-46,9,New Mexico,1999
-47,5,Iowa,1999
-48,4,Arkansas,1999
-49,6,Florida,1999
-50,14,Weber State,1999
-51,10,Gonzaga,1999
-52,2,Stanford,1999
-53,1,UConn,1999
-54,5,Iowa,1999
-55,6,Florida,1999
-56,10,Gonzaga,1999
-57,1,UConn,1999
-58,10,Gonzaga,1999
-59,1,UConn,1999
-60,1,UConn,1999
-61,1,Duke,1999
-62,1,UConn,1999
-0,1,Duke,2000
-1,8,Kansas,2000
-2,5,Florida,2000
-3,4,Illinois,2000
-4,11,Pepperdine,2000
-5,3,Oklahoma State,2000
-6,10,Seton Hall,2000
-7,2,Temple,2000
-8,1,Duke,2000
-9,5,Florida,2000
-10,3,Oklahoma State,2000
-11,10,Seton Hall,2000
-12,5,Florida,2000
-13,3,Oklahoma State,2000
-14,5,Florida,2000
-15,1,Michigan State,2000
-16,8,Utah,2000
-17,5,Kentucky,2000
-18,4,Syracuse,2000
-19,6,UCLA,2000
-20,3,Maryland,2000
-21,7,Auburn,2000
-22,2,Iowa State,2000
-23,1,Michigan State,2000
-24,4,Syracuse,2000
-25,6,UCLA,2000
-26,2,Iowa State,2000
-27,1,Michigan State,2000
-28,2,Iowa State,2000
-29,1,Michigan State,2000
-30,1,Stanford,2000
-31,8,UNC,2000
-32,5,UConn,2000
-33,4,Tennessee,2000
-34,6,Miami (FL),2000
-35,3,Ohio State,2000
-36,7,Tulsa,2000
-37,2,Cincinnati,2000
-38,8,UNC,2000
-39,4,Tennessee,2000
-40,6,Miami (FL),2000
-41,7,Tulsa,2000
-42,8,UNC,2000
-43,7,Tulsa,2000
-44,8,UNC,2000
-45,1,Arizona,2000
-46,8,Wisconsin,2000
-47,5,Texas,2000
-48,4,LSU,2000
-49,6,Purdue,2000
-50,3,Oklahoma,2000
-51,10,Gonzaga,2000
-52,2,St. John's (NY),2000
-53,8,Wisconsin,2000
-54,4,LSU,2000
-55,6,Purdue,2000
-56,10,Gonzaga,2000
-57,8,Wisconsin,2000
-58,6,Purdue,2000
-59,8,Wisconsin,2000
-60,1,Michigan State,2000
-61,5,Florida,2000
-62,1,Michigan State,2000
-0,1,Illinois,2001
-1,9,Charlotte,2001
-2,5,Syracuse,2001
-3,4,Kansas,2001
-4,6,Notre Dame,2001
-5,3,Ole Miss,2001
-6,10,Butler,2001
-7,2,Arizona,2001
-8,1,Illinois,2001
-9,4,Kansas,2001
-10,3,Ole Miss,2001
-11,2,Arizona,2001
-12,1,Illinois,2001
-13,2,Arizona,2001
-14,2,Arizona,2001
-15,1,Duke,2001
-16,9,Missouri,2001
-17,12,Utah State,2001
-18,4,UCLA,2001
-19,6,USC,2001
-20,3,Boston College,2001
-21,7,Iowa,2001
-22,2,Kentucky,2001
-23,1,Duke,2001
-24,4,UCLA,2001
-25,6,USC,2001
-26,2,Kentucky,2001
-27,1,Duke,2001
-28,6,USC,2001
-29,1,Duke,2001
-30,1,Michigan State,2001
-31,9,Fresno State,2001
-32,12,Gonzaga,2001
-33,13,Indiana State,2001
-34,11,Temple,2001
-35,3,Florida,2001
-36,7,Penn State,2001
-37,2,UNC,2001
-38,1,Michigan State,2001
-39,12,Gonzaga,2001
-40,11,Temple,2001
-41,7,Penn State,2001
-42,1,Michigan State,2001
-43,11,Temple,2001
-44,1,Michigan State,2001
-45,1,Stanford,2001
-46,9,St. Joseph's,2001
-47,5,Cincinnati,2001
-48,13,Kent State,2001
-49,11,Georgia State,2001
-50,3,Maryland,2001
-51,10,Georgetown,2001
-52,15,Hampton,2001
-53,1,Stanford,2001
-54,5,Cincinnati,2001
-55,3,Maryland,2001
-56,10,Georgetown,2001
-57,1,Stanford,2001
-58,3,Maryland,2001
-59,3,Maryland,2001
-60,1,Duke,2001
-61,2,Arizona,2001
-62,1,Duke,2001
-0,1,Maryland,2002
-1,8,Wisconsin,2002
-2,12,Tulsa,2002
-3,4,Kentucky,2002
-4,11,Southern Illinois,2002
-5,3,Georgia,2002
-6,7,NC State,2002
-7,2,UConn,2002
-8,1,Maryland,2002
-9,4,Kentucky,2002
-10,11,Southern Illinois,2002
-11,2,UConn,2002
-12,1,Maryland,2002
-13,2,UConn,2002
-14,1,Maryland,2002
-15,1,Kansas,2002
-16,8,Stanford,2002
-17,12,Creighton,2002
-18,4,Illinois,2002
-19,6,Texas,2002
-20,3,Mississippi State,2002
-21,7,Wake Forest,2002
-22,2,Oregon,2002
-23,1,Kansas,2002
-24,4,Illinois,2002
-25,6,Texas,2002
-26,2,Oregon,2002
-27,1,Kansas,2002
-28,2,Oregon,2002
-29,1,Kansas,2002
-30,1,Duke,2002
-31,8,Notre Dame,2002
-32,5,Indiana,2002
-33,13,UNC Wilmington,2002
-34,6,California,2002
-35,3,Pitt,2002
-36,10,Kent State,2002
-37,2,Alabama,2002
-38,1,Duke,2002
-39,5,Indiana,2002
-40,3,Pitt,2002
-41,10,Kent State,2002
-42,5,Indiana,2002
-43,10,Kent State,2002
-44,5,Indiana,2002
-45,1,Cincinnati,2002
-46,8,UCLA,2002
-47,12,Missouri,2002
-48,4,Ohio State,2002
-49,11,Wyoming,2002
-50,3,Arizona,2002
-51,7,Xavier,2002
-52,2,Oklahoma,2002
-53,8,UCLA,2002
-54,12,Missouri,2002
-55,3,Arizona,2002
-56,2,Oklahoma,2002
-57,12,Missouri,2002
-58,2,Oklahoma,2002
-59,2,Oklahoma,2002
-60,1,Maryland,2002
-61,5,Indiana,2002
-62,1,Maryland,2002
-0,1,Texas,2003
-1,9,Purdue,2003
-2,5,UConn,2003
-3,4,Stanford,2003
-4,6,Maryland,2003
-5,3,Xavier,2003
-6,7,Michigan State,2003
-7,2,Florida,2003
-8,1,Texas,2003
-9,5,UConn,2003
-10,6,Maryland,2003
-11,7,Michigan State,2003
-12,1,Texas,2003
-13,7,Michigan State,2003
-14,1,Texas,2003
-15,1,Oklahoma,2003
-16,8,California,2003
-17,12,Butler,2003
-18,4,Louisville,2003
-19,6,Oklahoma State,2003
-20,3,Syracuse,2003
-21,10,Auburn,2003
-22,2,Wake Forest,2003
-23,1,Oklahoma,2003
-24,12,Butler,2003
-25,3,Syracuse,2003
-26,10,Auburn,2003
-27,1,Oklahoma,2003
-28,3,Syracuse,2003
-29,3,Syracuse,2003
-30,1,Kentucky,2003
-31,9,Utah,2003
-32,5,Wisconsin,2003
-33,13,Tulsa,2003
-34,6,Missouri,2003
-35,3,Marquette,2003
-36,7,Indiana,2003
-37,2,Pitt,2003
-38,1,Kentucky,2003
-39,5,Wisconsin,2003
-40,3,Marquette,2003
-41,2,Pitt,2003
-42,1,Kentucky,2003
-43,3,Marquette,2003
-44,3,Marquette,2003
-45,1,Arizona,2003
-46,9,Gonzaga,2003
-47,5,Notre Dame,2003
-48,4,Illinois,2003
-49,11,Central Michigan,2003
-50,3,Duke,2003
-51,10,Arizona State,2003
-52,2,Kansas,2003
-53,1,Arizona,2003
-54,5,Notre Dame,2003
-55,3,Duke,2003
-56,2,Kansas,2003
-57,1,Arizona,2003
-58,2,Kansas,2003
-59,2,Kansas,2003
-60,3,Syracuse,2003
-61,2,Kansas,2003
-62,3,Syracuse,2003
-0,1,Kentucky,2004
-1,9,Alabama-Birmingham,2004
-2,12,Pacific,2004
-3,4,Kansas,2004
-4,6,Boston College,2004
-5,3,Georgia Tech,2004
-6,10,Nevada,2004
-7,2,Gonzaga,2004
-8,9,Alabama-Birmingham,2004
-9,4,Kansas,2004
-10,3,Georgia Tech,2004
-11,10,Nevada,2004
-12,4,Kansas,2004
-13,3,Georgia Tech,2004
-14,3,Georgia Tech,2004
-15,1,Duke,2004
-16,8,Seton Hall,2004
-17,5,Illinois,2004
-18,4,Cincinnati,2004
-19,6,UNC,2004
-20,3,Texas,2004
-21,7,Xavier,2004
-22,2,Mississippi State,2004
-23,1,Duke,2004
-24,5,Illinois,2004
-25,3,Texas,2004
-26,7,Xavier,2004
-27,1,Duke,2004
-28,7,Xavier,2004
-29,1,Duke,2004
-30,1,St. Joseph's,2004
-31,8,Texas Tech,2004
-32,12,Manhattan,2004
-33,4,Wake Forest,2004
-34,6,Wisconsin,2004
-35,3,Pitt,2004
-36,7,Memphis,2004
-37,2,Oklahoma State,2004
-38,1,St. Joseph's,2004
-39,4,Wake Forest,2004
-40,3,Pitt,2004
-41,2,Oklahoma State,2004
-42,1,St. Joseph's,2004
-43,2,Oklahoma State,2004
-44,2,Oklahoma State,2004
-45,1,Stanford,2004
-46,8,Alabama,2004
-47,5,Syracuse,2004
-48,4,Maryland,2004
-49,6,Vanderbilt,2004
-50,3,NC State,2004
-51,7,DePaul,2004
-52,2,UConn,2004
-53,8,Alabama,2004
-54,5,Syracuse,2004
-55,6,Vanderbilt,2004
-56,2,UConn,2004
-57,8,Alabama,2004
-58,2,UConn,2004
-59,2,UConn,2004
-60,2,UConn,2004
-61,3,Georgia Tech,2004
-62,2,UConn,2004
-0,1,UNC,2005
-1,9,Iowa State,2005
-2,5,Villanova,2005
-3,4,Florida,2005
-4,6,Wisconsin,2005
-5,14,Bucknell,2005
-6,10,NC State,2005
-7,2,UConn,2005
-8,1,UNC,2005
-9,5,Villanova,2005
-10,6,Wisconsin,2005
-11,10,NC State,2005
-12,1,UNC,2005
-13,6,Wisconsin,2005
-14,1,UNC,2005
-15,1,Washington,2005
-16,8,Pacific,2005
-17,5,Georgia Tech,2005
-18,4,Louisville,2005
-19,6,Texas Tech,2005
-20,3,Gonzaga,2005
-21,7,West Virginia,2005
-22,2,Wake Forest,2005
-23,1,Washington,2005
-24,4,Louisville,2005
-25,6,Texas Tech,2005
-26,7,West Virginia,2005
-27,4,Louisville,2005
-28,7,West Virginia,2005
-29,4,Louisville,2005
-30,1,Duke,2005
-31,9,Mississippi State,2005
-32,5,Michigan State,2005
-33,13,Vermont,2005
-34,6,Utah,2005
-35,3,Oklahoma,2005
-36,7,Cincinnati,2005
-37,2,Kentucky,2005
-38,1,Duke,2005
-39,5,Michigan State,2005
-40,6,Utah,2005
-41,2,Kentucky,2005
-42,5,Michigan State,2005
-43,2,Kentucky,2005
-44,5,Michigan State,2005
-45,1,Illinois,2005
-46,9,Nevada,2005
-47,12,Milwaukee,2005
-48,4,Boston College,2005
-49,11,Alabama-Birmingham,2005
-50,3,Arizona,2005
-51,7,Southern Illinois,2005
-52,2,Oklahoma State,2005
-53,1,Illinois,2005
-54,12,Milwaukee,2005
-55,3,Arizona,2005
-56,2,Oklahoma State,2005
-57,1,Illinois,2005
-58,3,Arizona,2005
-59,1,Illinois,2005
-60,1,UNC,2005
-61,1,Illinois,2005
-62,1,UNC,2005
-0,1,Villanova,2006
-1,8,Arizona,2006
-2,12,Montana,2006
-3,4,Boston College,2006
-4,11,Milwaukee,2006
-5,3,Florida,2006
-6,7,Georgetown,2006
-7,2,Ohio State,2006
-8,1,Villanova,2006
-9,4,Boston College,2006
-10,3,Florida,2006
-11,7,Georgetown,2006
-12,1,Villanova,2006
-13,3,Florida,2006
-14,3,Florida,2006
-15,1,Duke,2006
-16,8,George Washington,2006
-17,12,Texas A&M,2006
-18,4,LSU,2006
-19,6,West Virginia,2006
-20,14,Northwestern State,2006
-21,10,NC State,2006
-22,2,Texas,2006
-23,1,Duke,2006
-24,4,LSU,2006
-25,6,West Virginia,2006
-26,2,Texas,2006
-27,4,LSU,2006
-28,2,Texas,2006
-29,4,LSU,2006
-30,1,Memphis,2006
-31,9,Bucknell,2006
-32,5,Pitt,2006
-33,13,Bradley,2006
-34,6,Indiana,2006
-35,3,Gonzaga,2006
-36,10,Alabama,2006
-37,2,UCLA,2006
-38,1,Memphis,2006
-39,13,Bradley,2006
-40,3,Gonzaga,2006
-41,2,UCLA,2006
-42,1,Memphis,2006
-43,2,UCLA,2006
-44,2,UCLA,2006
-45,1,UConn,2006
-46,8,Kentucky,2006
-47,5,Washington,2006
-48,4,Illinois,2006
-49,11,George Mason,2006
-50,3,UNC,2006
-51,7,Wichita State,2006
-52,2,Tennessee,2006
-53,1,UConn,2006
-54,5,Washington,2006
-55,11,George Mason,2006
-56,7,Wichita State,2006
-57,1,UConn,2006
-58,11,George Mason,2006
-59,11,George Mason,2006
-60,3,Florida,2006
-61,2,UCLA,2006
-62,3,Florida,2006
-0,1,Kansas,2007
-1,8,Kentucky,2007
-2,5,Virginia Tech,2007
-3,4,Southern Illinois,2007
-4,11,VCU,2007
-5,3,Pitt,2007
-6,7,Indiana,2007
-7,2,UCLA,2007
-8,1,Kansas,2007
-9,4,Southern Illinois,2007
-10,3,Pitt,2007
-11,2,UCLA,2007
-12,1,Kansas,2007
-13,2,UCLA,2007
-14,2,UCLA,2007
-15,1,UNC,2007
-16,9,Michigan State,2007
-17,5,USC,2007
-18,4,Texas,2007
-19,6,Vanderbilt,2007
-20,3,Washington State,2007
-21,7,Boston College,2007
-22,2,Georgetown,2007
-23,1,UNC,2007
-24,5,USC,2007
-25,6,Vanderbilt,2007
-26,2,Georgetown,2007
-27,1,UNC,2007
-28,2,Georgetown,2007
-29,2,Georgetown,2007
-30,1,Florida,2007
-31,9,Purdue,2007
-32,5,Butler,2007
-33,4,Maryland,2007
-34,11,Winthrop,2007
-35,3,Oregon,2007
-36,7,UNLV,2007
-37,2,Wisconsin,2007
-38,1,Florida,2007
-39,5,Butler,2007
-40,3,Oregon,2007
-41,7,UNLV,2007
-42,1,Florida,2007
-43,3,Oregon,2007
-44,1,Florida,2007
-45,1,Ohio State,2007
-46,9,Xavier,2007
-47,5,Tennessee,2007
-48,4,Virginia,2007
-49,6,Louisville,2007
-50,3,Texas A&M,2007
-51,7,Nevada,2007
-52,2,Memphis,2007
-53,1,Ohio State,2007
-54,5,Tennessee,2007
-55,3,Texas A&M,2007
-56,2,Memphis,2007
-57,1,Ohio State,2007
-58,2,Memphis,2007
-59,1,Ohio State,2007
-60,1,Florida,2007
-61,1,Ohio State,2007
-62,1,Florida,2007
-0,1,UNC,2008
-1,9,Arkansas,2008
-2,5,Notre Dame,2008
-3,4,Washington State,2008
-4,6,Oklahoma,2008
-5,3,Louisville,2008
-6,7,Butler,2008
-7,2,Tennessee,2008
-8,1,UNC,2008
-9,4,Washington State,2008
-10,3,Louisville,2008
-11,2,Tennessee,2008
-12,1,UNC,2008
-13,3,Louisville,2008
-14,1,UNC,2008
-15,1,Kansas,2008
-16,8,UNLV,2008
-17,12,Villanova,2008
-18,13,Siena,2008
-19,11,Kansas State,2008
-20,3,Wisconsin,2008
-21,10,Davidson,2008
-22,2,Georgetown,2008
-23,1,Kansas,2008
-24,12,Villanova,2008
-25,3,Wisconsin,2008
-26,10,Davidson,2008
-27,1,Kansas,2008
-28,10,Davidson,2008
-29,1,Kansas,2008
-30,1,Memphis,2008
-31,8,Mississippi State,2008
-32,5,Michigan State,2008
-33,4,Pitt,2008
-34,6,Marquette,2008
-35,3,Stanford,2008
-36,7,Miami (FL),2008
-37,2,Texas,2008
-38,1,Memphis,2008
-39,5,Michigan State,2008
-40,3,Stanford,2008
-41,2,Texas,2008
-42,1,Memphis,2008
-43,2,Texas,2008
-44,1,Memphis,2008
-45,1,UCLA,2008
-46,9,Texas A&M,2008
-47,12,Western Kentucky,2008
-48,13,San Diego,2008
-49,6,Purdue,2008
-50,3,Xavier,2008
-51,7,West Virginia,2008
-52,2,Duke,2008
-53,1,UCLA,2008
-54,12,Western Kentucky,2008
-55,3,Xavier,2008
-56,7,West Virginia,2008
-57,1,UCLA,2008
-58,3,Xavier,2008
-59,1,UCLA,2008
-60,1,Kansas,2008
-61,1,Memphis,2008
-62,1,Kansas,2008
-0,1,Louisville,2009
-1,9,Siena,2009
-2,12,Arizona,2009
-3,13,Cleveland State,2009
-4,11,Dayton,2009
-5,3,Kansas,2009
-6,10,USC,2009
-7,2,Michigan State,2009
-8,1,Louisville,2009
-9,12,Arizona,2009
-10,3,Kansas,2009
-11,2,Michigan State,2009
-12,1,Louisville,2009
-13,2,Michigan State,2009
-14,2,Michigan State,2009
-15,1,Pitt,2009
-16,8,Oklahoma State,2009
-17,12,Wisconsin,2009
-18,4,Xavier,2009
-19,6,UCLA,2009
-20,3,Villanova,2009
-21,7,Texas,2009
-22,2,Duke,2009
-23,1,Pitt,2009
-24,4,Xavier,2009
-25,3,Villanova,2009
-26,2,Duke,2009
-27,1,Pitt,2009
-28,3,Villanova,2009
-29,3,Villanova,2009
-30,1,UNC,2009
-31,8,LSU,2009
-32,12,Western Kentucky,2009
-33,4,Gonzaga,2009
-34,6,Arizona State,2009
-35,3,Syracuse,2009
-36,10,Michigan,2009
-37,2,Oklahoma,2009
-38,1,UNC,2009
-39,4,Gonzaga,2009
-40,3,Syracuse,2009
-41,2,Oklahoma,2009
-42,1,UNC,2009
-43,2,Oklahoma,2009
-44,1,UNC,2009
-45,1,UConn,2009
-46,9,Texas A&M,2009
-47,5,Purdue,2009
-48,4,Washington,2009
-49,6,Marquette,2009
-50,3,Missouri,2009
-51,10,Maryland,2009
-52,2,Memphis,2009
-53,1,UConn,2009
-54,5,Purdue,2009
-55,3,Missouri,2009
-56,2,Memphis,2009
-57,1,UConn,2009
-58,3,Missouri,2009
-59,1,UConn,2009
-60,1,UNC,2009
-61,2,Michigan State,2009
-62,1,UNC,2009
-0,1,Duke,2010
-1,8,California,2010
-2,5,Texas A&M,2010
-3,4,Purdue,2010
-4,11,Old Dominion,2010
-5,3,Baylor,2010
-6,10,Saint Mary's,2010
-7,2,Villanova,2010
-8,1,Duke,2010
-9,4,Purdue,2010
-10,3,Baylor,2010
-11,10,Saint Mary's,2010
-12,1,Duke,2010
-13,3,Baylor,2010
-14,1,Duke,2010
-15,1,Kentucky,2010
-16,9,Wake Forest,2010
-17,12,Cornell,2010
-18,4,Wisconsin,2010
-19,11,Washington,2010
-20,3,New Mexico,2010
-21,10,Missouri,2010
-22,2,West Virginia,2010
-23,1,Kentucky,2010
-24,12,Cornell,2010
-25,11,Washington,2010
-26,2,West Virginia,2010
-27,1,Kentucky,2010
-28,2,West Virginia,2010
-29,2,West Virginia,2010
-30,1,Kansas,2010
-31,9,Northern Iowa,2010
-32,5,Michigan State,2010
-33,4,Maryland,2010
-34,6,Tennessee,2010
-35,14,Ohio,2010
-36,10,Georgia Tech,2010
-37,2,Ohio State,2010
-38,9,Northern Iowa,2010
-39,5,Michigan State,2010
-40,6,Tennessee,2010
-41,2,Ohio State,2010
-42,5,Michigan State,2010
-43,6,Tennessee,2010
-44,5,Michigan State,2010
-45,1,Syracuse,2010
-46,8,Gonzaga,2010
-47,5,Butler,2010
-48,13,Murray State,2010
-49,6,Xavier,2010
-50,3,Pitt,2010
-51,7,BYU,2010
-52,2,Kansas State,2010
-53,1,Syracuse,2010
-54,5,Butler,2010
-55,6,Xavier,2010
-56,2,Kansas State,2010
-57,5,Butler,2010
-58,2,Kansas State,2010
-59,5,Butler,2010
-60,1,Duke,2010
-61,5,Butler,2010
-62,1,Duke,2010
-0,1,Ohio State,2011
-1,8,George Mason,2011
-2,5,West Virginia,2011
-3,4,Kentucky,2011
-4,11,Marquette,2011
-5,3,Syracuse,2011
-6,7,Washington,2011
-7,2,UNC,2011
-8,1,Ohio State,2011
-9,4,Kentucky,2011
-10,11,Marquette,2011
-11,2,UNC,2011
-12,4,Kentucky,2011
-13,2,UNC,2011
-14,4,Kentucky,2011
-15,1,Pitt,2011
-16,8,Butler,2011
-17,5,Kansas State,2011
-18,4,Wisconsin,2011
-19,11,Gonzaga,2011
-20,3,BYU,2011
-21,7,UCLA,2011
-22,2,Florida,2011
-23,8,Butler,2011
-24,4,Wisconsin,2011
-25,3,BYU,2011
-26,2,Florida,2011
-27,8,Butler,2011
-28,2,Florida,2011
-29,8,Butler,2011
-30,1,Kansas,2011
-31,9,Illinois,2011
-32,12,Richmond,2011
-33,13,Morehead State,2011
-34,11,VCU,2011
-35,3,Purdue,2011
-36,10,Florida State,2011
-37,2,Notre Dame,2011
-38,1,Kansas,2011
-39,12,Richmond,2011
-40,11,VCU,2011
-41,10,Florida State,2011
-42,1,Kansas,2011
-43,11,VCU,2011
-44,11,VCU,2011
-45,1,Duke,2011
-46,8,Michigan,2011
-47,5,Arizona,2011
-48,4,Texas,2011
-49,6,Cincinnati,2011
-50,3,UConn,2011
-51,7,Temple,2011
-52,2,San Diego State,2011
-53,1,Duke,2011
-54,5,Arizona,2011
-55,3,UConn,2011
-56,2,San Diego State,2011
-57,5,Arizona,2011
-58,3,UConn,2011
-59,3,UConn,2011
-60,3,UConn,2011
-61,8,Butler,2011
-62,3,UConn,2011
-0,1,UNC,2012
-1,8,Creighton,2012
-2,12,South Florida,2012
-3,13,Ohio,2012
-4,11,NC State,2012
-5,3,Georgetown,2012
-6,10,Purdue,2012
-7,2,Kansas,2012
-8,1,UNC,2012
-9,13,Ohio,2012
-10,11,NC State,2012
-11,2,Kansas,2012
-12,1,UNC,2012
-13,2,Kansas,2012
-14,2,Kansas,2012
-15,1,Kentucky,2012
-16,8,Iowa State,2012
-17,12,VCU,2012
-18,4,Indiana,2012
-19,11,Colorado,2012
-20,3,Baylor,2012
-21,10,Xavier,2012
-22,15,Lehigh,2012
-23,1,Kentucky,2012
-24,4,Indiana,2012
-25,3,Baylor,2012
-26,10,Xavier,2012
-27,1,Kentucky,2012
-28,3,Baylor,2012
-29,1,Kentucky,2012
-30,1,Michigan State,2012
-31,9,Saint Louis,2012
-32,5,New Mexico,2012
-33,4,Louisville,2012
-34,6,Murray State,2012
-35,3,Marquette,2012
-36,7,Florida,2012
-37,15,Norfolk State,2012
-38,1,Michigan State,2012
-39,4,Louisville,2012
-40,3,Marquette,2012
-41,7,Florida,2012
-42,4,Louisville,2012
-43,7,Florida,2012
-44,4,Louisville,2012
-45,1,Syracuse,2012
-46,8,Kansas State,2012
-47,5,Vanderbilt,2012
-48,4,Wisconsin,2012
-49,6,Cincinnati,2012
-50,3,Florida State,2012
-51,7,Gonzaga,2012
-52,2,Ohio State,2012
-53,1,Syracuse,2012
-54,4,Wisconsin,2012
-55,6,Cincinnati,2012
-56,2,Ohio State,2012
-57,1,Syracuse,2012
-58,2,Ohio State,2012
-59,2,Ohio State,2012
-60,1,Kentucky,2012
-61,2,Kansas,2012
-62,1,Kentucky,2012
-0,1,Indiana,2013
-1,9,Temple,2013
-2,12,California,2013
-3,4,Syracuse,2013
-4,6,Butler,2013
-5,3,Marquette,2013
-6,7,Illinois,2013
-7,2,Miami (FL),2013
-8,1,Indiana,2013
-9,4,Syracuse,2013
-10,3,Marquette,2013
-11,2,Miami (FL),2013
-12,4,Syracuse,2013
-13,3,Marquette,2013
-14,4,Syracuse,2013
-15,1,Louisville,2013
-16,8,Colorado State,2013
-17,12,Oregon,2013
-18,4,Saint Louis,2013
-19,6,Memphis,2013
-20,3,Michigan State,2013
-21,7,Creighton,2013
-22,2,Duke,2013
-23,1,Louisville,2013
-24,12,Oregon,2013
-25,3,Michigan State,2013
-26,2,Duke,2013
-27,1,Louisville,2013
-28,2,Duke,2013
-29,1,Louisville,2013
-30,1,Gonzaga,2013
-31,9,Wichita State,2013
-32,12,Ole Miss,2013
-33,13,La Salle,2013
-34,6,Arizona,2013
-35,14,Harvard,2013
-36,10,Iowa State,2013
-37,2,Ohio State,2013
-38,9,Wichita State,2013
-39,13,La Salle,2013
-40,6,Arizona,2013
-41,2,Ohio State,2013
-42,9,Wichita State,2013
-43,2,Ohio State,2013
-44,9,Wichita State,2013
-45,1,Kansas,2013
-46,8,UNC,2013
-47,5,VCU,2013
-48,4,Michigan,2013
-49,11,Minnesota,2013
-50,3,Florida,2013
-51,7,San Diego State,2013
-52,15,Florida Gulf Coast,2013
-53,1,Kansas,2013
-54,4,Michigan,2013
-55,3,Florida,2013
-56,15,Florida Gulf Coast,2013
-57,4,Michigan,2013
-58,3,Florida,2013
-59,4,Michigan,2013
-60,1,Louisville,2013
-61,4,Michigan,2013
-62,1,Louisville,2013
-0,1,Wichita State,2014
-1,8,Kentucky,2014
-2,5,Saint Louis,2014
-3,4,Louisville,2014
-4,11,Tennessee,2014
-5,14,Mercer,2014
-6,7,Texas,2014
-7,2,Michigan,2014
-8,8,Kentucky,2014
-9,4,Louisville,2014
-10,11,Tennessee,2014
-11,2,Michigan,2014
-12,8,Kentucky,2014
-13,2,Michigan,2014
-14,8,Kentucky,2014
-15,1,Florida,2014
-16,9,Pitt,2014
-17,12,Stephen F. Austin,2014
-18,4,UCLA,2014
-19,11,Dayton,2014
-20,3,Syracuse,2014
-21,10,Stanford,2014
-22,2,Kansas,2014
-23,1,Florida,2014
-24,4,UCLA,2014
-25,11,Dayton,2014
-26,10,Stanford,2014
-27,1,Florida,2014
-28,11,Dayton,2014
-29,1,Florida,2014
-30,1,Virginia,2014
-31,8,Memphis,2014
-32,12,Harvard,2014
-33,4,Michigan State,2014
-34,6,UNC,2014
-35,3,Iowa State,2014
-36,7,UConn,2014
-37,2,Villanova,2014
-38,1,Virginia,2014
-39,4,Michigan State,2014
-40,3,Iowa State,2014
-41,7,UConn,2014
-42,4,Michigan State,2014
-43,7,UConn,2014
-44,7,UConn,2014
-45,1,Arizona,2014
-46,8,Gonzaga,2014
-47,12,North Dakota State,2014
-48,4,San Diego State,2014
-49,6,Baylor,2014
-50,3,Creighton,2014
-51,7,Oregon,2014
-52,2,Wisconsin,2014
-53,1,Arizona,2014
-54,4,San Diego State,2014
-55,6,Baylor,2014
-56,2,Wisconsin,2014
-57,1,Arizona,2014
-58,2,Wisconsin,2014
-59,2,Wisconsin,2014
-60,7,UConn,2014
-61,8,Kentucky,2014
-62,7,UConn,2014
-0,1,Villanova,2015
-1,8,NC State,2015
-2,5,Northern Iowa,2015
-3,4,Louisville,2015
-4,11,Dayton,2015
-5,3,Oklahoma,2015
-6,7,Michigan State,2015
-7,2,Virginia,2015
-8,8,NC State,2015
-9,4,Louisville,2015
-10,3,Oklahoma,2015
-11,7,Michigan State,2015
-12,4,Louisville,2015
-13,7,Michigan State,2015
-14,7,Michigan State,2015
-15,1,Kentucky,2015
-16,8,Cincinnati,2015
-17,5,West Virginia,2015
-18,4,Maryland,2015
-19,6,Butler,2015
-20,3,Notre Dame,2015
-21,7,Wichita State,2015
-22,2,Kansas,2015
-23,1,Kentucky,2015
-24,5,West Virginia,2015
-25,3,Notre Dame,2015
-26,7,Wichita State,2015
-27,1,Kentucky,2015
-28,3,Notre Dame,2015
-29,1,Kentucky,2015
-30,1,Duke,2015
-31,8,San Diego State,2015
-32,5,Utah,2015
-33,4,Georgetown,2015
-34,11,UCLA,2015
-35,14,Alabama-Birmingham,2015
-36,7,Iowa,2015
-37,2,Gonzaga,2015
-38,1,Duke,2015
-39,5,Utah,2015
-40,11,UCLA,2015
-41,2,Gonzaga,2015
-42,1,Duke,2015
-43,2,Gonzaga,2015
-44,1,Duke,2015
-45,1,Wisconsin,2015
-46,8,Oregon,2015
-47,5,Arkansas,2015
-48,4,UNC,2015
-49,6,Xavier,2015
-50,14,Georgia State,2015
-51,10,Ohio State,2015
-52,2,Arizona,2015
-53,1,Wisconsin,2015
-54,4,UNC,2015
-55,6,Xavier,2015
-56,2,Arizona,2015
-57,1,Wisconsin,2015
-58,2,Arizona,2015
-59,1,Wisconsin,2015
-60,1,Duke,2015
-61,1,Wisconsin,2015
-62,1,Duke,2015
-0,1,UNC,2016
-1,9,Providence,2016
-2,5,Indiana,2016
-3,4,Kentucky,2016
-4,6,Notre Dame,2016
-5,14,Stephen F. Austin,2016
-6,7,Wisconsin,2016
-7,2,Xavier,2016
-8,1,UNC,2016
-9,5,Indiana,2016
-10,6,Notre Dame,2016
-11,7,Wisconsin,2016
-12,1,UNC,2016
-13,6,Notre Dame,2016
-14,1,UNC,2016
-15,1,Kansas,2016
-16,9,UConn,2016
-17,5,Maryland,2016
-18,13,Hawaii,2016
-19,11,Wichita State,2016
-20,3,Miami (FL),2016
-21,7,Iowa,2016
-22,2,Villanova,2016
-23,1,Kansas,2016
-24,5,Maryland,2016
-25,3,Miami (FL),2016
-26,2,Villanova,2016
-27,1,Kansas,2016
-28,2,Villanova,2016
-29,2,Villanova,2016
-30,1,Oregon,2016
-31,8,St. Joseph's,2016
-32,12,Yale,2016
-33,4,Duke,2016
-34,11,Northern Iowa,2016
-35,3,Texas A&M,2016
-36,10,VCU,2016
-37,2,Oklahoma,2016
-38,1,Oregon,2016
-39,4,Duke,2016
-40,3,Texas A&M,2016
-41,2,Oklahoma,2016
-42,1,Oregon,2016
-43,2,Oklahoma,2016
-44,2,Oklahoma,2016
-45,1,Virginia,2016
-46,9,Butler,2016
-47,12,Little Rock,2016
-48,4,Iowa State,2016
-49,11,Gonzaga,2016
-50,3,Utah,2016
-51,10,Syracuse,2016
-52,15,Middle Tennessee,2016
-53,1,Virginia,2016
-54,4,Iowa State,2016
-55,11,Gonzaga,2016
-56,10,Syracuse,2016
-57,1,Virginia,2016
-58,10,Syracuse,2016
-59,10,Syracuse,2016
-60,2,Villanova,2016
-61,1,UNC,2016
-62,2,Villanova,2016
-0,1,Villanova,2017
-1,8,Wisconsin,2017
-2,5,Virginia,2017
-3,4,Florida,2017
-4,11,USC,2017
-5,3,Baylor,2017
-6,7,South Carolina,2017
-7,2,Duke,2017
-8,8,Wisconsin,2017
-9,4,Florida,2017
-10,3,Baylor,2017
-11,7,South Carolina,2017
-12,4,Florida,2017
-13,7,South Carolina,2017
-14,7,South Carolina,2017
-15,1,Kansas,2017
-16,9,Michigan State,2017
-17,5,Iowa State,2017
-18,4,Purdue,2017
-19,11,Rhode Island,2017
-20,3,Oregon,2017
-21,7,Michigan,2017
-22,2,Louisville,2017
-23,1,Kansas,2017
-24,4,Purdue,2017
-25,3,Oregon,2017
-26,7,Michigan,2017
-27,1,Kansas,2017
-28,3,Oregon,2017
-29,3,Oregon,2017
-30,1,UNC,2017
-31,8,Arkansas,2017
-32,12,Middle Tennessee,2017
-33,4,Butler,2017
-34,6,Cincinnati,2017
-35,3,UCLA,2017
-36,10,Wichita State,2017
-37,2,Kentucky,2017
-38,1,UNC,2017
-39,4,Butler,2017
-40,3,UCLA,2017
-41,2,Kentucky,2017
-42,1,UNC,2017
-43,2,Kentucky,2017
-44,1,UNC,2017
-45,1,Gonzaga,2017
-46,8,Northwestern,2017
-47,5,Notre Dame,2017
-48,4,West Virginia,2017
-49,11,Xavier,2017
-50,3,Florida State,2017
-51,7,Saint Mary's,2017
-52,2,Arizona,2017
-53,1,Gonzaga,2017
-54,4,West Virginia,2017
-55,11,Xavier,2017
-56,2,Arizona,2017
-57,1,Gonzaga,2017
-58,11,Xavier,2017
-59,1,Gonzaga,2017
-60,1,UNC,2017
-61,1,Gonzaga,2017
-62,1,UNC,2017
-0,1,Villanova,2018
-1,9,Alabama,2018
-2,5,West Virginia,2018
-3,13,Marshall,2018
-4,6,Florida,2018
-5,3,Texas Tech,2018
-6,10,Butler,2018
-7,2,Purdue,2018
-8,1,Villanova,2018
-9,5,West Virginia,2018
-10,3,Texas Tech,2018
-11,2,Purdue,2018
-12,1,Villanova,2018
-13,3,Texas Tech,2018
-14,1,Villanova,2018
-15,1,Kansas,2018
-16,8,Seton Hall,2018
-17,5,Clemson,2018
-18,4,Auburn,2018
-19,11,Syracuse,2018
-20,3,Michigan State,2018
-21,7,Rhode Island,2018
-22,2,Duke,2018
-23,1,Kansas,2018
-24,5,Clemson,2018
-25,11,Syracuse,2018
-26,2,Duke,2018
-27,1,Kansas,2018
-28,2,Duke,2018
-29,1,Kansas,2018
-30,1,Xavier,2018
-31,9,Florida State,2018
-32,5,Ohio State,2018
-33,4,Gonzaga,2018
-34,6,Houston,2018
-35,3,Michigan,2018
-36,7,Texas A&M,2018
-37,2,UNC,2018
-38,9,Florida State,2018
-39,4,Gonzaga,2018
-40,3,Michigan,2018
-41,7,Texas A&M,2018
-42,9,Florida State,2018
-43,3,Michigan,2018
-44,3,Michigan,2018
-45,16,UMBC,2018
-46,9,Kansas State,2018
-47,5,Kentucky,2018
-48,13,Buffalo,2018
-49,11,Loyola (IL),2018
-50,3,Tennessee,2018
-51,7,Nevada,2018
-52,2,Cincinnati,2018
-53,9,Kansas State,2018
-54,5,Kentucky,2018
-55,11,Loyola (IL),2018
-56,7,Nevada,2018
-57,9,Kansas State,2018
-58,11,Loyola (IL),2018
-59,11,Loyola (IL),2018
-60,1,Villanova,2018
-61,3,Michigan,2018
-62,1,Villanova,2018
-0,1,Duke,2019
-1,9,UCF,2019
-2,12,Liberty,2019
-3,4,Virginia Tech,2019
-4,6,Maryland,2019
-5,3,LSU,2019
-6,10,Minnesota,2019
-7,2,Michigan State,2019
-8,1,Duke,2019
-9,4,Virginia Tech,2019
-10,3,LSU,2019
-11,2,Michigan State,2019
-12,1,Duke,2019
-13,2,Michigan State,2019
-14,2,Michigan State,2019
-15,1,Gonzaga,2019
-16,9,Baylor,2019
-17,12,Murray State,2019
-18,4,Florida State,2019
-19,6,Buffalo,2019
-20,3,Texas Tech,2019
-21,10,Florida,2019
-22,2,Michigan,2019
-23,1,Gonzaga,2019
-24,4,Florida State,2019
-25,3,Texas Tech,2019
-26,2,Michigan,2019
-27,1,Gonzaga,2019
-28,3,Texas Tech,2019
-29,3,Texas Tech,2019
-30,1,UNC,2019
-31,9,Washington,2019
-32,5,Auburn,2019
-33,4,Kansas,2019
-34,11,Ohio State,2019
-35,3,Houston,2019
-36,7,Wofford,2019
-37,2,Kentucky,2019
-38,1,UNC,2019
-39,5,Auburn,2019
-40,3,Houston,2019
-41,2,Kentucky,2019
-42,5,Auburn,2019
-43,2,Kentucky,2019
-44,5,Auburn,2019
-45,1,Virginia,2019
-46,9,Oklahoma,2019
-47,12,Oregon,2019
-48,13,UC-Irvine,2019
-49,6,Villanova,2019
-50,3,Purdue,2019
-51,10,Iowa,2019
-52,2,Tennessee,2019
-53,1,Virginia,2019
-54,12,Oregon,2019
-55,3,Purdue,2019
-56,2,Tennessee,2019
-57,1,Virginia,2019
-58,3,Purdue,2019
-59,1,Virginia,2019
-60,1,Virginia,2019
-61,3,Texas Tech,2019
-62,1,Virginia,2019
+,Seed,School,Season,Wins
+0,1,UNC,1993,6.0
+1,8,Rhode Island,1993,1.0
+2,5,St. John's (NY),1993,1.0
+3,4,Arkansas,1993,2.0
+4,6,Virginia,1993,2.0
+5,3,UMass,1993,1.0
+6,7,New Mexico State,1993,1.0
+7,2,Cincinnati,1993,3.0
+8,1,Indiana,1993,3.0
+9,9,Xavier,1993,1.0
+10,5,Oklahoma State,1993,1.0
+11,4,Louisville,1993,2.0
+12,6,California,1993,2.0
+13,3,Duke,1993,1.0
+14,7,BYU,1993,1.0
+15,2,Kansas,1993,4.0
+16,1,Kentucky,1993,4.0
+17,8,Utah,1993,1.0
+18,5,Wake Forest,1993,2.0
+19,4,Iowa,1993,1.0
+20,11,Tulane,1993,1.0
+21,3,Florida State,1993,3.0
+22,7,Western Kentucky,1993,2.0
+23,2,Seton Hall,1993,1.0
+24,1,Michigan,1993,5.0
+25,9,UCLA,1993,1.0
+26,12,George Washington,1993,2.0
+27,13,Southern,1993,1.0
+28,6,Illinois,1993,1.0
+29,3,Vanderbilt,1993,2.0
+30,7,Temple,1993,3.0
+31,15,Santa Clara,1993,1.0
+0,1,UNC,1994,1.0
+1,9,Boston College,1994,3.0
+2,5,Indiana,1994,2.0
+3,4,Temple,1994,1.0
+4,11,Penn,1994,1.0
+5,3,Florida,1994,4.0
+6,10,George Washington,1994,1.0
+7,2,UConn,1994,2.0
+8,1,Arkansas,1994,6.0
+9,9,Georgetown,1994,1.0
+10,12,Tulsa,1994,2.0
+11,4,Oklahoma State,1994,1.0
+12,6,Texas,1994,1.0
+13,3,Michigan,1994,3.0
+14,10,Maryland,1994,2.0
+15,2,UMass,1994,1.0
+16,1,Purdue,1994,3.0
+17,9,Alabama,1994,1.0
+18,5,Wake Forest,1994,1.0
+19,4,Kansas,1994,2.0
+20,6,Marquette,1994,2.0
+21,3,Kentucky,1994,1.0
+22,7,Michigan State,1994,1.0
+23,2,Duke,1994,5.0
+24,1,Missouri,1994,3.0
+25,9,Wisconsin,1994,1.0
+26,12,Green Bay,1994,1.0
+27,4,Syracuse,1994,2.0
+28,6,Minnesota,1994,1.0
+29,3,Louisville,1994,2.0
+30,7,Virginia,1994,1.0
+31,2,Arizona,1994,4.0
+0,1,Wake Forest,1995,2.0
+1,9,Saint Louis,1995,1.0
+2,5,Alabama,1995,1.0
+3,4,Oklahoma State,1995,4.0
+4,6,Tulsa,1995,2.0
+5,14,Old Dominion,1995,1.0
+6,10,Stanford,1995,1.0
+7,2,UMass,1995,3.0
+8,1,Kansas,1995,2.0
+9,8,Western Kentucky,1995,1.0
+10,12,Miami (OH),1995,1.0
+11,4,Virginia,1995,3.0
+12,6,Memphis,1995,2.0
+13,3,Purdue,1995,1.0
+14,7,Syracuse,1995,1.0
+15,2,Arkansas,1995,5.0
+16,1,Kentucky,1995,3.0
+17,9,Tulane,1995,1.0
+18,5,Arizona State,1995,2.0
+19,13,Manhattan,1995,1.0
+20,6,Georgetown,1995,2.0
+21,14,Weber State,1995,1.0
+22,7,Iowa State,1995,1.0
+23,2,UNC,1995,4.0
+24,1,UCLA,1995,6.0
+25,8,Missouri,1995,1.0
+26,5,Mississippi State,1995,2.0
+27,4,Utah,1995,1.0
+28,11,Texas,1995,1.0
+29,3,Maryland,1995,2.0
+30,7,Cincinnati,1995,1.0
+31,2,UConn,1995,3.0
+0,1,UMass,1996,4.0
+1,9,Stanford,1996,1.0
+2,12,Arkansas,1996,2.0
+3,4,Marquette,1996,1.0
+4,6,UNC,1996,1.0
+5,3,Texas Tech,1996,2.0
+6,7,New Mexico,1996,1.0
+7,2,Georgetown,1996,3.0
+8,1,Kentucky,1996,6.0
+9,9,Virginia Tech,1996,1.0
+10,5,Iowa State,1996,1.0
+11,4,Utah,1996,2.0
+12,6,Louisville,1996,2.0
+13,3,Villanova,1996,1.0
+14,10,Texas,1996,1.0
+15,2,Wake Forest,1996,3.0
+16,1,UConn,1996,2.0
+17,9,Eastern Michigan,1996,1.0
+18,5,Mississippi State,1996,4.0
+19,13,Princeton,1996,1.0
+20,11,Boston College,1996,1.0
+21,3,Georgia Tech,1996,2.0
+22,7,Temple,1996,1.0
+23,2,Cincinnati,1996,3.0
+24,1,Purdue,1996,1.0
+25,8,Georgia,1996,2.0
+26,12,Drexel,1996,1.0
+27,4,Syracuse,1996,5.0
+28,6,Iowa,1996,1.0
+29,3,Arizona,1996,2.0
+30,10,Santa Clara,1996,1.0
+31,2,Kansas,1996,3.0
+0,1,UNC,1997,4.0
+1,9,Colorado,1997,1.0
+2,5,California,1997,2.0
+3,4,Villanova,1997,1.0
+4,6,Louisville,1997,3.0
+5,3,New Mexico,1997,1.0
+6,10,Texas,1997,2.0
+7,15,Coppin State,1997,1.0
+8,1,Minnesota,1997,4.0
+9,9,Temple,1997,1.0
+10,5,Tulsa,1997,1.0
+11,4,Clemson,1997,2.0
+12,6,Iowa State,1997,2.0
+13,3,Cincinnati,1997,1.0
+14,7,Xavier,1997,1.0
+15,2,UCLA,1997,3.0
+16,1,Kansas,1997,2.0
+17,8,Purdue,1997,1.0
+18,12,College of Charleston,1997,1.0
+19,4,Arizona,1997,6.0
+20,6,Illinois,1997,1.0
+21,14,Chattanooga,1997,2.0
+22,10,Providence,1997,3.0
+23,2,Duke,1997,1.0
+24,1,Kentucky,1997,5.0
+25,8,Iowa,1997,1.0
+26,5,Boston College,1997,1.0
+27,4,St. Joseph's,1997,2.0
+28,6,Stanford,1997,2.0
+29,3,Wake Forest,1997,1.0
+30,7,Charlotte,1997,1.0
+31,2,Utah,1997,3.0
+0,1,UNC,1998,4.0
+1,8,Charlotte,1998,1.0
+2,5,Princeton,1998,1.0
+3,4,Michigan State,1998,2.0
+4,11,Washington,1998,2.0
+5,14,Richmond,1998,1.0
+6,7,Indiana,1998,1.0
+7,2,UConn,1998,3.0
+8,1,Kansas,1998,1.0
+9,8,Rhode Island,1998,3.0
+10,12,Florida State,1998,1.0
+11,13,Valparaiso,1998,2.0
+12,11,Western Michigan,1998,1.0
+13,3,Stanford,1998,4.0
+14,10,Detroit,1998,1.0
+15,2,Purdue,1998,2.0
+16,1,Duke,1998,3.0
+17,8,Oklahoma State,1998,1.0
+18,5,Syracuse,1998,2.0
+19,4,New Mexico,1998,1.0
+20,6,UCLA,1998,2.0
+21,3,Michigan,1998,1.0
+22,10,Saint Louis,1998,1.0
+23,2,Kentucky,1998,6.0
+24,1,Arizona,1998,3.0
+25,9,Illinois State,1998,1.0
+26,5,Illinois,1998,1.0
+27,4,Maryland,1998,2.0
+28,6,Arkansas,1998,1.0
+29,3,Utah,1998,5.0
+30,10,West Virginia,1998,2.0
+31,2,Cincinnati,1998,1.0
+0,1,Duke,1999,5.0
+1,9,Tulsa,1999,1.0
+2,12,Missouri State,1999,2.0
+3,4,Tennessee,1999,1.0
+4,6,Temple,1999,3.0
+5,3,Cincinnati,1999,1.0
+6,10,Purdue,1999,2.0
+7,2,Miami (FL),1999,1.0
+8,1,Michigan State,1999,4.0
+9,9,Ole Miss,1999,1.0
+10,5,Charlotte,1999,1.0
+11,13,Oklahoma,1999,2.0
+12,6,Kansas,1999,1.0
+13,3,Kentucky,1999,3.0
+14,10,Miami (OH),1999,2.0
+15,2,Utah,1999,1.0
+16,1,Auburn,1999,2.0
+17,9,Oklahoma State,1999,1.0
+18,12,Detroit,1999,1.0
+19,4,Ohio State,1999,4.0
+20,6,Indiana,1999,1.0
+21,3,St. John's (NY),1999,3.0
+22,10,Creighton,1999,1.0
+23,2,Maryland,1999,2.0
+24,1,UConn,1999,6.0
+25,9,New Mexico,1999,1.0
+26,5,Iowa,1999,2.0
+27,4,Arkansas,1999,1.0
+28,6,Florida,1999,2.0
+29,14,Weber State,1999,1.0
+30,10,Gonzaga,1999,3.0
+31,2,Stanford,1999,1.0
+0,1,Duke,2000,2.0
+1,8,Kansas,2000,1.0
+2,5,Florida,2000,5.0
+3,4,Illinois,2000,1.0
+4,11,Pepperdine,2000,1.0
+5,3,Oklahoma State,2000,3.0
+6,10,Seton Hall,2000,2.0
+7,2,Temple,2000,1.0
+8,1,Michigan State,2000,6.0
+9,8,Utah,2000,1.0
+10,5,Kentucky,2000,1.0
+11,4,Syracuse,2000,2.0
+12,6,UCLA,2000,2.0
+13,3,Maryland,2000,1.0
+14,7,Auburn,2000,1.0
+15,2,Iowa State,2000,3.0
+16,1,Stanford,2000,1.0
+17,8,UNC,2000,4.0
+18,5,UConn,2000,1.0
+19,4,Tennessee,2000,2.0
+20,6,Miami (FL),2000,2.0
+21,3,Ohio State,2000,1.0
+22,7,Tulsa,2000,3.0
+23,2,Cincinnati,2000,1.0
+24,1,Arizona,2000,1.0
+25,8,Wisconsin,2000,4.0
+26,5,Texas,2000,1.0
+27,4,LSU,2000,2.0
+28,6,Purdue,2000,3.0
+29,3,Oklahoma,2000,1.0
+30,10,Gonzaga,2000,2.0
+31,2,St. John's (NY),2000,1.0
+0,1,Illinois,2001,3.0
+1,9,Charlotte,2001,1.0
+2,5,Syracuse,2001,1.0
+3,4,Kansas,2001,2.0
+4,6,Notre Dame,2001,1.0
+5,3,Ole Miss,2001,2.0
+6,10,Butler,2001,1.0
+7,2,Arizona,2001,5.0
+8,1,Duke,2001,6.0
+9,9,Missouri,2001,1.0
+10,12,Utah State,2001,1.0
+11,4,UCLA,2001,2.0
+12,6,USC,2001,3.0
+13,3,Boston College,2001,1.0
+14,7,Iowa,2001,1.0
+15,2,Kentucky,2001,2.0
+16,1,Michigan State,2001,4.0
+17,9,Fresno State,2001,1.0
+18,12,Gonzaga,2001,2.0
+19,13,Indiana State,2001,1.0
+20,11,Temple,2001,3.0
+21,3,Florida,2001,1.0
+22,7,Penn State,2001,2.0
+23,2,UNC,2001,1.0
+24,1,Stanford,2001,3.0
+25,9,St. Joseph's,2001,1.0
+26,5,Cincinnati,2001,2.0
+27,13,Kent State,2001,1.0
+28,11,Georgia State,2001,1.0
+29,3,Maryland,2001,4.0
+30,10,Georgetown,2001,2.0
+31,15,Hampton,2001,1.0
+0,1,Maryland,2002,6.0
+1,8,Wisconsin,2002,1.0
+2,12,Tulsa,2002,1.0
+3,4,Kentucky,2002,2.0
+4,11,Southern Illinois,2002,2.0
+5,3,Georgia,2002,1.0
+6,7,NC State,2002,1.0
+7,2,UConn,2002,3.0
+8,1,Kansas,2002,4.0
+9,8,Stanford,2002,1.0
+10,12,Creighton,2002,1.0
+11,4,Illinois,2002,2.0
+12,6,Texas,2002,2.0
+13,3,Mississippi State,2002,1.0
+14,7,Wake Forest,2002,1.0
+15,2,Oregon,2002,3.0
+16,1,Duke,2002,2.0
+17,8,Notre Dame,2002,1.0
+18,5,Indiana,2002,5.0
+19,13,UNC Wilmington,2002,1.0
+20,6,California,2002,1.0
+21,3,Pitt,2002,2.0
+22,10,Kent State,2002,3.0
+23,2,Alabama,2002,1.0
+24,1,Cincinnati,2002,1.0
+25,8,UCLA,2002,2.0
+26,12,Missouri,2002,3.0
+27,4,Ohio State,2002,1.0
+28,11,Wyoming,2002,1.0
+29,3,Arizona,2002,2.0
+30,7,Xavier,2002,1.0
+31,2,Oklahoma,2002,4.0
+0,1,Texas,2003,4.0
+1,9,Purdue,2003,1.0
+2,5,UConn,2003,2.0
+3,4,Stanford,2003,1.0
+4,6,Maryland,2003,2.0
+5,3,Xavier,2003,1.0
+6,7,Michigan State,2003,3.0
+7,2,Florida,2003,1.0
+8,1,Oklahoma,2003,3.0
+9,8,California,2003,1.0
+10,12,Butler,2003,2.0
+11,4,Louisville,2003,1.0
+12,6,Oklahoma State,2003,1.0
+13,3,Syracuse,2003,6.0
+14,10,Auburn,2003,2.0
+15,2,Wake Forest,2003,1.0
+16,1,Kentucky,2003,3.0
+17,9,Utah,2003,1.0
+18,5,Wisconsin,2003,2.0
+19,13,Tulsa,2003,1.0
+20,6,Missouri,2003,1.0
+21,3,Marquette,2003,4.0
+22,7,Indiana,2003,1.0
+23,2,Pitt,2003,2.0
+24,1,Arizona,2003,3.0
+25,9,Gonzaga,2003,1.0
+26,5,Notre Dame,2003,2.0
+27,4,Illinois,2003,1.0
+28,11,Central Michigan,2003,1.0
+29,3,Duke,2003,2.0
+30,10,Arizona State,2003,1.0
+31,2,Kansas,2003,5.0
+0,1,Kentucky,2004,1.0
+1,9,Alabama-Birmingham,2004,2.0
+2,12,Pacific,2004,1.0
+3,4,Kansas,2004,3.0
+4,6,Boston College,2004,1.0
+5,3,Georgia Tech,2004,5.0
+6,10,Nevada,2004,2.0
+7,2,Gonzaga,2004,1.0
+8,1,Duke,2004,4.0
+9,8,Seton Hall,2004,1.0
+10,5,Illinois,2004,2.0
+11,4,Cincinnati,2004,1.0
+12,6,UNC,2004,1.0
+13,3,Texas,2004,2.0
+14,7,Xavier,2004,3.0
+15,2,Mississippi State,2004,1.0
+16,1,St. Joseph's,2004,3.0
+17,8,Texas Tech,2004,1.0
+18,12,Manhattan,2004,1.0
+19,4,Wake Forest,2004,2.0
+20,6,Wisconsin,2004,1.0
+21,3,Pitt,2004,2.0
+22,7,Memphis,2004,1.0
+23,2,Oklahoma State,2004,4.0
+24,1,Stanford,2004,1.0
+25,8,Alabama,2004,3.0
+26,5,Syracuse,2004,2.0
+27,4,Maryland,2004,1.0
+28,6,Vanderbilt,2004,2.0
+29,3,NC State,2004,1.0
+30,7,DePaul,2004,1.0
+31,2,UConn,2004,6.0
+0,1,UNC,2005,6.0
+1,9,Iowa State,2005,1.0
+2,5,Villanova,2005,2.0
+3,4,Florida,2005,1.0
+4,6,Wisconsin,2005,3.0
+5,14,Bucknell,2005,1.0
+6,10,NC State,2005,2.0
+7,2,UConn,2005,1.0
+8,1,Washington,2005,2.0
+9,8,Pacific,2005,1.0
+10,5,Georgia Tech,2005,1.0
+11,4,Louisville,2005,4.0
+12,6,Texas Tech,2005,2.0
+13,3,Gonzaga,2005,1.0
+14,7,West Virginia,2005,3.0
+15,2,Wake Forest,2005,1.0
+16,1,Duke,2005,2.0
+17,9,Mississippi State,2005,1.0
+18,5,Michigan State,2005,4.0
+19,13,Vermont,2005,1.0
+20,6,Utah,2005,2.0
+21,3,Oklahoma,2005,1.0
+22,7,Cincinnati,2005,1.0
+23,2,Kentucky,2005,3.0
+24,1,Illinois,2005,5.0
+25,9,Nevada,2005,1.0
+26,12,Milwaukee,2005,2.0
+27,4,Boston College,2005,1.0
+28,11,Alabama-Birmingham,2005,1.0
+29,3,Arizona,2005,3.0
+30,7,Southern Illinois,2005,1.0
+31,2,Oklahoma State,2005,2.0
+0,1,Villanova,2006,3.0
+1,8,Arizona,2006,1.0
+2,12,Montana,2006,1.0
+3,4,Boston College,2006,2.0
+4,11,Milwaukee,2006,1.0
+5,3,Florida,2006,6.0
+6,7,Georgetown,2006,2.0
+7,2,Ohio State,2006,1.0
+8,1,Duke,2006,2.0
+9,8,George Washington,2006,1.0
+10,12,Texas A&M,2006,1.0
+11,4,LSU,2006,4.0
+12,6,West Virginia,2006,2.0
+13,14,Northwestern State,2006,1.0
+14,10,NC State,2006,1.0
+15,2,Texas,2006,3.0
+16,1,Memphis,2006,3.0
+17,9,Bucknell,2006,1.0
+18,5,Pitt,2006,1.0
+19,13,Bradley,2006,2.0
+20,6,Indiana,2006,1.0
+21,3,Gonzaga,2006,2.0
+22,10,Alabama,2006,1.0
+23,2,UCLA,2006,5.0
+24,1,UConn,2006,3.0
+25,8,Kentucky,2006,1.0
+26,5,Washington,2006,2.0
+27,4,Illinois,2006,1.0
+28,11,George Mason,2006,4.0
+29,3,UNC,2006,1.0
+30,7,Wichita State,2006,2.0
+31,2,Tennessee,2006,1.0
+0,1,Kansas,2007,3.0
+1,8,Kentucky,2007,1.0
+2,5,Virginia Tech,2007,1.0
+3,4,Southern Illinois,2007,2.0
+4,11,VCU,2007,1.0
+5,3,Pitt,2007,2.0
+6,7,Indiana,2007,1.0
+7,2,UCLA,2007,4.0
+8,1,UNC,2007,3.0
+9,9,Michigan State,2007,1.0
+10,5,USC,2007,2.0
+11,4,Texas,2007,1.0
+12,6,Vanderbilt,2007,2.0
+13,3,Washington State,2007,1.0
+14,7,Boston College,2007,1.0
+15,2,Georgetown,2007,4.0
+16,1,Florida,2007,6.0
+17,9,Purdue,2007,1.0
+18,5,Butler,2007,2.0
+19,4,Maryland,2007,1.0
+20,11,Winthrop,2007,1.0
+21,3,Oregon,2007,3.0
+22,7,UNLV,2007,2.0
+23,2,Wisconsin,2007,1.0
+24,1,Ohio State,2007,5.0
+25,9,Xavier,2007,1.0
+26,5,Tennessee,2007,2.0
+27,4,Virginia,2007,1.0
+28,6,Louisville,2007,1.0
+29,3,Texas A&M,2007,2.0
+30,7,Nevada,2007,1.0
+31,2,Memphis,2007,3.0
+0,1,UNC,2008,4.0
+1,9,Arkansas,2008,1.0
+2,5,Notre Dame,2008,1.0
+3,4,Washington State,2008,2.0
+4,6,Oklahoma,2008,1.0
+5,3,Louisville,2008,3.0
+6,7,Butler,2008,1.0
+7,2,Tennessee,2008,2.0
+8,1,Kansas,2008,6.0
+9,8,UNLV,2008,1.0
+10,12,Villanova,2008,2.0
+11,13,Siena,2008,1.0
+12,11,Kansas State,2008,1.0
+13,3,Wisconsin,2008,2.0
+14,10,Davidson,2008,3.0
+15,2,Georgetown,2008,1.0
+16,1,Memphis,2008,5.0
+17,8,Mississippi State,2008,1.0
+18,5,Michigan State,2008,2.0
+19,4,Pitt,2008,1.0
+20,6,Marquette,2008,1.0
+21,3,Stanford,2008,2.0
+22,7,Miami (FL),2008,1.0
+23,2,Texas,2008,3.0
+24,1,UCLA,2008,4.0
+25,9,Texas A&M,2008,1.0
+26,12,Western Kentucky,2008,2.0
+27,13,San Diego,2008,1.0
+28,6,Purdue,2008,1.0
+29,3,Xavier,2008,3.0
+30,7,West Virginia,2008,2.0
+31,2,Duke,2008,1.0
+0,1,Louisville,2009,3.0
+1,9,Siena,2009,1.0
+2,12,Arizona,2009,2.0
+3,13,Cleveland State,2009,1.0
+4,11,Dayton,2009,1.0
+5,3,Kansas,2009,2.0
+6,10,USC,2009,1.0
+7,2,Michigan State,2009,5.0
+8,1,Pitt,2009,3.0
+9,8,Oklahoma State,2009,1.0
+10,12,Wisconsin,2009,1.0
+11,4,Xavier,2009,2.0
+12,6,UCLA,2009,1.0
+13,3,Villanova,2009,4.0
+14,7,Texas,2009,1.0
+15,2,Duke,2009,2.0
+16,1,UNC,2009,6.0
+17,8,LSU,2009,1.0
+18,12,Western Kentucky,2009,1.0
+19,4,Gonzaga,2009,2.0
+20,6,Arizona State,2009,1.0
+21,3,Syracuse,2009,2.0
+22,10,Michigan,2009,1.0
+23,2,Oklahoma,2009,3.0
+24,1,UConn,2009,4.0
+25,9,Texas A&M,2009,1.0
+26,5,Purdue,2009,2.0
+27,4,Washington,2009,1.0
+28,6,Marquette,2009,1.0
+29,3,Missouri,2009,3.0
+30,10,Maryland,2009,1.0
+31,2,Memphis,2009,2.0
+0,1,Duke,2010,6.0
+1,8,California,2010,1.0
+2,5,Texas A&M,2010,1.0
+3,4,Purdue,2010,2.0
+4,11,Old Dominion,2010,1.0
+5,3,Baylor,2010,3.0
+6,10,Saint Mary's,2010,2.0
+7,2,Villanova,2010,1.0
+8,1,Kentucky,2010,3.0
+9,9,Wake Forest,2010,1.0
+10,12,Cornell,2010,2.0
+11,4,Wisconsin,2010,1.0
+12,11,Washington,2010,2.0
+13,3,New Mexico,2010,1.0
+14,10,Missouri,2010,1.0
+15,2,West Virginia,2010,4.0
+16,1,Kansas,2010,1.0
+17,9,Northern Iowa,2010,2.0
+18,5,Michigan State,2010,4.0
+19,4,Maryland,2010,1.0
+20,6,Tennessee,2010,3.0
+21,14,Ohio,2010,1.0
+22,10,Georgia Tech,2010,1.0
+23,2,Ohio State,2010,2.0
+24,1,Syracuse,2010,2.0
+25,8,Gonzaga,2010,1.0
+26,5,Butler,2010,5.0
+27,13,Murray State,2010,1.0
+28,6,Xavier,2010,2.0
+29,3,Pitt,2010,1.0
+30,7,BYU,2010,1.0
+31,2,Kansas State,2010,3.0
+0,1,Ohio State,2011,2.0
+1,8,George Mason,2011,1.0
+2,5,West Virginia,2011,1.0
+3,4,Kentucky,2011,4.0
+4,11,Marquette,2011,2.0
+5,3,Syracuse,2011,1.0
+6,7,Washington,2011,1.0
+7,2,UNC,2011,3.0
+8,1,Pitt,2011,1.0
+9,8,Butler,2011,5.0
+10,5,Kansas State,2011,1.0
+11,4,Wisconsin,2011,2.0
+12,11,Gonzaga,2011,1.0
+13,3,BYU,2011,2.0
+14,7,UCLA,2011,1.0
+15,2,Florida,2011,3.0
+16,1,Kansas,2011,3.0
+17,9,Illinois,2011,1.0
+18,12,Richmond,2011,2.0
+19,13,Morehead State,2011,1.0
+20,11,VCU,2011,4.0
+21,3,Purdue,2011,1.0
+22,10,Florida State,2011,2.0
+23,2,Notre Dame,2011,1.0
+24,1,Duke,2011,2.0
+25,8,Michigan,2011,1.0
+26,5,Arizona,2011,3.0
+27,4,Texas,2011,1.0
+28,6,Cincinnati,2011,1.0
+29,3,UConn,2011,6.0
+30,7,Temple,2011,1.0
+31,2,San Diego State,2011,2.0
+0,1,UNC,2012,3.0
+1,8,Creighton,2012,1.0
+2,12,South Florida,2012,1.0
+3,13,Ohio,2012,2.0
+4,11,NC State,2012,2.0
+5,3,Georgetown,2012,1.0
+6,10,Purdue,2012,1.0
+7,2,Kansas,2012,5.0
+8,1,Kentucky,2012,6.0
+9,8,Iowa State,2012,1.0
+10,12,VCU,2012,1.0
+11,4,Indiana,2012,2.0
+12,11,Colorado,2012,1.0
+13,3,Baylor,2012,3.0
+14,10,Xavier,2012,2.0
+15,15,Lehigh,2012,1.0
+16,1,Michigan State,2012,2.0
+17,9,Saint Louis,2012,1.0
+18,5,New Mexico,2012,1.0
+19,4,Louisville,2012,4.0
+20,6,Murray State,2012,1.0
+21,3,Marquette,2012,2.0
+22,7,Florida,2012,3.0
+23,15,Norfolk State,2012,1.0
+24,1,Syracuse,2012,3.0
+25,8,Kansas State,2012,1.0
+26,5,Vanderbilt,2012,1.0
+27,4,Wisconsin,2012,2.0
+28,6,Cincinnati,2012,2.0
+29,3,Florida State,2012,1.0
+30,7,Gonzaga,2012,1.0
+31,2,Ohio State,2012,4.0
+0,1,Indiana,2013,2.0
+1,9,Temple,2013,1.0
+2,12,California,2013,1.0
+3,4,Syracuse,2013,4.0
+4,6,Butler,2013,1.0
+5,3,Marquette,2013,3.0
+6,7,Illinois,2013,1.0
+7,2,Miami (FL),2013,2.0
+8,1,Louisville,2013,6.0
+9,8,Colorado State,2013,1.0
+10,12,Oregon,2013,2.0
+11,4,Saint Louis,2013,1.0
+12,6,Memphis,2013,1.0
+13,3,Michigan State,2013,2.0
+14,7,Creighton,2013,1.0
+15,2,Duke,2013,3.0
+16,1,Gonzaga,2013,1.0
+17,9,Wichita State,2013,4.0
+18,12,Ole Miss,2013,1.0
+19,13,La Salle,2013,2.0
+20,6,Arizona,2013,2.0
+21,14,Harvard,2013,1.0
+22,10,Iowa State,2013,1.0
+23,2,Ohio State,2013,3.0
+24,1,Kansas,2013,2.0
+25,8,UNC,2013,1.0
+26,5,VCU,2013,1.0
+27,4,Michigan,2013,5.0
+28,11,Minnesota,2013,1.0
+29,3,Florida,2013,3.0
+30,7,San Diego State,2013,1.0
+31,15,Florida Gulf Coast,2013,2.0
+0,1,Wichita State,2014,1.0
+1,8,Kentucky,2014,5.0
+2,5,Saint Louis,2014,1.0
+3,4,Louisville,2014,2.0
+4,11,Tennessee,2014,2.0
+5,14,Mercer,2014,1.0
+6,7,Texas,2014,1.0
+7,2,Michigan,2014,3.0
+8,1,Florida,2014,4.0
+9,9,Pitt,2014,1.0
+10,12,Stephen F. Austin,2014,1.0
+11,4,UCLA,2014,2.0
+12,11,Dayton,2014,3.0
+13,3,Syracuse,2014,1.0
+14,10,Stanford,2014,2.0
+15,2,Kansas,2014,1.0
+16,1,Virginia,2014,2.0
+17,8,Memphis,2014,1.0
+18,12,Harvard,2014,1.0
+19,4,Michigan State,2014,3.0
+20,6,UNC,2014,1.0
+21,3,Iowa State,2014,2.0
+22,7,UConn,2014,6.0
+23,2,Villanova,2014,1.0
+24,1,Arizona,2014,3.0
+25,8,Gonzaga,2014,1.0
+26,12,North Dakota State,2014,1.0
+27,4,San Diego State,2014,2.0
+28,6,Baylor,2014,2.0
+29,3,Creighton,2014,1.0
+30,7,Oregon,2014,1.0
+31,2,Wisconsin,2014,4.0
+0,1,Villanova,2015,1.0
+1,8,NC State,2015,2.0
+2,5,Northern Iowa,2015,1.0
+3,4,Louisville,2015,3.0
+4,11,Dayton,2015,1.0
+5,3,Oklahoma,2015,2.0
+6,7,Michigan State,2015,4.0
+7,2,Virginia,2015,1.0
+8,1,Kentucky,2015,4.0
+9,8,Cincinnati,2015,1.0
+10,5,West Virginia,2015,2.0
+11,4,Maryland,2015,1.0
+12,6,Butler,2015,1.0
+13,3,Notre Dame,2015,3.0
+14,7,Wichita State,2015,2.0
+15,2,Kansas,2015,1.0
+16,1,Duke,2015,6.0
+17,8,San Diego State,2015,1.0
+18,5,Utah,2015,2.0
+19,4,Georgetown,2015,1.0
+20,11,UCLA,2015,2.0
+21,14,Alabama-Birmingham,2015,1.0
+22,7,Iowa,2015,1.0
+23,2,Gonzaga,2015,3.0
+24,1,Wisconsin,2015,5.0
+25,8,Oregon,2015,1.0
+26,5,Arkansas,2015,1.0
+27,4,UNC,2015,2.0
+28,6,Xavier,2015,2.0
+29,14,Georgia State,2015,1.0
+30,10,Ohio State,2015,1.0
+31,2,Arizona,2015,3.0
+0,1,UNC,2016,5.0
+1,9,Providence,2016,1.0
+2,5,Indiana,2016,2.0
+3,4,Kentucky,2016,1.0
+4,6,Notre Dame,2016,3.0
+5,14,Stephen F. Austin,2016,1.0
+6,7,Wisconsin,2016,2.0
+7,2,Xavier,2016,1.0
+8,1,Kansas,2016,3.0
+9,9,UConn,2016,1.0
+10,5,Maryland,2016,2.0
+11,13,Hawaii,2016,1.0
+12,11,Wichita State,2016,1.0
+13,3,Miami (FL),2016,2.0
+14,7,Iowa,2016,1.0
+15,2,Villanova,2016,6.0
+16,1,Oregon,2016,3.0
+17,8,St. Joseph's,2016,1.0
+18,12,Yale,2016,1.0
+19,4,Duke,2016,2.0
+20,11,Northern Iowa,2016,1.0
+21,3,Texas A&M,2016,2.0
+22,10,VCU,2016,1.0
+23,2,Oklahoma,2016,4.0
+24,1,Virginia,2016,3.0
+25,9,Butler,2016,1.0
+26,12,Little Rock,2016,1.0
+27,4,Iowa State,2016,2.0
+28,11,Gonzaga,2016,2.0
+29,3,Utah,2016,1.0
+30,10,Syracuse,2016,4.0
+31,15,Middle Tennessee,2016,1.0
+0,1,Villanova,2017,1.0
+1,8,Wisconsin,2017,2.0
+2,5,Virginia,2017,1.0
+3,4,Florida,2017,3.0
+4,11,USC,2017,1.0
+5,3,Baylor,2017,2.0
+6,7,South Carolina,2017,4.0
+7,2,Duke,2017,1.0
+8,1,Kansas,2017,3.0
+9,9,Michigan State,2017,1.0
+10,5,Iowa State,2017,1.0
+11,4,Purdue,2017,2.0
+12,11,Rhode Island,2017,1.0
+13,3,Oregon,2017,4.0
+14,7,Michigan,2017,2.0
+15,2,Louisville,2017,1.0
+16,1,UNC,2017,6.0
+17,8,Arkansas,2017,1.0
+18,12,Middle Tennessee,2017,1.0
+19,4,Butler,2017,2.0
+20,6,Cincinnati,2017,1.0
+21,3,UCLA,2017,2.0
+22,10,Wichita State,2017,1.0
+23,2,Kentucky,2017,3.0
+24,1,Gonzaga,2017,5.0
+25,8,Northwestern,2017,1.0
+26,5,Notre Dame,2017,1.0
+27,4,West Virginia,2017,2.0
+28,11,Xavier,2017,3.0
+29,3,Florida State,2017,1.0
+30,7,Saint Mary's,2017,1.0
+31,2,Arizona,2017,2.0
+0,1,Villanova,2018,6.0
+1,9,Alabama,2018,1.0
+2,5,West Virginia,2018,2.0
+3,13,Marshall,2018,1.0
+4,6,Florida,2018,1.0
+5,3,Texas Tech,2018,3.0
+6,10,Butler,2018,1.0
+7,2,Purdue,2018,2.0
+8,1,Kansas,2018,4.0
+9,8,Seton Hall,2018,1.0
+10,5,Clemson,2018,2.0
+11,4,Auburn,2018,1.0
+12,11,Syracuse,2018,2.0
+13,3,Michigan State,2018,1.0
+14,7,Rhode Island,2018,1.0
+15,2,Duke,2018,3.0
+16,1,Xavier,2018,1.0
+17,9,Florida State,2018,3.0
+18,5,Ohio State,2018,1.0
+19,4,Gonzaga,2018,2.0
+20,6,Houston,2018,1.0
+21,3,Michigan,2018,5.0
+22,7,Texas A&M,2018,2.0
+23,2,UNC,2018,1.0
+24,16,UMBC,2018,1.0
+25,9,Kansas State,2018,3.0
+26,5,Kentucky,2018,2.0
+27,13,Buffalo,2018,1.0
+28,11,Loyola (IL),2018,4.0
+29,3,Tennessee,2018,1.0
+30,7,Nevada,2018,2.0
+31,2,Cincinnati,2018,1.0
+0,1,Duke,2019,3.0
+1,9,UCF,2019,1.0
+2,12,Liberty,2019,1.0
+3,4,Virginia Tech,2019,2.0
+4,6,Maryland,2019,1.0
+5,3,LSU,2019,2.0
+6,10,Minnesota,2019,1.0
+7,2,Michigan State,2019,4.0
+8,1,Gonzaga,2019,3.0
+9,9,Baylor,2019,1.0
+10,12,Murray State,2019,1.0
+11,4,Florida State,2019,2.0
+12,6,Buffalo,2019,1.0
+13,3,Texas Tech,2019,5.0
+14,10,Florida,2019,1.0
+15,2,Michigan,2019,2.0
+16,1,UNC,2019,2.0
+17,9,Washington,2019,1.0
+18,5,Auburn,2019,4.0
+19,4,Kansas,2019,1.0
+20,11,Ohio State,2019,1.0
+21,3,Houston,2019,2.0
+22,7,Wofford,2019,1.0
+23,2,Kentucky,2019,3.0
+24,1,Virginia,2019,6.0
+25,9,Oklahoma,2019,1.0
+26,12,Oregon,2019,2.0
+27,13,UC-Irvine,2019,1.0
+28,6,Villanova,2019,1.0
+29,3,Purdue,2019,3.0
+30,10,Iowa,2019,1.0
+31,2,Tennessee,2019,2.0
