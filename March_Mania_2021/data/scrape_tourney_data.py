@@ -15,7 +15,7 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 # list of seasons
 year = [*map(str,range(1993,2021))]
 
-tourney_data = pd.DataFrame(columns=['X','Seed','School','Score','X.1'])
+tourney_data = pd.DataFrame(columns=['Seed','School','Season'])
 
 for yr in tqdm(year):
 
@@ -45,6 +45,7 @@ for yr in tqdm(year):
     # print(list_df)
     list_df['Season'] = yr
     # print(list_df)
+    list_df = list_df[['Seed','School','Season']]
     tourney_data = tourney_data.append(list_df)
     # print(tourney_data)
     # list_df.to_csv('my_csv.csv', mode='a', header=False)
