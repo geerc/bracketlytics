@@ -15,6 +15,8 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 # list of seasons
 year = [*map(str,range(1993,2021))]
 
+tourney_data = pd.DataFrame(columns=['X','Seed','School','Score','X.1'])
+
 for yr in tqdm(year):
 
     URL = 'https://www.sports-reference.com/cbb/postseason/{}-ncaa.html'.format(yr)
@@ -40,13 +42,14 @@ for yr in tqdm(year):
     #     writer.writerows(list)
 
     list_df = pd.DataFrame(list, columns=['X','Seed','School','Score','X.1'])
-    print(list_df)
+    # print(list_df)
     list_df['Season'] = yr
-    print(list_df)
-    list_df.to_csv('my_csv.csv', mode='a', header=False)
-    print(list_df)
+    # print(list_df)
+    tourney_data.append(list_df)
+    # list_df.to_csv('my_csv.csv', mode='a', header=False)
+    # print(list_df)
 
-
+tourney_data.to_csv(root + 'data/tourney_data.csv')
 
 
 
