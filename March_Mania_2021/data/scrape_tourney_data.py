@@ -42,8 +42,11 @@ for yr in tqdm(year):
     list_df = list_df[['Seed','School','Season']]
     wins = list_df.School.value_counts()
     wins_df = pd.DataFrame(wins)
+    print(wins_df)
     wins_df = wins_df.reset_index()
-    wins_df = wins_df.rename(columns=['School','Wins'])
+    print(wins_df)
+    print(type(wins_df))
+    wins_df.rename(columns={'index':'School','School':'Wins'})
     print(wins)
 
     tourney_data = tourney_data.append(list_df)
