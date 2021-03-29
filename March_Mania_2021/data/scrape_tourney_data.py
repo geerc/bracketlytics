@@ -15,7 +15,7 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 # list of seasons
 year = [*map(str,range(1993,2021))]
 
-tourney_data = pd.DataFrame(columns=['Seed','School','Season'])
+tourney_data = pd.DataFrame(columns=['Seed','School'])
 
 for yr in tqdm(year):
 
@@ -63,6 +63,12 @@ for yr in tqdm(year):
 
     # Drop second school column
     merged = merged[['Seed','School','Season','Wins']]
+
+    # Add year suffix to school name for merging later
+    merged['School'] = merged['School'].astype(str) + '_'  + yr
+
+    # Remove now unecessary season column
+    merged = merged[['Seed','School','Wins']]
 
     # append to the main dataframe
     tourney_data = tourney_data.append(merged)
