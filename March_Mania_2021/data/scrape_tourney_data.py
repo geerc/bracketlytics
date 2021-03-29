@@ -35,22 +35,37 @@ for yr in tqdm(year):
         split = text.split('\n')
         list.append(split)
 
+    # blank dataframe for current year tourn
     list_df = pd.DataFrame(list, columns=['X','Seed','School','Score','X.1'])
-    # print(list_df)
+
+    # add season to dataframe
     list_df['Season'] = yr
-    # print(list_df)
-    list_df = list_df[['Seed','School','Season','Score']]
 
+    # drop blank columns and score
+    list_df = list_df[['Seed','School','Season']]
+
+    # get number of wins by counting how many times each school is in data
     wins = list_df.School.value_counts()
+    # convert to dataframe
     wins_df = pd.DataFrame(wins)
-    print(wins_df)
-    wins_df = wins_df.reset_index()
-    print(wins_df)
-    # print(type(wins_df))
-    # wins_df.rename(columns={'index':'School','School':'Wins'})
-    # print(wins_df)
 
-    tourney_data = tourney_data.append(list_df)
+    # reset the index to range
+    wins_df = wins_df.reset_index()
+
+    # remove duplicates so only one line item for each school
+    list_nodup = list_df[['Seed','School','Season']].drop_duplicates()
+
+    # merge the schools and their win totals
+    merged = list_nodup.merge(wins_df, left_on='School', right_on='index')
+
+    # rename the column
+    merged = merged.rename(columns={'School_x':'School','School_y':'Wins'})
+
+    # Drop second school column
+    merged = merged[['Seed','School','Season','Wins']]
+
+    # append to the main dataframe
+    tourney_data = tourney_data.append(merged)
 
 tourney_data.to_csv(root + 'data/tourney_data.csv')
 
