@@ -72,7 +72,7 @@ for yr in tqdm(year):
     headers = headers[1:]
 
     # if its the first year, create blank dataframe, need to do here to get headers
-    if yr == '1993':
+    if yr == '1997':
         all_stats = pd.DataFrame(columns=headers)
 
     # avoid the first header row
