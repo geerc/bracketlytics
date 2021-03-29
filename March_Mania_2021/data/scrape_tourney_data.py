@@ -45,7 +45,8 @@ for yr in tqdm(year):
     # print(list_df)
     list_df['Season'] = yr
     # print(list_df)
-    tourney_data.append(list_df)
+    tourney_data = tourney_data.append(list_df)
+    # print(tourney_data)
     # list_df.to_csv('my_csv.csv', mode='a', header=False)
     # print(list_df)
 
