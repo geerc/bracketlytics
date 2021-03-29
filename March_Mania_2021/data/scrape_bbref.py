@@ -51,8 +51,8 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 teams = pd.read_csv(root + 'data/MTeams.csv')
 
 # Seasons we will be analyzing
-year = list(map(str,range(1997,2019)))
-cur_year = str(2019)
+year = list(map(str,range(1997,2021)))
+cur_year = str(2021)
 
 for yr in tqdm(year):
     # URL page we will scraping (see image above)
