@@ -34,18 +34,18 @@ for yr in tqdm(year):
         text = div.text
         split = text.split('\n')
         list.append(split)
-        # list.append(yr)
-
-    # write the list to csv
-    # with open("output.csv", "w") as f:
-    #     writer = csv.writer(f)
-    #     writer.writerows(list)
 
     list_df = pd.DataFrame(list, columns=['X','Seed','School','Score','X.1'])
     # print(list_df)
     list_df['Season'] = yr
     # print(list_df)
     list_df = list_df[['Seed','School','Season']]
+    wins = list_df.School.value_counts()
+    wins_df = pd.DataFrame(wins)
+    wins_df = wins_df.reset_index()
+    wins_df = wins_df.rename(columns=['School','Wins'])
+    print(wins)
+
     tourney_data = tourney_data.append(list_df)
     # print(tourney_data)
     # list_df.to_csv('my_csv.csv', mode='a', header=False)
