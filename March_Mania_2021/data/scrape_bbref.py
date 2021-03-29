@@ -71,47 +71,34 @@ for yr in tqdm(year):
 
     headers = headers[1:]
 
+    # if its the first year, create blank dataframe, need to do here to get headers
     if yr == '1993':
         all_stats = pd.DataFrame(columns=headers)
-        # print('all stats after creation', '\n', all_stats)
 
     # avoid the first header row
     rows = soup.findAll('tr')[1:]
     team_stats = [[td.getText() for td in rows[i].findAll('td')]
             for i in range(len(rows))]
     stats = pd.DataFrame(team_stats, columns = headers)
+
     # drop na/none values
     stats = stats.dropna(axis='rows')
 
     # remove the ncaa suffix
     stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
 
-    # add in team ids from kaggle data
-    stats
-    teams
+    # stats['School'].to_csv(root + 'data/stats.csv')
+    # teams.to_csv(root + 'data/MTeams.csv')
 
-    stats['School'].to_csv(root + 'data/stats.csv')
-    teams.to_csv(root + 'data/MTeams.csv')
-
-    merged = pd.merge(stats, teams, on='School', how='left')
-    merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
+    # merged = pd.merge(stats, teams, on='School', how='left')
+    # merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
 
 
     # add year to the end of each school name
     stats['School'] = stats['School'].astype(str) + '_'  + yr
-    # print(stats)
-    # df1['State_new'] = df1['State'].astype(str) + '-USA'
 
-    # if yr == 1993:
-    #     stats['Season'] = 0
-
-    # print(stats)
-    # print("YEAR: ", yr)
-    # print("Stats: ", stats)
-    # print('all_stats: ', all_stats)
-    # print('all stats before error', '\n', all_stats)
+    # append to dataframe
     all_stats = all_stats.append(stats)
-    # all_stats['Season'] = yr
 
 
 # write new csv
