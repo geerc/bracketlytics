@@ -13,7 +13,7 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 
 # list of seasons
-year = [*map(str,range(1993,2021))]
+year = [*map(str,range(1997,2021))]
 
 tourney_data = pd.DataFrame(columns=['Seed','School'])
 
