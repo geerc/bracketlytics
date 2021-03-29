@@ -41,22 +41,9 @@ for yr in tqdm(year):
     # print(list_df)
     list_df = list_df[['Seed','School','Season','Score']]
 
-    newdf = list_df.set_index(['Season','School'])
-    # print(newdf)
-
-    print(newdf.to_string())
-
-    # list_multi = pd.MultiIndex.from_frame(list_df)
-    #
-    # print(list_multi)
-    # grouped = pd.DataFrame(list_multi)
-    # print(grouped)
-
-
-
     wins = list_df.School.value_counts()
     wins_df = pd.DataFrame(wins)
-    # print(wins_df)
+    print(wins_df)
     wins_df = wins_df.reset_index()
     print(wins_df)
     # print(type(wins_df))
@@ -64,9 +51,6 @@ for yr in tqdm(year):
     # print(wins_df)
 
     tourney_data = tourney_data.append(list_df)
-    # print(tourney_data)
-    # list_df.to_csv('my_csv.csv', mode='a', header=False)
-    # print(list_df)
 
 tourney_data.to_csv(root + 'data/tourney_data.csv')
 
