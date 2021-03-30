@@ -4,9 +4,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-import statsmodels.api as sm
 from sklearn import datasets, linear_model, preprocessing
 from sklearn.metrics import mean_squared_error, r2_score
+from tabulate import tabulate
+
 
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
@@ -35,14 +36,14 @@ X = data.drop(columns=['School','Wins','Seed'])
 # train test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .3, random_state=25)
 
+
 # standardize X data
-scaler = preprocessing.StandardScaler().fit(X)
-X_scaled = scaler.transform(X)
+scaler = preprocessing.StandardScaler().fit(X_train)
+X_train_sc = scaler.transform(X_train)
+X_test_sc = scaler.transform(X_test)
 
 # scale curr tourn data the same as hist data
 curr_tourn_sc = scaler.transform(curr_tourn.iloc[:,1:])
-print(curr_tourn_sc)
-
 
 ## possible pipe for future
 # pipe = make_pipeline(StandardScaler(), LinearRegression())
@@ -51,44 +52,29 @@ print(curr_tourn_sc)
 # pipe.score(curr_tourn)
 
 # Linear Regression
-LinReg = LinearRegression()
-LinReg.fit(X_train, y_train)
-result = LinReg.score(X_test, y_test)
-print("Accuracy: %.2f%%" % (result*100.0))
+LinReg = LinearRegression().fit(X_train_sc, y_train)
+result = LinReg.score(X_test_sc, y_test)
+print("Accuracy: %.2f%%" % (result*100.0), "\n")
 
+# predict curr tournament
+pred = LinReg.predict(curr_tourn_sc)
 
+curr_tourn['pred wins'] = pred
+print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
 
-# model = sm.OLS(y, X).fit()
-#
-# predictions = model.predict(X)
-#
-# model.summary()
-#
-# # Sci kit model prediction
-#
-# # Create and then fit the model
-# lm = linear_model.LinearRegression()
-# model = lm.fit(X,y)
-#
-# #
-# predictions = lm.predict(X)
-# # print(predictions)[0:5]
-# print(predictions)
-#
-# print(lm.score(X,y))
+# four factor regression
 
+ff_data = data[data.School.str.contains("2010")]
+ff_data = ff_data.append(data[data.School.str.contains("2011")])
+ff_data = ff_data.append(data[data.School.str.contains("2012")])
+ff_data = ff_data.append(data[data.School.str.contains("2013")])
+ff_data = ff_data.append(data[data.School.str.contains("2014")])
+ff_data = ff_data.append(data[data.School.str.contains("2015")])
+ff_data = ff_data.append(data[data.School.str.contains("2016")])
+ff_data = ff_data.append(data[data.School.str.contains("2017")])
+ff_data = ff_data.append(data[data.School.str.contains("2018")])
 
+ffy = ff_data['Wins']
+ffX = ff_data.drop(columns=['School','Wins','Seed'])
 
-# x = x.dropna()
-# y = y.dropna()
-
-# linear regression object
-# linear_regression = LinearRegression()
-#
-# # fit the linear_model
-# linear_regression.fit(x,y)
-#
-# # predict with data
-# y_pred = linear_regression.predict(x)
-#
-# y_pred
+ffX_train, ffX_test, ffy_train, ffy_test = train_test_split(ffX, ffy, test_size = .3, random_state=25)
