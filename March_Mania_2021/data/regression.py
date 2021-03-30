@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 import statsmodels.api as sm
 from sklearn import datasets, linear_model
 from sklearn.metrics import mean_squared_error, r2_score
@@ -32,6 +33,10 @@ curr_tourn = curr_tourn.drop(columns=['G','W','L','W-L%','\xa0','W.1','L.1','\xa
 y = data['Wins']
 X = data.drop(columns=['School','Wins','Seed'])
 
+# train test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = .3, random_state=25)
+
+print(type(X_train))
 
 # standardize X data
 scaler = preprocessing.StandardScaler().fit(X)
