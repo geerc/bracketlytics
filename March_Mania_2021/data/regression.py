@@ -1,34 +1,47 @@
 import pandas as pd
 import numpy as np
-from sklearn import linear_model
+from sklearn.linear_model import LinearRegression
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 import statsmodels.api as sm
+from sklearn import datasets, linear_model
+from sklearn.metrics import mean_squared_error, r2_score
 
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
-bbref = pd.read_csv(root + 'data/bbref.csv')
-tourney = pd.read_csv(root + 'data/tourney_data.csv')
+hist_bbref = pd.read_csv(root + 'data/hist_bbref.csv')
+hist_tourn = pd.read_csv(root + 'data/hist_tourn.csv')
+curr_tourn = pd.read_csv(root + 'data/curr_tourn.csv')
 
 # Drop weird column
-bbref = bbref.drop(columns=['Unnamed: 0'], axis=1)
-tourney = tourney.drop(columns=['Unnamed: 0'], axis=1)
+hist_bbref = hist_bbref.drop(columns=['Unnamed: 0'], axis=1)
+hist_tourn = hist_tourn.drop(columns=['Unnamed: 0'], axis=1)
+curr_tourn = curr_tourn.drop(columns=['Unnamed: 0'], axis=1)
+curr_tourn
 
 # Merge the data on the school name
-data = bbref.merge(tourney, on='School')
-data
+data = hist_bbref.merge(hist_tourn, on='School')
 
 # drop columns that I don't need
 data = data.drop(columns=['G','W','L','W-L%','\xa0','W.1','L.1','\xa0.1','W.2','L.2','\xa0.2','W.3','L.3','\xa0.3','Tm.','Opp.','\xa0.4','MP','FG%','3P%','FTA','FT%'])
 data = data.dropna()
 
-result = data.copy()
-for feature_name in data.columns:
-        max_value = data[feature_name].max()
-        min_value = data[feature_name].min()
-        result[feature_name] = (data[feature_name] - min_value) / (max_value - min_value)
-result['Wins'].round(3)
+curr_tourn = curr_tourn.drop(columns=['G','W','L','W-L%','\xa0','W.1','L.1','\xa0.1','W.2','L.2','\xa0.2','W.3','L.3','\xa0.3','Tm.','Opp.','\xa0.4','MP','FG%','3P%','FTA','FT%'])
+
 # feature and target sets
 y = data['Wins']
 X = data.drop(columns=['School','Wins','Seed'])
+
+
+# standardize X data
+scaler = preprocessing.StandardScaler().fit(X)
+X_scaled = scaler.transform(X)
+
+# pipe = make_pipeline(StandardScaler(), LinearRegression())
+# pipe.fit(X, y)
+#
+# pipe.score(curr_tourn)
+
 
 model = sm.OLS(y, X).fit()
 
