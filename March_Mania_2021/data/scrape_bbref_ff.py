@@ -161,6 +161,49 @@ stats['School'] = stats['School'].astype(str) + '_'  + cur_year
 # append to dataframe
 curr_stats = curr_stats.append(stats)
 
+# OPPONENT STATS
+url = "https://www.sports-reference.com/cbb/seasons/{}-opponent-stats.html".format(cur_year)
+# url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+
+# this is the HTML from the given URL
+html = urlopen(url)
+
+soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
+
+# use findALL() to get the column headers
+soup.findAll('tr', limit=2)
+# use getText()to extract the text we need into a list
+headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
+# exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+
+headers = headers[1:]
+
+# create blank dataframe, need to do here to get headers
+opp_stats = pd.DataFrame(columns=headers)
+
+# avoid the first header row
+rows = soup.findAll('tr')[1:]
+opp_tm_stats = [[td.getText() for td in rows[i].findAll('td')]
+        for i in range(len(rows))]
+stats = pd.DataFrame(opp_tm_stats, columns = headers)
+
+# drop na/none values
+stats = stats.dropna(axis='rows')
+
+curr_tourn = stats[stats.School.str.contains("NCAA")]
+curr_tourn = curr_tourn.copy()
+
+# remove the ncaa suffix
+stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+curr_tourn['School'] = curr_tourn['School'].replace(" NCAA$", "", regex=True)
+
+# add year to the end of each school name
+stats['School'] = stats['School'].astype(str) + '_'  + cur_year
+
+# append to dataframe
+opp_stats =  opp_stats.append(stats)
+
+
 # write to csv
-# curr_stats.to_csv(root + 'data/curr_bbref.csv')
 curr_tourn.to_csv(root + 'data/curr_tourn.csv')
+opp_stats.to_csv(root + 'data/curr_tourn_opp.csv')
