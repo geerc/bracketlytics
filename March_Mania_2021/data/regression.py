@@ -63,18 +63,3 @@ curr_tourn['pred wins'] = pred
 print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
 
 # four factor regression
-
-ff_data = data[data.School.str.contains("2010")]
-ff_data = ff_data.append(data[data.School.str.contains("2011")])
-ff_data = ff_data.append(data[data.School.str.contains("2012")])
-ff_data = ff_data.append(data[data.School.str.contains("2013")])
-ff_data = ff_data.append(data[data.School.str.contains("2014")])
-ff_data = ff_data.append(data[data.School.str.contains("2015")])
-ff_data = ff_data.append(data[data.School.str.contains("2016")])
-ff_data = ff_data.append(data[data.School.str.contains("2017")])
-ff_data = ff_data.append(data[data.School.str.contains("2018")])
-
-ffy = ff_data['Wins']
-ffX = ff_data.drop(columns=['School','Wins','Seed'])
-
-ffX_train, ffX_test, ffy_train, ffy_test = train_test_split(ffX, ffy, test_size = .3, random_state=25)
