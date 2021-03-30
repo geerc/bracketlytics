@@ -34,7 +34,7 @@ for yr in tqdm(year):
     headers = headers[1:]
 
     # if its the first year, create blank dataframe, need to do here to get headers
-    if yr == '1997':
+    if yr == '2010':
         all_stats = pd.DataFrame(columns=headers)
 
     # avoid the first header row
@@ -82,7 +82,7 @@ for yr in tqdm(year):
 
     # if its the first year, create blank dataframe, need to do here to get headers
     if yr == '2010':
-        all_stats = pd.DataFrame(columns=headers)
+        opp_stats = pd.DataFrame(columns=headers)
 
     # avoid the first header row
     rows = soup.findAll('tr')[1:]
@@ -112,8 +112,8 @@ for yr in tqdm(year):
 
 
 # write new csvs
-all_stats.to_csv(root + "data/hist_bbref.csv")
-opp_stats.to_csv(root =+ "data/hist_bbref_opp.csv")
+all_stats.to_csv(root + "data/FF_hist_bbref.csv")
+opp_stats.to_csv(root + "data/FF_hist_bbref_opp.csv")
 
 
 # CURRENT TOURNAMENT FIELD
