@@ -118,6 +118,7 @@ opp_stats.to_csv(root + "data/FF_hist_bbref_opp.csv")
 
 # CURRENT TOURNAMENT FIELD
 
+# TEAM STATS
 # URL page we will scraping (see image above)
 url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(cur_year)
 # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
@@ -153,13 +154,6 @@ curr_tourn = curr_tourn.copy()
 # remove the ncaa suffix
 stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
 curr_tourn['School'] = curr_tourn['School'].replace(" NCAA$", "", regex=True)
-
-# stats['School'].to_csv(root + 'data/stats.csv')
-# teams.to_csv(root + 'data/MTeams.csv')
-
-# merged = pd.merge(stats, teams, on='School', how='left')
-# merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
-
 
 # add year to the end of each school name
 stats['School'] = stats['School'].astype(str) + '_'  + cur_year
