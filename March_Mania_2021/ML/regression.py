@@ -64,5 +64,8 @@ curr_tourn['pred wins'] = pred
 print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
 
 # four factor regression
-FF_hist = pd.read_csv(root + 'data/FF_hist_bbref.csv')
-FF_hist_opp = pd.read_csv(root + 'data/FF_hist_bbref_opp')
+FF_hist_bbref = pd.read_csv(root + 'data/FF_hist_bbref.csv')
+FF_hist_opp = pd.read_csv(root + 'data/FF_hist_bbref_opp.csv')
+
+FF_hist_bbref = FF_hist_bbref.drop(columns=['Unnamed: 0'], axis=1)
+FF_hist_opp = FF_hist_tourn.drop(columns=['Unnamed: 0'], axis=1)
