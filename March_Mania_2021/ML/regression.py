@@ -31,6 +31,7 @@ curr_tourn = curr_tourn.drop(columns=['G','W','L','W-L%','\xa0','W.1','L.1','\xa
 
 # feature and target sets
 y = data['Wins']
+
 X = data.drop(columns=['School','Wins','Seed'])
 
 # train test split
@@ -63,3 +64,5 @@ curr_tourn['pred wins'] = pred
 print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
 
 # four factor regression
+FF_hist = pd.read_csv(root + 'data/FF_hist_bbref.csv')
+FF_hist_opp = pd.read_csv(root + 'data/FF_hist_bbref_opp')
