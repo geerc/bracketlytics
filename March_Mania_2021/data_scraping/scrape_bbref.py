@@ -51,6 +51,9 @@ for item in list:
         # drop na/none values
         stats = stats.dropna(axis='rows')
 
+        # keep only teams that made the tournament
+        # stats = stats[stats.School.str.contains("NCAA")]
+
         # remove the ncaa suffix
         stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
 
@@ -66,17 +69,16 @@ for item in list:
 
         # append to dataframe
         all_stats = all_stats.append(stats)
-
-    print('Item length: ', len(item))
-    print('Year length: ', len(year))
-    print('FF Year length: ', len(FF_year))
+    # print('Item length: ', len(item))
+    # print('Year length: ', len(year))
+    # print('FF Year length: ', len(FF_year))
     # write new csv
     if len(item) == len(year):
         print("writing hist_bbref")
-        all_stats.to_csv(root + "data/hist_bbref.csv")
+        all_stats.to_csv(root + "data2/hist_bbref.csv")
     elif len(item) == len(FF_year):
         print('writing ff_hist')
-        all_stats.to_csv(root + 'data/FF_hist_bbref.csv')
+        all_stats.to_csv(root + 'data2/FF_hist_bbref.csv')
     else:
         print('You done fucked up')
         break
@@ -157,10 +159,10 @@ for item in tqdm(teamOpp):
     if item == 'school':
         # write to csv
         # curr_stats.to_csv(root + 'data/curr_bbref.csv')
-        curr_tourn.to_csv(root + 'data/curr_tourn.csv')
+        curr_tourn.to_csv(root + 'data2/curr_tourn.csv')
         # curr_tourn_opp.to_csv(root + 'data/curr_tourn_opp.csv')
     elif item == 'opponent':
-        curr_tourn.to_csv(root + 'data/curr_tourn_opp.csv')
+        curr_tourn.to_csv(root + 'data2/curr_tourn_opp.csv')
 
     else:
         print("You done fucked up")
