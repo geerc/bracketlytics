@@ -14,65 +14,78 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 # list of seasons
 year = [*map(str,range(1997,2019))]
+FF_year = [*map(str,range(2010, 2019))]
+list = [year, FF_year]
+
 cur_year = str(2019)
 
-# historical tournaments
-tourney_data = pd.DataFrame(columns=['Seed','School'])
 
-for yr in tqdm(year):
+for range in list:
+    # historical tournaments, reset dataframe for each iteration
+    tourney_data = pd.DataFrame(columns=['Seed','School'])
 
-    URL = 'https://www.sports-reference.com/cbb/postseason/{}-ncaa.html'.format(yr)
-    # URL = 'https://www.sports-reference.com/cbb/postseason/2000-ncaa.html'
-    page = requests.get(URL)
+    for yr in tqdm(range):
 
-    # create BeautifulSoup object
-    soup = BeautifulSoup(page.content, 'html.parser')
+        URL = 'https://www.sports-reference.com/cbb/postseason/{}-ncaa.html'.format(yr)
+        # URL = 'https://www.sports-reference.com/cbb/postseason/2000-ncaa.html'
+        page = requests.get(URL)
 
-    # create empty list to add teams, gets rewrote each loop
-    list = []
+        # create BeautifulSoup object
+        soup = BeautifulSoup(page.content, 'html.parser')
 
-    # loops through all winner div tags, pulls text, and splits by '\n', appends to the list
-    for div in soup.find_all('div', class_='winner'):
-        text = div.text
-        split = text.split('\n')
-        list.append(split)
+        # create empty list to add teams, gets rewrote each loop
+        list = []
 
-    # blank dataframe for current year tourn
-    list_df = pd.DataFrame(list, columns=['X','Seed','School','Score','X.1'])
+        # loops through all winner div tags, pulls text, and splits by '\n', appends to the list
+        for div in soup.find_all('div', class_='winner'):
+            text = div.text
+            split = text.split('\n')
+            list.append(split)
 
-    # add season to dataframe
-    list_df['Season'] = yr
+        # blank dataframe for current year tourn
+        list_df = pd.DataFrame(list, columns=['X','Seed','School','Score','X.1'])
 
-    # drop blank columns and score
-    list_df = list_df[['Seed','School','Season']]
+        # add season to dataframe
+        list_df['Season'] = yr
 
-    # get number of wins by counting how many times each school is in data
-    wins = list_df.School.value_counts()
-    # convert to dataframe
-    wins_df = pd.DataFrame(wins)
+        # drop blank columns and score
+        list_df = list_df[['Seed','School','Season']]
 
-    # reset the index to range
-    wins_df = wins_df.reset_index()
+        # get number of wins by counting how many times each school is in data
+        wins = list_df.School.value_counts()
+        # convert to dataframe
+        wins_df = pd.DataFrame(wins)
 
-    # remove duplicates so only one line item for each school
-    list_nodup = list_df[['Seed','School','Season']].drop_duplicates()
+        # reset the index to range
+        wins_df = wins_df.reset_index()
 
-    # merge the schools and their win totals
-    merged = list_nodup.merge(wins_df, left_on='School', right_on='index')
+        # remove duplicates so only one line item for each school
+        list_nodup = list_df[['Seed','School','Season']].drop_duplicates()
 
-    # rename the column
-    merged = merged.rename(columns={'School_x':'School','School_y':'Wins'})
+        # merge the schools and their win totals
+        merged = list_nodup.merge(wins_df, left_on='School', right_on='index')
 
-    # Drop second school column
-    merged = merged[['Seed','School','Season','Wins']]
+        # rename the column
+        merged = merged.rename(columns={'School_x':'School','School_y':'Wins'})
 
-    # Add year suffix to school name for merging later
-    merged['School'] = merged['School'].astype(str) + '_'  + yr
+        # Drop second school column
+        merged = merged[['Seed','School','Season','Wins']]
 
-    # Remove now unecessary season column
-    merged = merged[['Seed','School','Wins']]
+        # Add year suffix to school name for merging later
+        merged['School'] = merged['School'].astype(str) + '_'  + yr
 
-    # append to the main dataframe
-    tourney_data = tourney_data.append(merged)
+        # Remove now unecessary season column
+        merged = merged[['Seed','School','Wins']]
 
-tourney_data.to_csv(root + 'data/hist_tourney.csv')
+        # append to the main dataframe
+        tourney_data = tourney_data.append(merged)
+
+    print(len(range), '\n', len(year), '\n', len(FF_year))
+
+    if len(range) == len(year):
+        tourney_data.to_csv(root + 'data/hist_tourney.csv')
+    elif len(range) == len(FF_year):
+        tourney_data.to_csv(root + 'data/FF_hist_tourney.csv')
+    else:
+        print('You done fucked up')
+        break
