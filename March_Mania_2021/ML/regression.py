@@ -74,7 +74,6 @@ FF_hist_tourn = FF_hist_tourn.drop(columns=['Unnamed: 0'], axis=1)
 
 FF_hist_bbref = FF_hist_bbref.drop(columns=['G','W','L','W-L%','\xa0','W.1','L.1','\xa0.1','W.2','L.2','\xa0.2','W.3','L.3','\xa0.3','Tm.','Opp.','\xa0.4','MP','FG%','3P%','FT%','AST','STL','BLK','PF'])
 FF_hist_opp = FF_hist_opp.drop(FF_hist_opp.iloc[:,1:21], axis=1)
-FF_hist_tourn =
 
 # Create DRB
 FF_hist_bbref['DRB'] = FF_hist_bbref['TRB'] - FF_hist_bbref['ORB']
@@ -98,7 +97,7 @@ FF_hist_bbref['dREB'] = (FF_hist_bbref['DRB'] / (FF_hist_opp['ORB'] + FF_hist_bb
 FF_hist_bbref['oFT'] = (FF_hist_bbref['FT'] / FF_hist_bbref['FGA']).round(3)
 FF_hist_bbref['dFT'] = (FF_hist_opp['FT'] / FF_hist_opp['FGA']).round(3)
 
-FF_hist_bbref
-FF_hist_tourn
+# remove old columns
+FF_hist_bbref = FF_hist_bbref.drop(FF_hist_bbref.iloc[:,3:13], axis=1)
 
-data = hist_bbref.merge(hist_tourn, on='School')
+FF_data = FF_hist_bbref.merge(FF_hist_tourn, on='School')
