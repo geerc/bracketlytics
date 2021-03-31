@@ -63,9 +63,42 @@ pred = LinReg.predict(curr_tourn_sc)
 curr_tourn['pred wins'] = pred
 print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
 
-# four factor regression
+# FOUR FACTOR REGRESSION
 FF_hist_bbref = pd.read_csv(root + 'data/FF_hist_bbref.csv')
 FF_hist_opp = pd.read_csv(root + 'data/FF_hist_bbref_opp.csv')
+FF_hist_tourn = pd.read_csv(root + 'data/FF_hist_tourney.csv')
 
 FF_hist_bbref = FF_hist_bbref.drop(columns=['Unnamed: 0'], axis=1)
-FF_hist_opp = FF_hist_tourn.drop(columns=['Unnamed: 0'], axis=1)
+FF_hist_opp = FF_hist_opp.drop(columns=['Unnamed: 0'], axis=1)
+FF_hist_tourn = FF_hist_tourn.drop(columns=['Unnamed: 0'], axis=1)
+
+FF_hist_bbref = FF_hist_bbref.drop(columns=['G','W','L','W-L%','\xa0','W.1','L.1','\xa0.1','W.2','L.2','\xa0.2','W.3','L.3','\xa0.3','Tm.','Opp.','\xa0.4','MP','FG%','3P%','FT%','AST','STL','BLK','PF'])
+FF_hist_opp = FF_hist_opp.drop(FF_hist_opp.iloc[:,1:21], axis=1)
+FF_hist_tourn =
+
+# Create DRB
+FF_hist_bbref['DRB'] = FF_hist_bbref['TRB'] - FF_hist_bbref['ORB']
+FF_hist_opp['DRB'] = FF_hist_opp['TRB'] - FF_hist_opp['ORB']
+
+# Create FF stats
+
+# EFG%
+FF_hist_bbref['oEFG'] = ((FF_hist_bbref['FG'] + (0.5 * FF_hist_bbref['3P'])) / FF_hist_bbref['FGA']).round(3)
+FF_hist_bbref['dEFG'] = ((FF_hist_opp['FG'] + (0.5 * FF_hist_opp['3P'])) / FF_hist_opp['FGA']).round(3)
+
+# Turnovers
+FF_hist_bbref['oTOV'] = (FF_hist_bbref['TOV'] / ((FF_hist_bbref['TOV']) + (0.44 + FF_hist_bbref['FTA']) + FF_hist_bbref['TOV'])).round(3)
+FF_hist_bbref['dTOV'] = (FF_hist_opp['TOV'] / ((FF_hist_opp['TOV']) + (0.44 + FF_hist_opp['FTA']) + FF_hist_opp['TOV'])).round(3)
+
+# Rebounding
+FF_hist_bbref['oREB'] = (FF_hist_bbref['ORB'] / (FF_hist_bbref['ORB'] + FF_hist_opp['DRB'])).round(3)
+FF_hist_bbref['dREB'] = (FF_hist_bbref['DRB'] / (FF_hist_opp['ORB'] + FF_hist_bbref['DRB'])).round(3)
+
+# Free Throws
+FF_hist_bbref['oFT'] = (FF_hist_bbref['FT'] / FF_hist_bbref['FGA']).round(3)
+FF_hist_bbref['dFT'] = (FF_hist_opp['FT'] / FF_hist_opp['FGA']).round(3)
+
+FF_hist_bbref
+FF_hist_tourn
+
+data = hist_bbref.merge(hist_tourn, on='School')
