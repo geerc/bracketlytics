@@ -24,6 +24,7 @@ list = [year, FF_year]
 
 cur_year = str(today.year)
 
+#### TODO: Write functions to handle scraping from one file
 def scrape_tournaments():
     for yr in tqdm(range):
 
