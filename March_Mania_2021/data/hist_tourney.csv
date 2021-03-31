@@ -1,0 +1,737 @@
+,Seed,School,Wins
+0,1,UNC_1997,4.0
+1,9,Colorado_1997,1.0
+2,5,California_1997,2.0
+3,4,Villanova_1997,1.0
+4,6,Louisville_1997,3.0
+5,3,New Mexico_1997,1.0
+6,10,Texas_1997,2.0
+7,15,Coppin State_1997,1.0
+8,1,Minnesota_1997,4.0
+9,9,Temple_1997,1.0
+10,5,Tulsa_1997,1.0
+11,4,Clemson_1997,2.0
+12,6,Iowa State_1997,2.0
+13,3,Cincinnati_1997,1.0
+14,7,Xavier_1997,1.0
+15,2,UCLA_1997,3.0
+16,1,Kansas_1997,2.0
+17,8,Purdue_1997,1.0
+18,12,College of Charleston_1997,1.0
+19,4,Arizona_1997,6.0
+20,6,Illinois_1997,1.0
+21,14,Chattanooga_1997,2.0
+22,10,Providence_1997,3.0
+23,2,Duke_1997,1.0
+24,1,Kentucky_1997,5.0
+25,8,Iowa_1997,1.0
+26,5,Boston College_1997,1.0
+27,4,St. Joseph's_1997,2.0
+28,6,Stanford_1997,2.0
+29,3,Wake Forest_1997,1.0
+30,7,Charlotte_1997,1.0
+31,2,Utah_1997,3.0
+0,1,UNC_1998,4.0
+1,8,Charlotte_1998,1.0
+2,5,Princeton_1998,1.0
+3,4,Michigan State_1998,2.0
+4,11,Washington_1998,2.0
+5,14,Richmond_1998,1.0
+6,7,Indiana_1998,1.0
+7,2,UConn_1998,3.0
+8,1,Kansas_1998,1.0
+9,8,Rhode Island_1998,3.0
+10,12,Florida State_1998,1.0
+11,13,Valparaiso_1998,2.0
+12,11,Western Michigan_1998,1.0
+13,3,Stanford_1998,4.0
+14,10,Detroit_1998,1.0
+15,2,Purdue_1998,2.0
+16,1,Duke_1998,3.0
+17,8,Oklahoma State_1998,1.0
+18,5,Syracuse_1998,2.0
+19,4,New Mexico_1998,1.0
+20,6,UCLA_1998,2.0
+21,3,Michigan_1998,1.0
+22,10,Saint Louis_1998,1.0
+23,2,Kentucky_1998,6.0
+24,1,Arizona_1998,3.0
+25,9,Illinois State_1998,1.0
+26,5,Illinois_1998,1.0
+27,4,Maryland_1998,2.0
+28,6,Arkansas_1998,1.0
+29,3,Utah_1998,5.0
+30,10,West Virginia_1998,2.0
+31,2,Cincinnati_1998,1.0
+0,1,Duke_1999,5.0
+1,9,Tulsa_1999,1.0
+2,12,Missouri State_1999,2.0
+3,4,Tennessee_1999,1.0
+4,6,Temple_1999,3.0
+5,3,Cincinnati_1999,1.0
+6,10,Purdue_1999,2.0
+7,2,Miami (FL)_1999,1.0
+8,1,Michigan State_1999,4.0
+9,9,Ole Miss_1999,1.0
+10,5,Charlotte_1999,1.0
+11,13,Oklahoma_1999,2.0
+12,6,Kansas_1999,1.0
+13,3,Kentucky_1999,3.0
+14,10,Miami (OH)_1999,2.0
+15,2,Utah_1999,1.0
+16,1,Auburn_1999,2.0
+17,9,Oklahoma State_1999,1.0
+18,12,Detroit_1999,1.0
+19,4,Ohio State_1999,4.0
+20,6,Indiana_1999,1.0
+21,3,St. John's (NY)_1999,3.0
+22,10,Creighton_1999,1.0
+23,2,Maryland_1999,2.0
+24,1,UConn_1999,6.0
+25,9,New Mexico_1999,1.0
+26,5,Iowa_1999,2.0
+27,4,Arkansas_1999,1.0
+28,6,Florida_1999,2.0
+29,14,Weber State_1999,1.0
+30,10,Gonzaga_1999,3.0
+31,2,Stanford_1999,1.0
+0,1,Duke_2000,2.0
+1,8,Kansas_2000,1.0
+2,5,Florida_2000,5.0
+3,4,Illinois_2000,1.0
+4,11,Pepperdine_2000,1.0
+5,3,Oklahoma State_2000,3.0
+6,10,Seton Hall_2000,2.0
+7,2,Temple_2000,1.0
+8,1,Michigan State_2000,6.0
+9,8,Utah_2000,1.0
+10,5,Kentucky_2000,1.0
+11,4,Syracuse_2000,2.0
+12,6,UCLA_2000,2.0
+13,3,Maryland_2000,1.0
+14,7,Auburn_2000,1.0
+15,2,Iowa State_2000,3.0
+16,1,Stanford_2000,1.0
+17,8,UNC_2000,4.0
+18,5,UConn_2000,1.0
+19,4,Tennessee_2000,2.0
+20,6,Miami (FL)_2000,2.0
+21,3,Ohio State_2000,1.0
+22,7,Tulsa_2000,3.0
+23,2,Cincinnati_2000,1.0
+24,1,Arizona_2000,1.0
+25,8,Wisconsin_2000,4.0
+26,5,Texas_2000,1.0
+27,4,LSU_2000,2.0
+28,6,Purdue_2000,3.0
+29,3,Oklahoma_2000,1.0
+30,10,Gonzaga_2000,2.0
+31,2,St. John's (NY)_2000,1.0
+0,1,Illinois_2001,3.0
+1,9,Charlotte_2001,1.0
+2,5,Syracuse_2001,1.0
+3,4,Kansas_2001,2.0
+4,6,Notre Dame_2001,1.0
+5,3,Ole Miss_2001,2.0
+6,10,Butler_2001,1.0
+7,2,Arizona_2001,5.0
+8,1,Duke_2001,6.0
+9,9,Missouri_2001,1.0
+10,12,Utah State_2001,1.0
+11,4,UCLA_2001,2.0
+12,6,USC_2001,3.0
+13,3,Boston College_2001,1.0
+14,7,Iowa_2001,1.0
+15,2,Kentucky_2001,2.0
+16,1,Michigan State_2001,4.0
+17,9,Fresno State_2001,1.0
+18,12,Gonzaga_2001,2.0
+19,13,Indiana State_2001,1.0
+20,11,Temple_2001,3.0
+21,3,Florida_2001,1.0
+22,7,Penn State_2001,2.0
+23,2,UNC_2001,1.0
+24,1,Stanford_2001,3.0
+25,9,St. Joseph's_2001,1.0
+26,5,Cincinnati_2001,2.0
+27,13,Kent State_2001,1.0
+28,11,Georgia State_2001,1.0
+29,3,Maryland_2001,4.0
+30,10,Georgetown_2001,2.0
+31,15,Hampton_2001,1.0
+0,1,Maryland_2002,6.0
+1,8,Wisconsin_2002,1.0
+2,12,Tulsa_2002,1.0
+3,4,Kentucky_2002,2.0
+4,11,Southern Illinois_2002,2.0
+5,3,Georgia_2002,1.0
+6,7,NC State_2002,1.0
+7,2,UConn_2002,3.0
+8,1,Kansas_2002,4.0
+9,8,Stanford_2002,1.0
+10,12,Creighton_2002,1.0
+11,4,Illinois_2002,2.0
+12,6,Texas_2002,2.0
+13,3,Mississippi State_2002,1.0
+14,7,Wake Forest_2002,1.0
+15,2,Oregon_2002,3.0
+16,1,Duke_2002,2.0
+17,8,Notre Dame_2002,1.0
+18,5,Indiana_2002,5.0
+19,13,UNC Wilmington_2002,1.0
+20,6,California_2002,1.0
+21,3,Pitt_2002,2.0
+22,10,Kent State_2002,3.0
+23,2,Alabama_2002,1.0
+24,1,Cincinnati_2002,1.0
+25,8,UCLA_2002,2.0
+26,12,Missouri_2002,3.0
+27,4,Ohio State_2002,1.0
+28,11,Wyoming_2002,1.0
+29,3,Arizona_2002,2.0
+30,7,Xavier_2002,1.0
+31,2,Oklahoma_2002,4.0
+0,1,Texas_2003,4.0
+1,9,Purdue_2003,1.0
+2,5,UConn_2003,2.0
+3,4,Stanford_2003,1.0
+4,6,Maryland_2003,2.0
+5,3,Xavier_2003,1.0
+6,7,Michigan State_2003,3.0
+7,2,Florida_2003,1.0
+8,1,Oklahoma_2003,3.0
+9,8,California_2003,1.0
+10,12,Butler_2003,2.0
+11,4,Louisville_2003,1.0
+12,6,Oklahoma State_2003,1.0
+13,3,Syracuse_2003,6.0
+14,10,Auburn_2003,2.0
+15,2,Wake Forest_2003,1.0
+16,1,Kentucky_2003,3.0
+17,9,Utah_2003,1.0
+18,5,Wisconsin_2003,2.0
+19,13,Tulsa_2003,1.0
+20,6,Missouri_2003,1.0
+21,3,Marquette_2003,4.0
+22,7,Indiana_2003,1.0
+23,2,Pitt_2003,2.0
+24,1,Arizona_2003,3.0
+25,9,Gonzaga_2003,1.0
+26,5,Notre Dame_2003,2.0
+27,4,Illinois_2003,1.0
+28,11,Central Michigan_2003,1.0
+29,3,Duke_2003,2.0
+30,10,Arizona State_2003,1.0
+31,2,Kansas_2003,5.0
+0,1,Kentucky_2004,1.0
+1,9,Alabama-Birmingham_2004,2.0
+2,12,Pacific_2004,1.0
+3,4,Kansas_2004,3.0
+4,6,Boston College_2004,1.0
+5,3,Georgia Tech_2004,5.0
+6,10,Nevada_2004,2.0
+7,2,Gonzaga_2004,1.0
+8,1,Duke_2004,4.0
+9,8,Seton Hall_2004,1.0
+10,5,Illinois_2004,2.0
+11,4,Cincinnati_2004,1.0
+12,6,UNC_2004,1.0
+13,3,Texas_2004,2.0
+14,7,Xavier_2004,3.0
+15,2,Mississippi State_2004,1.0
+16,1,St. Joseph's_2004,3.0
+17,8,Texas Tech_2004,1.0
+18,12,Manhattan_2004,1.0
+19,4,Wake Forest_2004,2.0
+20,6,Wisconsin_2004,1.0
+21,3,Pitt_2004,2.0
+22,7,Memphis_2004,1.0
+23,2,Oklahoma State_2004,4.0
+24,1,Stanford_2004,1.0
+25,8,Alabama_2004,3.0
+26,5,Syracuse_2004,2.0
+27,4,Maryland_2004,1.0
+28,6,Vanderbilt_2004,2.0
+29,3,NC State_2004,1.0
+30,7,DePaul_2004,1.0
+31,2,UConn_2004,6.0
+0,1,UNC_2005,6.0
+1,9,Iowa State_2005,1.0
+2,5,Villanova_2005,2.0
+3,4,Florida_2005,1.0
+4,6,Wisconsin_2005,3.0
+5,14,Bucknell_2005,1.0
+6,10,NC State_2005,2.0
+7,2,UConn_2005,1.0
+8,1,Washington_2005,2.0
+9,8,Pacific_2005,1.0
+10,5,Georgia Tech_2005,1.0
+11,4,Louisville_2005,4.0
+12,6,Texas Tech_2005,2.0
+13,3,Gonzaga_2005,1.0
+14,7,West Virginia_2005,3.0
+15,2,Wake Forest_2005,1.0
+16,1,Duke_2005,2.0
+17,9,Mississippi State_2005,1.0
+18,5,Michigan State_2005,4.0
+19,13,Vermont_2005,1.0
+20,6,Utah_2005,2.0
+21,3,Oklahoma_2005,1.0
+22,7,Cincinnati_2005,1.0
+23,2,Kentucky_2005,3.0
+24,1,Illinois_2005,5.0
+25,9,Nevada_2005,1.0
+26,12,Milwaukee_2005,2.0
+27,4,Boston College_2005,1.0
+28,11,Alabama-Birmingham_2005,1.0
+29,3,Arizona_2005,3.0
+30,7,Southern Illinois_2005,1.0
+31,2,Oklahoma State_2005,2.0
+0,1,Villanova_2006,3.0
+1,8,Arizona_2006,1.0
+2,12,Montana_2006,1.0
+3,4,Boston College_2006,2.0
+4,11,Milwaukee_2006,1.0
+5,3,Florida_2006,6.0
+6,7,Georgetown_2006,2.0
+7,2,Ohio State_2006,1.0
+8,1,Duke_2006,2.0
+9,8,George Washington_2006,1.0
+10,12,Texas A&M_2006,1.0
+11,4,LSU_2006,4.0
+12,6,West Virginia_2006,2.0
+13,14,Northwestern State_2006,1.0
+14,10,NC State_2006,1.0
+15,2,Texas_2006,3.0
+16,1,Memphis_2006,3.0
+17,9,Bucknell_2006,1.0
+18,5,Pitt_2006,1.0
+19,13,Bradley_2006,2.0
+20,6,Indiana_2006,1.0
+21,3,Gonzaga_2006,2.0
+22,10,Alabama_2006,1.0
+23,2,UCLA_2006,5.0
+24,1,UConn_2006,3.0
+25,8,Kentucky_2006,1.0
+26,5,Washington_2006,2.0
+27,4,Illinois_2006,1.0
+28,11,George Mason_2006,4.0
+29,3,UNC_2006,1.0
+30,7,Wichita State_2006,2.0
+31,2,Tennessee_2006,1.0
+0,1,Kansas_2007,3.0
+1,8,Kentucky_2007,1.0
+2,5,Virginia Tech_2007,1.0
+3,4,Southern Illinois_2007,2.0
+4,11,VCU_2007,1.0
+5,3,Pitt_2007,2.0
+6,7,Indiana_2007,1.0
+7,2,UCLA_2007,4.0
+8,1,UNC_2007,3.0
+9,9,Michigan State_2007,1.0
+10,5,USC_2007,2.0
+11,4,Texas_2007,1.0
+12,6,Vanderbilt_2007,2.0
+13,3,Washington State_2007,1.0
+14,7,Boston College_2007,1.0
+15,2,Georgetown_2007,4.0
+16,1,Florida_2007,6.0
+17,9,Purdue_2007,1.0
+18,5,Butler_2007,2.0
+19,4,Maryland_2007,1.0
+20,11,Winthrop_2007,1.0
+21,3,Oregon_2007,3.0
+22,7,UNLV_2007,2.0
+23,2,Wisconsin_2007,1.0
+24,1,Ohio State_2007,5.0
+25,9,Xavier_2007,1.0
+26,5,Tennessee_2007,2.0
+27,4,Virginia_2007,1.0
+28,6,Louisville_2007,1.0
+29,3,Texas A&M_2007,2.0
+30,7,Nevada_2007,1.0
+31,2,Memphis_2007,3.0
+0,1,UNC_2008,4.0
+1,9,Arkansas_2008,1.0
+2,5,Notre Dame_2008,1.0
+3,4,Washington State_2008,2.0
+4,6,Oklahoma_2008,1.0
+5,3,Louisville_2008,3.0
+6,7,Butler_2008,1.0
+7,2,Tennessee_2008,2.0
+8,1,Kansas_2008,6.0
+9,8,UNLV_2008,1.0
+10,12,Villanova_2008,2.0
+11,13,Siena_2008,1.0
+12,11,Kansas State_2008,1.0
+13,3,Wisconsin_2008,2.0
+14,10,Davidson_2008,3.0
+15,2,Georgetown_2008,1.0
+16,1,Memphis_2008,5.0
+17,8,Mississippi State_2008,1.0
+18,5,Michigan State_2008,2.0
+19,4,Pitt_2008,1.0
+20,6,Marquette_2008,1.0
+21,3,Stanford_2008,2.0
+22,7,Miami (FL)_2008,1.0
+23,2,Texas_2008,3.0
+24,1,UCLA_2008,4.0
+25,9,Texas A&M_2008,1.0
+26,12,Western Kentucky_2008,2.0
+27,13,San Diego_2008,1.0
+28,6,Purdue_2008,1.0
+29,3,Xavier_2008,3.0
+30,7,West Virginia_2008,2.0
+31,2,Duke_2008,1.0
+0,1,Louisville_2009,3.0
+1,9,Siena_2009,1.0
+2,12,Arizona_2009,2.0
+3,13,Cleveland State_2009,1.0
+4,11,Dayton_2009,1.0
+5,3,Kansas_2009,2.0
+6,10,USC_2009,1.0
+7,2,Michigan State_2009,5.0
+8,1,Pitt_2009,3.0
+9,8,Oklahoma State_2009,1.0
+10,12,Wisconsin_2009,1.0
+11,4,Xavier_2009,2.0
+12,6,UCLA_2009,1.0
+13,3,Villanova_2009,4.0
+14,7,Texas_2009,1.0
+15,2,Duke_2009,2.0
+16,1,UNC_2009,6.0
+17,8,LSU_2009,1.0
+18,12,Western Kentucky_2009,1.0
+19,4,Gonzaga_2009,2.0
+20,6,Arizona State_2009,1.0
+21,3,Syracuse_2009,2.0
+22,10,Michigan_2009,1.0
+23,2,Oklahoma_2009,3.0
+24,1,UConn_2009,4.0
+25,9,Texas A&M_2009,1.0
+26,5,Purdue_2009,2.0
+27,4,Washington_2009,1.0
+28,6,Marquette_2009,1.0
+29,3,Missouri_2009,3.0
+30,10,Maryland_2009,1.0
+31,2,Memphis_2009,2.0
+0,1,Duke_2010,6.0
+1,8,California_2010,1.0
+2,5,Texas A&M_2010,1.0
+3,4,Purdue_2010,2.0
+4,11,Old Dominion_2010,1.0
+5,3,Baylor_2010,3.0
+6,10,Saint Mary's_2010,2.0
+7,2,Villanova_2010,1.0
+8,1,Kentucky_2010,3.0
+9,9,Wake Forest_2010,1.0
+10,12,Cornell_2010,2.0
+11,4,Wisconsin_2010,1.0
+12,11,Washington_2010,2.0
+13,3,New Mexico_2010,1.0
+14,10,Missouri_2010,1.0
+15,2,West Virginia_2010,4.0
+16,1,Kansas_2010,1.0
+17,9,Northern Iowa_2010,2.0
+18,5,Michigan State_2010,4.0
+19,4,Maryland_2010,1.0
+20,6,Tennessee_2010,3.0
+21,14,Ohio_2010,1.0
+22,10,Georgia Tech_2010,1.0
+23,2,Ohio State_2010,2.0
+24,1,Syracuse_2010,2.0
+25,8,Gonzaga_2010,1.0
+26,5,Butler_2010,5.0
+27,13,Murray State_2010,1.0
+28,6,Xavier_2010,2.0
+29,3,Pitt_2010,1.0
+30,7,BYU_2010,1.0
+31,2,Kansas State_2010,3.0
+0,1,Ohio State_2011,2.0
+1,8,George Mason_2011,1.0
+2,5,West Virginia_2011,1.0
+3,4,Kentucky_2011,4.0
+4,11,Marquette_2011,2.0
+5,3,Syracuse_2011,1.0
+6,7,Washington_2011,1.0
+7,2,UNC_2011,3.0
+8,1,Pitt_2011,1.0
+9,8,Butler_2011,5.0
+10,5,Kansas State_2011,1.0
+11,4,Wisconsin_2011,2.0
+12,11,Gonzaga_2011,1.0
+13,3,BYU_2011,2.0
+14,7,UCLA_2011,1.0
+15,2,Florida_2011,3.0
+16,1,Kansas_2011,3.0
+17,9,Illinois_2011,1.0
+18,12,Richmond_2011,2.0
+19,13,Morehead State_2011,1.0
+20,11,VCU_2011,4.0
+21,3,Purdue_2011,1.0
+22,10,Florida State_2011,2.0
+23,2,Notre Dame_2011,1.0
+24,1,Duke_2011,2.0
+25,8,Michigan_2011,1.0
+26,5,Arizona_2011,3.0
+27,4,Texas_2011,1.0
+28,6,Cincinnati_2011,1.0
+29,3,UConn_2011,6.0
+30,7,Temple_2011,1.0
+31,2,San Diego State_2011,2.0
+0,1,UNC_2012,3.0
+1,8,Creighton_2012,1.0
+2,12,South Florida_2012,1.0
+3,13,Ohio_2012,2.0
+4,11,NC State_2012,2.0
+5,3,Georgetown_2012,1.0
+6,10,Purdue_2012,1.0
+7,2,Kansas_2012,5.0
+8,1,Kentucky_2012,6.0
+9,8,Iowa State_2012,1.0
+10,12,VCU_2012,1.0
+11,4,Indiana_2012,2.0
+12,11,Colorado_2012,1.0
+13,3,Baylor_2012,3.0
+14,10,Xavier_2012,2.0
+15,15,Lehigh_2012,1.0
+16,1,Michigan State_2012,2.0
+17,9,Saint Louis_2012,1.0
+18,5,New Mexico_2012,1.0
+19,4,Louisville_2012,4.0
+20,6,Murray State_2012,1.0
+21,3,Marquette_2012,2.0
+22,7,Florida_2012,3.0
+23,15,Norfolk State_2012,1.0
+24,1,Syracuse_2012,3.0
+25,8,Kansas State_2012,1.0
+26,5,Vanderbilt_2012,1.0
+27,4,Wisconsin_2012,2.0
+28,6,Cincinnati_2012,2.0
+29,3,Florida State_2012,1.0
+30,7,Gonzaga_2012,1.0
+31,2,Ohio State_2012,4.0
+0,1,Indiana_2013,2.0
+1,9,Temple_2013,1.0
+2,12,California_2013,1.0
+3,4,Syracuse_2013,4.0
+4,6,Butler_2013,1.0
+5,3,Marquette_2013,3.0
+6,7,Illinois_2013,1.0
+7,2,Miami (FL)_2013,2.0
+8,1,Louisville_2013,6.0
+9,8,Colorado State_2013,1.0
+10,12,Oregon_2013,2.0
+11,4,Saint Louis_2013,1.0
+12,6,Memphis_2013,1.0
+13,3,Michigan State_2013,2.0
+14,7,Creighton_2013,1.0
+15,2,Duke_2013,3.0
+16,1,Gonzaga_2013,1.0
+17,9,Wichita State_2013,4.0
+18,12,Ole Miss_2013,1.0
+19,13,La Salle_2013,2.0
+20,6,Arizona_2013,2.0
+21,14,Harvard_2013,1.0
+22,10,Iowa State_2013,1.0
+23,2,Ohio State_2013,3.0
+24,1,Kansas_2013,2.0
+25,8,UNC_2013,1.0
+26,5,VCU_2013,1.0
+27,4,Michigan_2013,5.0
+28,11,Minnesota_2013,1.0
+29,3,Florida_2013,3.0
+30,7,San Diego State_2013,1.0
+31,15,Florida Gulf Coast_2013,2.0
+0,1,Wichita State_2014,1.0
+1,8,Kentucky_2014,5.0
+2,5,Saint Louis_2014,1.0
+3,4,Louisville_2014,2.0
+4,11,Tennessee_2014,2.0
+5,14,Mercer_2014,1.0
+6,7,Texas_2014,1.0
+7,2,Michigan_2014,3.0
+8,1,Florida_2014,4.0
+9,9,Pitt_2014,1.0
+10,12,Stephen F. Austin_2014,1.0
+11,4,UCLA_2014,2.0
+12,11,Dayton_2014,3.0
+13,3,Syracuse_2014,1.0
+14,10,Stanford_2014,2.0
+15,2,Kansas_2014,1.0
+16,1,Virginia_2014,2.0
+17,8,Memphis_2014,1.0
+18,12,Harvard_2014,1.0
+19,4,Michigan State_2014,3.0
+20,6,UNC_2014,1.0
+21,3,Iowa State_2014,2.0
+22,7,UConn_2014,6.0
+23,2,Villanova_2014,1.0
+24,1,Arizona_2014,3.0
+25,8,Gonzaga_2014,1.0
+26,12,North Dakota State_2014,1.0
+27,4,San Diego State_2014,2.0
+28,6,Baylor_2014,2.0
+29,3,Creighton_2014,1.0
+30,7,Oregon_2014,1.0
+31,2,Wisconsin_2014,4.0
+0,1,Villanova_2015,1.0
+1,8,NC State_2015,2.0
+2,5,Northern Iowa_2015,1.0
+3,4,Louisville_2015,3.0
+4,11,Dayton_2015,1.0
+5,3,Oklahoma_2015,2.0
+6,7,Michigan State_2015,4.0
+7,2,Virginia_2015,1.0
+8,1,Kentucky_2015,4.0
+9,8,Cincinnati_2015,1.0
+10,5,West Virginia_2015,2.0
+11,4,Maryland_2015,1.0
+12,6,Butler_2015,1.0
+13,3,Notre Dame_2015,3.0
+14,7,Wichita State_2015,2.0
+15,2,Kansas_2015,1.0
+16,1,Duke_2015,6.0
+17,8,San Diego State_2015,1.0
+18,5,Utah_2015,2.0
+19,4,Georgetown_2015,1.0
+20,11,UCLA_2015,2.0
+21,14,Alabama-Birmingham_2015,1.0
+22,7,Iowa_2015,1.0
+23,2,Gonzaga_2015,3.0
+24,1,Wisconsin_2015,5.0
+25,8,Oregon_2015,1.0
+26,5,Arkansas_2015,1.0
+27,4,UNC_2015,2.0
+28,6,Xavier_2015,2.0
+29,14,Georgia State_2015,1.0
+30,10,Ohio State_2015,1.0
+31,2,Arizona_2015,3.0
+0,1,UNC_2016,5.0
+1,9,Providence_2016,1.0
+2,5,Indiana_2016,2.0
+3,4,Kentucky_2016,1.0
+4,6,Notre Dame_2016,3.0
+5,14,Stephen F. Austin_2016,1.0
+6,7,Wisconsin_2016,2.0
+7,2,Xavier_2016,1.0
+8,1,Kansas_2016,3.0
+9,9,UConn_2016,1.0
+10,5,Maryland_2016,2.0
+11,13,Hawaii_2016,1.0
+12,11,Wichita State_2016,1.0
+13,3,Miami (FL)_2016,2.0
+14,7,Iowa_2016,1.0
+15,2,Villanova_2016,6.0
+16,1,Oregon_2016,3.0
+17,8,St. Joseph's_2016,1.0
+18,12,Yale_2016,1.0
+19,4,Duke_2016,2.0
+20,11,Northern Iowa_2016,1.0
+21,3,Texas A&M_2016,2.0
+22,10,VCU_2016,1.0
+23,2,Oklahoma_2016,4.0
+24,1,Virginia_2016,3.0
+25,9,Butler_2016,1.0
+26,12,Little Rock_2016,1.0
+27,4,Iowa State_2016,2.0
+28,11,Gonzaga_2016,2.0
+29,3,Utah_2016,1.0
+30,10,Syracuse_2016,4.0
+31,15,Middle Tennessee_2016,1.0
+0,1,Villanova_2017,1.0
+1,8,Wisconsin_2017,2.0
+2,5,Virginia_2017,1.0
+3,4,Florida_2017,3.0
+4,11,USC_2017,1.0
+5,3,Baylor_2017,2.0
+6,7,South Carolina_2017,4.0
+7,2,Duke_2017,1.0
+8,1,Kansas_2017,3.0
+9,9,Michigan State_2017,1.0
+10,5,Iowa State_2017,1.0
+11,4,Purdue_2017,2.0
+12,11,Rhode Island_2017,1.0
+13,3,Oregon_2017,4.0
+14,7,Michigan_2017,2.0
+15,2,Louisville_2017,1.0
+16,1,UNC_2017,6.0
+17,8,Arkansas_2017,1.0
+18,12,Middle Tennessee_2017,1.0
+19,4,Butler_2017,2.0
+20,6,Cincinnati_2017,1.0
+21,3,UCLA_2017,2.0
+22,10,Wichita State_2017,1.0
+23,2,Kentucky_2017,3.0
+24,1,Gonzaga_2017,5.0
+25,8,Northwestern_2017,1.0
+26,5,Notre Dame_2017,1.0
+27,4,West Virginia_2017,2.0
+28,11,Xavier_2017,3.0
+29,3,Florida State_2017,1.0
+30,7,Saint Mary's_2017,1.0
+31,2,Arizona_2017,2.0
+0,1,Villanova_2018,6.0
+1,9,Alabama_2018,1.0
+2,5,West Virginia_2018,2.0
+3,13,Marshall_2018,1.0
+4,6,Florida_2018,1.0
+5,3,Texas Tech_2018,3.0
+6,10,Butler_2018,1.0
+7,2,Purdue_2018,2.0
+8,1,Kansas_2018,4.0
+9,8,Seton Hall_2018,1.0
+10,5,Clemson_2018,2.0
+11,4,Auburn_2018,1.0
+12,11,Syracuse_2018,2.0
+13,3,Michigan State_2018,1.0
+14,7,Rhode Island_2018,1.0
+15,2,Duke_2018,3.0
+16,1,Xavier_2018,1.0
+17,9,Florida State_2018,3.0
+18,5,Ohio State_2018,1.0
+19,4,Gonzaga_2018,2.0
+20,6,Houston_2018,1.0
+21,3,Michigan_2018,5.0
+22,7,Texas A&M_2018,2.0
+23,2,UNC_2018,1.0
+24,16,UMBC_2018,1.0
+25,9,Kansas State_2018,3.0
+26,5,Kentucky_2018,2.0
+27,13,Buffalo_2018,1.0
+28,11,Loyola (IL)_2018,4.0
+29,3,Tennessee_2018,1.0
+30,7,Nevada_2018,2.0
+31,2,Cincinnati_2018,1.0
+0,1,Duke_2019,3.0
+1,9,UCF_2019,1.0
+2,12,Liberty_2019,1.0
+3,4,Virginia Tech_2019,2.0
+4,6,Maryland_2019,1.0
+5,3,LSU_2019,2.0
+6,10,Minnesota_2019,1.0
+7,2,Michigan State_2019,4.0
+8,1,Gonzaga_2019,3.0
+9,9,Baylor_2019,1.0
+10,12,Murray State_2019,1.0
+11,4,Florida State_2019,2.0
+12,6,Buffalo_2019,1.0
+13,3,Texas Tech_2019,5.0
+14,10,Florida_2019,1.0
+15,2,Michigan_2019,2.0
+16,1,UNC_2019,2.0
+17,9,Washington_2019,1.0
+18,5,Auburn_2019,4.0
+19,4,Kansas_2019,1.0
+20,11,Ohio State_2019,1.0
+21,3,Houston_2019,2.0
+22,7,Wofford_2019,1.0
+23,2,Kentucky_2019,3.0
+24,1,Virginia_2019,6.0
+25,9,Oklahoma_2019,1.0
+26,12,Oregon_2019,2.0
+27,13,UC-Irvine_2019,1.0
+28,6,Villanova_2019,1.0
+29,3,Purdue_2019,3.0
+30,10,Iowa_2019,1.0
+31,2,Tennessee_2019,2.0
