@@ -1,43 +1,3 @@
-# import pandas as pd
-# from bs4 import BeautifulSoup as bs
-# import requests
-# import pprint as pp
-# from progressbar import ProgressBar
-# from tqdm import tqdm
-# pbar = ProgressBar()
-#
-# pd.options.display.max_columns=1999
-#
-# root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
-#
-# BASE_URL = 'https://www.sports-reference.com/cbb/seasons/YEAR-school-stats.html'
-# YEAR = list(map(str,range(1993,2020)))
-#
-# all_stats = pd.DataFrame(columns=['School','G','W','L','W-L%','SRS','SOS','DELETE','W','L','DELETE','W','L','DELETE','W','L','DELETE','Tm.','Opp.','DELETE','MP','FG','FGA','FG%','3P','3PA','3P%','FT','FTA','FT%','ORB','DRB','AST','STL','BLK','TOV','PF'])
-# # breakpoint()
-# for yr in tqdm(YEAR):
-#     page = requests.get(BASE_URL.replace('YEAR',yr))
-#     # print(BASE_URL.replace('YEAR',yr))
-#     # page = requests.get(BASE_URL.replace('YEAR','1987'))
-#     soup = bs(page.content, 'html.parser')
-#
-#     # avoid the rows above table
-#     rows = soup.findAll('tr', limit=2)
-#
-#     yr_stats = [[td.getText() for td in rows[i].findAll('td')] for i in range(len(rows))]
-#     # pp.pprint(these_games)
-#     yr_stats = pd.DataFrame(yr_stats,columns=['School','G','W','L','W-L%','SRS','SOS','DELETE','W','L','DELETE','W','L','DELETE','W','L','DELETE','Tm.','Opp.','DELETE','MP','FG','FGA','FG%','3P','3PA','3P%','FT','FTA','FT%','ORB','DRB','AST','STL','BLK','TOV','PF'])
-#     yr_stats['Season'] = yr
-#     print(yr_stats)
-#     # all_stats = all_stats.append(yr_stats)
-#     # pd.concat((yr_stats,all_stats), ignore_index=True)
-#
-#     # pp.pprint(all_games)
-# # these_games.head()
-# # all_games.tail()
-#
-# all_stats.to_csv(root + 'data/bbref.csv')
-
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -48,66 +8,79 @@ pbar = ProgressBar()
 
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
-teams = pd.read_csv(root + 'data/MTeams.csv')
+# teams = pd.read_csv(root + 'data/MTeams.csv')
 
 # Seasons we will be analyzing
 year = list(map(str,range(1997,2021)))
+FF_year = list(map(str,range(2010,2021)))
+list = [year, FF_year]
 cur_year = str(2021)
 
-for yr in tqdm(year):
-    # URL page we will scraping (see image above)
-    url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
-    # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+for item in list:
+    for yr in tqdm(item):
+        # URL page we will scraping (see image above)
+        url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(yr)
+        # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
 
-    # this is the HTML from the given URL
-    html = urlopen(url)
+        # this is the HTML from the given URL
+        html = urlopen(url)
 
-    soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
+        soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
 
-    # use findALL() to get the column headers
-    soup.findAll('tr', limit=2)
-    # use getText()to extract the text we need into a list
-    headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
-    # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+        # use findALL() to get the column headers
+        soup.findAll('tr', limit=2)
+        # use getText()to extract the text we need into a list
+        headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
+        # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
 
-    headers = headers[1:]
+        headers = headers[1:]
 
-    # if its the first year, create blank dataframe, need to do here to get headers
-    if yr == '1997':
-        all_stats = pd.DataFrame(columns=headers)
-
-    # avoid the first header row
-    rows = soup.findAll('tr')[1:]
-    team_stats = [[td.getText() for td in rows[i].findAll('td')]
-            for i in range(len(rows))]
-    stats = pd.DataFrame(team_stats, columns = headers)
-
-    # drop na/none values
-    stats = stats.dropna(axis='rows')
-
-    # remove the ncaa suffix
-    stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
-
-    # stats['School'].to_csv(root + 'data/stats.csv')
-    # teams.to_csv(root + 'data/MTeams.csv')
-
-    # merged = pd.merge(stats, teams, on='School', how='left')
-    # merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
+        # if its the first year, create blank dataframe, need to do here to get headers
+        if yr == '1997':
+            all_stats = pd.DataFrame(columns=headers)
+        if yr == '2010' and len(item) == len(FF_year):
+            all_stats = pd.DataFrame(columns=headers)
 
 
-    # add year to the end of each school name
-    stats['School'] = stats['School'].astype(str) + '_'  + yr
+        # avoid the first header row
+        rows = soup.findAll('tr')[1:]
+        team_stats = [[td.getText() for td in rows[i].findAll('td')]
+                for i in range(len(rows))]
+        stats = pd.DataFrame(team_stats, columns = headers)
 
-    # append to dataframe
-    all_stats = all_stats.append(stats)
+        # drop na/none values
+        stats = stats.dropna(axis='rows')
+
+        # remove the ncaa suffix
+        stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+
+        # stats['School'].to_csv(root + 'data/stats.csv')
+        # teams.to_csv(root + 'data/MTeams.csv')
+
+        # merged = pd.merge(stats, teams, on='School', how='left')
+        # merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
 
 
-# write new csv
-all_stats.to_csv(root + "data/hist_bbref.csv")
+        # add year to the end of each school name
+        stats['School'] = stats['School'].astype(str) + '_'  + yr
 
+        # append to dataframe
+        all_stats = all_stats.append(stats)
+
+
+    # write new csv
+    if len(item) == len(year):
+        all_stats.to_csv(root + "data/hist_bbref.csv")
+    elif len(item) == len(FF_year):
+        all_stats.to_csv(root + 'data/FF_hist_bbref.csv')
+    else:
+        print('You done fucked up')
+        break
+
+## CURRENT TOURNAMENT
 teamOpp = ['school','opponent']
 
-for item in teamOpp:
+for item in tqdm(teamOpp):
     # URL page we will scraping (see image above)
     url = "https://www.sports-reference.com/cbb/seasons/{}-{}-stats.html".format(cur_year, item)
     # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
