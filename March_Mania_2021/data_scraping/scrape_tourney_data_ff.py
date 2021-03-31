@@ -13,8 +13,8 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 
 # list of seasons
-year = [*map(str,range(2010,2019))]
-cur_year = str(2019)
+year = [*map(str,range(2010,2021))]
+cur_year = str(2021)
 
 # historical tournaments
 tourney_data = pd.DataFrame(columns=['Seed','School'])
@@ -75,4 +75,4 @@ for yr in tqdm(year):
     # append to the main dataframe
     tourney_data = tourney_data.append(merged)
 
-tourney_data.to_csv(root + 'data/hist_tourney.csv')
+tourney_data.to_csv(root + 'data/FF_hist_tourney.csv')
