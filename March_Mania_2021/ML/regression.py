@@ -61,7 +61,9 @@ print("Accuracy: %.2f%%" % (result*100.0), "\n")
 pred = LinReg.predict(curr_tourn_sc)
 
 curr_tourn['pred wins'] = pred
-print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
+# print(tabulate(curr_tourn.sort_values(by='pred wins', ascending=False),headers=curr_tourn.columns))
+curr_tourn.to_csv(root + 'Predictions/2021_LinReg.csv')
+
 
 # FOUR FACTOR REGRESSION
 FF_hist_bbref = pd.read_csv(root + 'data/FF_hist_bbref.csv')
@@ -156,4 +158,5 @@ print("Accuracy: %.2f%%" % (FF_result*100.0), "\n")
 FF_pred = FF_LinReg.predict(FF_curr_tourn_sc)
 
 FF_curr_tourn['pred wins'] = FF_pred
-print(tabulate(FF_curr_tourn.sort_values(by='pred wins', ascending=False),headers=FF_curr_tourn.columns))
+# print(tabulate(FF_curr_tourn.sort_values(by='pred wins', ascending=False),headers=FF_curr_tourn.columns))
+FF_curr_tourn.to_csv(root + 'Predictions/2021_FFLinReg.csv')
