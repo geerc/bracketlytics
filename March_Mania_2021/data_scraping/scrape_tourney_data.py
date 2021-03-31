@@ -80,7 +80,7 @@ for range in list:
         # append to the main dataframe
         tourney_data = tourney_data.append(merged)
 
-    print(len(range), '\n', len(year), '\n', len(FF_year))
+    # print(len(range), '\n', len(year), '\n', len(FF_year))
 
     if len(range) == len(year):
         tourney_data.to_csv(root + 'data/hist_tourney.csv')
