@@ -13,11 +13,11 @@ root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 
 # list of seasons
-year = [*map(str,range(1997,2019))]
-FF_year = [*map(str,range(2010, 2019))]
+year = [*map(str,range(1997,2021))]
+FF_year = [*map(str,range(2010, 2021))]
 list = [year, FF_year]
 
-cur_year = str(2019)
+cur_year = str(2021)
 
 
 for range in list:
