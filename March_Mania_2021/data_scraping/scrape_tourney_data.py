@@ -24,7 +24,7 @@ list = [year, FF_year]
 
 cur_year = str(today.year)
 
-def scrape_bbref():
+def scrape_tournaments():
     for yr in tqdm(range):
 
         URL = 'https://www.sports-reference.com/cbb/postseason/{}-ncaa.html'.format(yr)
