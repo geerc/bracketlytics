@@ -18,10 +18,10 @@ today = date.today()
 years = [*map(str,range(2010,2021))]
 # start_year = input("Start year: ")
 # end_year = input("End year: ")
-cur_year = str(today.year)
+curr_year = str(today.year)
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
-def hist_tournaments(seasons):
+def scrape_wins(seasons):
 
     # years = [*map(str,range(start_year,end_year))]
 
@@ -83,12 +83,20 @@ def hist_tournaments(seasons):
         # append to the main dataframe
         tourney_data = tourney_data.append(merged)
 
+
+
+
+
     return tourney_data
+
+
 
 def main():
     # calling scrape statements
-    tournaments = hist_tournaments(years)
-    print(tournaments)
+    wins = scrape_wins(years)
+    print(wins)
+
+    wins.to_csv(root + 'data2/wins_' + years[0] + '_' + years[-1] + '.csv')
 
 if __name__ == '__main__':
     main()
