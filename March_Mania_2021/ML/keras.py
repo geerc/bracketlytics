@@ -8,6 +8,10 @@ import FF
 # from keras.utils.np_utils import to_categorical
 
 
+
+## TODO: COMPLETELY CLEAN UP DATE BEFORE LOADING IN
+
+
 # load data
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
