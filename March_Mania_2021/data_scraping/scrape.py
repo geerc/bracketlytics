@@ -310,11 +310,11 @@ def main():
     opp_stats = scrape_opp_stats(years)
     # print(opp_stats)
 
-    print('\nScraping this year\'s tournament team stats...')
+    print('\nScraping ' + curr_year + ' tournament team stats...')
     tourn_team_stats = scrape_tourn_team_stats(curr_year)
     # print(tourn_team_stats)
 
-    print('\nScraping this year\'s tournament opponent stats...\n')
+    print('\nScraping ' + curr_year + ' tournament opponent stats...\n')
     tourn_opp_stats = scrape_tourn_opp_stats(curr_year)
     # print(tourn_opp_stats)
 
