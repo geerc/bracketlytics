@@ -15,7 +15,7 @@ def four_factor(data, opp_data):
     data['dEFG'] = ((opp_data['FG'] + (0.5 * opp_data['3P'])) / opp_data['FGA']).round(3)
 
     # Turnovers
-    data['oTOV'] = (data['TOV'] / ((data['TOV']) + (0.44 + data['FTA']) + team_stats['TOV'])).round(3)
+    data['oTOV'] = (data['TOV'] / ((data['TOV']) + (0.44 + data['FTA']) + data['TOV'])).round(3)
     data['dTOV'] = (opp_data['TOV'] / ((opp_data['TOV']) + (0.44 + opp_data['FTA']) + opp_data['TOV'])).round(3)
 
     # Rebounding
