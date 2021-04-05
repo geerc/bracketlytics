@@ -322,8 +322,8 @@ def main():
     wins.to_csv(root + 'data/wins_' + years[0] + '_' + years[-1] + '.csv')
     team_stats.to_csv(root + 'data/team_stats_' + years[0] + '_' + years[-1] + '.csv')
     opp_stats.to_csv(root + 'data/opp_stats_' + years[0] + '_' + years[-1] + '.csv')
-    tourn_team_stats.to_csv(root + 'data/tourn_stats_' + years[0] + '_' + years[-1] + '.csv')
-    tourn_opp_stats.to_csv(root + 'data/tourn_opp_stats_' + years[0] + '_' + years[-1] + '.csv')
+    tourn_team_stats.to_csv(root + 'data/tourn_stats_' + years[-1] + '.csv')
+    tourn_opp_stats.to_csv(root + 'data/tourn_opp_stats_' + years[-1] + '.csv')
 
 if __name__ == '__main__':
     main()
