@@ -191,23 +191,139 @@ def scrape_opp_stats(seasons):
     all_stats = all_stats.add_suffix('_opp')
     return all_stats
 
+def scrape_tourn_team_stats(year):
+    # URL page we will scraping (see image above)
+    url = "https://www.sports-reference.com/cbb/seasons/{}-school-stats.html".format(year)
+    # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+    # this is the HTML from the given URL
+    html = urlopen(url)
+
+    soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
+
+    # use findALL() to get the column headers
+    soup.findAll('tr', limit=2)
+    # use getText()to extract the text we need into a list
+    headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
+    # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+
+    headers = headers[1:]
+
+    # create blank dataframe, need to do here to get headers
+    all_stats = pd.DataFrame(columns=headers)
+
+    # avoid the first header row
+    rows = soup.findAll('tr')[1:]
+    team_stats = [[td.getText() for td in rows[i].findAll('td')]
+            for i in range(len(rows))]
+
+    stats = pd.DataFrame(team_stats, columns = headers)
+
+    # drop na/none values
+    stats = stats.dropna(axis='rows')
+
+    # keep only teams that made the tournament
+    stats = stats[stats.School.str.contains("NCAA")]
+
+    # remove the ncaa suffix
+    stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+
+    # stats['School'].to_csv(root + 'data/stats.csv')
+    # teams.to_csv(root + 'data/MTeams.csv')
+
+    # merged = pd.merge(stats, teams, on='School', how='left')
+    # merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
+
+
+    # add year to the end of each school name
+    stats['School'] = stats['School'].astype(str) + '_'  + year
+
+    # append to dataframe
+    all_stats = all_stats.append(stats)
+
+    return all_stats
+
+def scrape_tourn_opp_stats(year):
+    # URL page we will scraping (see image above)
+    url = "https://www.sports-reference.com/cbb/seasons/{}-opponent-stats.html".format(year)
+    # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+    # this is the HTML from the given URL
+    html = urlopen(url)
+
+    soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
+
+    # use findALL() to get the column headers
+    soup.findAll('tr', limit=2)
+    # use getText()to extract the text we need into a list
+    headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
+    # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+
+    headers = headers[1:]
+
+    # create blank dataframe, need to do here to get headers
+    all_stats = pd.DataFrame(columns=headers)
+
+    # avoid the first header row
+    rows = soup.findAll('tr')[1:]
+    team_stats = [[td.getText() for td in rows[i].findAll('td')]
+            for i in range(len(rows))]
+
+    stats = pd.DataFrame(team_stats, columns = headers)
+
+    # drop na/none values
+    stats = stats.dropna(axis='rows')
+
+    # keep only teams that made the tournament
+    stats = stats[stats.School.str.contains("NCAA")]
+
+    # remove the ncaa suffix
+    stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+
+    # stats['School'].to_csv(root + 'data/stats.csv')
+    # teams.to_csv(root + 'data/MTeams.csv')
+
+    # merged = pd.merge(stats, teams, on='School', how='left')
+    # merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
+
+
+    # add year to the end of each school name
+    stats['School'] = stats['School'].astype(str) + '_'  + year
+
+    # append to dataframe
+    all_stats = all_stats.append(stats)
+
+    all_stats = all_stats.add_suffix('_opp')
+
+    return all_stats
+
 
 def main():
     # calling scrape statements
+    print('\nScraping tournament wins from ' + years[0] + ' to ' + years[-1] + '...')
     wins = scrape_wins(years)
-    print(wins)
+    # print(wins)
 
+    print('\nScraping team stats from ' + years[0] + ' to ' + years[-1] + '...')
     team_stats = scrape_team_stats(years)
-    print(team_stats)
+    # print(team_stats)
 
+    print('\nScraping opponent stats from ' + years[0] + ' to ' + years[-1] + '...')
     opp_stats = scrape_opp_stats(years)
-    print(opp_stats)
+    # print(opp_stats)
 
+    print('\nScraping this year\'s tournament team stats...')
+    tourn_team_stats = scrape_tourn_team_stats(curr_year)
+    # print(tourn_team_stats)
+
+    print('\nScraping this year\'s tournament opponent stats...\n')
+    tourn_opp_stats = scrape_tourn_opp_stats(curr_year)
+    # print(tourn_opp_stats)
 
     # write to csv
-    wins.to_csv(root + 'data2/wins_' + years[0] + '_' + years[-1] + '.csv')
-    team_stats.to_csv(root + 'data2/team_stats_' + years[0] + '_' + years[-1] + '.csv')
-    opp_stats.to_csv(root + 'data2/opp_stats_' + years[0] + '_' + years[-1] + '.csv')
+    wins.to_csv(root + 'data/wins_' + years[0] + '_' + years[-1] + '.csv')
+    team_stats.to_csv(root + 'data/team_stats_' + years[0] + '_' + years[-1] + '.csv')
+    opp_stats.to_csv(root + 'data/opp_stats_' + years[0] + '_' + years[-1] + '.csv')
+    tourn_team_stats.to_csv(root + 'data/tourn_stats_' + years[0] + '_' + years[-1] + '.csv')
+    tourn_opp_stats.to_csv(root + 'data/tourn_opp_stats_' + years[0] + '_' + years[-1] + '.csv')
 
 if __name__ == '__main__':
     main()
