@@ -19,6 +19,7 @@ years = [*map(str,range(2010,2021))]
 # start_year = input("Start year: ")
 # end_year = input("End year: ")
 curr_year = str(today.year)
+curr_year_int = today.year
 root = '/Users/christiangeer/bracketlytics/March_Mania_2021/'
 
 def scrape_wins(seasons):
@@ -322,8 +323,8 @@ def main():
     wins.to_csv(root + 'data/wins_' + years[0] + '_' + years[-1] + '.csv')
     team_stats.to_csv(root + 'data/team_stats_' + years[0] + '_' + years[-1] + '.csv')
     opp_stats.to_csv(root + 'data/opp_stats_' + years[0] + '_' + years[-1] + '.csv')
-    tourn_team_stats.to_csv(root + 'data/tourn_stats_' + years[-1] + '.csv')
-    tourn_opp_stats.to_csv(root + 'data/tourn_opp_stats_' + years[-1] + '.csv')
+    tourn_team_stats.to_csv(root + 'data/tourn_stats_' + curr_year + '.csv')
+    tourn_opp_stats.to_csv(root + 'data/tourn_opp_stats_' + curr_year + '.csv')
 
 if __name__ == '__main__':
     main()
