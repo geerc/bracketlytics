@@ -40,13 +40,21 @@ print('Training Labels Shape:', y_train.shape)
 print('Testing Features Shape:', X_test.shape)
 print('Testing Labels Shape:', y_test.shape)
 
+# standardize X data
+scaler = preprocessing.StandardScaler().fit(X_train)
+X_train_sc = scaler.transform(X_train)
+X_test_sc = scaler.transform(X_test)
+
+# scale curr tourn data the same as hist data
+tourn_stats_sc = scaler.transform(tourn_stats.iloc[:,1:])
+
 # Instantiate model with 1000 decision trees
 rf = RandomForestRegressor(n_estimators = 1000, random_state = 42)
 # Train the model on training data
-rf.fit(X_train, y_train)
+rf.fit(X_train_sc, y_train)
 
 # Use the forest's predict method on the test data
-predictions = rf.predict(X_test)
+predictions = rf.predict(X_test_sc)
 # Calculate the absolute errors
 errors = abs(predictions - y_test)
 # Print out the mean absolute error (mae)
@@ -55,9 +63,9 @@ print("Accuracy: %.2f%%" % (result*100.0), "\n")
 
 # predict curr tournament
 tourn_stats2 = tourn_stats.iloc[:,1:]
-tourn_pred = rf.predict(tourn_stats2)
+tourn_pred = rf.predict(tourn_stats_sc)
 
 tourn_stats['pred wins'] = tourn_pred
 
-print(tabulate(tourn_stats[['School','pred wins']].sort_values(by='pred wins', ascending=False),headers=tourn_stats.columns))
+print(tabulate(tourn_stats[['School','pred wins']].sort_values(by='pred wins', ascending=False),headers='tourn_stats.columns'))
 tourn_stats.to_csv(root + 'Predictions/2021_RandomForests.csv')
