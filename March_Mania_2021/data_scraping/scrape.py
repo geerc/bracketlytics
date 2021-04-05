@@ -189,7 +189,6 @@ def scrape_opp_stats(seasons):
         # append to dataframe
         all_stats = all_stats.append(stats)
 
-    all_stats = all_stats.add_suffix('_opp')
     return all_stats
 
 def scrape_tourn_team_stats(year):
@@ -291,8 +290,6 @@ def scrape_tourn_opp_stats(year):
 
     # append to dataframe
     all_stats = all_stats.append(stats)
-
-    all_stats = all_stats.add_suffix('_opp')
 
     return all_stats
 
