@@ -27,6 +27,6 @@ def four_factor(data, opp_data):
     data['dFT'] = (opp_data['FT'] / opp_data['FGA']).round(3)
 
     # remove old columns
-    data = data.drop(data.iloc[:,3:13], axis=1)
+    data = data.drop(data.iloc[:,4:13], axis=1)
 
     return data
