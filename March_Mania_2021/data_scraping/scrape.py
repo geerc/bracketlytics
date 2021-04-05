@@ -83,10 +83,6 @@ def scrape_wins(seasons):
         # append to the main dataframe
         tourney_data = tourney_data.append(merged)
 
-
-
-
-
     return tourney_data
 
 def scrape_team_stats(seasons):
@@ -107,20 +103,17 @@ def scrape_team_stats(seasons):
         # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
 
         headers = headers[1:]
-
         # if its the first year, create blank dataframe, need to do here to get headers
         if yr == seasons[0]:
-            print("rewriting datframe")
             all_stats = pd.DataFrame(columns=headers)
-        else:
-            continue
 
         # avoid the first header row
         rows = soup.findAll('tr')[1:]
         team_stats = [[td.getText() for td in rows[i].findAll('td')]
                 for i in range(len(rows))]
+
         stats = pd.DataFrame(team_stats, columns = headers)
-        print(stats)
+
         # drop na/none values
         stats = stats.dropna(axis='rows')
 
@@ -145,19 +138,76 @@ def scrape_team_stats(seasons):
 
     return all_stats
 
+def scrape_opp_stats(seasons):
+    for yr in tqdm(seasons):
+        # URL page we will scraping (see image above)
+        url = "https://www.sports-reference.com/cbb/seasons/{}-opponent-stats.html".format(yr)
+        # url = "https://www.sports-reference.com/cbb/seasons/2000-school-stats.html"
+        # this is the HTML from the given URL
+        html = urlopen(url)
+
+        soup = BeautifulSoup(html, features='lxml') #features ensures runs the same on different systems
+
+        # use findALL() to get the column headers
+        soup.findAll('tr', limit=2)
+        # use getText()to extract the text we need into a list
+        headers = [th.getText() for th in soup.findAll('tr', limit=2)[1].findAll('th')]
+        # exclude the first column as we will not need the ranking order from Basketball Reference for the analysis
+
+        headers = headers[1:]
+        # if its the first year, create blank dataframe, need to do here to get headers
+        if yr == seasons[0]:
+            all_stats = pd.DataFrame(columns=headers)
+
+        # avoid the first header row
+        rows = soup.findAll('tr')[1:]
+        team_stats = [[td.getText() for td in rows[i].findAll('td')]
+                for i in range(len(rows))]
+
+        stats = pd.DataFrame(team_stats, columns = headers)
+
+        # drop na/none values
+        stats = stats.dropna(axis='rows')
+
+        # keep only teams that made the tournament
+        stats = stats[stats.School.str.contains("NCAA")]
+
+        # remove the ncaa suffix
+        stats['School'] = stats['School'].replace(" NCAA$", "", regex=True)
+
+        # stats['School'].to_csv(root + 'data/stats.csv')
+        # teams.to_csv(root + 'data/MTeams.csv')
+
+        # merged = pd.merge(stats, teams, on='School', how='left')
+        # merged[['School','TeamID']].to_csv(root + 'data/merged.csv')
+
+
+        # add year to the end of each school name
+        stats['School'] = stats['School'].astype(str) + '_'  + yr
+
+        # append to dataframe
+        all_stats = all_stats.append(stats)
+
+    all_stats = all_stats.add_suffix('_opp')
+    return all_stats
+
+
 def main():
     # calling scrape statements
-    # KNOW THIS WORKS SO JUST COMMENTING FOR NOW TO SAVE TIME
-    # wins = scrape_wins(years)
-    # print(wins)
+    wins = scrape_wins(years)
+    print(wins)
 
     team_stats = scrape_team_stats(years)
     print(team_stats)
 
+    opp_stats = scrape_opp_stats(years)
+    print(opp_stats)
 
 
     # write to csv
-    # wins.to_csv(root + 'data2/wins_' + years[0] + '_' + years[-1] + '.csv')
+    wins.to_csv(root + 'data2/wins_' + years[0] + '_' + years[-1] + '.csv')
+    team_stats.to_csv(root + 'data2/team_stats_' + years[0] + '_' + years[-1] + '.csv')
+    opp_stats.to_csv(root + 'data2/opp_stats_' + years[0] + '_' + years[-1] + '.csv')
 
 if __name__ == '__main__':
     main()
